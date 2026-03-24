@@ -34,10 +34,12 @@ const filteredPosts = computed(() => {
       </button>
     </nav>
 
-    <section v-if="filteredPosts.length" class="blog-latest-section" aria-label="All posts">
-      <h2 class="blog-section-title">Latest</h2>
-      <div class="blog-card-grid">
-        <BlogCard v-for="post in filteredPosts" :key="post.slug" :post="post" />
+    <section v-if="filteredPosts.length" class="blog-related-shell blog-related-shell--home" aria-label="All posts">
+      <div class="blog-related-section blog-related-section--home">
+        <h2 class="blog-section-title">Latest</h2>
+        <div class="blog-home-grid">
+          <BlogCard v-for="post in filteredPosts" :key="post.slug" :post="post" />
+        </div>
       </div>
     </section>
 
