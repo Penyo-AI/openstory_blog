@@ -190,6 +190,14 @@
 .marketing-header__mobile-cta:hover {
   background: #111111;
   color: #ffffff;
+  text-decoration: none;
+}
+
+.blog-list-cta a:hover,
+.blog-post-cta a:hover {
+  background: #111111;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .marketing-header__menu-button {
@@ -253,7 +261,7 @@
 .blog-home-page {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 48px 24px 0;
   box-sizing: border-box;
 }
 
@@ -319,6 +327,17 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: left;
+}
+
+.blog-section-title--home {
+  margin: 0 0 24px !important;
+  border-top: 0 !important;
+  padding-top: 0 !important;
+  font-size: 0.875rem;
+  line-height: 1.25 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 /* Card grids — shared by home list and related articles */
@@ -558,9 +577,11 @@
 .blog-list-cta h2,
 .blog-post-cta h2 {
   margin: 0 0 12px;
+  border-top: 0 !important;
   color: #111827;
   font-size: 1.5rem;
   font-weight: 700;
+  padding-top: 0 !important;
 }
 
 .blog-list-cta p,
@@ -855,6 +876,7 @@
 .blog-related-section--home {
   margin-top: 0;
   padding: 0;
+  border-top: 0;
 }
 
 .blog-related-section .blog-section-title {
@@ -887,7 +909,7 @@
   }
 
   .blog-home-page {
-    padding: 48px 32px;
+    padding: 48px 32px 0;
   }
 
   .blog-post-shell--header {

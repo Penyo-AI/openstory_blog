@@ -75,17 +75,24 @@ function postHref(slug: string) {
 
 .blog-card__image-link {
   display: block;
+  position: relative;
   overflow: hidden;
+  line-height: 0;
+  aspect-ratio: 16 / 9;
   background: #f4f4f5;
 }
 
 .blog-card__image-link img {
+  position: absolute;
+  inset: 0;
   display: block;
+  margin: 0 !important;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease;
+  vertical-align: top;
 }
 
 .blog-card:hover .blog-card__image-link img {

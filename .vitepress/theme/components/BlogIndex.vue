@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { blogPosts } from '../data/posts'
 import BlogCard from './BlogCard.vue'
+import MarketingFooter from './MarketingFooter.vue'
 
 const activeTag = ref('All')
 const tags = computed(() => ['All', ...new Set(blogPosts.flatMap((post) => post.tags))])
@@ -36,7 +37,7 @@ const filteredPosts = computed(() => {
 
     <section v-if="filteredPosts.length" class="blog-related-shell blog-related-shell--home" aria-label="All posts">
       <div class="blog-related-section blog-related-section--home">
-        <h2 class="blog-section-title">Latest</h2>
+        <h2 class="blog-section-title blog-section-title--home">Latest</h2>
         <div class="blog-home-grid">
           <BlogCard v-for="post in filteredPosts" :key="post.slug" :post="post" />
         </div>
@@ -51,5 +52,7 @@ const filteredPosts = computed(() => {
       </p>
       <a href="/home">Start Creating</a>
     </section>
+
+    <MarketingFooter />
   </div>
 </template>
