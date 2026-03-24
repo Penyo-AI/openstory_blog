@@ -99,5 +99,4 @@ The shift from "generate a video" to "direct a story" is why platforms like [Plo
 
 Ready to see which tool works best for you? [Try Plot Party for free](https://www.plotparty.ai/pricing) and create your first microdrama in minutes. Or browse the [community gallery](https://www.plotparty.ai/world) to see what's possible.
 
-New to microdramas? Our [complete beginner's guide to creating AI microdramas](/posts/how-to-create-ai-microdrama-complete-guide) walks you through the entire process step by step. And if you're an IP holder exploring how AI tools can work for your brand, see our guide on [monetizing intellectual property with AI content](/posts/ip-holders-guide-ai-content-monetization).
-
+New to microdramas? Our [complete beginner's guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) walks you through the entire process step by step. And if you're an IP holder exploring how AI tools can work for your brand, see our guide on [monetizing intellectual property with AI content](./ip-holders-guide-ai-content-monetization.md).

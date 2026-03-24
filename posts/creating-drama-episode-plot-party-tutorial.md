@@ -134,7 +134,6 @@ Your story gets its own shareable page on Plot Party that anyone can view.
 
 Ready to direct your first episode? [Create your story now →](https://www.plotparty.ai/create)
 
-If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](/posts/how-to-create-ai-microdrama-complete-guide) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://www.plotparty.ai/world).
+If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://www.plotparty.ai/world).
 
-For a comparison of the AI models available in Pro mode, see our [AI video generation tools guide](/posts/ai-video-generation-tools-2026-comparison).
-
+For a comparison of the AI models available in Pro mode, see our [AI video generation tools guide](./ai-video-generation-tools-2026-comparison.md).

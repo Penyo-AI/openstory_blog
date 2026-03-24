@@ -82,13 +82,12 @@ Once your microdrama is complete, you can:
 
 ## Choosing the Right Tools
 
-Not sure which AI video tool is the best fit? Check out our [comparison of the best AI video generation tools in 2026](/posts/ai-video-generation-tools-2026-comparison) to see how different platforms stack up for microdrama creators.
+Not sure which AI video tool is the best fit? Check out our [comparison of the best AI video generation tools in 2026](./ai-video-generation-tools-2026-comparison.md) to see how different platforms stack up for microdrama creators.
 
-If you're an IP holder looking to let fans create microdramas with your characters, read our guide on [how to monetize your IP with AI-generated content](/posts/ip-holders-guide-ai-content-monetization).
+If you're an IP holder looking to let fans create microdramas with your characters, read our guide on [how to monetize your IP with AI-generated content](./ip-holders-guide-ai-content-monetization.md).
 
 ## What's Next?
 
 Ready to create your first AI microdrama? [Start creating on Plot Party](https://www.plotparty.ai/create) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
 
 Check out our [community page](https://www.plotparty.ai/world) to see what other creators are building, or explore our [pricing plans](https://www.plotparty.ai/pricing) to find the right fit for your creative goals.
-

@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { useData, useRoute, withBase } from 'vitepress'
 import { blogPosts } from '../data/posts'
 
 const { frontmatter } = useData()
 const route = useRoute()
 
-const slug = computed(() => route.path.replace(/^\/posts\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
+const slug = computed(() => route.path.replace(/^.*\/posts\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
 const post = computed(() => blogPosts.find((item) => item.slug === slug.value))
-const isPostPage = computed(() => route.path.startsWith('/posts/'))
+const isPostPage = computed(() => route.path.includes('/posts/'))
 
 const formattedDate = computed(() => {
   if (!post.value) return ''
@@ -26,12 +26,14 @@ const initials = computed(() => {
     .map((part) => part[0])
     .join('')
 })
+
+const blogHomeHref = withBase('/')
 </script>
 
 <template>
   <div v-if="isPostPage && post" class="blog-post-shell blog-post-shell--header">
     <nav class="blog-breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Blog</a>
+      <a :href="blogHomeHref">Blog</a>
       <span>/</span>
       <span>{{ frontmatter.title }}</span>
     </nav>

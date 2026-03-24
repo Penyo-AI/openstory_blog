@@ -101,11 +101,10 @@ The setup cost is minimal — mostly uploading existing assets and defining guid
 
 ## Further Reading
 
-Want to understand the tools your fans will be using? Read our [comparison of the best AI video generation tools in 2026](/posts/ai-video-generation-tools-2026-comparison). Or if you want to try creating content yourself first, our [beginner's guide to creating AI microdramas](/posts/how-to-create-ai-microdrama-complete-guide) shows how easy the process is.
+Want to understand the tools your fans will be using? Read our [comparison of the best AI video generation tools in 2026](./ai-video-generation-tools-2026-comparison.md). Or if you want to try creating content yourself first, our [beginner's guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) shows how easy the process is.
 
 ## Ready to Explore?
 
 [Learn about Plot Party's IP Holder program →](https://www.plotparty.ai/ip)
 
 Or [get in touch directly](mailto:sophia@plotparty.ai) to discuss how AI content creation can work for your specific IP portfolio. We also offer [flexible pricing plans](https://www.plotparty.ai/pricing) for IP holders of any size.
-

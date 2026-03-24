@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useRoute } from 'vitepress'
+import { useRoute, withBase } from 'vitepress'
 import { blogPosts } from '../data/posts'
+import BlogCard from './BlogCard.vue'
 
 const route = useRoute()
-const slug = computed(() => route.path.replace(/^\/posts\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
+const slug = computed(() => route.path.replace(/^.*\/posts\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
 const post = computed(() => blogPosts.find((item) => item.slug === slug.value))
-const isPostPage = computed(() => route.path.startsWith('/posts/'))
+const isPostPage = computed(() => route.path.includes('/posts/'))
 
 const relatedPosts = computed(() => {
   if (!post.value) return []
@@ -21,71 +22,41 @@ const relatedPosts = computed(() => {
     .map((item) => item.post)
 })
 
-function formatDate(date: string) {
-  return new Intl.DateTimeFormat('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric'
-  }).format(new Date(date))
-}
-
-function initials(name: string) {
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .join('')
+function postHref(slug: string) {
+  return withBase(`/posts/${slug}`)
 }
 </script>
 
 <template>
-  <div v-if="isPostPage && post" class="blog-post-footer-wrap">
-    <nav v-if="relatedPosts.length" class="blog-continue-reading" aria-label="Continue reading">
-      <h3>Continue Reading</h3>
-      <div class="blog-continue-reading__list">
-        <a v-for="item in relatedPosts" :key="item.slug" class="blog-continue-reading__item" :href="`/posts/${item.slug}`">
-          <span class="blog-continue-reading__arrow">&rarr;</span>
-          <div>
-            <p class="blog-continue-reading__title">{{ item.title }}</p>
-            <p class="blog-continue-reading__desc">{{ item.description }}</p>
-          </div>
-        </a>
-      </div>
-    </nav>
-
-    <nav v-if="post.relatedLinks?.length" class="blog-explore-more" aria-label="Related pages">
-      <h3>Explore More</h3>
-      <div class="blog-explore-more__links">
-        <a v-for="link in post.relatedLinks" :key="link.href" :href="link.href">{{ link.label }}</a>
-      </div>
-    </nav>
-
-    <section v-if="relatedPosts.length" class="blog-related-section">
-      <h2 class="blog-section-title">Related Articles</h2>
-      <div class="blog-related-grid">
-        <article v-for="item in relatedPosts" :key="item.slug" class="blog-card">
-          <a class="blog-card__image-link" :href="`/posts/${item.slug}`">
-            <img :src="item.coverImage" :alt="item.title">
+  <div v-if="isPostPage && post">
+    <div class="blog-post-footer-wrap">
+      <nav v-if="relatedPosts.length" class="blog-continue-reading" aria-label="Continue reading">
+        <h3>Continue Reading</h3>
+        <div class="blog-continue-reading__list">
+          <a v-for="item in relatedPosts" :key="item.slug" class="blog-continue-reading__item" :href="postHref(item.slug)">
+            <span class="blog-continue-reading__arrow">&rarr;</span>
+            <div>
+              <p class="blog-continue-reading__title">{{ item.title }}</p>
+              <p class="blog-continue-reading__desc">{{ item.description }}</p>
+            </div>
           </a>
-          <div class="blog-card__body">
-            <div class="blog-card__tags">
-              <span v-for="tag in item.tags.slice(0, 3)" :key="tag">{{ tag }}</span>
-            </div>
-            <a class="blog-card__title-link" :href="`/posts/${item.slug}`">
-              <h3>{{ item.title }}</h3>
-            </a>
-            <p class="blog-card__description">{{ item.description }}</p>
-            <div class="blog-card__footer">
-              <div class="blog-card__author">
-                <div class="blog-avatar blog-avatar--small">{{ initials(item.author) }}</div>
-                <div>
-                  <p class="blog-card__author-name">{{ item.author }}</p>
-                  <p class="blog-card__author-date">{{ formatDate(item.publishedAt) }}</p>
-                </div>
-              </div>
-              <span class="blog-card__reading-time">{{ item.readingTime }} min read</span>
-            </div>
-          </div>
-        </article>
+        </div>
+      </nav>
+
+      <nav v-if="post.relatedLinks?.length" class="blog-explore-more" aria-label="Related pages">
+        <h3>Explore More</h3>
+        <div class="blog-explore-more__links">
+          <a v-for="link in post.relatedLinks" :key="link.href" :href="link.href">{{ link.label }}</a>
+        </div>
+      </nav>
+    </div>
+
+    <section v-if="relatedPosts.length" class="blog-related-shell">
+      <div class="blog-related-section">
+        <h2 class="blog-section-title">Related Articles</h2>
+        <div class="blog-related-grid">
+          <BlogCard v-for="item in relatedPosts" :key="item.slug" :post="item" />
+        </div>
       </div>
     </section>
 

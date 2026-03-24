@@ -145,14 +145,14 @@ This is where it gets interesting for creators. AI is compressing the microdrama
 
 **2026:** Full-stack AI tools are compressing the production pipeline from 11 manual steps to 3. Key developments:
 
-- **Seedance 2.0** (ByteDance) — multimodal video model engineered specifically for short drama, addressing character consistency across episodes. [Read our deep dive on Seedance 2.0 →](/posts/seedance-2-ai-video-model-guide)
+- **Seedance 2.0** (ByteDance) — multimodal video model engineered specifically for short drama, addressing character consistency across episodes. [Read our deep dive on Seedance 2.0 →](./seedance-2-ai-video-model-guide.md)
 - **Kling V3** (Kuaishou) — another major AI video model from a microdrama platform giant
 - **Vigloo** (SpoonLabs/Korea) — produced its first English-language vertical drama fully using AI, made in 8 weeks by fewer than 10 people. Aims to produce ~30% of its annual slate using AI workflows
 - **"Spore Fall"** (Edenstone, Singapore) — a human-written, AI-realized series showcasing the hybrid approach
 
 The implication is massive: **a $150,000 production could become a $15,000 production** with AI handling character generation, scene composition, video generation, and post-production. This democratizes the format for independent creators.
 
-[Plot Party](https://www.plotparty.ai/create) is built specifically for this intersection — AI-powered tools for creating microdramas with consistent characters, storyboard-driven workflows, and video generation. See our [step-by-step tutorial](/posts/creating-drama-episode-plot-party-tutorial) to create your first episode.
+[Plot Party](https://www.plotparty.ai/create) is built specifically for this intersection — AI-powered tools for creating microdramas with consistent characters, storyboard-driven workflows, and video generation. See our [step-by-step tutorial](./creating-drama-episode-plot-party-tutorial.md) to create your first episode.
 
 ## The Opportunity for Creators
 
@@ -176,7 +176,6 @@ The question isn't whether microdramas will be a major entertainment format — 
 
 Ready to be part of it? [Start creating on Plot Party →](https://www.plotparty.ai/create)
 
-For a hands-on walkthrough, check our [guide to creating a drama episode](/posts/creating-drama-episode-plot-party-tutorial), or explore what [AI video tools are available](/posts/ai-video-generation-tools-2026-comparison) to power your productions.
+For a hands-on walkthrough, check our [guide to creating a drama episode](./creating-drama-episode-plot-party-tutorial.md), or explore what [AI video tools are available](./ai-video-generation-tools-2026-comparison.md) to power your productions.
 
 *Sources: Omdia, Deloitte, Variety, Deadline, Sensor Tower, MPA/Ampere Analysis, World Screen, Hollywood Reporter.*
-

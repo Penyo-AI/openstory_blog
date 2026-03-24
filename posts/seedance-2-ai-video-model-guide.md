@@ -139,7 +139,7 @@ Seedance 2.0 is available in **Pro mode** on [Plot Party](https://www.plotparty.
 3. Use the @ syntax in your prompts to reference each asset
 4. Generate, iterate, and compile your final video
 
-For a complete walkthrough of the story creation process, see our [step-by-step tutorial on creating a drama episode](/posts/creating-drama-episode-plot-party-tutorial).
+For a complete walkthrough of the story creation process, see our [step-by-step tutorial on creating a drama episode](./creating-drama-episode-plot-party-tutorial.md).
 
 ## The Bigger Picture
 
@@ -151,5 +151,4 @@ For microdrama creators, this means:
 - **Higher production value** — replicate professional camera techniques without knowing their names
 - **Creative freedom** — combine influences from multiple sources into something new
 
-Want to compare Seedance 2.0 with other models? Check out our [AI video generation tools comparison](/posts/ai-video-generation-tools-2026-comparison). Ready to start creating? [Jump into Plot Party →](https://www.plotparty.ai/create)
-
+Want to compare Seedance 2.0 with other models? Check out our [AI video generation tools comparison](./ai-video-generation-tools-2026-comparison.md). Ready to start creating? [Jump into Plot Party →](https://www.plotparty.ai/create)

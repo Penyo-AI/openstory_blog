@@ -253,7 +253,7 @@
 .blog-home-page {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 0 24px 48px;
+  padding: 48px 24px;
   box-sizing: border-box;
 }
 
@@ -344,16 +344,13 @@
   overflow: hidden;
   height: 100%;
   border: 1px solid #e5e7eb;
-  border-radius: 20px;
+  border-radius: 1rem;
   background: #ffffff;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .blog-card:hover {
-  transform: translateY(-4px);
-  border-color: #d1d5db;
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
 }
 
 .blog-card__image-link {
@@ -379,7 +376,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 18px;
+  padding: 24px;
 }
 
 .blog-card__tags,
@@ -391,17 +388,17 @@
 }
 
 .blog-card__tags {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .blog-card__tags span,
 .blog-post-tag-list span {
   border-radius: 999px;
   background: #f3f4f6;
-  padding: 5px 12px;
+  padding: 4px 12px;
   color: #6b7280;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -426,11 +423,11 @@
 }
 
 .blog-card__title-link h3 {
-  margin: 0 0 6px;
+  margin: 0 0 8px;
   color: #111827;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.35;
+  line-height: 1.4;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -447,27 +444,27 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
-  margin: 0 0 12px;
+  margin: 0 0 16px;
   flex: 1;
   color: #4b5563;
   font-size: 0.875rem;
-  line-height: 1.5;
+  line-height: 1.625;
 }
 
 .blog-card__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 12px;
   margin-top: auto;
   border-top: 1px solid #f3f4f6;
-  padding-top: 8px;
+  padding-top: 16px;
 }
 
 .blog-card__author {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   min-width: 0;
 }
 
@@ -483,38 +480,38 @@
 }
 
 .blog-avatar {
+  width: 40px;
+  height: 40px;
+  font-size: 0.875rem;
+}
+
+.blog-avatar--small {
   width: 32px;
   height: 32px;
   font-size: 0.75rem;
 }
 
-.blog-avatar--small {
-  width: 28px;
-  height: 28px;
-  font-size: 0.6875rem;
-}
-
 .blog-card__author-name {
   margin: 0;
   color: #111827;
-  font-size: 0.6875rem;
-  font-weight: 600;
-  line-height: 1;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .blog-post-author-name {
   margin: 0;
   color: #111827;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  line-height: 1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .blog-card__author-date,
 .blog-card__reading-time {
   color: #71717a;
-  font-size: 0.6875rem;
-  line-height: 1;
+  font-size: 0.75rem;
+  line-height: 1.2;
 }
 
 .blog-post-author-meta,
@@ -586,7 +583,21 @@
    Markdown body also needs constraining, but only on post pages —
    the home page (.blog-home-page) handles its own 72rem max-width.
    We scope via .blog-post-shell sibling presence using CSS :has(). */
+.content-container:has(.blog-post-shell) .content {
+  max-width: 100% !important;
+}
+
+.content-container:has(.blog-post-shell) .content-container,
+.content-container:has(.blog-post-shell) .content-body,
+.content-container:has(.blog-post-shell) .vp-doc {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .content-container:has(.blog-post-shell) .main {
+  width: 100%;
   max-width: 48rem;
   margin: 0 auto;
   box-sizing: border-box;
@@ -629,7 +640,7 @@
   color: #111827;
   font-size: 1.875rem;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.1;
   letter-spacing: -0.025em;
 }
 
@@ -641,12 +652,13 @@
   margin: 0 0 24px;
   color: #4b5563;
   font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .blog-post-author-row {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   border-bottom: 1px solid #f3f4f6;
   padding-bottom: 24px;
 }
@@ -657,7 +669,9 @@
 
 .blog-post-author-meta {
   margin: 2px 0 0;
-  line-height: 1;
+  color: #6b7280;
+  font-size: 0.75rem;
+  line-height: 1.3;
 }
 
 .blog-post-cover-image {
@@ -814,11 +828,25 @@
 }
 
 .blog-related-section {
+  max-width: 72rem;
+  margin: 48px auto 0;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.blog-related-shell {
+  width: 100%;
+}
+
+.blog-related-section .blog-section-title {
   margin-top: 48px;
 }
 
 .blog-post-cta-wrap {
-  padding: 0 0 48px;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+  box-sizing: border-box;
 }
 
 /* ------------------------------------------------------------------ */
@@ -849,6 +877,14 @@
 
   .blog-post-footer-wrap {
     padding: 40px 32px 56px;
+  }
+
+  .blog-related-section {
+    padding: 0 32px;
+  }
+
+  .blog-post-cta-wrap {
+    padding: 0 32px 48px;
   }
 
   .content-container:has(.blog-post-shell) .vp-doc {
