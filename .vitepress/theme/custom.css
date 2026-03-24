@@ -127,8 +127,7 @@
   color: var(--marketing-header-text);
 }
 
-.marketing-header__link:hover::after,
-.marketing-header__link[href='/']::after {
+.marketing-header__link:hover::after {
   transform: scaleX(1);
 }
 
