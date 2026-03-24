@@ -172,6 +172,7 @@
   background: #000000;
   color: #ffffff;
   font-size: 14px;
+  line-height: 1.25;
   font-weight: 500;
   text-decoration: none;
   transition: background-color 0.2s ease;
@@ -179,11 +180,11 @@
 
 .marketing-header__cta,
 .marketing-header__mobile-cta {
-  min-height: 42px;
-  padding: 10px 18px;
+  min-height: 36px;
+  padding: 8px 16px;
   background: transparent;
   color: #111111;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .marketing-header__cta:hover,
