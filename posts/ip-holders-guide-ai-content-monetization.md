@@ -22,7 +22,7 @@ Here's the reality: fans are already using AI tools to create content with your 
 
 Traditional content production requires writers, artists, animators, and editors. AI tools let you **multiply your output** while maintaining quality and brand consistency.
 
-With [Plot Party's IP Holder tools](https://www.plotparty.ai/ip), you can:
+With [Plot Party's IP Holder tools](https://app.plotparty.ai/ip), you can:
 
 - Set style guides and character references that AI uses for generation
 - Approve content before it's published
@@ -32,7 +32,7 @@ With [Plot Party's IP Holder tools](https://www.plotparty.ai/ip), you can:
 
 Your most passionate fans want to create stories with your characters. Rather than fighting this with takedowns, **channel it** through authorized platforms.
 
-When fans create on [Plot Party](https://www.plotparty.ai/world):
+When fans create on [Plot Party](https://app.plotparty.ai/world):
 
 - Their content uses your approved character models and style guides
 - You maintain visibility into what's being created
@@ -63,7 +63,7 @@ Before enabling AI content creation, establish clear guidelines:
 
 ### Step 2: Set Up Your IP on Plot Party
 
-[Plot Party's IP Holder program](https://www.plotparty.ai/ip) makes it straightforward:
+[Plot Party's IP Holder program](https://app.plotparty.ai/ip) makes it straightforward:
 
 1. Upload your character references and style guides
 2. Define generation parameters and restrictions
@@ -105,6 +105,6 @@ Want to understand the tools your fans will be using? Read our [comparison of th
 
 ## Ready to Explore?
 
-[Learn about Plot Party's IP Holder program →](https://www.plotparty.ai/ip)
+[Learn about Plot Party's IP Holder program →](https://app.plotparty.ai/ip)
 
-Or [get in touch directly](mailto:sophia@plotparty.ai) to discuss how AI content creation can work for your specific IP portfolio. We also offer [flexible pricing plans](https://www.plotparty.ai/pricing) for IP holders of any size.
+Or [get in touch directly](mailto:sophia@plotparty.ai) to discuss how AI content creation can work for your specific IP portfolio. We also offer [flexible pricing plans](https://app.plotparty.ai/pricing) for IP holders of any size.

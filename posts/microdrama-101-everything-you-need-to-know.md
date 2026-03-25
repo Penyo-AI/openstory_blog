@@ -152,13 +152,13 @@ This is where it gets interesting for creators. AI is compressing the microdrama
 
 The implication is massive: **a $150,000 production could become a $15,000 production** with AI handling character generation, scene composition, video generation, and post-production. This democratizes the format for independent creators.
 
-[Plot Party](https://www.plotparty.ai/create) is built specifically for this intersection — AI-powered tools for creating microdramas with consistent characters, storyboard-driven workflows, and video generation. See our [step-by-step tutorial](./creating-drama-episode-plot-party-tutorial.md) to create your first episode.
+[Plot Party](https://app.plotparty.ai/create) is built specifically for this intersection — AI-powered tools for creating microdramas with consistent characters, storyboard-driven workflows, and video generation. See our [step-by-step tutorial](./creating-drama-episode-plot-party-tutorial.md) to create your first episode.
 
 ## The Opportunity for Creators
 
 The microdrama gold rush is happening right now. Here's why it matters for independent creators:
 
-**1. Low barrier to entry with AI tools.** You no longer need a crew of 60 people and $150,000. AI tools like those on [Plot Party](https://www.plotparty.ai/create) let solo creators produce microdrama-quality content.
+**1. Low barrier to entry with AI tools.** You no longer need a crew of 60 people and $150,000. AI tools like those on [Plot Party](https://app.plotparty.ai/create) let solo creators produce microdrama-quality content.
 
 **2. Proven monetization.** The coin-based IAP model is battle-tested and generates real revenue. A single hit series can generate millions.
 
@@ -174,7 +174,7 @@ The microdrama industry is at an inflection point. The format has proven product
 
 The question isn't whether microdramas will be a major entertainment format — they already are. The question is who will create the next wave of content: traditional studios adapting to vertical, or a new generation of AI-native creators building from scratch.
 
-Ready to be part of it? [Start creating on Plot Party →](https://www.plotparty.ai/create)
+Ready to be part of it? [Start creating on Plot Party →](https://app.plotparty.ai/create)
 
 For a hands-on walkthrough, check our [guide to creating a drama episode](./creating-drama-episode-plot-party-tutorial.md), or explore what [AI video tools are available](./ai-video-generation-tools-2026-comparison.md) to power your productions.
 

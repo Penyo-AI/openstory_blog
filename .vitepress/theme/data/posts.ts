@@ -1,3 +1,5 @@
+import { appUrl } from './site'
+
 export type BlogRelatedLink = {
   label: string
   href: string
@@ -30,9 +32,9 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 12,
     featured: true,
     relatedLinks: [
-      { label: 'Create Your Own Microdrama', href: '/create' },
-      { label: 'View Pricing', href: '/pricing' },
-      { label: 'Explore Community', href: '/world' }
+      { label: 'Create Your Own Microdrama', href: appUrl('/create') },
+      { label: 'View Pricing', href: appUrl('/pricing') },
+      { label: 'Explore Community', href: appUrl('/world') }
     ]
   },
   {
@@ -47,9 +49,9 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 9,
     featured: true,
     relatedLinks: [
-      { label: 'Try It on Plot Party', href: '/create' },
-      { label: 'View Pricing', href: '/pricing' },
-      { label: 'Explore Community', href: '/world' }
+      { label: 'Try It on Plot Party', href: appUrl('/create') },
+      { label: 'View Pricing', href: appUrl('/pricing') },
+      { label: 'Explore Community', href: appUrl('/world') }
     ]
   },
   {
@@ -64,9 +66,9 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 6,
     featured: true,
     relatedLinks: [
-      { label: 'Start Creating', href: '/create' },
-      { label: 'Quick Generations', href: '/generate' },
-      { label: 'View Pricing', href: '/pricing' }
+      { label: 'Start Creating', href: appUrl('/create') },
+      { label: 'Quick Generations', href: appUrl('/generate') },
+      { label: 'View Pricing', href: appUrl('/pricing') }
     ]
   },
   {
@@ -81,9 +83,9 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 8,
     featured: true,
     relatedLinks: [
-      { label: 'Start Creating', href: '/create' },
-      { label: 'Explore Community Stories', href: '/world' },
-      { label: 'View Pricing Plans', href: '/pricing' }
+      { label: 'Start Creating', href: appUrl('/create') },
+      { label: 'Explore Community Stories', href: appUrl('/world') },
+      { label: 'View Pricing Plans', href: appUrl('/pricing') }
     ]
   },
   {
@@ -98,8 +100,8 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 10,
     featured: false,
     relatedLinks: [
-      { label: 'Try Plot Party Free', href: '/pricing' },
-      { label: 'See What Creators Are Making', href: '/world' }
+      { label: 'Try Plot Party Free', href: appUrl('/pricing') },
+      { label: 'See What Creators Are Making', href: appUrl('/world') }
     ]
   },
   {
@@ -114,8 +116,8 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 7,
     featured: true,
     relatedLinks: [
-      { label: 'IP Holders Program', href: '/ip' },
-      { label: 'Pricing for IP Holders', href: '/pricing' },
+      { label: 'IP Holders Program', href: appUrl('/ip') },
+      { label: 'Pricing for IP Holders', href: appUrl('/pricing') },
       { label: 'Contact Us', href: 'mailto:sophia@plotparty.ai' }
     ]
   }

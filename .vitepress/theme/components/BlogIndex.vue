@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { blogPosts } from '../data/posts'
+import { appUrl } from '../data/site'
 import BlogCard from './BlogCard.vue'
 import MarketingFooter from './MarketingFooter.vue'
 
@@ -50,7 +51,7 @@ const filteredPosts = computed(() => {
         Join thousands of creators using AI to direct microdramas, build
         worlds, and tell stories.
       </p>
-      <a href="/home">Start Creating</a>
+      <a :href="appUrl('/home')">Start Creating</a>
     </section>
 
     <MarketingFooter />

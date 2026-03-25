@@ -12,7 +12,7 @@ outline: deep
 
 ## What You'll Create
 
-Each story on [Plot Party](https://plotparty.ai) is a **1-2 minute narrative** — a bite-sized drama episode powered by AI. You write the script, direct the visuals, and Plot Party's agentic canvas handles the heavy lifting: character design, scene generation, and video production.
+Each story on [Plot Party](https://app.plotparty.ai) is a **1-2 minute narrative** — a bite-sized drama episode powered by AI. You write the script, direct the visuals, and Plot Party's agentic canvas handles the heavy lifting: character design, scene generation, and video production.
 
 Story mode is not a one-click tool. It's an **agentic canvas** — Plot Party gets you 80% of the way there, and you iterate on the remaining 20% to make it yours. The agent guides you through every step, but you're the director.
 
@@ -23,12 +23,12 @@ Story mode is not a one-click tool. It's an **agentic canvas** — Plot Party ge
 A few things to keep in mind:
 
 - **Keep it short.** If your storyline is too long, break it down into bite-sized episodes first. A single story should fit comfortably in 1-2 minutes.
-- **Too short?** If your idea is only ~15 seconds of content, skip story mode entirely. Go to [plotparty.ai/generate](https://www.plotparty.ai/generate) and create individual generations directly.
+- **Too short?** If your idea is only ~15 seconds of content, skip story mode entirely. Go to [plotparty.ai/generate](https://app.plotparty.ai/generate) and create individual generations directly.
 - **Review as you go.** The agent will pause at key moments (script, characters, storyboard) to ask for your approval. Check the output before continuing — this avoids spending credits on shots you don't like.
 
 ## Step 1: Set Up Your Story
 
-Head to [plotparty.ai/create](https://www.plotparty.ai/create) to create a new story. You'll configure three important settings:
+Head to [plotparty.ai/create](https://app.plotparty.ai/create) to create a new story. You'll configure three important settings:
 
 | Setting | What It Controls |
 |---------|-----------------|
@@ -116,7 +116,7 @@ Once all your video clips are generated:
 
 - **Compile** — Stitch clips into a single longer video
 - **Export** — Download individual video files in bulk
-- **Share** — Set your story to public and share the link with your audience on the [Plot Party community](https://www.plotparty.ai/world)
+- **Share** — Set your story to public and share the link with your audience on the [Plot Party community](https://app.plotparty.ai/world)
 
 Your story gets its own shareable page on Plot Party that anyone can view.
 
@@ -132,8 +132,8 @@ Your story gets its own shareable page on Plot Party that anyone can view.
 
 ## What's Next?
 
-Ready to direct your first episode? [Create your story now →](https://www.plotparty.ai/create)
+Ready to direct your first episode? [Create your story now →](https://app.plotparty.ai/create)
 
-If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://www.plotparty.ai/world).
+If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://app.plotparty.ai/world).
 
 For a comparison of the AI models available in Pro mode, see our [AI video generation tools guide](./ai-video-generation-tools-2026-comparison.md).

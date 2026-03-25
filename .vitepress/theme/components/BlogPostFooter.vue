@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useRoute, withBase } from 'vitepress'
 import { blogPosts } from '../data/posts'
+import { appUrl } from '../data/site'
 import BlogCard from './BlogCard.vue'
 
 const route = useRoute()
@@ -67,7 +68,7 @@ function postHref(slug: string) {
           Turn your ideas into AI-generated microdramas. No filmmaking
           experience required.
         </p>
-        <a href="/home">Get Started Free</a>
+        <a :href="appUrl('/home')">Get Started Free</a>
       </div>
     </section>
   </div>

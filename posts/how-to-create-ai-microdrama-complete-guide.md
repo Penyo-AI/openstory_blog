@@ -14,7 +14,7 @@ outline: deep
 
 AI microdramas are short, cinematic stories — typically 1 to 5 minutes — created using artificial intelligence tools for video generation, character design, and scene composition. They combine the emotional punch of short films with the accessibility of AI-powered creation tools.
 
-Unlike traditional filmmaking, you don't need a camera, actors, or a studio. With platforms like [Plot Party](https://plotparty.ai), you direct the story while AI handles the visual production.
+Unlike traditional filmmaking, you don't need a camera, actors, or a studio. With platforms like [Plot Party](https://app.plotparty.ai), you direct the story while AI handles the visual production.
 
 ## Why Microdramas Are Exploding in Popularity
 
@@ -39,7 +39,7 @@ For example: *"A time-traveling barista must fix a customer's worst day — but 
 
 ### 2. Build Your Storyboard
 
-A storyboard is your visual blueprint. On [Plot Party](https://www.plotparty.ai/create), you can use the **AI Storyboard Editor** to:
+A storyboard is your visual blueprint. On [Plot Party](https://app.plotparty.ai/create), you can use the **AI Storyboard Editor** to:
 
 - Generate scene-by-scene visual layouts
 - Define camera angles and transitions
@@ -70,7 +70,7 @@ Once your microdrama is complete, you can:
 
 - Share directly from Plot Party to social media
 - Download for upload to YouTube, TikTok, or Instagram
-- Publish within the [Plot Party community](https://www.plotparty.ai/world) for feedback
+- Publish within the [Plot Party community](https://app.plotparty.ai/world) for feedback
 
 ## Tips for Making Your Microdrama Stand Out
 
@@ -88,6 +88,6 @@ If you're an IP holder looking to let fans create microdramas with your characte
 
 ## What's Next?
 
-Ready to create your first AI microdrama? [Start creating on Plot Party](https://www.plotparty.ai/create) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
+Ready to create your first AI microdrama? [Start creating on Plot Party](https://app.plotparty.ai/create) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
 
-Check out our [community page](https://www.plotparty.ai/world) to see what other creators are building, or explore our [pricing plans](https://www.plotparty.ai/pricing) to find the right fit for your creative goals.
+Check out our [community page](https://app.plotparty.ai/world) to see what other creators are building, or explore our [pricing plans](https://app.plotparty.ai/pricing) to find the right fit for your creative goals.

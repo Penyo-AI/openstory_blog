@@ -35,7 +35,7 @@ Before diving into specific tools, here's what to look for:
 
 **Best for:** Serialized microdramas and interactive storytelling
 
-[Plot Party](https://plotparty.ai) takes a unique approach by combining **AI video generation with storyboard-driven workflows**. Instead of generating one-off clips, you build complete narratives with consistent characters and scenes.
+[Plot Party](https://app.plotparty.ai) takes a unique approach by combining **AI video generation with storyboard-driven workflows**. Instead of generating one-off clips, you build complete narratives with consistent characters and scenes.
 
 **Strengths:**
 - Storyboard-first workflow keeps your narrative coherent
@@ -46,7 +46,7 @@ Before diving into specific tools, here's what to look for:
 
 **Best suited for:** Creators who want to build stories, not just generate clips. The storyboard editor makes it easy to plan, iterate, and publish complete microdramas.
 
-[Explore Plot Party's features →](https://www.plotparty.ai)
+[Explore Plot Party's features →](https://app.plotparty.ai)
 
 ### Runway
 
@@ -84,19 +84,19 @@ Pika offers a streamlined experience for generating short video clips from text 
 
 | Project Type | Recommended Tool |
 |-------------|-----------------|
-| Serialized microdrama | [Plot Party](https://plotparty.ai) |
+| Serialized microdrama | [Plot Party](https://app.plotparty.ai) |
 | Professional VFX | Runway |
 | Quick social clips | Pika |
-| Interactive stories | [Plot Party](https://plotparty.ai) |
+| Interactive stories | [Plot Party](https://app.plotparty.ai) |
 
 ## The Future of AI Video Creation
 
 The gap between AI-generated and traditionally produced video continues to narrow. The biggest differentiator is no longer quality — it's **workflow**. Tools that help creators think in terms of *stories* rather than *clips* will define the next era of content creation.
 
-The shift from "generate a video" to "direct a story" is why platforms like [Plot Party](https://www.plotparty.ai) are gaining traction with serious creators. It's not just about making a pretty video — it's about telling a story that connects with an audience.
+The shift from "generate a video" to "direct a story" is why platforms like [Plot Party](https://app.plotparty.ai) are gaining traction with serious creators. It's not just about making a pretty video — it's about telling a story that connects with an audience.
 
 ## Get Started
 
-Ready to see which tool works best for you? [Try Plot Party for free](https://www.plotparty.ai/pricing) and create your first microdrama in minutes. Or browse the [community gallery](https://www.plotparty.ai/world) to see what's possible.
+Ready to see which tool works best for you? [Try Plot Party for free](https://app.plotparty.ai/pricing) and create your first microdrama in minutes. Or browse the [community gallery](https://app.plotparty.ai/world) to see what's possible.
 
 New to microdramas? Our [complete beginner's guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) walks you through the entire process step by step. And if you're an IP holder exploring how AI tools can work for your brand, see our guide on [monetizing intellectual property with AI content](./ip-holders-guide-ai-content-monetization.md).

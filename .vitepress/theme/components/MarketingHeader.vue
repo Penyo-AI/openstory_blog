@@ -1,24 +1,24 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { withBase } from 'vitepress'
+import { appUrl } from '../data/site'
 
 type NavLink = {
   label: string
   href: string
-  external?: boolean
 }
 
 const isMenuOpen = ref(false)
 
 const navLinks: NavLink[] = [
-  { label: 'Creatives', href: '/', external: false },
-  { label: 'IP Holders', href: '/ip', external: false },
-  { label: 'Pricing', href: '/pricing', external: false },
-  { label: 'Community', href: '/community', external: false },
-  { label: 'Blog', href: '/blog/', external: false }
+  { label: 'Creatives', href: appUrl('/') },
+  { label: 'IP Holders', href: appUrl('/ip') },
+  { label: 'Pricing', href: appUrl('/pricing') },
+  { label: 'Community', href: appUrl('/community') },
+  { label: 'Blog', href: '/blog/' }
 ]
 
-const socialLinks: NavLink[] = [
+const socialLinks = [
   { label: 'Discord', href: 'https://discord.gg/MwDgZzweMc', external: true },
   { label: 'Email', href: 'mailto:sophia@plotparty.ai', external: true }
 ]
@@ -52,8 +52,6 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
           :key="link.label"
           class="marketing-header__link"
           :href="link.href"
-          :target="link.external ? '_blank' : undefined"
-          :rel="link.external ? 'noreferrer' : undefined"
         >
           {{ link.label }}
         </a>
@@ -80,7 +78,7 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
 
         <a
           class="marketing-header__cta"
-          href="/home"
+          :href="appUrl('/home')"
         >
           Start Creating
         </a>
@@ -106,8 +104,6 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
           :key="`${link.label}-mobile`"
           class="marketing-header__mobile-link"
           :href="link.href"
-          :target="link.external ? '_blank' : undefined"
-          :rel="link.external ? 'noreferrer' : undefined"
           @click="closeMenu"
         >
           {{ link.label }}
@@ -130,7 +126,7 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
 
       <a
         class="marketing-header__mobile-cta"
-        href="/home"
+        :href="appUrl('/home')"
         @click="closeMenu"
       >
         Start Creating

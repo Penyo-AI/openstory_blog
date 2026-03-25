@@ -16,7 +16,7 @@ Seedance 2.0 is a multimodal AI video generation model that accepts **images, vi
 
 This is the model that turns AI video generation from "type a prompt and hope" into something that actually feels like directing.
 
-Seedance 2.0 is available on [Plot Party](https://www.plotparty.ai/create) in Pro mode, alongside other top-tier models like Kling V3 and Veo 3.1.
+Seedance 2.0 is available on [Plot Party](https://app.plotparty.ai/create) in Pro mode, alongside other top-tier models like Kling V3 and Veo 3.1.
 
 ## Why Seedance 2.0 Matters for Creators
 
@@ -132,9 +132,9 @@ Notice the consistent character design across shots, the dramatic camera movemen
 
 ## How to Use Seedance 2.0 on Plot Party
 
-Seedance 2.0 is available in **Pro mode** on [Plot Party](https://www.plotparty.ai/create). To use it:
+Seedance 2.0 is available in **Pro mode** on [Plot Party](https://app.plotparty.ai/create). To use it:
 
-1. [Create a new story](https://www.plotparty.ai/create) and select Pro mode
+1. [Create a new story](https://app.plotparty.ai/create) and select Pro mode
 2. Upload your reference images, videos, or audio as assets
 3. Use the @ syntax in your prompts to reference each asset
 4. Generate, iterate, and compile your final video
@@ -151,4 +151,4 @@ For microdrama creators, this means:
 - **Higher production value** — replicate professional camera techniques without knowing their names
 - **Creative freedom** — combine influences from multiple sources into something new
 
-Want to compare Seedance 2.0 with other models? Check out our [AI video generation tools comparison](./ai-video-generation-tools-2026-comparison.md). Ready to start creating? [Jump into Plot Party →](https://www.plotparty.ai/create)
+Want to compare Seedance 2.0 with other models? Check out our [AI video generation tools comparison](./ai-video-generation-tools-2026-comparison.md). Ready to start creating? [Jump into Plot Party →](https://app.plotparty.ai/create)
