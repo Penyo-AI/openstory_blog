@@ -81,7 +81,7 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
 
         <a
           class="marketing-header__cta"
-          :href="appUrl('/home')"
+          :href="appUrl('/create')"
           target="_blank"
           rel="noreferrer"
         >
@@ -133,7 +133,7 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
 
       <a
         class="marketing-header__mobile-cta"
-        :href="appUrl('/home')"
+        :href="appUrl('/create')"
         target="_blank"
         rel="noreferrer"
         @click="closeMenu"

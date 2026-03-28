@@ -68,7 +68,7 @@ function postHref(slug: string) {
           Turn your ideas into AI-generated microdramas. No filmmaking
           experience required.
         </p>
-        <a :href="appUrl('/home')">Get Started Free</a>
+        <a :href="appUrl('/create')">Get Started Free</a>
       </div>
     </section>
   </div>

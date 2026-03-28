@@ -51,7 +51,7 @@ const filteredPosts = computed(() => {
         Join thousands of creators using AI to direct microdramas, build
         worlds, and tell stories.
       </p>
-      <a :href="appUrl('/home')">Start Creating</a>
+      <a :href="appUrl('/create')">Start Creating</a>
     </section>
 
     <MarketingFooter />
