@@ -32,7 +32,7 @@ With [Plot Party's IP Holder tools](https://app.plotparty.ai/ip), you can:
 
 Your most passionate fans want to create stories with your characters. Rather than fighting this with takedowns, **channel it** through authorized platforms.
 
-When fans create on [Plot Party](https://app.plotparty.ai/world):
+When fans create on [Plot Party](https://app.plotparty.ai/community):
 
 - Their content uses your approved character models and style guides
 - You maintain visibility into what's being created

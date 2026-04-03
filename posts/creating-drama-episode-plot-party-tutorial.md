@@ -28,7 +28,7 @@ A few things to keep in mind:
 
 ## Step 1: Set Up Your Story
 
-Head to [plotparty.ai/create](https://app.plotparty.ai/create) to create a new story. You'll configure three important settings:
+Head to [plotparty.ai/home](https://app.plotparty.ai/home) to create a new story. You'll configure three important settings:
 
 | Setting | What It Controls |
 |---------|-----------------|
@@ -116,7 +116,7 @@ Once all your video clips are generated:
 
 - **Compile** — Stitch clips into a single longer video
 - **Export** — Download individual video files in bulk
-- **Share** — Set your story to public and share the link with your audience on the [Plot Party community](https://app.plotparty.ai/world)
+- **Share** — Set your story to public and share the link with your audience on the [Plot Party community](https://app.plotparty.ai/community)
 
 Your story gets its own shareable page on Plot Party that anyone can view.
 
@@ -132,8 +132,8 @@ Your story gets its own shareable page on Plot Party that anyone can view.
 
 ## What's Next?
 
-Ready to direct your first episode? [Create your story now →](https://app.plotparty.ai/create)
+Ready to direct your first episode? [Create your story now →](https://app.plotparty.ai/home)
 
-If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://app.plotparty.ai/world).
+If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://app.plotparty.ai/community).
 
 For a comparison of the AI models available in Pro mode, see our [AI video generation tools guide](./ai-video-generation-tools-2026-comparison.md).

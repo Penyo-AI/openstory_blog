@@ -15,7 +15,7 @@ const navLinks: NavLink[] = [
   { label: 'Creatives', href: appUrl('/'), external: true },
   { label: 'IP Holders', href: appUrl('/ip'), external: true },
   { label: 'Pricing', href: appUrl('/pricing'), external: true },
-  { label: 'Community', href: appUrl('/world'), external: true },
+  { label: 'Community', href: appUrl('/community'), external: true },
   { label: 'Blog', href: '/blog/' }
 ]
 
@@ -81,7 +81,7 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
 
         <a
           class="marketing-header__cta"
-          :href="appUrl('/create')"
+          :href="appUrl('/home')"
           target="_blank"
           rel="noreferrer"
         >
@@ -133,7 +133,7 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
 
       <a
         class="marketing-header__mobile-cta"
-        :href="appUrl('/create')"
+        :href="appUrl('/home')"
         target="_blank"
         rel="noreferrer"
         @click="closeMenu"

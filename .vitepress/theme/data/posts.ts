@@ -32,9 +32,9 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 12,
     featured: true,
     relatedLinks: [
-      { label: 'Create Your Own Microdrama', href: appUrl('/create') },
+      { label: 'Create Your Own Microdrama', href: appUrl('/home') },
       { label: 'View Pricing', href: appUrl('/pricing') },
-      { label: 'Explore Community', href: appUrl('/world') }
+      { label: 'Explore Community', href: appUrl('/community') }
     ]
   },
   {
@@ -49,9 +49,9 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 9,
     featured: true,
     relatedLinks: [
-      { label: 'Try It on Plot Party', href: appUrl('/create') },
+      { label: 'Try It on Plot Party', href: appUrl('/home') },
       { label: 'View Pricing', href: appUrl('/pricing') },
-      { label: 'Explore Community', href: appUrl('/world') }
+      { label: 'Explore Community', href: appUrl('/community') }
     ]
   },
   {
@@ -66,7 +66,7 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 6,
     featured: true,
     relatedLinks: [
-      { label: 'Start Creating', href: appUrl('/create') },
+      { label: 'Start Creating', href: appUrl('/home') },
       { label: 'Quick Generations', href: appUrl('/generate') },
       { label: 'View Pricing', href: appUrl('/pricing') }
     ]
@@ -83,8 +83,8 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 8,
     featured: true,
     relatedLinks: [
-      { label: 'Start Creating', href: appUrl('/create') },
-      { label: 'Explore Community Stories', href: appUrl('/world') },
+      { label: 'Start Creating', href: appUrl('/home') },
+      { label: 'Explore Community Stories', href: appUrl('/community') },
       { label: 'View Pricing Plans', href: appUrl('/pricing') }
     ]
   },
@@ -101,7 +101,7 @@ export const blogPosts: BlogPostItem[] = [
     featured: false,
     relatedLinks: [
       { label: 'Try Plot Party Free', href: appUrl('/pricing') },
-      { label: 'See What Creators Are Making', href: appUrl('/world') }
+      { label: 'See What Creators Are Making', href: appUrl('/community') }
     ]
   },
   {
