@@ -5,6 +5,14 @@ export default defineConfig({
   description: 'Guides, tutorials, and market insights on AI storytelling, microdramas, and creative tools.',
   base: '/blog/',
   cleanUrls: true,
+  vite: {
+    server: {
+      allowedHosts: ['plotparty.ai', 'app.plotparty.ai']
+    },
+    preview: {
+      allowedHosts: ['plotparty.ai', 'app.plotparty.ai']
+    }
+  },
   head: [
     ['link', { rel: 'icon', href: '/blog/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }]
