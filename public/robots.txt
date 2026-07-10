@@ -6,7 +6,7 @@ Allow: /
 Allow: /community
 Allow: /pricing
 Allow: /ip
-Allow: /blog
+Allow: /page/blog
 Allow: /privacy
 Allow: /terms
 

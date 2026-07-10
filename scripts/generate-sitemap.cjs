@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const siteUrl = 'https://plotparty.ai'
-const basePath = '/blog'
+const basePath = '/page/blog'
 const cwd = process.cwd()
 const postsDir = path.join(cwd, 'posts')
 const outputPath = path.join(cwd, 'public', 'sitemap.xml')
