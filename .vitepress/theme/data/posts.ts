@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'director-studio-ai-video-control-guide',
+    title: 'Director Studio: Control AI Video Like a Filmmaker',
+    description: "Learn how Plot Party's Director Studio helps creators control character blocking, poses, props, scenes, and camera movement so AI video models generate closer to your creative intent.",
+    publishedAt: '2026-07-09',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/3d-director-sudio.png',
+    tags: ['AI Video', 'Creators', 'AI Drama'],
+    readingTime: 7,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Director Studio', href: appUrl('/home') },
+      { label: 'Create a Story', href: appUrl('/home') },
+      { label: 'Explore Community', href: appUrl('/community') }
+    ]
+  },
+  {
     slug: 'microdrama-101-everything-you-need-to-know',
     title: 'Microdrama 101: Everything You Need to Know About This $20B Industry',
     description: 'The complete guide to the microdrama industry — market size, top platforms, revenue models, production costs, audience demographics, and how AI is transforming short-form drama creation.',
