@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Update in Progress</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #fff;
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .status-code {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .status-number {
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+        }
+
+        .divider {
+            width: 1px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .status-text {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -1px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: rgba(0, 0, 0, 0.7);
+            margin-bottom: 32px;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(0, 0, 0, 0.1);
+            border-top-color: #000;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            .status-number {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="status-code">
+            <div class="status-number">503</div>
+            <div class="divider"></div>
+            <div class="status-text">Service Unavailable</div>
+        </div>
+
+        <div class="spinner"></div>
+
+        <h1>System Update in Progress</h1>
+
+        <p>
+            We're currently performing scheduled maintenance to improve your experience.
+            The system will be back online shortly. Thank you for your patience.
+        </p>
+
+        <div class="footer">
+            Please check back in a few minutes
+        </div>
+    </div>
+
+    <script>
+        setInterval(function () {
+            location.reload();
+        }, 5000);
+    </script>
+</body>

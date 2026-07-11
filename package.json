@@ -4,8 +4,10 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "docs:sitemap": "node scripts/generate-sitemap.cjs"
+    "docs:sitemap": "node scripts/generate-sitemap.cjs",
+    "prebuild": "npm run docs:sitemap",
+    "build": "vitepress build",
+    "docs:build": "npm run build",
+    "docs:preview": "vitepress preview"
   }
 }

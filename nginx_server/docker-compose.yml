@@ -1,0 +1,12 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: openstory-nginx-prod
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.prod.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./deploying.html:/usr/share/nginx/html/deploying.html:ro
+      - /root/.acme.sh/plotparty.ai_ecc:/root/ssl_key:ro

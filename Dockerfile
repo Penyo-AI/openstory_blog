@@ -7,7 +7,7 @@ RUN npm install
 
 COPY . .
 
-RUN npx vitepress build
+RUN npm run build
 
 EXPOSE 3001
 
