@@ -113,157 +113,6 @@ head:
         ]
       }
 ---
-<main class="sd-page">
-  <section class="sd-hero">
-    <div class="sd-noise"></div>
-    <div class="sd-grid"></div>
-    <div class="sd-scan"></div>
-    <div class="sd-ring"></div>
-    <nav class="sd-nav">
-      <img src="https://plotparty.ai/page/blog/images/logo/logo-black-1.png" alt="Plot Party" class="sd-logo" />
-      <div class="sd-pill">Coming soon</div>
-    </nav>
-    <div class="sd-hero-inner">
-      <div class="sd-copy">
-        <div class="sd-status">Official release pending</div>
-        <h1>Seedance 2.5 is almost here.</h1>
-        <p>
-          Prepare for longer AI video generation, sharper cinematic motion, and production-ready
-          drama creation inside Plot Party.
-        </p>
-        <div class="sd-highlights">
-          <div><span></span>Up to 30-second generation</div>
-          <div><span></span>Most advanced video model</div>
-          <div><span></span>High-quality drama creation</div>
-        </div>
-        <a href="https://plotparty.ai/home?auth=register" class="sd-cta">Sign up for early access</a>
-      </div>
-      <div class="sd-orbit" aria-label="Plot Party video teaser wall">
-        <div class="sd-video-card sd-card-1">
-          <video src="https://storage.googleapis.com/plotparty-storage-public/Story%200%20-%20London/2.webm" autoplay muted loop playsinline preload="metadata"></video>
-          <div class="sd-video-shade"></div>
-          <strong>01 Cinematic Continuity</strong>
-        </div>
-        <div class="sd-video-card sd-card-2">
-          <video src="https://storage.googleapis.com/plotparty-storage-public/blogs/seedance-2-wuxia-example.mp4" autoplay muted loop playsinline preload="metadata"></video>
-          <div class="sd-video-shade"></div>
-          <strong>02 Drama Motion</strong>
-        </div>
-        <div class="sd-video-card sd-card-3">
-          <video src="https://storage.googleapis.com/plotparty-storage-public/website/canvas.webm" autoplay muted loop playsinline preload="metadata"></video>
-          <div class="sd-video-shade"></div>
-          <strong>03 Creator Workflow</strong>
-        </div>
-        <div class="sd-video-card sd-card-4">
-          <video src="https://storage.googleapis.com/plotparty-storage-public/Story%202%20-%20anime/4.webm" autoplay muted loop playsinline preload="metadata"></video>
-          <div class="sd-video-shade"></div>
-          <strong>04 High-Quality Shots</strong>
-        </div>
-        <div class="sd-core">
-          <b>Next model signal</b>
-          <span>Stand by for launch</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="sd-ticker">
-    <div>
-      <span>Up to 30-second generation</span>
-      <span>Most advanced video model</span>
-      <span>High-quality drama creation</span>
-      <span>Plot Party ready</span>
-      <span>Up to 30-second generation</span>
-      <span>Most advanced video model</span>
-      <span>High-quality drama creation</span>
-      <span>Plot Party ready</span>
-    </div>
-  </section>
-  <section class="sd-dark-section">
-    <div class="sd-section-grid">
-      <div class="sd-feature-panel">
-        <p>Creator runway</p>
-        <h2>One teaser. One action. Start before the wave arrives.</h2>
-      </div>
-      <div class="sd-specs">
-        <div><span>01</span><strong>Up to 30-second generation</strong></div>
-        <div><span>02</span><strong>Most advanced video model</strong></div>
-        <div><span>03</span><strong>High-quality drama creation</strong></div>
-      </div>
-    </div>
-  </section>
-  <section class="sd-light-section">
-    <div class="sd-section-grid">
-      <div class="sd-console">
-        <video src="https://storage.googleapis.com/plotparty-storage-public/website/editor.webm" autoplay muted loop playsinline preload="metadata"></video>
-        <div class="sd-console-shade"></div>
-        <div class="sd-console-badge">Plot Party workflow</div>
-        <div class="sd-console-dock">
-          <span>Script</span>
-          <span>Scenes</span>
-          <span>Edit</span>
-        </div>
-      </div>
-      <div>
-        <p class="sd-eyebrow">Built for creators</p>
-        <h2>Turn the launch window into a production window.</h2>
-        <p class="sd-muted">
-          Plot Party gives creators a place to prepare stories, references, scenes, and final edits
-          before the next generation wave arrives.
-        </p>
-        <a href="https://plotparty.ai/home?auth=register" class="sd-dark-cta">Sign up for early access</a>
-      </div>
-    </div>
-  </section>
-  <section class="sd-workflow">
-    <a href="https://plotparty.ai/home?auth=register">
-      <span>01</span>
-      <h3>Story-first creation</h3>
-      <p>Shape characters, worlds, and episodes before generation starts.</p>
-    </a>
-    <a href="https://plotparty.ai/home?auth=register">
-      <span>02</span>
-      <h3>Model-ready pipeline</h3>
-      <p>Move from concept to scenes with a workflow designed for advanced video models.</p>
-    </a>
-    <a href="https://plotparty.ai/home?auth=register">
-      <span>03</span>
-      <h3>Drama-grade output</h3>
-      <p>Build cinematic shots for serial stories, trailers, and creator campaigns.</p>
-    </a>
-  </section>
-  <section class="sd-answer">
-    <div>
-      <p class="sd-eyebrow">Answer engine brief</p>
-      <h2>Seedance 2.5 is coming soon for AI video creators.</h2>
-      <p>
-        Seedance 2.5 is expected to support up to 30-second AI video generation, advanced video
-        modeling, and high-quality drama creation workflows. Plot Party helps creators prepare
-        scripts, scenes, visual references, and production plans before the official release.
-      </p>
-    </div>
-    <div class="sd-faq">
-      <details open>
-        <summary>Is Seedance 2.5 officially released?</summary>
-        <p>No. The official release is still pending. This page is an early teaser for creators.</p>
-      </details>
-      <details>
-        <summary>What can I do on Plot Party?</summary>
-        <p>Prepare stories, characters, scenes, references, and drama-ready workflows for AI video creation.</p>
-      </details>
-      <details>
-        <summary>Where does early access open?</summary>
-        <p>The call to action opens Plot Party registration directly.</p>
-      </details>
-    </div>
-  </section>
-  <section class="sd-final">
-    <div>
-      <p>Registration is open</p>
-      <h2>Be ready when Seedance 2.5 arrives.</h2>
-    </div>
-    <a href="https://plotparty.ai/home?auth=register">Sign up for early access</a>
-  </section>
-</main>
 <style>
 html {
   background: #050505;
@@ -933,3 +782,154 @@ body {
   }
 }
 </style>
+<main class="sd-page">
+  <section class="sd-hero">
+    <div class="sd-noise"></div>
+    <div class="sd-grid"></div>
+    <div class="sd-scan"></div>
+    <div class="sd-ring"></div>
+    <nav class="sd-nav">
+      <img src="https://plotparty.ai/page/blog/images/logo/logo-black-1.png" alt="Plot Party" class="sd-logo" />
+      <div class="sd-pill">Coming soon</div>
+    </nav>
+    <div class="sd-hero-inner">
+      <div class="sd-copy">
+        <div class="sd-status">Official release pending</div>
+        <h1>Seedance 2.5 is almost here.</h1>
+        <p>
+          Prepare for longer AI video generation, sharper cinematic motion, and production-ready
+          drama creation inside Plot Party.
+        </p>
+        <div class="sd-highlights">
+          <div><span></span>Up to 30-second generation</div>
+          <div><span></span>Most advanced video model</div>
+          <div><span></span>High-quality drama creation</div>
+        </div>
+        <a href="https://plotparty.ai/home?auth=register" class="sd-cta">Sign up for early access</a>
+      </div>
+      <div class="sd-orbit" aria-label="Plot Party video teaser wall">
+        <div class="sd-video-card sd-card-1">
+          <video src="https://storage.googleapis.com/plotparty-storage-public/Story%200%20-%20London/2.webm" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="sd-video-shade"></div>
+          <strong>01 Cinematic Continuity</strong>
+        </div>
+        <div class="sd-video-card sd-card-2">
+          <video src="https://storage.googleapis.com/plotparty-storage-public/blogs/seedance-2-wuxia-example.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="sd-video-shade"></div>
+          <strong>02 Drama Motion</strong>
+        </div>
+        <div class="sd-video-card sd-card-3">
+          <video src="https://storage.googleapis.com/plotparty-storage-public/website/canvas.webm" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="sd-video-shade"></div>
+          <strong>03 Creator Workflow</strong>
+        </div>
+        <div class="sd-video-card sd-card-4">
+          <video src="https://storage.googleapis.com/plotparty-storage-public/Story%202%20-%20anime/4.webm" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="sd-video-shade"></div>
+          <strong>04 High-Quality Shots</strong>
+        </div>
+        <div class="sd-core">
+          <b>Next model signal</b>
+          <span>Stand by for launch</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sd-ticker">
+    <div>
+      <span>Up to 30-second generation</span>
+      <span>Most advanced video model</span>
+      <span>High-quality drama creation</span>
+      <span>Plot Party ready</span>
+      <span>Up to 30-second generation</span>
+      <span>Most advanced video model</span>
+      <span>High-quality drama creation</span>
+      <span>Plot Party ready</span>
+    </div>
+  </section>
+  <section class="sd-dark-section">
+    <div class="sd-section-grid">
+      <div class="sd-feature-panel">
+        <p>Creator runway</p>
+        <h2>One teaser. One action. Start before the wave arrives.</h2>
+      </div>
+      <div class="sd-specs">
+        <div><span>01</span><strong>Up to 30-second generation</strong></div>
+        <div><span>02</span><strong>Most advanced video model</strong></div>
+        <div><span>03</span><strong>High-quality drama creation</strong></div>
+      </div>
+    </div>
+  </section>
+  <section class="sd-light-section">
+    <div class="sd-section-grid">
+      <div class="sd-console">
+        <video src="https://storage.googleapis.com/plotparty-storage-public/website/editor.webm" autoplay muted loop playsinline preload="metadata"></video>
+        <div class="sd-console-shade"></div>
+        <div class="sd-console-badge">Plot Party workflow</div>
+        <div class="sd-console-dock">
+          <span>Script</span>
+          <span>Scenes</span>
+          <span>Edit</span>
+        </div>
+      </div>
+      <div>
+        <p class="sd-eyebrow">Built for creators</p>
+        <h2>Turn the launch window into a production window.</h2>
+        <p class="sd-muted">
+          Plot Party gives creators a place to prepare stories, references, scenes, and final edits
+          before the next generation wave arrives.
+        </p>
+        <a href="https://plotparty.ai/home?auth=register" class="sd-dark-cta">Sign up for early access</a>
+      </div>
+    </div>
+  </section>
+  <section class="sd-workflow">
+    <a href="https://plotparty.ai/home?auth=register">
+      <span>01</span>
+      <h3>Story-first creation</h3>
+      <p>Shape characters, worlds, and episodes before generation starts.</p>
+    </a>
+    <a href="https://plotparty.ai/home?auth=register">
+      <span>02</span>
+      <h3>Model-ready pipeline</h3>
+      <p>Move from concept to scenes with a workflow designed for advanced video models.</p>
+    </a>
+    <a href="https://plotparty.ai/home?auth=register">
+      <span>03</span>
+      <h3>Drama-grade output</h3>
+      <p>Build cinematic shots for serial stories, trailers, and creator campaigns.</p>
+    </a>
+  </section>
+  <section class="sd-answer">
+    <div>
+      <p class="sd-eyebrow">Answer engine brief</p>
+      <h2>Seedance 2.5 is coming soon for AI video creators.</h2>
+      <p>
+        Seedance 2.5 is expected to support up to 30-second AI video generation, advanced video
+        modeling, and high-quality drama creation workflows. Plot Party helps creators prepare
+        scripts, scenes, visual references, and production plans before the official release.
+      </p>
+    </div>
+    <div class="sd-faq">
+      <details open>
+        <summary>Is Seedance 2.5 officially released?</summary>
+        <p>No. The official release is still pending. This page is an early teaser for creators.</p>
+      </details>
+      <details>
+        <summary>What can I do on Plot Party?</summary>
+        <p>Prepare stories, characters, scenes, references, and drama-ready workflows for AI video creation.</p>
+      </details>
+      <details>
+        <summary>Where does early access open?</summary>
+        <p>The call to action opens Plot Party registration directly.</p>
+      </details>
+    </div>
+  </section>
+  <section class="sd-final">
+    <div>
+      <p>Registration is open</p>
+      <h2>Be ready when Seedance 2.5 arrives.</h2>
+    </div>
+    <a href="https://plotparty.ai/home?auth=register">Sign up for early access</a>
+  </section>
+</main>
