@@ -31,6 +31,21 @@ function resolveFile(urlPath) {
     return path.join(distDir, "index.html");
   }
 
+  if (cleanPath === "/page/news" || cleanPath === "/page/news/") {
+    return path.join(distDir, "news.html");
+  }
+
+  if (cleanPath.startsWith("/page/news/")) {
+    const relativePath = cleanPath.slice("/page/news/".length);
+    const directPath = path.join(distDir, "news", relativePath);
+
+    if (path.extname(directPath)) {
+      return directPath;
+    }
+
+    return path.join(distDir, "news", `${relativePath}.html`);
+  }
+
   if (cleanPath.startsWith("/page/blog/")) {
     const relativePath = cleanPath.slice("/page/blog/".length);
     const directPath = path.join(distDir, relativePath);
@@ -45,8 +60,32 @@ function resolveFile(urlPath) {
   return null;
 }
 
+function redirectTarget(urlPath) {
+  const cleanPath = decodeURIComponent(urlPath.split("?")[0] || "/");
+  const query = urlPath.includes("?") ? `?${urlPath.split("?").slice(1).join("?")}` : "";
+
+  if (cleanPath === "/page/blog/news" || cleanPath === "/page/blog/news/") {
+    return `/page/news${query}`;
+  }
+
+  if (cleanPath.startsWith("/page/blog/news/")) {
+    return `/page/news/${cleanPath.slice("/page/blog/news/".length)}${query}`;
+  }
+
+  return null;
+}
+
 const server = http.createServer((request, response) => {
-  const filePath = resolveFile(request.url || "/");
+  const requestUrl = request.url || "/";
+  const redirect = redirectTarget(requestUrl);
+
+  if (redirect) {
+    response.writeHead(301, { Location: redirect });
+    response.end();
+    return;
+  }
+
+  const filePath = resolveFile(requestUrl);
   const safeRoot = `${distDir}${path.sep}`;
 
   if (!filePath || !filePath.startsWith(safeRoot) || !fs.existsSync(filePath)) {

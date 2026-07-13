@@ -581,6 +581,21 @@
   overflow: hidden;
 }
 
+.news-hero--index .news-hero__masthead {
+  align-items: start;
+}
+
+.news-hero--index h1 {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.8rem, 5.8vw, 5.8rem);
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
 .news-hero__banner {
   grid-column: 1 / -1;
   margin: 0;
@@ -701,6 +716,94 @@
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.news-section-heading a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-section-heading a:hover {
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.news-layout--index {
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.3fr);
+}
+
+.news-issue-card {
+  display: grid;
+  grid-template-columns: minmax(18rem, 0.42fr) minmax(0, 0.58fr);
+  gap: 28px;
+  padding: 34px 0;
+  border-bottom: 1px solid #d4d4d8;
+}
+
+.news-issue-card__image-link {
+  display: block;
+  align-self: start;
+  overflow: hidden;
+  border: 1px solid #111827;
+  border-radius: 8px;
+  background: #101316;
+}
+
+.news-issue-card__image-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.news-issue-card__body h2 {
+  margin: 0 0 14px !important;
+  border-top: 0 !important;
+  padding-top: 0 !important;
+  color: #111827;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.news-issue-card__body h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-issue-card__body p,
+.news-issue-card__body li {
+  color: #374151;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.news-issue-card__body p {
+  margin: 0 0 16px !important;
+}
+
+.news-issue-card__body ul {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 20px;
+  padding-left: 1.1rem;
+}
+
+.news-issue-card__cta {
+  display: inline-block;
+  border-bottom: 1px solid #111827;
+  color: #111827;
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1.35;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.news-issue-card__cta:hover {
+  color: #4b5563;
+  text-decoration: none;
 }
 
 .news-story {
@@ -1203,7 +1306,8 @@
 @media (max-width: 1024px) {
   .news-hero__masthead,
   .news-scroll,
-  .news-layout {
+  .news-layout,
+  .news-issue-card {
     grid-template-columns: 1fr;
   }
 
