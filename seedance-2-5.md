@@ -1,7 +1,117 @@
 ---
-title: Seedance 2.5 Coming Soon
-description: A cinematic Plot Party teaser page for the upcoming Seedance 2.5 launch.
+title: "Seedance 2.5 Coming Soon | AI Video Teaser | Plot Party"
+description: "Seedance 2.5 is expected to bring up to 30-second AI video generation, advanced video modeling, and high-quality drama creation workflows to Plot Party."
 layout: false
+head:
+  - - link
+    - rel: canonical
+      href: https://plotparty.ai/page/seedance-2-5
+  - - meta
+    - name: robots
+      content: index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
+  - - meta
+    - name: keywords
+      content: "Seedance 2.5, AI video generation, AI video model, drama creation, microdrama, Plot Party, text to video"
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:title
+      content: "Seedance 2.5 Coming Soon | AI Video Teaser | Plot Party"
+  - - meta
+    - property: og:description
+      content: "Prepare for Seedance 2.5 with Plot Party: up to 30-second generation, advanced AI video modeling, and high-quality drama creation workflows."
+  - - meta
+    - property: og:url
+      content: https://plotparty.ai/page/seedance-2-5
+  - - meta
+    - property: og:image
+      content: https://plotparty.ai/page/blog/images/logo/logo-black-1.png
+  - - meta
+    - name: twitter:card
+      content: summary_large_image
+  - - meta
+    - name: twitter:title
+      content: "Seedance 2.5 Coming Soon | Plot Party"
+  - - meta
+    - name: twitter:description
+      content: "Sign up for early access and prepare your AI drama workflow before Seedance 2.5 arrives."
+  - - meta
+    - name: twitter:image
+      content: https://plotparty.ai/page/blog/images/logo/logo-black-1.png
+  - - script
+    - type: application/ld+json
+    - |-
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://plotparty.ai/page/seedance-2-5#webpage",
+            "url": "https://plotparty.ai/page/seedance-2-5",
+            "name": "Seedance 2.5 Coming Soon | AI Video Teaser | Plot Party",
+            "description": "Seedance 2.5 is expected to bring up to 30-second AI video generation, advanced video modeling, and high-quality drama creation workflows to Plot Party.",
+            "isPartOf": {
+              "@id": "https://plotparty.ai/#website"
+            },
+            "about": [
+              "Seedance 2.5",
+              "AI video generation",
+              "AI drama creation",
+              "microdrama production"
+            ],
+            "publisher": {
+              "@id": "https://plotparty.ai/#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://plotparty.ai/#organization",
+            "name": "Plot Party",
+            "url": "https://plotparty.ai",
+            "logo": "https://plotparty.ai/page/blog/images/logo/logo-black-1.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://plotparty.ai/#website",
+            "url": "https://plotparty.ai",
+            "name": "Plot Party",
+            "publisher": {
+              "@id": "https://plotparty.ai/#organization"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://plotparty.ai/page/seedance-2-5#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Seedance 2.5?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Seedance 2.5 is an upcoming AI video model. Plot Party is preparing creator workflows for longer generation, advanced video quality, and drama-focused production."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Seedance 2.5 officially released?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The official release is still pending. This page is a teaser for creators who want to prepare early inside Plot Party."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can creators prepare for Seedance 2.5?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Creators can sign up for early access on Plot Party, prepare scripts, scenes, references, and drama workflows before the next AI video generation wave arrives."
+                }
+              }
+            ]
+          }
+        ]
+      }
 ---
 <main class="sd-page">
   <section class="sd-hero">
@@ -120,6 +230,31 @@ layout: false
       <h3>Drama-grade output</h3>
       <p>Build cinematic shots for serial stories, trailers, and creator campaigns.</p>
     </a>
+  </section>
+  <section class="sd-answer">
+    <div>
+      <p class="sd-eyebrow">Answer engine brief</p>
+      <h2>Seedance 2.5 is coming soon for AI video creators.</h2>
+      <p>
+        Seedance 2.5 is expected to support up to 30-second AI video generation, advanced video
+        modeling, and high-quality drama creation workflows. Plot Party helps creators prepare
+        scripts, scenes, visual references, and production plans before the official release.
+      </p>
+    </div>
+    <div class="sd-faq">
+      <details open>
+        <summary>Is Seedance 2.5 officially released?</summary>
+        <p>No. The official release is still pending. This page is an early teaser for creators.</p>
+      </details>
+      <details>
+        <summary>What can I do on Plot Party?</summary>
+        <p>Prepare stories, characters, scenes, references, and drama-ready workflows for AI video creation.</p>
+      </details>
+      <details>
+        <summary>Where does early access open?</summary>
+        <p>The call to action opens Plot Party registration directly.</p>
+      </details>
+    </div>
   </section>
   <section class="sd-final">
     <div>
@@ -406,7 +541,8 @@ body {
   text-transform: uppercase;
 }
 .sd-dark-section,
-.sd-workflow {
+.sd-workflow,
+.sd-answer {
   background: #050505;
   overflow: hidden;
   padding: clamp(80px, 10vw, 112px) clamp(20px, 4vw, 32px);
@@ -590,6 +726,54 @@ body {
   line-height: 1.65;
   margin: 16px 0 0;
 }
+.sd-answer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  gap: 48px;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+}
+.sd-answer > div {
+  position: relative;
+  z-index: 2;
+}
+.sd-answer h2 {
+  color: white;
+  font-size: clamp(38px, 5vw, 64px);
+  font-weight: 950;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 18px 0 0;
+  max-width: 760px;
+}
+.sd-answer p {
+  color: #a1a1aa;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 22px 0 0;
+  max-width: 760px;
+}
+.sd-faq {
+  display: grid;
+  gap: 14px;
+}
+.sd-faq details {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: white;
+  padding: 22px;
+}
+.sd-faq summary {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 950;
+  list-style-position: outside;
+}
+.sd-faq p {
+  font-size: 15px;
+  margin-top: 14px;
+}
 .sd-final {
   align-items: end;
   background: #d9ff3f;
@@ -662,7 +846,8 @@ body {
 }
 @media (max-width: 1023px) {
   .sd-hero-inner,
-  .sd-section-grid {
+  .sd-section-grid,
+  .sd-answer {
     grid-template-columns: 1fr;
   }
   .sd-orbit {
