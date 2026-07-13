@@ -11,4 +11,4 @@ RUN npm run build
 
 EXPOSE 3001
 
-CMD ["npx", "vitepress", "preview", "--host", "0.0.0.0", "--port", "3001"]
+CMD ["node", "server.cjs"]
