@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Plot Party Blog',
   description: 'Guides, tutorials, and market insights on AI storytelling, microdramas, and creative tools.',
   base: '/page/blog/',
+  mpa: true,
   cleanUrls: true,
   vite: {
     server: {
