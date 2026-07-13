@@ -28,7 +28,7 @@ A few things to keep in mind:
 
 ## Step 1: Set Up Your Story
 
-Head to [plotparty.ai/home](https://app.plotparty.ai/home) to create a new story. You'll configure three important settings:
+Head to [plotparty.ai/home](https://plotparty.ai/home?auth=register) to create a new story. You'll configure three important settings:
 
 | Setting | What It Controls |
 |---------|-----------------|
@@ -132,7 +132,7 @@ Your story gets its own shareable page on Plot Party that anyone can view.
 
 ## What's Next?
 
-Ready to direct your first episode? [Create your story now →](https://app.plotparty.ai/home)
+Ready to direct your first episode? [Create your story now →](https://plotparty.ai/home?auth=register)
 
 If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://app.plotparty.ai/community).
 

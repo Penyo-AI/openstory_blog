@@ -26,7 +26,7 @@ layout: false
           <div><span></span>Most advanced video model</div>
           <div><span></span>High-quality drama creation</div>
         </div>
-        <a href="https://plotparty.ai/home" class="sd-cta">Sign up for early access</a>
+        <a href="https://plotparty.ai/home?auth=register" class="sd-cta">Sign up for early access</a>
       </div>
       <div class="sd-orbit" aria-label="Plot Party video teaser wall">
         <div class="sd-video-card sd-card-1">
@@ -100,22 +100,22 @@ layout: false
           Plot Party gives creators a place to prepare stories, references, scenes, and final edits
           before the next generation wave arrives.
         </p>
-        <a href="https://plotparty.ai/home" class="sd-dark-cta">Sign up for early access</a>
+        <a href="https://plotparty.ai/home?auth=register" class="sd-dark-cta">Sign up for early access</a>
       </div>
     </div>
   </section>
   <section class="sd-workflow">
-    <a href="https://plotparty.ai/home">
+    <a href="https://plotparty.ai/home?auth=register">
       <span>01</span>
       <h3>Story-first creation</h3>
       <p>Shape characters, worlds, and episodes before generation starts.</p>
     </a>
-    <a href="https://plotparty.ai/home">
+    <a href="https://plotparty.ai/home?auth=register">
       <span>02</span>
       <h3>Model-ready pipeline</h3>
       <p>Move from concept to scenes with a workflow designed for advanced video models.</p>
     </a>
-    <a href="https://plotparty.ai/home">
+    <a href="https://plotparty.ai/home?auth=register">
       <span>03</span>
       <h3>Drama-grade output</h3>
       <p>Build cinematic shots for serial stories, trailers, and creator campaigns.</p>
@@ -126,7 +126,7 @@ layout: false
       <p>Registration is open</p>
       <h2>Be ready when Seedance 2.5 arrives.</h2>
     </div>
-    <a href="https://plotparty.ai/home">Sign up for early access</a>
+    <a href="https://plotparty.ai/home?auth=register">Sign up for early access</a>
   </section>
 </main>
 <style>

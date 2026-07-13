@@ -16,7 +16,7 @@ Most AI video workflows still feel like writing a wish and waiting to see what h
 
 That works for quick experiments. But for drama, commercials, music videos, and serialized stories, creators need more than luck. They need control over **who stands where**, **how characters move**, **what the camera sees**, and **how a video model should follow the scene**.
 
-That is the idea behind **Director Studio** in [Plot Party](https://app.plotparty.ai/home): a visual directing layer that helps you stage a scene before sending it to AI video models like Seedance. Instead of relying only on text prompts, you can build a clearer visual guide for the model — closer to how a director plans a shot.
+That is the idea behind **Director Studio** in [Plot Party](https://plotparty.ai/home?auth=register): a visual directing layer that helps you stage a scene before sending it to AI video models like Seedance. Instead of relying only on text prompts, you can build a clearer visual guide for the model — closer to how a director plans a shot.
 
 ## What Is Director Studio?
 
@@ -159,6 +159,6 @@ Director Studio gives creators a more hands-on way to control AI video generatio
 
 If you are building microdramas, story worlds, or cinematic short-form content, this is where AI creation starts to feel less like prompting and more like directing.
 
-[Start creating with Plot Party →](https://app.plotparty.ai/home)
+[Start creating with Plot Party →](https://plotparty.ai/home?auth=register)
 
 For more on using advanced video models, read our [Seedance 2.0 guide](./seedance-2-ai-video-model-guide.md). If you are new to Plot Party, start with the [step-by-step drama episode tutorial](./creating-drama-episode-plot-party-tutorial.md).

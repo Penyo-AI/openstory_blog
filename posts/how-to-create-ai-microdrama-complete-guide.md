@@ -39,7 +39,7 @@ For example: *"A time-traveling barista must fix a customer's worst day — but 
 
 ### 2. Build Your Storyboard
 
-A storyboard is your visual blueprint. On [Plot Party](https://app.plotparty.ai/home), you can use the **AI Storyboard Editor** to:
+A storyboard is your visual blueprint. On [Plot Party](https://plotparty.ai/home?auth=register), you can use the **AI Storyboard Editor** to:
 
 - Generate scene-by-scene visual layouts
 - Define camera angles and transitions
@@ -88,6 +88,6 @@ If you're an IP holder looking to let fans create microdramas with your characte
 
 ## What's Next?
 
-Ready to create your first AI microdrama? [Start creating on Plot Party](https://app.plotparty.ai/home) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
+Ready to create your first AI microdrama? [Start creating on Plot Party](https://plotparty.ai/home?auth=register) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
 
 Check out our [community page](https://app.plotparty.ai/community) to see what other creators are building, or explore our [pricing plans](https://app.plotparty.ai/pricing) to find the right fit for your creative goals.
