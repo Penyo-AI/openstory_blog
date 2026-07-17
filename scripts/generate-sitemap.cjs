@@ -5,6 +5,8 @@ const siteUrl = 'https://plotparty.ai'
 const basePath = '/page/blog'
 const cwd = process.cwd()
 const postsDir = path.join(cwd, 'posts')
+const newsDir = path.join(cwd, 'news')
+const newsIndexPath = path.join(cwd, 'news.md')
 const outputPath = path.join(cwd, 'public', 'sitemap.xml')
 
 function getPostEntries() {
@@ -27,6 +29,39 @@ function getPostEntries() {
     })
 }
 
+function getNewsEntries() {
+  const entries = []
+
+  if (fs.existsSync(newsIndexPath)) {
+    entries.push({
+      loc: `${siteUrl}/page/news`,
+      lastmod: fs.statSync(newsIndexPath).mtime.toISOString(),
+      priority: '0.9'
+    })
+  }
+
+  if (!fs.existsSync(newsDir)) return entries
+
+  return [
+    ...entries,
+    ...fs
+      .readdirSync(newsDir)
+      .filter((file) => file.endsWith('.md'))
+      .sort()
+      .map((file) => {
+        const filePath = path.join(newsDir, file)
+        const slug = file.replace(/\.md$/, '')
+        const stat = fs.statSync(filePath)
+
+        return {
+          loc: `${siteUrl}/page/news/${slug}`,
+          lastmod: stat.mtime.toISOString(),
+          priority: '0.8'
+        }
+      })
+  ]
+}
+
 function buildUrlXml(entry) {
   return [
     '  <url>',
@@ -44,7 +79,8 @@ function main() {
       lastmod: new Date().toISOString(),
       priority: '1.0'
     },
-    ...getPostEntries()
+    ...getPostEntries(),
+    ...getNewsEntries()
   ]
 
   const xml = [

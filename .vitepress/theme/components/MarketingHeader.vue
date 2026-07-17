@@ -16,7 +16,8 @@ const navLinks: NavLink[] = [
   { label: 'IP Holders', href: appUrl('/ip'), external: true },
   { label: 'Pricing', href: appUrl('/pricing'), external: true },
   { label: 'Community', href: appUrl('/community'), external: true },
-  { label: 'Blog', href: '/blog/' }
+  { label: 'Blog', href: withBase('/') },
+  { label: 'News', href: '/page/news' }
 ]
 
 const socialLinks = [
