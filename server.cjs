@@ -23,6 +23,11 @@ const contentTypes = new Map([
 function resolveFile(urlPath) {
   const cleanPath = decodeURIComponent(urlPath.split("?")[0] || "/");
 
+  // Unified sitemap for the whole /page/* site (generated into dist/sitemap.xml).
+  if (cleanPath === "/page/sitemap.xml") {
+    return path.join(distDir, "sitemap.xml");
+  }
+
   if (cleanPath === "/page/seedance-2-5" || cleanPath === "/page/seedance-2-5/") {
     return path.join(distDir, "seedance-2-5.html");
   }

@@ -1,6 +1,14 @@
 const fs = require('fs')
 const path = require('path')
 
+// This project serves every route under /page/* (see server.cjs + nginx), so it
+// owns a single unified sitemap covering all sections. It is written to
+// public/sitemap.xml and served at /page/sitemap.xml — the path must sit above
+// every listed URL, otherwise search engines ignore URLs outside the sitemap's
+// own directory (e.g. /page/news/* under a /page/blog/ sitemap).
+//
+// To add a new /page/* section: register a collection (a directory of markdown,
+// one file per URL) or a standalone page below. The main site never changes.
 const siteUrl = 'https://plotparty.ai'
 const basePath = '/page/blog'
 const cwd = process.cwd()
@@ -8,6 +16,21 @@ const postsDir = path.join(cwd, 'posts')
 const newsDir = path.join(cwd, 'news')
 const newsIndexPath = path.join(cwd, 'news.md')
 const outputPath = path.join(cwd, 'public', 'sitemap.xml')
+
+// Standalone /page/* routes backed by a single source file at the repo root.
+const standalonePages = [
+  { route: '/page/seedance-2-5', source: 'seedance-2-5.md', priority: '0.9' }
+]
+
+function getStandaloneEntries() {
+  return standalonePages
+    .filter((page) => fs.existsSync(path.join(cwd, page.source)))
+    .map((page) => ({
+      loc: `${siteUrl}${page.route}`,
+      lastmod: fs.statSync(path.join(cwd, page.source)).mtime.toISOString(),
+      priority: page.priority
+    }))
+}
 
 function getPostEntries() {
   if (!fs.existsSync(postsDir)) return []
@@ -79,6 +102,7 @@ function main() {
       lastmod: new Date().toISOString(),
       priority: '1.0'
     },
+    ...getStandaloneEntries(),
     ...getPostEntries(),
     ...getNewsEntries()
   ]
