@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'microdrama-feelings-business-four-quadrants',
+    title: 'Microdrama Is a Feelings Business — The Four Quadrants of Core Payoffs',
+    description: 'A Plot Party framework for understanding microdrama through four core emotional payoffs: warmth, the reveal, the reckoning, and being owed.',
+    publishedAt: '2026-07-17',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '/page/blog/blogs/microdrama-feelings-01.jpg',
+    tags: ['Microdrama', 'Strategy', 'Creators'],
+    readingTime: 8,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create Your Own Microdrama', href: appUrl('/home') },
+      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' },
+      { label: 'AI Video Tools', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' }
+    ]
+  },
+  {
     slug: 'director-studio-ai-video-control-guide',
     title: 'Director Studio: Control AI Video Like a Filmmaker',
     description: "Learn how Plot Party's Director Studio helps creators control character blocking, poses, props, scenes, and camera movement so AI video models generate closer to your creative intent.",

@@ -769,6 +769,20 @@
   border-radius: 0.75rem;
 }
 
+/* Compact, centered title-artwork images in the microdrama feelings post */
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-03"],
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-04"],
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-05"],
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-06"],
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-07"],
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-08"],
+.content-container:has(.blog-post-shell) .vp-doc img[src*="microdrama-feelings-09"] {
+  display: block;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 520px;
+}
+
 .content-container:has(.blog-post-shell) .vp-doc table {
   width: 100%;
   font-size: 0.875rem;
