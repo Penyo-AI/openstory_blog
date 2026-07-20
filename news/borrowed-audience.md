@@ -21,7 +21,7 @@ head:
       content: https://plotparty.ai/page/news/borrowed-audience
   - - meta
     - property: og:image
-      content: https://plotparty.ai/page/blog/images/news/borrowed-audience-banner.png
+      content: https://plotparty.ai/page/blog/images/news/borrowed-audience-banner-2026-w29.png
   - - meta
     - property: article:published_time
       content: 2026-07-20T00:00:00Z
@@ -30,7 +30,7 @@ head:
       content: summary_large_image
   - - meta
     - name: twitter:image
-      content: https://plotparty.ai/page/blog/images/news/borrowed-audience-banner.png
+      content: https://plotparty.ai/page/blog/images/news/borrowed-audience-banner-2026-w29.png
   - - script
     - type: application/ld+json
     - |
@@ -42,7 +42,7 @@ head:
         "datePublished": "2026-07-20T00:00:00Z",
         "dateModified": "2026-07-20T00:00:00Z",
         "mainEntityOfPage": "https://plotparty.ai/page/news/borrowed-audience",
-        "image": "https://plotparty.ai/page/blog/images/news/borrowed-audience-banner.png",
+        "image": "https://plotparty.ai/page/blog/images/news/borrowed-audience-banner-2026-w29.png",
         "publisher": {
           "@type": "Organization",
           "name": "Plot Party",
