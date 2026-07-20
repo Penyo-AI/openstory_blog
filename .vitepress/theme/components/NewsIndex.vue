@@ -8,7 +8,7 @@ const issues = [
     href: '/page/news/borrowed-audience',
     date: 'Week of July 13 - July 19, 2026',
     dek: 'Vertical drama’s biggest cost was never production. It was attention. This week, four companies decided to lease it instead.',
-    image: withBase('/images/news/borrowed-audience-banner.svg'),
+    image: withBase('/images/news/borrowed-audience-banner.png'),
     alt: 'The Borrowed Audience - Plot Party Weekly 2026 W29',
     signals: [
       'WWE walked into vertical with ReelShort, bringing wrestling fandom to the format.',

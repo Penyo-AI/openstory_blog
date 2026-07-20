@@ -9,7 +9,7 @@ const issues = {
   '/news/borrowed-audience': {
     date: 'Week of July 13 - July 19, 2026',
     title: 'The Borrowed Audience',
-    image: withBase('/images/news/borrowed-audience-banner.svg'),
+    image: withBase('/images/news/borrowed-audience-banner.png'),
     alt: 'The Borrowed Audience - Plot Party Weekly 2026 W29',
     deck: 'Vertical drama’s biggest cost was never production. It was attention. This week, four companies decided to lease it instead.',
     quickReads: [
