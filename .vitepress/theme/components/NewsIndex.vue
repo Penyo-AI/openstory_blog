@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Borrowed Audience',
+    href: '/page/news/borrowed-audience',
+    date: 'Week of July 13 - July 19, 2026',
+    dek: 'Vertical drama’s biggest cost was never production. It was attention. This week, four companies decided to lease it instead.',
+    image: withBase('/images/news/borrowed-audience-banner.svg'),
+    alt: 'The Borrowed Audience - Plot Party Weekly 2026 W29',
+    signals: [
+      'WWE walked into vertical with ReelShort, bringing wrestling fandom to the format.',
+      'RoseBerry launched epis with 100+ premium vertical titles, mostly adapted from major TV libraries.',
+      'BBC and Channel 4 formats were reworked for phones through an AI-assisted verticalization pipeline.',
+      'Netflix took Good Mythical Morning same-day with YouTube.',
+      'China signaled the next market fight: synthetic volume, tighter curation, and new ways to allocate risk.'
+    ]
+  },
+  {
     title: 'Vertical Learns to Talk Back',
     href: '/page/news/vertical-learns-to-talk-back',
     date: 'Week of July 6 - July 12, 2026',
@@ -38,7 +53,7 @@ const issues = [
       <section class="news-main" aria-label="Latest news issues">
         <div class="news-section-heading">
           <span>Latest Issues</span>
-          <span>1 issue</span>
+          <span>{{ issues.length }} issues</span>
         </div>
 
         <article v-for="issue in issues" :key="issue.href" class="news-issue-card">

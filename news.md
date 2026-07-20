@@ -42,6 +42,12 @@ head:
             {
               "@type": "ListItem",
               "position": 1,
+              "url": "https://plotparty.ai/page/news/borrowed-audience",
+              "name": "The Borrowed Audience"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
               "url": "https://plotparty.ai/page/news/vertical-learns-to-talk-back",
               "name": "Vertical Learns to Talk Back"
             }
