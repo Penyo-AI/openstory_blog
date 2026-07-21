@@ -108,3 +108,17 @@ Want to understand the tools your fans will be using? Read our [comparison of th
 [Learn about Plot Party's IP Holder program →](https://app.plotparty.ai/ip)
 
 Or [get in touch directly](mailto:sophia@plotparty.ai) to discuss how AI content creation can work for your specific IP portfolio. We also offer [flexible pricing plans](https://app.plotparty.ai/pricing) for IP holders of any size.
+
+## FAQ
+
+### How can IP holders make money from AI-generated content?
+
+IP holders can monetize AI-generated content through licensing fees, revenue share, premium character or world assets, sponsored creation challenges, and approved fan content programs. The key is to make creation authorized instead of uncontrolled.
+
+### Does AI-generated fan content weaken IP control?
+
+It can weaken control if it happens without rules, but an approved platform can strengthen control by giving IP holders style guides, character references, permissions, and review workflows. The goal is to channel fan creativity inside clear brand boundaries.
+
+### What should IP holders prepare before launching AI content tools?
+
+IP holders should prepare character references, world rules, style guidelines, content restrictions, licensing terms, and an approval process. These assets help AI tools generate content that stays recognizable and aligned with the original IP.

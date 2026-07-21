@@ -162,3 +162,17 @@ If you are building microdramas, story worlds, or cinematic short-form content, 
 [Start creating with Plot Party →](https://plotparty.ai/home?auth=register)
 
 For more on using advanced video models, read our [Seedance 2.0 guide](./seedance-2-ai-video-model-guide.md). If you are new to Plot Party, start with the [step-by-step drama episode tutorial](./creating-drama-episode-plot-party-tutorial.md).
+
+## FAQ
+
+### What is Director Studio in Plot Party?
+
+Director Studio is a visual control workspace for AI video creation. It helps creators stage characters, props, poses, composition, and camera movement before sending a scene to an AI video model.
+
+### Why is visual control important for AI video generation?
+
+Visual control matters because AI video models can interpret the same text prompt in many different ways. Blocking, pose, and camera guidance reduce ambiguity, which can lead to more consistent shots and fewer wasted regenerations.
+
+### Who should use Director Studio?
+
+Director Studio is useful for microdrama creators, AI filmmakers, commercial creators, IP holders, and social video teams that need more control over character placement, continuity, and camera language.

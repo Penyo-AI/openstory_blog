@@ -91,3 +91,17 @@ If you're an IP holder looking to let fans create microdramas with your characte
 Ready to create your first AI microdrama? [Start creating on Plot Party](https://plotparty.ai/home?auth=register) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
 
 Check out our [community page](https://app.plotparty.ai/community) to see what other creators are building, or explore our [pricing plans](https://app.plotparty.ai/pricing) to find the right fit for your creative goals.
+
+## FAQ
+
+### What is an AI microdrama?
+
+An AI microdrama is a short, cinematic story created with AI tools for writing, character design, storyboarding, video generation, and editing. Most AI microdramas are built for fast mobile viewing and use strong hooks, emotional turns, and cliffhangers.
+
+### How many scenes should an AI microdrama have?
+
+For a beginner project, 5-8 scenes is usually enough. That gives you room for a hook, conflict, escalation, and ending without making the episode too expensive or difficult to revise.
+
+### Can one person create an AI microdrama?
+
+Yes. AI video tools make it possible for a solo creator to write, storyboard, generate, edit, and publish a short drama without a traditional production crew. The creator still directs the story, but AI handles much of the visual production work.

@@ -137,3 +137,17 @@ Ready to direct your first episode? [Create your story now →](https://plotpart
 If you're looking to create a series of episodes, check out our [guide to creating AI microdramas](./how-to-create-ai-microdrama-complete-guide.md) for tips on structuring serialized content. And to see what other creators are building, browse the [community gallery](https://app.plotparty.ai/community).
 
 For a comparison of the AI models available in Pro mode, see our [AI video generation tools guide](./ai-video-generation-tools-2026-comparison.md).
+
+## FAQ
+
+### How long should a Plot Party drama episode be?
+
+A good first Plot Party drama episode should be around 1-2 minutes. That is long enough to create a clear emotional beat, but short enough to keep the story focused and make iteration affordable.
+
+### Do I need a finished script before using Plot Party?
+
+No. You can start with either a loose storyline or a more polished script. A finished script gives the agent more structure, but a clear premise with characters, conflict, and tone is enough to begin.
+
+### Should I use Fast mode or Pro mode first?
+
+Start with Fast mode when you are testing story structure, pacing, and scene order. Move to Pro mode once the script, characters, and storyboard feel right and you are ready to generate final-quality drama scenes.

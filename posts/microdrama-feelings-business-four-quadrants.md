@@ -107,3 +107,17 @@ Our take: rage-bait and grievance can absolutely hook people — sometimes harde
 Stop greenlighting plots. Start greenlighting feelings. Decide which of the four payoffs you're selling — warmth, the reveal, the reckoning, or being owed — *then* pick the werewolf or the billionaire to carry it. In a feelings business, the emotion is the product. The plot is just the packaging.
 
 **Sources:** [Filmustage](https://filmustage.com/blog/short-drama-apps-compared-reelshort-vs-dramabox-in-2026/) · [C21 Media](https://www.c21media.net/department/c21investigates/microdrama-under-the-microscope/) · [The Ankler](https://theankler.com/microdramas-art-hook-audiences-dramabox-disney-accelerator/) · [Variety](https://variety.com/2026/tv/news/microdramas-brands-cannes-lions-preview-1236770634/) · [Jiemian](https://www.jiemian.com/article/12064720.html)
+
+## FAQ
+
+### What are the four emotional payoffs in microdrama?
+
+The four core microdrama payoffs are warmth, the reveal, the reckoning, and being owed. They map to romance or power on one axis, and reward or payback on the other.
+
+### Why do romance microdramas perform so well?
+
+Romance microdramas perform well because they offer a clear emotional reward: being loved, chosen, and protected. That promise is easy to understand, travels across markets, and fits the fast payoff rhythm of vertical drama.
+
+### How should creators use the four-quadrant framework?
+
+Creators should use the framework before choosing plot details. Decide which emotional payoff the audience is buying, then choose the genre, character setup, and cliffhanger structure that deliver that feeling consistently.

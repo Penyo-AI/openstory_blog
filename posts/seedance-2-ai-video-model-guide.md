@@ -152,3 +152,17 @@ For microdrama creators, this means:
 - **Creative freedom** — combine influences from multiple sources into something new
 
 Want to compare Seedance 2.0 with other models? Check out our [AI video generation tools comparison](./ai-video-generation-tools-2026-comparison.md). Ready to start creating? [Jump into Plot Party →](https://plotparty.ai/home?auth=register)
+
+## FAQ
+
+### What is Seedance 2.0?
+
+Seedance 2.0 is a multimodal AI video generation model that can use text, images, video, and audio references in the same generation. This makes it useful for creators who need more control over style, motion, rhythm, and story continuity.
+
+### How does Seedance 2.0 use references?
+
+Seedance 2.0 can use uploaded assets as creative references. For example, an image can guide character design, a video can guide camera movement, an audio file can guide rhythm, and text can explain the scene direction.
+
+### Is Seedance 2.0 good for microdramas?
+
+Yes. Seedance 2.0 is a strong fit for microdramas because it supports reference-driven workflows, consistent visual language, and cinematic shot planning across short serialized scenes.

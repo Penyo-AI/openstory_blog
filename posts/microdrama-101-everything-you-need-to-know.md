@@ -179,3 +179,21 @@ Ready to be part of it? [Start creating on Plot Party →](https://plotparty.ai/
 For a hands-on walkthrough, check our [guide to creating a drama episode](./creating-drama-episode-plot-party-tutorial.md), or explore what [AI video tools are available](./ai-video-generation-tools-2026-comparison.md) to power your productions.
 
 *Sources: Omdia, Deloitte, Variety, Deadline, Sensor Tower, MPA/Ampere Analysis, World Screen, Hollywood Reporter.*
+
+## FAQ
+
+### What is a microdrama?
+
+A microdrama is a short-form vertical video series designed for mobile viewing. Episodes are usually 1-3 minutes long, built around fast emotional turns, cliffhangers, and serialized viewing.
+
+### How do microdrama apps make money?
+
+Most microdrama apps use a freemium model. Viewers watch the first episodes for free, then unlock later episodes with coins, subscriptions, rewarded ads, or paid passes.
+
+### Why are microdramas popular with creators?
+
+Microdramas are popular with creators because they have lower production costs, fast feedback loops, clear genre formulas, and strong mobile distribution. AI video tools make the format even more accessible to small teams and solo creators.
+
+### How is AI changing microdrama production?
+
+AI is reducing the time and cost required to create short drama episodes. It can help with scripts, characters, scene design, video generation, localization, and editing, making microdrama production more accessible outside traditional studios.
