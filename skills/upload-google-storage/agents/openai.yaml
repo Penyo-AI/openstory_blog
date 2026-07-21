@@ -1,0 +1,4 @@
+interface:
+  display_name: "Upload Google Storage"
+  short_description: "Upload files to Google Cloud Storage"
+  default_prompt: "Use $upload-google-storage to add Google Cloud Storage upload support using environment credentials."
