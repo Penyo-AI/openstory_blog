@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'higgsfield-hyperframes-liblibai-plot-party-ai-video-tools-comparison',
+    title: 'Higgsfield vs HyperFrames vs LiblibAI vs Plot Party: AI Video Workflow Comparison',
+    description: 'Compare Higgsfield, HeyGen HyperFrames, LiblibAI, and Plot Party for AI video creation, product videos, open-source rendering, image-to-video workflows, and AI microdrama production.',
+    publishedAt: '2026-07-21',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-tool-comparison.png',
+    tags: ['AI Video', 'Landscape', 'Creators'],
+    readingTime: 9,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Plot Party', href: appUrl('/home') },
+      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
+      { label: 'Create a Drama Episode', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+    ]
+  },
+  {
     slug: 'microdrama-feelings-business-four-quadrants',
     title: 'Microdrama Is a Feelings Business — The Four Quadrants of Core Payoffs',
     description: 'A Plot Party framework for understanding microdrama through four core emotional payoffs: warmth, the reveal, the reckoning, and being owed.',
