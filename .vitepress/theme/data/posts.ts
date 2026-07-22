@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'how-microdramas-make-money-ads-vs-in-app-purchases',
+    title: 'How Microdramas Make Money: Ads vs In-App Purchases',
+    description: 'A practical guide to microdrama monetization models, comparing ad-supported viewing and coin-based in-app purchases so creators can match revenue strategy to story genre, audience, and market.',
+    publishedAt: '2026-07-22',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png',
+    tags: ['Monetization', 'Microdrama', 'Creators'],
+    readingTime: 9,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create Your Own Microdrama', href: appUrl('/home') },
+      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' },
+      { label: 'How to Create an AI Microdrama', href: '/page/blog/posts/how-to-create-ai-microdrama-complete-guide' }
+    ]
+  },
+  {
     slug: 'higgsfield-hyperframes-liblibai-plot-party-ai-video-tools-comparison',
     title: 'Higgsfield vs HyperFrames vs LiblibAI vs Plot Party: AI Video Workflow Comparison',
     description: 'Compare Higgsfield, HeyGen HyperFrames, LiblibAI, and Plot Party for AI video creation, product videos, open-source rendering, image-to-video workflows, and AI microdrama production.',
@@ -84,7 +101,7 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create Your Own Microdrama', href: appUrl('/home') },
-      { label: 'View Pricing', href: appUrl('/pricing') },
+      { label: 'How Microdramas Make Money', href: '/page/blog/posts/how-microdramas-make-money-ads-vs-in-app-purchases' },
       { label: 'Explore Community', href: appUrl('/community') }
     ]
   },

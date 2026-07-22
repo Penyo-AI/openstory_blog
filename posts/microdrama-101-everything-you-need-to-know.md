@@ -64,6 +64,8 @@ Rewarded video ads (watch an ad to unlock the next episode), interstitial ads, a
 
 Weekly or monthly passes for unlimited access. Growing but still secondary to coin-based IAP.
 
+For a deeper creator-focused breakdown, read [How Microdramas Make Money: Ads vs In-App Purchases](./how-microdramas-make-money-ads-vs-in-app-purchases.md).
+
 The regional preference varies:
 - **US/Canada:** Freemium + IAP (high average revenue per user)
 - **Southeast Asia/India:** Ad-led with low-cost weekly passes
