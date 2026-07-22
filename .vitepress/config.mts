@@ -19,7 +19,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#ffffff' }]
   ],
   themeConfig: {
-    logo: '/page/blog/images/logo/logo-black-1.png',
+    logo: '/images/logo/logo-black-1.png',
     nav: [],
     socialLinks: [],
     outline: {
