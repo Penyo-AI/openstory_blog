@@ -22,6 +22,13 @@ const standalonePages = [
   { route: '/page/seedance-2-5', source: 'seedance-2-5.md', priority: '0.9' }
 ]
 
+function getMarkdownDate(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8')
+  const match = content.match(/^---\n[\s\S]*?\ndate:\s*['"]?([^'"\n]+)['"]?\n[\s\S]*?\n---/)
+
+  return match ? Date.parse(match[1].trim()) : 0
+}
+
 function getStandaloneEntries() {
   return standalonePages
     .filter((page) => fs.existsSync(path.join(cwd, page.source)))
@@ -38,11 +45,19 @@ function getPostEntries() {
   return fs
     .readdirSync(postsDir)
     .filter((file) => file.endsWith('.md'))
-    .sort()
     .map((file) => {
       const filePath = path.join(postsDir, file)
-      const slug = file.replace(/\.md$/, '')
-      const stat = fs.statSync(filePath)
+
+      return {
+        file,
+        filePath,
+        publishedAt: getMarkdownDate(filePath)
+      }
+    })
+    .sort((a, b) => b.publishedAt - a.publishedAt || a.file.localeCompare(b.file))
+    .map((file) => {
+      const slug = file.file.replace(/\.md$/, '')
+      const stat = fs.statSync(file.filePath)
 
       return {
         loc: `${siteUrl}${basePath}/posts/${slug}`,

@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'best-ai-character-consistency-tools-2026',
+    title: 'Best AI Character Consistency Tools in 2026',
+    description: 'Compare the best AI character consistency tools for creators in 2026, including Plot Party, Runway, Kling AI, Higgsfield, Midjourney, ComfyUI, Adobe Firefly, and Pika.',
+    publishedAt: '2026-07-23',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-tool-comparison.png',
+    tags: ['AI Video', 'Landscape', 'Creators'],
+    readingTime: 11,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create Consistent Characters', href: appUrl('/home') },
+      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
+      { label: 'Create a Drama Episode', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+    ]
+  },
+  {
     slug: 'how-microdramas-make-money-ads-vs-in-app-purchases',
     title: 'How Microdramas Make Money: Ads vs In-App Purchases',
     description: 'A practical guide to microdrama monetization models, comparing ad-supported viewing and coin-based in-app purchases so creators can match revenue strategy to story genre, audience, and market.',

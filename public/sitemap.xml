@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://plotparty.ai/page/blog/</loc>
-    <lastmod>2026-07-22T06:08:40.479Z</lastmod>
+    <lastmod>2026-07-23T08:17:16.964Z</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -11,23 +11,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://plotparty.ai/page/blog/posts/ai-video-generation-tools-2026-comparison</loc>
-    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://plotparty.ai/page/blog/posts/creating-drama-episode-plot-party-tutorial</loc>
-    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://plotparty.ai/page/blog/posts/director-studio-ai-video-control-guide</loc>
-    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://plotparty.ai/page/blog/posts/higgsfield-hyperframes-liblibai-plot-party-ai-video-tools-comparison</loc>
-    <lastmod>2026-07-21T07:54:39.776Z</lastmod>
+    <loc>https://plotparty.ai/page/blog/posts/best-ai-character-consistency-tools-2026</loc>
+    <lastmod>2026-07-23T08:11:12.805Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -36,12 +21,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plotparty.ai/page/blog/posts/how-to-create-ai-microdrama-complete-guide</loc>
-    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
+    <loc>https://plotparty.ai/page/blog/posts/higgsfield-hyperframes-liblibai-plot-party-ai-video-tools-comparison</loc>
+    <lastmod>2026-07-21T07:54:39.776Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plotparty.ai/page/blog/posts/ip-holders-guide-ai-content-monetization</loc>
+    <loc>https://plotparty.ai/page/blog/posts/microdrama-feelings-business-four-quadrants</loc>
+    <lastmod>2026-07-21T07:04:58.298Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/blog/posts/director-studio-ai-video-control-guide</loc>
     <lastmod>2026-07-21T07:04:58.297Z</lastmod>
     <priority>0.8</priority>
   </url>
@@ -51,13 +41,28 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plotparty.ai/page/blog/posts/microdrama-feelings-business-four-quadrants</loc>
+    <loc>https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide</loc>
     <lastmod>2026-07-21T07:04:58.298Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide</loc>
-    <lastmod>2026-07-21T07:04:58.298Z</lastmod>
+    <loc>https://plotparty.ai/page/blog/posts/creating-drama-episode-plot-party-tutorial</loc>
+    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/blog/posts/how-to-create-ai-microdrama-complete-guide</loc>
+    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/blog/posts/ai-video-generation-tools-2026-comparison</loc>
+    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/blog/posts/ip-holders-guide-ai-content-monetization</loc>
+    <lastmod>2026-07-21T07:04:58.297Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
