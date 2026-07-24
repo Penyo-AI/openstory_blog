@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now',
+    title: 'AI-Generated Microdrama Adoption: How Much of the Charts Is AI Now?',
+    description: 'A data-backed look at how much of the microdrama chart is already AI-generated, where the 38% number comes from, and what adoption means for creators, studios, and platforms.',
+    publishedAt: '2026-07-24',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/ai-microdrama-adoption-cover-2026.png',
+    tags: ['AI Drama', 'Microdrama', 'Landscape'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create AI Microdramas', href: appUrl('/home') },
+      { label: 'How to Create an AI Microdrama', href: '/page/blog/posts/how-to-create-ai-microdrama-complete-guide' },
+      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' }
+    ]
+  },
+  {
     slug: 'best-ai-character-consistency-tools-2026',
     title: 'Best AI Character Consistency Tools in 2026',
     description: 'Compare the best AI character consistency tools for creators in 2026, including Plot Party, Runway, Kling AI, Higgsfield, Midjourney, ComfyUI, Adobe Firefly, and Pika.',
