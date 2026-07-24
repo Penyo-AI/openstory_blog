@@ -205,6 +205,18 @@ body {
   padding: 10px 16px;
   text-transform: uppercase;
 }
+.sd-nav-link {
+  color: #e4e4e7;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 180ms ease;
+}
+.sd-nav-link:hover {
+  color: #d9ff3f;
+}
 .sd-hero-inner {
   display: grid;
   gap: 40px;
@@ -790,6 +802,7 @@ body {
     <div class="sd-ring"></div>
     <nav class="sd-nav">
       <img src="https://plotparty.ai/page/blog/images/logo/logo-black-1.png" alt="Plot Party" class="sd-logo" />
+      <a href="https://plotparty.ai/page/blog/" class="sd-nav-link">Blog</a>
       <div class="sd-pill">Coming soon</div>
     </nav>
     <div class="sd-hero-inner">
@@ -801,9 +814,9 @@ body {
           drama creation inside Plot Party.
         </p>
         <div class="sd-highlights">
-          <div><span></span>Up to 30-second generation</div>
-          <div><span></span>Most advanced video model</div>
-          <div><span></span>High-quality drama creation</div>
+          <div><span></span>Extended shots, up to 30 seconds</div>
+          <div><span></span>Sharper motion and camera fidelity</div>
+          <div><span></span>Built for serialized drama production</div>
         </div>
         <a href="https://plotparty.ai/home?auth=register" class="sd-cta">Sign up for early access</a>
       </div>
@@ -837,13 +850,13 @@ body {
   </section>
   <section class="sd-ticker">
     <div>
-      <span>Up to 30-second generation</span>
-      <span>Most advanced video model</span>
-      <span>High-quality drama creation</span>
+      <span>Longer shots</span>
+      <span>Sharper motion</span>
+      <span>Drama-grade pipelines</span>
       <span>Plot Party ready</span>
-      <span>Up to 30-second generation</span>
-      <span>Most advanced video model</span>
-      <span>High-quality drama creation</span>
+      <span>Longer shots</span>
+      <span>Sharper motion</span>
+      <span>Drama-grade pipelines</span>
       <span>Plot Party ready</span>
     </div>
   </section>
@@ -854,9 +867,9 @@ body {
         <h2>One teaser. One action. Start before the wave arrives.</h2>
       </div>
       <div class="sd-specs">
-        <div><span>01</span><strong>Up to 30-second generation</strong></div>
-        <div><span>02</span><strong>Most advanced video model</strong></div>
-        <div><span>03</span><strong>High-quality drama creation</strong></div>
+        <div><span>01</span><strong>Extended runway — scenes without cuts</strong></div>
+        <div><span>02</span><strong>Improved camera and character motion</strong></div>
+        <div><span>03</span><strong>Built for multi-episode drama pipelines</strong></div>
       </div>
     </div>
   </section>
@@ -905,9 +918,15 @@ body {
       <p class="sd-eyebrow">Answer engine brief</p>
       <h2>Seedance 2.5 is coming soon for AI video creators.</h2>
       <p>
-        Seedance 2.5 is expected to support up to 30-second AI video generation, advanced video
-        modeling, and high-quality drama creation workflows. Plot Party helps creators prepare
-        scripts, scenes, visual references, and production plans before the official release.
+        Seedance 2.5 is expected to extend generation length toward 30 seconds per shot and refine
+        motion and camera fidelity over Seedance 2.0. Nothing here is official until Bytedance
+        confirms a release; treat these as early expectations, not specs.
+      </p>
+      <p>
+        Already building with Seedance 2.0? Our
+        <a href="https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide">complete Seedance 2.0 guide</a>
+        covers the @ reference system, prompting best practices, and workflow tips that carry over
+        to the next generation.
       </p>
     </div>
     <div class="sd-faq">

@@ -153,6 +153,10 @@ For microdrama creators, this means:
 
 Want to compare Seedance 2.0 with other models? Check out our [AI video generation tools comparison](./ai-video-generation-tools-2026-comparison.md). Ready to start creating? [Jump into Plot Party →](https://plotparty.ai/home?auth=register)
 
+## What's Next: Seedance 2.5
+
+Bytedance is already teasing the next iteration. [Seedance 2.5](https://plotparty.ai/page/seedance-2-5) is expected to push generation length up to 30 seconds along with further improvements to video modeling — see our early breakdown of what's coming.
+
 ## FAQ
 
 ### What is Seedance 2.0?
