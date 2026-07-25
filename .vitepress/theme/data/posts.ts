@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'microdrama-industry-report-2026-market-size-trends',
+    title: 'Microdrama Industry Report 2026: Market Size, Top Platforms, and Trends',
+    description: 'The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout.',
+    publishedAt: '2026-07-25',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png',
+    tags: ['AI Drama', 'Microdrama', 'Landscape'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create Your Own Microdrama', href: appUrl('/home') },
+      { label: 'AI Microdrama Adoption Data', href: '/page/blog/posts/ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now' },
+      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' }
+    ]
+  },
+  {
     slug: 'ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now',
     title: 'AI-Generated Microdrama Adoption: How Much of the Charts Is AI Now?',
     description: 'A data-backed look at how much of the microdrama chart is already AI-generated, where the 38% number comes from, and what adoption means for creators, studios, and platforms.',
