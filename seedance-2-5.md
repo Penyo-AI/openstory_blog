@@ -1,6 +1,6 @@
 ---
-title: "Seedance 2.5 Coming Soon | AI Video Teaser | Plot Party"
-description: "Seedance 2.5 is expected to bring up to 30-second AI video generation, advanced video modeling, and high-quality drama creation workflows to Plot Party."
+title: "Seedance 2.5 | 30-Second AI Video Model | Plot Party"
+description: "Seedance 2.5 is ByteDance's newly announced AI video model, bringing native 30-second single-shot generation, 50 full-modal references, and region-level editing. Here's what's confirmed and how Plot Party is preparing."
 layout: false
 head:
   - - link
@@ -17,10 +17,10 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: "Seedance 2.5 Coming Soon | AI Video Teaser | Plot Party"
+      content: "Seedance 2.5 | 30-Second AI Video Model | Plot Party"
   - - meta
     - property: og:description
-      content: "Prepare for Seedance 2.5 with Plot Party: up to 30-second generation, advanced AI video modeling, and high-quality drama creation workflows."
+      content: "Seedance 2.5 brings native 30-second single-shot video, 50 full-modal references, and region-level editing. See what's confirmed and how Plot Party is preparing."
   - - meta
     - property: og:url
       content: https://plotparty.ai/page/seedance-2-5
@@ -32,10 +32,10 @@ head:
       content: summary_large_image
   - - meta
     - name: twitter:title
-      content: "Seedance 2.5 Coming Soon | Plot Party"
+      content: "Seedance 2.5 | 30-Second AI Video Model | Plot Party"
   - - meta
     - name: twitter:description
-      content: "Sign up for early access and prepare your AI drama workflow before Seedance 2.5 arrives."
+      content: "ByteDance's Seedance 2.5 brings native 30-second video and 50-reference control. Sign up for early access as Plot Party prepares integration."
   - - meta
     - name: twitter:image
       content: https://plotparty.ai/page/blog/images/logo/logo-black-1.png
@@ -49,8 +49,8 @@ head:
             "@type": "WebPage",
             "@id": "https://plotparty.ai/page/seedance-2-5#webpage",
             "url": "https://plotparty.ai/page/seedance-2-5",
-            "name": "Seedance 2.5 Coming Soon | AI Video Teaser | Plot Party",
-            "description": "Seedance 2.5 is expected to bring up to 30-second AI video generation, advanced video modeling, and high-quality drama creation workflows to Plot Party.",
+            "name": "Seedance 2.5 | 30-Second AI Video Model | Plot Party",
+            "description": "Seedance 2.5 is ByteDance's newly announced AI video model, bringing native 30-second single-shot generation, 50 full-modal references, and region-level editing. Here's what's confirmed and how Plot Party is preparing.",
             "isPartOf": {
               "@id": "https://plotparty.ai/#website"
             },
@@ -89,7 +89,7 @@ head:
                 "name": "What is Seedance 2.5?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Seedance 2.5 is an upcoming AI video model. Plot Party is preparing creator workflows for longer generation, advanced video quality, and drama-focused production."
+                  "text": "Seedance 2.5 is ByteDance's newest AI video model, officially announced on June 23, 2026, with native 30-second single-shot video generation, up to 50 full-modal references, and region-level editing."
                 }
               },
               {
@@ -97,15 +97,15 @@ head:
                 "name": "Is Seedance 2.5 officially released?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The official release is still pending. This page is a teaser for creators who want to prepare early inside Plot Party."
+                  "text": "Seedance 2.5 was officially announced in June 2026 and entered closed enterprise beta in early July 2026, with public access rolling out via ByteDance's Dreamina and Jimeng platforms. It is not yet a fully public, self-serve product."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How can creators prepare for Seedance 2.5?",
+                "name": "Is Seedance 2.5 available on Plot Party?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Creators can sign up for early access on Plot Party, prepare scripts, scenes, references, and drama workflows before the next AI video generation wave arrives."
+                  "text": "Not yet. Plot Party currently supports Seedance 2.0 in Pro mode and is preparing story, scene, and reference workflows for Seedance 2.5 as ByteDance's public rollout progresses."
                 }
               }
             ]
@@ -803,20 +803,20 @@ body {
     <nav class="sd-nav">
       <img src="https://plotparty.ai/page/blog/images/logo/logo-black-1.png" alt="Plot Party" class="sd-logo" />
       <a href="https://plotparty.ai/page/blog/" class="sd-nav-link">Blog</a>
-      <div class="sd-pill">Coming soon</div>
+      <div class="sd-pill">Officially announced</div>
     </nav>
     <div class="sd-hero-inner">
       <div class="sd-copy">
-        <div class="sd-status">Official release pending</div>
-        <h1>Seedance 2.5 is almost here.</h1>
+        <div class="sd-status">Rolling out via ByteDance now</div>
+        <h1>Seedance 2.5 has arrived.</h1>
         <p>
-          Prepare for longer AI video generation, sharper cinematic motion, and production-ready
-          drama creation inside Plot Party.
+          ByteDance's next AI video model brings native 30-second shots, 50-reference control, and
+          production-ready drama creation. Here's what's confirmed — and how Plot Party is preparing.
         </p>
         <div class="sd-highlights">
-          <div><span></span>Extended shots, up to 30 seconds</div>
-          <div><span></span>Sharper motion and camera fidelity</div>
-          <div><span></span>Built for serialized drama production</div>
+          <div><span></span>Native 30-second single-shot generation</div>
+          <div><span></span>Up to 50 full-modal references</div>
+          <div><span></span>Region-level editing, no full regeneration</div>
         </div>
         <a href="https://plotparty.ai/home?auth=register" class="sd-cta">Sign up for early access</a>
       </div>
@@ -850,13 +850,13 @@ body {
   </section>
   <section class="sd-ticker">
     <div>
-      <span>Longer shots</span>
-      <span>Sharper motion</span>
-      <span>Drama-grade pipelines</span>
+      <span>30s native shots</span>
+      <span>50 references</span>
+      <span>Region-level editing</span>
       <span>Plot Party ready</span>
-      <span>Longer shots</span>
-      <span>Sharper motion</span>
-      <span>Drama-grade pipelines</span>
+      <span>30s native shots</span>
+      <span>50 references</span>
+      <span>Region-level editing</span>
       <span>Plot Party ready</span>
     </div>
   </section>
@@ -864,11 +864,11 @@ body {
     <div class="sd-section-grid">
       <div class="sd-feature-panel">
         <p>Creator runway</p>
-        <h2>One teaser. One action. Start before the wave arrives.</h2>
+        <h2>Announced by ByteDance. Rolling out now. Here's how to prepare.</h2>
       </div>
       <div class="sd-specs">
-        <div><span>01</span><strong>Extended runway — scenes without cuts</strong></div>
-        <div><span>02</span><strong>Improved camera and character motion</strong></div>
+        <div><span>01</span><strong>Native 30s single-shot — no stitching required</strong></div>
+        <div><span>02</span><strong>Joint audio-video generation, 4K on 2.0</strong></div>
         <div><span>03</span><strong>Built for multi-episode drama pipelines</strong></div>
       </div>
     </div>
@@ -916,15 +916,18 @@ body {
   <section class="sd-answer">
     <div>
       <p class="sd-eyebrow">Answer engine brief</p>
-      <h2>Seedance 2.5 is coming soon for AI video creators.</h2>
+      <h2>Seedance 2.5 is officially announced and rolling out now.</h2>
       <p>
-        Seedance 2.5 is expected to extend generation length toward 30 seconds per shot and refine
-        motion and camera fidelity over Seedance 2.0. Nothing here is official until Bytedance
-        confirms a release; treat these as early expectations, not specs.
+        ByteDance announced Seedance 2.5 on June 23, 2026, with native 30-second single-shot video,
+        up to 50 full-modal references, and region-level editing. It entered closed enterprise beta
+        in early July, with public access expected via Dreamina and Jimeng. Pricing and independent
+        benchmarks aren't out yet — treat ByteDance's specs as stated targets, not verified numbers.
       </p>
       <p>
+        Want the full breakdown of features, the copyright caveats, and how to prepare a reference
+        pack? Read our <a href="https://plotparty.ai/page/blog/posts/seedance-2-5-ai-video-guide">complete Seedance 2.5 guide</a>.
         Already building with Seedance 2.0? Our
-        <a href="https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide">complete Seedance 2.0 guide</a>
+        <a href="https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide">Seedance 2.0 guide</a>
         covers the @ reference system, prompting best practices, and workflow tips that carry over
         to the next generation.
       </p>
@@ -932,15 +935,15 @@ body {
     <div class="sd-faq">
       <details open>
         <summary>Is Seedance 2.5 officially released?</summary>
-        <p>No. The official release is still pending. This page is an early teaser for creators.</p>
+        <p>It's officially announced and in staged rollout — closed enterprise beta since early July, with public access via ByteDance's own platforms expected soon. It isn't a fully public, self-serve product yet.</p>
       </details>
       <details>
-        <summary>What can I do on Plot Party?</summary>
-        <p>Prepare stories, characters, scenes, references, and drama-ready workflows for AI video creation.</p>
+        <summary>Is Seedance 2.5 available on Plot Party?</summary>
+        <p>Not yet. Plot Party currently supports Seedance 2.0 in Pro mode, and we're preparing story, scene, and reference workflows for Seedance 2.5 as ByteDance's rollout progresses.</p>
       </details>
       <details>
         <summary>Where does early access open?</summary>
-        <p>The call to action opens Plot Party registration directly.</p>
+        <p>The call to action opens Plot Party registration directly — sign up to get notified when Seedance 2.5 lands in-platform.</p>
       </details>
     </div>
   </section>

@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://plotparty.ai/page/blog/</loc>
-    <lastmod>2026-07-25T05:35:54.954Z</lastmod>
+    <lastmod>2026-07-27T03:31:31.266Z</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://plotparty.ai/page/seedance-2-5</loc>
-    <lastmod>2026-07-24T10:22:47.880Z</lastmod>
+    <lastmod>2026-07-27T03:16:49.084Z</lastmod>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/blog/posts/seedance-2-5-ai-video-guide</loc>
+    <lastmod>2026-07-27T03:15:35.369Z</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plotparty.ai/page/blog/posts/microdrama-industry-report-2026-market-size-trends</loc>
@@ -52,7 +57,7 @@
   </url>
   <url>
     <loc>https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide</loc>
-    <lastmod>2026-07-24T10:03:14.522Z</lastmod>
+    <lastmod>2026-07-27T03:16:58.562Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>

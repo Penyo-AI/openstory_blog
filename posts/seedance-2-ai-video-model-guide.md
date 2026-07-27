@@ -155,7 +155,7 @@ Want to compare Seedance 2.0 with other models? Check out our [AI video generati
 
 ## What's Next: Seedance 2.5
 
-Bytedance is already teasing the next iteration. [Seedance 2.5](https://plotparty.ai/page/seedance-2-5) is expected to push generation length up to 30 seconds along with further improvements to video modeling — see our early breakdown of what's coming.
+ByteDance officially announced [Seedance 2.5](https://plotparty.ai/page/seedance-2-5) in June 2026, adding native 30-second single-shot generation, up to 50 full-modal references, and region-level editing. It's rolling out in staged beta now — read our [complete Seedance 2.5 guide](./seedance-2-5-ai-video-guide.md) for what's confirmed, what's still unclear, and how to prepare.
 
 ## FAQ
 

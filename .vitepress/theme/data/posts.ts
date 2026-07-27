@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'seedance-2-5-ai-video-guide',
+    title: "Seedance 2.5 Guide: ByteDance's 30-Second AI Video Model Explained",
+    description: "Seedance 2.5 is ByteDance's newest AI video model, officially unveiled with native 30-second single-shot generation, 50 full-modal references, and region-level editing. Here's what's confirmed, what's still unclear, and how creators should prepare.",
+    publishedAt: '2026-07-27',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-seedance-2.png',
+    tags: ['AI Video', 'Landscape', 'Creators'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Seedance 2.0 on Plot Party', href: appUrl('/home') },
+      { label: 'Seedance 2.0 Complete Guide', href: '/page/blog/posts/seedance-2-ai-video-model-guide' },
+      { label: 'Seedance 2.5 Page', href: '/page/seedance-2-5' }
+    ]
+  },
+  {
     slug: 'microdrama-industry-report-2026-market-size-trends',
     title: 'Microdrama Industry Report 2026: Market Size, Top Platforms, and Trends',
     description: 'The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout.',
