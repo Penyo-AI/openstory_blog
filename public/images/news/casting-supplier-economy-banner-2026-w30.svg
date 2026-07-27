@@ -1,0 +1,25 @@
+<svg width="2546" height="1068" viewBox="0 0 2546 1068" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2546" height="1068" fill="#111315"/>
+  <rect x="76" y="76" width="2394" height="916" rx="52" fill="#F4EFE6"/>
+  <rect x="156" y="156" width="728" height="756" rx="28" fill="#171A1D"/>
+  <rect x="934" y="156" width="1456" height="756" rx="28" fill="#FDFBF6"/>
+  <path d="M244 300H796" stroke="#F4EFE6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M244 420H712" stroke="#F4EFE6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M244 540H774" stroke="#F4EFE6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M244 660H660" stroke="#F4EFE6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M244 780H824" stroke="#F4EFE6" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="244" cy="300" r="38" fill="#FF7A1A"/>
+  <circle cx="244" cy="420" r="38" fill="#25A7A0"/>
+  <circle cx="244" cy="540" r="38" fill="#E84855"/>
+  <circle cx="244" cy="660" r="38" fill="#7C6EE6"/>
+  <circle cx="244" cy="780" r="38" fill="#F2C94C"/>
+  <rect x="1072" y="256" width="180" height="48" rx="24" fill="#111315"/>
+  <text x="1162" y="290" text-anchor="middle" fill="#FDFBF6" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="2">W30</text>
+  <text x="1072" y="395" fill="#111315" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="800">Casting the</text>
+  <text x="1072" y="515" fill="#111315" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="800">Supplier Economy</text>
+  <text x="1076" y="625" fill="#4B535B" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="400">BuzzFeed, vertTV, The Daily Show, and</text>
+  <text x="1076" y="685" fill="#4B535B" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="400">Hollywood’s vertical vendor race.</text>
+  <rect x="1072" y="776" width="256" height="54" rx="27" fill="#FF7A1A"/>
+  <text x="1200" y="813" text-anchor="middle" fill="#111315" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">PLOT PARTY</text>
+  <text x="1364" y="814" fill="#111315" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">NEWS · JULY 20–26, 2026</text>
+</svg>

@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Casting the Supplier Economy',
+    href: '/page/news/casting-the-supplier-economy',
+    date: 'Week of July 20 - July 26, 2026',
+    dek: 'Vertical drama’s fight was never whether it works but who gets cast to build it. This week, four companies went supplier-shopping.',
+    image: withBase('/images/news/casting-supplier-economy-banner-2026-w30.png'),
+    alt: 'Casting the Supplier Economy - Plot Party Weekly 2026 W30',
+    signals: [
+      'Four vertical launches and deals landed in a single 24-hour window.',
+      'BuzzFeed handed muVpix a 100-title, two-year slate built for shoppable vertical drama.',
+      'vertTV opened with 200+ titles, recognizable talent, and a subscription pitch.',
+      'The Daily Show is making a phone-native satire soap.',
+      'Holywater and Owl & Co published the first report on who actually watches microdramas.'
+    ]
+  },
+  {
     title: 'The Borrowed Audience',
     href: '/page/news/borrowed-audience',
     date: 'Week of July 13 - July 19, 2026',
