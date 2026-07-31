@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 8
 tags: ["AI Video", "AI Drama", "Creators"]
 keywords: ["AI microdrama", "how to create AI video", "AI storytelling tutorial", "microdrama creation", "AI video generation guide", "short-form AI content", "Plot Party tutorial"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-how-to-create.png"
 outline: deep
 ---
 

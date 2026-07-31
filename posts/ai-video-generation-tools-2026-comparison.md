@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["AI video generation tools 2026", "best AI video maker", "AI video comparison", "Runway vs Pika vs Plot Party", "AI filmmaking tools", "AI content creation tools", "video generation AI"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-tool-comparison.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-ai-video-tools-2026-roundup.png"
 outline: deep
 ---
 
@@ -64,6 +64,8 @@ Runway has established itself as a professional-grade tool favored by filmmakers
 - Character consistency requires manual effort
 - Higher learning curve for beginners
 
+See the full [Plot Party vs Runway comparison](./plot-party-vs-runway-ai-video-comparison.md).
+
 ### Pika
 
 **Best for:** Quick, casual video generation
@@ -79,6 +81,8 @@ Pika offers a streamlined experience for generating short video clips from text 
 - Limited narrative tools
 - Character consistency can vary
 - Less control over scene composition
+
+See the full [Plot Party vs Pika comparison](./plot-party-vs-pika-ai-video-comparison.md).
 
 ## Choosing the Right Tool for Your Project
 

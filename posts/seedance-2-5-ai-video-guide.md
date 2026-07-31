@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Seedance 2.5", "Seedance 2.5 guide", "how to use Seedance 2.5", "ByteDance Seedance 2.5", "Seedance 2.5 vs 2.0", "Seedance 2.5 release date", "Seedance 2.5 features", "Plot Party Seedance"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-seedance-2.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-5-v2.png"
 outline: deep
 ---
 

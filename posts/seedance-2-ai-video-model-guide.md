@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 9
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Seedance 2.0", "Seedance AI video model", "multimodal AI video generation", "AI video reference model", "Jimeng AI video", "best AI video model 2026", "Plot Party Seedance", "AI filmmaking multimodal"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-seedance-2.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-v2.png"
 outline: deep
 ---
 

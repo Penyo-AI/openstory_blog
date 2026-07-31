@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 9
 tags: ["Monetization", "Microdrama", "Creators"]
 keywords: ["microdrama monetization", "microdrama ads vs IAP", "short drama revenue model", "microdrama in-app purchases", "rewarded ads microdrama", "vertical drama monetization", "coin unlock drama apps"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-ads-vs-iap.png"
 outline: deep
 head:
   - - link
@@ -20,7 +20,7 @@ head:
       content: "A practical guide to microdrama monetization models, comparing ad-supported viewing and coin-based in-app purchases so creators can match revenue strategy to story genre, audience, and market."
   - - meta
     - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png
+      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-ads-vs-iap.png
   - - meta
     - property: og:url
       content: https://plotparty.ai/page/blog/posts/how-microdramas-make-money-ads-vs-in-app-purchases

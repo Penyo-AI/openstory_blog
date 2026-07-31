@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 12
 tags: ["AI Drama", "Landscape", "Creators"]
 keywords: ["microdrama industry", "microdrama market size", "what is microdrama", "short drama apps", "ReelShort DramaBox", "microdrama revenue 2026", "vertical drama series", "AI microdrama production"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-101.png"
 outline: deep
 ---
 

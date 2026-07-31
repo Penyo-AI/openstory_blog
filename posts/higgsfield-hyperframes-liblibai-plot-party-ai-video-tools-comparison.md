@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 9
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Higgsfield vs HyperFrames", "Higgsfield comparison", "HyperFrames AI video", "LiblibAI video generator", "LiblibTV alternative", "Plot Party vs Higgsfield", "AI video workflow tools", "AI microdrama tools"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-tool-comparison.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-ai-video-tools-4way.png"
 outline: deep
 ---
 

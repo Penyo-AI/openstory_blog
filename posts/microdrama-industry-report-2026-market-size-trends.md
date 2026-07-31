@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Drama", "Microdrama", "Landscape"]
 keywords: ["microdrama industry report 2026", "microdrama market size", "vertical drama market size 2026", "ReelShort DramaBox revenue", "microdrama statistics", "short drama industry trends 2026", "vertical short drama market", "microdrama app rankings"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report.png"
 outline: deep
 head:
   - - link
@@ -20,7 +20,7 @@ head:
       content: "The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout."
   - - meta
     - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png
+      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report.png
   - - meta
     - property: og:url
       content: https://plotparty.ai/page/blog/posts/microdrama-industry-report-2026-market-size-trends
@@ -29,7 +29,7 @@ head:
       content: summary_large_image
   - - meta
     - name: twitter:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/blog-cover-microdrama.png
+      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report.png
 ---
 
 Microdrama stopped being a niche mobile format years ago. In 2026, it is a multibillion-dollar global category with its own platform leaders, its own shakeout, and its own production revolution happening in real time.
