@@ -857,20 +857,22 @@
 }
 
 .news-story a {
-  display: inline-block;
+  display: inline;
   margin-top: 6px;
-  border-bottom: 1px solid #111827;
   color: #111827;
   font-size: 0.86rem;
   font-weight: 800;
   line-height: 1.35;
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.34em;
   text-transform: uppercase;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .news-story a:hover {
   color: #4b5563;
-  text-decoration: none;
 }
 
 .news-sources {

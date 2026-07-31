@@ -6,6 +6,68 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/casting-the-supplier-economy': {
+    date: 'Week of July 20 - July 26, 2026',
+    title: 'Casting the Supplier Economy',
+    image: withBase('/images/news/casting-supplier-economy-banner-2026-w30.png'),
+    alt: 'Casting the Supplier Economy - Plot Party Weekly 2026 W30',
+    deck: 'Vertical drama’s fight was never whether it works but who gets cast to build it. This week, four companies spent a single afternoon supplier-shopping instead of arguing the case.',
+    quickReads: [
+      'Four vertical launches and deals landed in a single 24-hour window — Hollywood’s most concentrated microdrama land-grab yet.',
+      'BuzzFeed handed muVpix a 100-title, two-year slate — built for shoppable, not just bingeable.',
+      'vertTV opened with 200+ titles and a Fuller House reunion, pitching stars and a subscription over coin-unlock.',
+      'The Daily Show is making a phone-native satire soap — legacy comedy treating vertical as a lane, not a stunt.',
+      'The first audience report landed: 30% male, younger, and sitting inside a $150B market where dedicated apps are still only about $4B.'
+    ],
+    stories: [
+      {
+        date: 'JUL 22, 2026',
+        title: 'BuzzFeed casts muVpix to build 100 titles',
+        body: 'BuzzFeed Studios struck a two-year pact with muVpix, the vertical studio founded by producer John Lewis, to produce 100-plus microdrama titles with a cross-platform strategy spanning TikTok, Reels, YouTube Shorts, FAST/CTV, and the muVpix Originals app. The slate covers original IP, reimagined classics, and shoppable formats, opening in August with Romeo & Juliet, Reimagined, which transplants the feud into modern-day LA’s criminal underworld. BuzzFeed had quietly made 25-plus microseries in the prior 18 months; this is the scale-up.',
+        why: 'BuzzFeed did not build a studio — it cast one. Renting muVpix’s production muscle to point its own audience-and-commerce machine at vertical is the template for the whole week: the valuable move is choosing a supplier, not becoming one.',
+        source: 'Deadline',
+        sourceTitle: 'BuzzFeed Studios & MuVpix Set 100-Title Microdrama Production Pact, Starting With “Romeo & Juliet, Reimagined”',
+        href: 'https://deadline.com/2026/07/buzzfeed-studios-muvpix-microdrama-romeo-juliet-reimagined-1237000057/'
+      },
+      {
+        date: 'JUL 22, 2026',
+        title: 'vertTV wants to be prestige, not coin-unlock',
+        body: 'Hollywood veterans Jeffrey Schenck, Barry Barnholtz, and Peter Sullivan debuted vertTV, a subscription mobile platform that launched with more than 200 exclusive titles and a flagship series reuniting Fuller House stars Jodie Sweetin, John Brotherton, and Marla Sokoloff. Schenck framed it as applying a traditional television network mindset to 9:16 so micro-series finally receive the star power and creative respect they deserve; Barnholtz called it the natural progression from home video to streaming to vertical.',
+        why: 'vertTV’s bet is that the winning supplier sells respectability — recognizable talent and a flat subscription — rather than the cheapest unlock-by-unlock funnel. It is an attempt to put a quality ceiling on a category built on quantity.',
+        source: 'IBTimes',
+        sourceTitle: 'Microdrama Mania Hits Hollywood as Four New Studios and Deals Launch in a Single Day',
+        href: 'https://www.ibtimes.co.uk/hollywood-embraces-vertical-microdrama-four-major-launches-1810121'
+      },
+      {
+        date: 'JUL 22, 2026',
+        title: 'Scripted-TV producers stand up a studio built only for shorts',
+        body: 'Producers Alon Shtruzman and Scott Einbinder launched New Short Media, a studio devoted entirely to micro-storytelling, alongside their 5X Media banner, with director Gev Miron and writer-producer Russell Rothberg on development. It landed the same day as the BuzzFeed pact and the vertTV launch — a cluster IBTimes fairly dubbed “Microdrama Mania.”',
+        why: 'When established showrunners launch a whole company to be a vertical vendor, supply-side credibility has become the scarce asset. Coincidence does not schedule itself three times before lunch — these players are all reacting to the same signal: the concept is proven, so the race is now to be the supplier someone big casts next.',
+        source: 'IBTimes',
+        sourceTitle: 'Microdrama Mania Hits Hollywood as Four New Studios and Deals Launch in a Single Day',
+        href: 'https://www.ibtimes.co.uk/hollywood-embraces-vertical-microdrama-four-major-launches-1810121'
+      },
+      {
+        date: 'JUL 21, 2026',
+        title: 'The Daily Show goes phone-native',
+        body: 'Comedy Central’s late-night franchise announced its first vertical microdrama: a serialized White House satire soap with the gloriously overlong title The Daily Show Presents: Two Billionaires Fight to Dominate the Country… And My Heart! It is shot vertically and told in short, cliffhanger-heavy episodes designed for phones.',
+        why: 'Legacy comedy is treating vertical as a distribution lane, not a stunt. When an established TV brand ports its voice into 9:16 as branded satire, the format has stopped being a place unknowns go to churn and started being real estate incumbents want to occupy.',
+        source: 'WDC News 6',
+        sourceTitle: 'The Daily Show is making its first vertical microdrama',
+        href: 'https://wdcnews6.com/the-daily-show-is-making-its-first-vertical-microdrama/'
+      },
+      {
+        date: 'JUL 23, 2026',
+        title: 'The demand was always there — now there is a report to prove it',
+        body: 'Holywater Tech and management consultancy Owl & Co published The State of Microdrama 2026, the first industry report to profile the vertical-series audience, built on My Drama and My Muse product data plus a May survey of 2,737 users. Headline numbers: the 2026 vertical-video economy outside China is pegged at $150B, up 41% year over year, of which dedicated microdrama apps are only about $4B; the male share of My Drama’s monthly users jumped from 1.1% to 30.3% in seven quarters, and viewers aged 22–27 nearly tripled their share.',
+        why: 'This is the casting brief the whole market will quote. A $150B pie where purpose-built apps are barely $4B tells you the audience already exists across every vertical feed — the apps did not create it, they are racing for a slice of it. The demand is proven and enormous, the supply is still tiny, and everyone can see the gap. That gap is exactly why this week looked like a land-grab.',
+        source: 'Deadline',
+        sourceTitle: 'Microdrama Audiences Getting Younger & More Male, Holywater Tech Report Finds',
+        href: 'https://deadline.com/2026/07/microdrama-report-holywater-audience-younger-male-1237001059/'
+      }
+    ],
+    sources: 'Deadline · IBTimes · WDC News 6 · TheWrap · GlobeNewswire'
+  },
   '/news/borrowed-audience': {
     date: 'Week of July 13 - July 19, 2026',
     title: 'The Borrowed Audience',
@@ -139,7 +201,7 @@ function normalizePath(path: string) {
     .replace(/\/$/, '')
 }
 
-const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/vertical-learns-to-talk-back'])
+const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/casting-the-supplier-economy'])
 </script>
 
 <template>
