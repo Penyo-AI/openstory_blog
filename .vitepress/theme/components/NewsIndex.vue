@@ -4,6 +4,22 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Retrofit Economy',
+    href: '/page/news/the-retrofit-economy',
+    date: 'Week of July 27 - August 2, 2026',
+    dek: 'The format war is over; the retrofit has begun — incumbents are feeding vertical with catalogs, stars, ad budgets, and K-drama pipelines.',
+    image: withBase('/images/news/retrofit-economy-banner-2026-w31.png'),
+    alt: 'The Retrofit Economy - Plot Party Weekly 2026 W31',
+    signals: [
+      'HBO Max retrofitted its catalog into an AI-curated vertical feed.',
+      'Fallon’s Tonight Show produced its own microdrama and beat The Daily Show to air.',
+      'Omdia found iPhone viewers spend about 40% more per week than Android viewers.',
+      'Blink49 and Co-op treated branded vertical as a durable business line and campaign format.',
+      'Korea’s SLL shipped a vertical-native original worldwide through GoodShort.',
+      'The Verge declared the vertical format war over.'
+    ]
+  },
+  {
     title: 'Casting the Supplier Economy',
     href: '/page/news/casting-the-supplier-economy',
     date: 'Week of July 20 - July 26, 2026',

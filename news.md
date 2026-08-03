@@ -42,18 +42,24 @@ head:
             {
               "@type": "ListItem",
               "position": 1,
+              "url": "https://plotparty.ai/page/news/the-retrofit-economy",
+              "name": "The Retrofit Economy"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
               "url": "https://plotparty.ai/page/news/casting-the-supplier-economy",
               "name": "Casting the Supplier Economy"
             },
             {
               "@type": "ListItem",
-              "position": 2,
+              "position": 3,
               "url": "https://plotparty.ai/page/news/borrowed-audience",
               "name": "The Borrowed Audience"
             },
             {
               "@type": "ListItem",
-              "position": 3,
+              "position": 4,
               "url": "https://plotparty.ai/page/news/vertical-learns-to-talk-back",
               "name": "Vertical Learns to Talk Back"
             }

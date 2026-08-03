@@ -6,6 +6,87 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-retrofit-economy': {
+    date: 'Week of July 27 - August 2, 2026',
+    title: 'The Retrofit Economy',
+    image: withBase('/images/news/retrofit-economy-banner-2026-w31.png'),
+    alt: 'The Retrofit Economy - Plot Party Weekly 2026 W31',
+    deck: 'The format war is over; the retrofit has begun — this week the incumbents fed vertical with what they already owned: catalogs, star benches, ad budgets, and K-drama pipelines.',
+    quickReads: [
+      'HBO Max became the last major US streamer to go vertical, retrofitting its catalog into an AI-curated feed of clips it already owned.',
+      'Late-night got there first on originals: Fallon’s Tonight Show produced its own microdrama with its own stars and beat The Daily Show to air.',
+      'Omdia put a number on the wallet: iPhone viewers spend about 40% more per week than Android viewers, making device and geography real UA variables.',
+      'Brands stopped buying placement and started producing the show: Blink49 built a branded-vertical business line, while Co-op turned a four-part microdrama into its ad campaign.',
+      'Korea’s SLL used GoodShort as a pure distribution pipe — a legacy drama studio shipping vertical-native content straight to a global app.',
+      'The Verge stopped hedging and called the format war over; the fight has moved to who owns the attention.'
+    ],
+    stories: [
+      {
+        date: 'JUL 28, 2026',
+        title: 'HBO Max bolts a vertical, AI-curated feed onto its catalog',
+        body: 'Warner Bros. Discovery shipped two mobile discovery features on the same day: HBO Max Shorts, a TikTok-style vertical feed, and Ask HBO Max, a conversational search tool. The Shorts feed is testing with select US iOS users — and none of it is original vertical drama. The clips are trailers, bonus material, and “iconic scenes” pulled from the existing library by an in-house AI that reads scene-level metadata; human editors pick which to verticalize. The feed exists to funnel viewers back into a full-length title — the same logic Netflix runs with its Clips feed.',
+        why: 'The last holdout streamer converting does not validate vertical drama — it validates vertical as interface. The strategic move was retrofitting a decade of 16:9 library into a scrollable, AI-ranked feed. For anyone selling original vertical to the majors, the competitor is now the streamer’s own back catalog, re-cut by a model for free.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'HBO Max Dips Toe Into Vertical Video With “HBO Max Shorts”',
+        href: 'https://www.hollywoodreporter.com/tv/tv-news/hbo-max-shorts-vertical-video-new-ai-driven-features-1236658099/'
+      },
+      {
+        date: 'JUL 27, 2026',
+        title: 'Fallon’s Tonight Show produces its own microdrama — and beats The Daily Show to air',
+        body: 'The Tonight Show Starring Jimmy Fallon debuted “Who Billionaire? Me Billionaire.,” a satirical vertical soap whose first two episodes aired in the July 27 broadcast before rolling out to the show’s socials and Peacock. Written by head writer A.D. Miles, it stars Fallon as an entitled billionaire, John Stamos as a mysterious outsider, and short-drama regulars including Kasey Esser and Delaney Rowe. It is billed as the first US late-night brand to produce and premiere its own microdrama in-house, and it edged out The Daily Show’s previously announced entry to air first.',
+        why: 'Legacy TV is extending into vertical, treating microdrama as spin-off inventory for the IP and stars it already owns. The genre choice is just as telling: comedy and parody, a deliberate step away from the CEO, werewolf, and revenge tropes that fill the apps. The real test ahead is whether the format can carry an incumbent’s own comedic voice, not only the category’s house style.',
+        source: 'BroadwayWorld',
+        sourceTitle: 'The Tonight Show to Debut Microdrama “Who Billionaire? Me Billionaire.”',
+        href: 'https://www.broadwayworld.com/bwwtv/article/THE-TONIGHT-SHOW-to-Debut-Microdrama-WHO-BILLIONAIRE-ME-BILLIONAIRE-20260728'
+      },
+      {
+        date: 'JUL 28, 2026',
+        title: 'Omdia: iPhone viewers spend about 40% more on microdramas than Android',
+        body: 'New Omdia consumer research, fielded in April 2026 and paired with Sensor Tower data, finds iPhone users spend about $14 per week on microdrama apps versus roughly $10 for Android. Usage rates in the US are now close across platforms — about 9% of iPhone and 10% of Android users tried a microdrama app in the prior three months — with payer share around 69% on iOS and 68% on Android. In Germany, payer share drops to 49% and 44%.',
+        why: 'User-acquisition math cannot be run on install cost alone. Device, region, payment behavior, and lifetime value are becoming the variables that matter. In the US, iOS usage roughly matches Android’s while spend per user runs higher — which reshapes where the paid-UA dollars should point.',
+        source: 'Advanced Television',
+        sourceTitle: 'Research: iPhone users watched 40% more Microdramas than Android',
+        href: 'https://www.advanced-television.com/2026/07/28/research-iphone-users-watched-40-more-microdramas-than-android/'
+      },
+      {
+        date: 'JUL 27, 2026 · US / CANADA',
+        title: 'Blink49 folds branded vertical into a single business line',
+        body: 'Blink49 Studios promoted Tara Long to lead a new Studio Ventures unit spanning unscripted, vertical video, brand-funded entertainment, and its Creator Studios arm. The company flagged that its brand-studio microdrama “Murder at the Mansion” is being built with Uber Eats. The project itself was announced earlier; the July 27 news is structural — Blink49 putting brand investment, digital content, vertical production, and commercial partnerships under one roof.',
+        why: 'Like Co-op below, this signals microdrama being packaged as a durable branded-entertainment product line with its own org chart. Production companies are building permanent teams around brand-funded verticals — a sign the money expects recurring business here.',
+        source: 'Deadline',
+        sourceTitle: 'Tara Long Promoted At Blink49 Studios To Oversee New Ventures',
+        href: 'https://deadline.com/2026/07/tara-long-blink49-studios-studio-ventures-1237002959/'
+      },
+      {
+        date: 'JUL 29, 2026',
+        title: 'The UK’s Co-op turns a microdrama into the ad campaign',
+        body: 'Grocery retailer Co-op, with Carat UK and Platform Media, launched “Pop to Co-op,” a four-part comedy microdrama — its first use of the format for marketing. Starring comedian Jake Bhardwaj and running across TikTok, Instagram, Facebook, and YouTube Shorts, each episode starts as a mundane convenience run and escalates into hyperbolic comedy. Notably, earned attention is the strategic objective, with paid media used only to fuel participation.',
+        why: 'This is not product placement inside a microdrama app — it is a brand making the microdrama the campaign’s core asset. A second Western model is taking shape alongside the app economy: brand-funded, distributed free on social, and measured through reach and engagement.',
+        source: 'dentsu',
+        sourceTitle: 'Co-op, Carat UK and Platform Media bring the microdrama trend to grocery retail with “Pop to Co-op”',
+        href: 'https://www.dentsu.com/uk/en/media-and-investors/coop-carat-uk-and-platform-media-bring-the-microdrama-trend-to-grocery-retail'
+      },
+      {
+        date: 'JUL 30, 2026',
+        title: 'Korea’s SLL enters global microdrama through GoodShort',
+        body: 'Major Korean studio SLL unveiled its first original microdrama, “Code Name: Villain Stepmom,” with global app GoodShort — 60 episodes at about 90 seconds each, live worldwide on GoodShort since July 22 and pushed to trade press July 30. The fantasy premise follows a former agent reincarnated as a villainous stepmother inside a 1980s drama.',
+        why: 'Asian long-form studios are starting to treat international microdrama apps as standalone distribution channels. For Western platforms, that means more content built directly for global short-drama audiences, carrying K-drama production values and East Asian web-novel setups — sharpening the supply side of the market.',
+        source: 'Señal News',
+        sourceTitle: 'SLL steps into short-form market with global micro-drama debut “Code Name: Villain Stepmom”',
+        href: 'https://senalnews.com/en/content/sll-steps-into-short-form-market-with-global-micro-drama-debut-code-name-villain-stepmom'
+      },
+      {
+        date: 'JUL 29–30, 2026',
+        title: 'The Verge stops hedging: “the vertical video takeover is here”',
+        body: 'In a column tying the week’s threads together, The Verge argued TikTok’s vertical format has spread across YouTube, Instagram, streaming, and effectively every major platform as products converge on mobile-first viewing. Its framing is blunt: the format war is decided; what is left is the fight over who owns the audience once they are there.',
+        why: 'Once mainstream tech press treats vertical as settled infrastructure, the narrative window shifts. The question is no longer whether audiences will accept vertical, but who captures the attention now that everyone has a feed — reframing every 2026 pitch around distribution and attention.',
+        source: 'The Verge',
+        sourceTitle: 'The vertical video takeover is here',
+        href: 'https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook'
+      }
+    ],
+    sources: 'The Hollywood Reporter · Warner Bros. Discovery Pressroom · BroadwayWorld · LateNighter · Omdia via Advanced Television and Señal News · Deadline · Variety · dentsu · Prolific North · FormatBiz · The Verge · The Vertical Bloom (Open Gardens)'
+  },
   '/news/casting-the-supplier-economy': {
     date: 'Week of July 20 - July 26, 2026',
     title: 'Casting the Supplier Economy',
@@ -201,7 +282,7 @@ function normalizePath(path: string) {
     .replace(/\/$/, '')
 }
 
-const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/casting-the-supplier-economy'])
+const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/the-retrofit-economy'])
 </script>
 
 <template>
@@ -223,7 +304,7 @@ const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/
       <section class="news-scroll" aria-label="The 30-second scroll">
         <div class="news-scroll__header">
           <span>The 30-Second Scroll</span>
-          <span>5 signals</span>
+          <span>{{ issue.quickReads.length }} signals</span>
         </div>
         <ol>
           <li v-for="item in issue.quickReads" :key="item">{{ item }}</li>
