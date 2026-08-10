@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Second-Season Economy',
+    href: '/page/news/the-second-season-economy',
+    date: 'Week of August 3 - August 9, 2026',
+    dek: 'Vertical proved people will watch. Now returning viewers — not viral ones — are becoming the metric everyone is underwriting.',
+    image: withBase('/images/news/second-season-economy-banner-2026-w32.png'),
+    alt: 'The Second-Season Economy - Plot Party Weekly 2026 W32',
+    signals: [
+      'Disney opened its library to TikTok creators and routed the output back into Disney+.',
+      'ReelShort is tracking toward $1.05 billion and its first profit at scale.',
+      'A third Cora Reilly adaptation gave vertical its first real book franchise.',
+      'Fallon’s debut microdrama drew 20 million views and teased a second season.',
+      'Six of eight new ViX and Globoplay romance orders were microdramas.'
+    ]
+  },
+  {
     title: 'The Retrofit Economy',
     href: '/page/news/the-retrofit-economy',
     date: 'Week of July 27 - August 2, 2026',

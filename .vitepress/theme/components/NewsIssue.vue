@@ -6,6 +6,68 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-second-season-economy': {
+    date: 'Week of August 3 - August 9, 2026',
+    title: 'The Second-Season Economy',
+    image: withBase('/images/news/second-season-economy-banner-2026-w32.png'),
+    alt: 'The Second-Season Economy - Plot Party Weekly 2026 W32',
+    deck: 'Vertical already proved people will watch. This week it started proving they’ll come back — and the returning viewer, not the viral one, is suddenly what everyone is underwriting.',
+    quickReads: [
+      'Disney handed its library to TikTok creators and pointed the output back into its own feed — fandom as a renewable content supply.',
+      'ReelShort is on track for $1.05B and its first profit, and the margin came from routing around the app-store toll booth.',
+      'The same company turned a mafia-romance novel series into its third adaptation — vertical’s first real book franchise.',
+      'Fallon’s microdrama did 20 million views in a week and ended on “To Be Continued.” Late night just found a growth channel.',
+      'In Latin America, six of eight new romance orders from ViX and Globoplay were microdramas. The telenovela habit is doing the onboarding.'
+    ],
+    stories: [
+      {
+        date: 'AUG 5, 2026',
+        title: 'Disney lends out the vault — and takes the output back',
+        body: 'Disney and TikTok struck a first-of-its-kind global content-sharing deal: opted-in creators get licensed access to assets from hundreds of films and series across Disney, Pixar, Marvel, Star Wars, and FX, and the videos they make live in two places — on TikTok and inside Verts, the vertical feed Disney+ launched in March. A Creator Ambassador Program formalizes the pipeline. The US pilot lands first, with other markets to follow.',
+        why: 'The scarce asset in vertical is continuous supply. Disney just found a way to rent it from its own audience and keep the fandom loop closed inside its app.',
+        source: 'Variety',
+        sourceTitle: 'Disney, TikTok Strike Content-Sharing Deal Aimed at Boosting Short-Form Programming on Disney+',
+        href: 'https://variety.com/2026/tv/news/disney-tiktok-content-sharing-deal-short-form-video-1236828069/'
+      },
+      {
+        date: 'AUG 6, 2026',
+        title: 'ReelShort’s billion-dollar year — and the toll booth it stopped paying',
+        body: 'Media Partners Asia projects ReelShort will post $1.05 billion in revenue in 2026, up 34%, and swing from a roughly $12 million net loss in 2025 to about $40 million net profit and $63 million EBITDA — the format’s first profit at real scale. The revenue curve is steep and short: $97 million in 2023, $400 million in 2024, and $785 million in 2025, with $1.4 billion and $1.7 billion forecast for 2027 and 2028. Outside China, MPA sizes the microdrama market at $3.6 billion this year, reaching $9.5 billion by 2031. Marketing is forecast to fall from 55% of revenue in 2025 to 44% by 2028, with direct billing, telecom-bundled acquisition, recognizable franchises, and faster creative testing driving the shift.',
+        why: 'Vertical’s unit economics were leased. The first profitable operator at scale is the one that bought its own distribution instead of renting it by the install.',
+        source: 'Variety',
+        sourceTitle: 'ReelShort on Track for $1.05 Billion Revenue, First Profit at Scale in 2026, Media Partners Asia Report Finds',
+        href: 'https://variety.com/2026/tv/news/reelshort-1-billion-revenue-profit-2026-mpa-1236828885/'
+      },
+      {
+        date: 'AUG 5, 2026',
+        title: 'A mafia-romance novel becomes vertical’s first real book franchise',
+        body: 'ReelShort set Bound by Duty, adapted from Cora Reilly’s Born in Blood Mafia Chronicles, for an August 13 release, starring Casey Schryer and Chase Mattson. It is the third title the platform has pulled from the same series: Bound by Honor has topped 423 million views, and Bound by Love has cleared 70 million since May.',
+        why: 'When the sequel is the business model, catalog depth beats hit rate — and platforms start competing for series rights, not scripts.',
+        source: 'Deadline',
+        sourceTitle: 'Cora Reilly’s “Bound by Duty” Set As ReelShort Mafia Microdrama',
+        href: 'https://deadline.com/2026/08/reelshort-adapts-bound-by-duty-cora-reilly-born-in-blood-1237018397/'
+      },
+      {
+        date: 'AUG 4, 2026',
+        title: '20 million views in a week, and a “To Be Continued”',
+        body: 'Before airing the final two installments of Who Billionaire? Me Billionaire, Jimmy Fallon announced that the first eight episodes of The Tonight Show’s debut microdrama had drawn more than 20 million views in a single week. The finale closed on a “To Be Continued” card; Fallon has hinted at a second season. The series ran across the show’s social accounts and Peacock’s microdrama section.',
+        why: 'Microdrama’s most useful role for legacy TV may not be a new revenue line at all — it is the cheapest audience-acquisition channel a broadcast brand currently owns.',
+        source: 'LateNighter',
+        sourceTitle: 'Fallon Says “Tonight Show” Microdrama Drew 20 Million Views, Teases 2nd Season',
+        href: 'https://latenighter.com/news/fallon-microdrama-second-season/'
+      },
+      {
+        date: 'AUG 3, 2026',
+        title: 'Latin America’s commissioners quietly went vertical',
+        body: 'New Ampere Analysis data shows romance became Latin America’s most-commissioned scripted genre in the first half of 2026, at 30% of orders — up from fifth place a year earlier, with commissions more than doubling to 25 new first-run shows against an overall scripted market that contracted 13%. The pointed detail: ViX and Globoplay each ordered four romance titles, and six of those eight were microdramas. ViX now runs a dedicated short-form section called MicrO.',
+        why: 'Overseas growth is no longer a synonym for English-language US titles. Spanish-language vertical is becoming its own commissioning lane — and it inherited its audience instead of buying it.',
+        source: 'Señal News',
+        sourceTitle: 'Romance Becomes Latin America’s Top Scripted TV Genre as Microdramas Drive New Growth',
+        href: 'https://senalnews.com/en/data/romance-becomes-latin-americas-top-scripted-tv-genre-as-microdramas-drive-new-growth'
+      }
+    ],
+    sources: 'Variety · Deadline · LateNighter · Señal News (Ampere Analysis) · The Walt Disney Company · Media Partners Asia'
+  },
   '/news/the-retrofit-economy': {
     date: 'Week of July 27 - August 2, 2026',
     title: 'The Retrofit Economy',
@@ -282,7 +344,7 @@ function normalizePath(path: string) {
     .replace(/\/$/, '')
 }
 
-const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/the-retrofit-economy'])
+const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/the-second-season-economy'])
 </script>
 
 <template>
