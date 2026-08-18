@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Building Permits',
+    href: '/page/news/building-permits',
+    date: 'Week of August 10 - August 16, 2026',
+    dek: 'Vertical spent the week buying land: a trade market, a fifty-author IP pipeline, a creator-owned studio, and a union-backed star vehicle.',
+    image: withBase('/images/news/building-permits-banner-2026-w33.png'),
+    alt: 'Building Permits - Plot Party Weekly 2026 W33',
+    signals: [
+      'Y+X signed more than 50 authors and put six book properties into development.',
+      'LumiView moved its first premium vertical releases to a beta rollout this fall.',
+      'Vertical business convened its first dedicated trade market in Las Vegas.',
+      'Sachin Kumar launched a creator-owned studio for BIPOC vertical stories.',
+      'James Franco entered microdrama under SAG-AFTRA’s Verticals Agreement.'
+    ]
+  },
+  {
     title: 'The Second-Season Economy',
     href: '/page/news/the-second-season-economy',
     date: 'Week of August 3 - August 9, 2026',

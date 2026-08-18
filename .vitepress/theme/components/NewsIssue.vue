@@ -6,6 +6,59 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/building-permits': {
+    date: 'Week of August 10 - August 16, 2026',
+    title: 'Building Permits',
+    image: withBase('/images/news/building-permits-banner-2026-w33.png'),
+    alt: 'Building Permits - Plot Party Weekly 2026 W33',
+    deck: 'Vertical drama spent this week buying land: a trade market with its own Vegas floor, a fifty-author IP pipeline, a creator-owned studio, and a union contract with a movie star’s name on it. The format is taking on the fixed costs of a real industry.',
+    quickReads: [
+      'Y+X Entertainment signed more than 50 authors and screenwriters into its LumiCreator network, with six book properties already in vertical development for LumiView.',
+      'Tosca Lee’s Demon is being adapted as a premium vertical series in South Korea; LumiView’s first releases now land as a beta rollout this fall.',
+      'The Vertical Microdrama Market ran August 13–16 at the SAHARA in Las Vegas — the sector’s first dedicated trade market, with the Vertical Shorts Festival staged inside it.',
+      'Los Angeles creator Sachin Kumar launched Prema Creative Co., a studio built to tell and distribute BIPOC stories, opening with the 14-part comedy Typecast.',
+      'James Franco headlined Love, Lies & Frank on Shortical — among the first titles under SAG-AFTRA’s Verticals Agreement, made with no AI performances or digital replicas.'
+    ],
+    stories: [
+      {
+        date: 'AUG 11, 2026 · US / INTERNATIONAL',
+        title: 'Y+X signs 50-plus authors and starts treating vertical as an IP incubator',
+        body: 'Y+X Entertainment announced that its LumiCreator network has taken on more than 50 authors and screenwriters, including several New York Times bestselling writers, to build the content base for LumiView, its forthcoming premium vertical platform. Six properties are already in development as premium vertical adaptations: Tosca Lee’s Demon, Kathy Tyers’ Firebird, Christy Barritt’s Hidden Currents with Fear Not Productions, Lorie Langdon’s Doon, Candace Kade’s Enhanced, and Sara Ella’s The Wonderland Trials. Demon is in production in South Korea under a Korean filmmaker the company did not name. Founder and CEO Vivian Yin framed the network as a long-term partnership structure that preserves each story’s identity and can extend properties into publishing, gaming, merchandising, and live experiences. LumiView, originally pointed toward an August launch, now says its first releases will arrive in a beta rollout this fall.',
+        why: 'If the IP-first thesis holds, the scarce asset in vertical shifts from user-acquisition budget to signed authors — and Y+X spent this week accumulating the latter.',
+        source: 'Señal News',
+        sourceTitle: 'Y+X Entertainment Expands LumiCreator Network to Strengthen LumiView’s Global IP Strategy',
+        href: 'https://senalnews.com/en/content/yx-entertainment-expands-lumicreator-network-to-strengthen-lumiviews-global-ip-strategy'
+      },
+      {
+        date: 'AUG 13–16, 2026 · LAS VEGAS',
+        title: 'The format convenes its own market in Las Vegas',
+        body: 'The Vertical Microdrama Market ran August 13–16 at the SAHARA Las Vegas, presented by Magnificent Motion Picture Works. Its program covered the full transactional stack: platforms and distributors, producers and showrunners, financiers, writers and IP owners, casting and talent agencies, post-production vendors, AI and production-technology companies, project pitches, acquisitions, workshops, and panels. The Vertical Shorts Festival screened as a component of the market. Organizers position VMM as vertical’s answer to the American Film Market and as the first large-scale marketplace dedicated exclusively to the format. A first edition does not carry AFM’s scale, but the venue shift is real: vertical business that previously rented space inside broader film, television, and creator conferences now has a room and calendar slot of its own.',
+        why: 'A sector gets its own market when its transactions stop fitting on someone else’s floor — and vertical’s deal-making now has a dedicated venue.',
+        source: 'Eventbrite',
+        sourceTitle: 'Vertical Microdrama Market (VMM) 2026 Las Vegas',
+        href: 'https://www.eventbrite.com/e/vertical-microdrama-market-vmm-2026-las-vegas-tickets-1988025380429'
+      },
+      {
+        date: 'AUG 10, 2026 · US',
+        title: 'A creator with an audience builds the studio instead of pitching one',
+        body: 'Los Angeles creator Sachin Kumar, who posts as SCKACHI, launched Prema Creative Co. with Typecast, a 14-part vertical comedy rolling out two episodes weekly from September 7. The series follows a fictionalized version of Kumar — an Indian-American actor navigating Hollywood as he confronts typecasting, ambition, and identity — with Grayson Shapiro making his directorial debut. Kumar has positioned the company as a studio built to tell and distribute BIPOC stories while giving that talent creative control and ownership. Instead of moving from platform to production company to paid acquisition, Kumar starts with an audience he already has, develops the IP inside his own company, and releases serialized vertical episodes directly to social feeds.',
+        why: 'This is a second supply route into vertical, and it runs entirely outside the apps — the audience, the IP, and the distribution all sit with the creator.',
+        source: 'Deadline',
+        sourceTitle: 'L.A. Creator Sachin Kumar Launches Prema Creative Co. With Vertical Comedy Series About Indian-American Actor in Hollywood',
+        href: 'https://deadline.com/2026/08/sachin-kumar-typecast-vertical-video-company-launch-1237030140/'
+      },
+      {
+        date: 'AUG 12, 2026 · US',
+        title: 'James Franco headlines a vertical title under a union agreement, with AI ruled out',
+        body: 'James Franco stars in Love, Lies & Frank on Shortical, playing the CEO of a high-powered ad agency contending with criminal and supernatural threats while an ambitious employee reignites a forbidden romance with his stepbrother. He shares the screen with established microdrama leads Eric Guilmette and Neela Jolene. Eric Wang Schwager directs from a script by Melissa Lynn Moore; Knockout Shorts produced with Peter Gold of Gold Films. The title is among the first microdramas made under SAG-AFTRA’s Verticals Agreement, moving the format’s labor terms onto a standing contract. The production also states that no AI-generated performances or digital replicas were used.',
+        why: 'A named film actor working under a union agreement with AI performance explicitly excluded gives premium vertical a concrete case for treating human casting as a product feature.',
+        source: 'Variety',
+        sourceTitle: 'James Franco Stars in Love, Lies & Frank Microdrama on Shortical',
+        href: 'https://variety.com/2026/tv/news/james-franco-microdrama-love-lies-frank-shortical-1236832770/'
+      }
+    ],
+    sources: 'Señal News · Deadline · Variety · Michael Fairman TV · TheWrap · Eventbrite · Vertical Shorts Festival'
+  },
   '/news/the-second-season-economy': {
     date: 'Week of August 3 - August 9, 2026',
     title: 'The Second-Season Economy',
@@ -344,7 +397,7 @@ function normalizePath(path: string) {
     .replace(/\/$/, '')
 }
 
-const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/the-second-season-economy'])
+const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/building-permits'])
 </script>
 
 <template>

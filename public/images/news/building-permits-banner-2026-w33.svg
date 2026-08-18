@@ -1,0 +1,23 @@
+<svg width="2546" height="1068" viewBox="0 0 2546 1068" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2546" height="1068" fill="#0B1620"/>
+  <rect x="76" y="76" width="2394" height="916" rx="52" fill="#E9E2D5"/>
+  <rect x="156" y="156" width="820" height="756" rx="28" fill="#12344A"/>
+  <path d="M226 814H906M246 746H886M278 678H854M310 610H822M342 542H790" stroke="#75B7C8" stroke-width="5" opacity="0.65"/>
+  <path d="M244 816V442H430V816M430 816V330H652V816M652 816V506H866V816" stroke="#F4EFE6" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M224 442H450M410 330H672M632 506H886" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M296 442V374H372V442M494 330V244H580V330M714 506V410H800V506" stroke="#FF9B54" stroke-width="10"/>
+  <path d="M244 858H866" stroke="#FF9B54" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="296" cy="374" r="13" fill="#FF9B54"/>
+  <circle cx="494" cy="244" r="13" fill="#FF9B54"/>
+  <circle cx="714" cy="410" r="13" fill="#FF9B54"/>
+  <path d="M194 214H424" stroke="#75B7C8" stroke-width="5"/>
+  <path d="M194 250H364" stroke="#75B7C8" stroke-width="5"/>
+  <text x="1084" y="294" fill="#12344A" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="5">PLOT PARTY WEEKLY · 2026 · W33</text>
+  <text x="1080" y="486" fill="#101820" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="800">Building</text>
+  <text x="1080" y="630" fill="#101820" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="800">Permits</text>
+  <text x="1086" y="738" fill="#46545D" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="400">Vertical buys the infrastructure of a real industry:</text>
+  <text x="1086" y="794" fill="#46545D" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="400">IP, markets, studios, stars, and labor contracts.</text>
+  <rect x="1082" y="846" width="260" height="58" rx="29" fill="#FF9B54"/>
+  <text x="1212" y="885" text-anchor="middle" fill="#101820" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">PLOT PARTY</text>
+  <text x="1380" y="886" fill="#12344A" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">NEWS · AUGUST 10–16, 2026</text>
+</svg>
