@@ -8,7 +8,7 @@ const issues = [
     href: '/page/news/building-permits',
     date: 'Week of August 10 - August 16, 2026',
     dek: 'Vertical spent the week buying land: a trade market, a fifty-author IP pipeline, a creator-owned studio, and a union-backed star vehicle.',
-    image: withBase('/images/news/building-permits-banner-2026-w33.png'),
+    image: withBase('/images/news/building-permits-banner-2026-w33-v2.png'),
     alt: 'Building Permits - Plot Party Weekly 2026 W33',
     signals: [
       'Y+X signed more than 50 authors and put six book properties into development.',

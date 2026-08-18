@@ -21,7 +21,7 @@ head:
       content: https://plotparty.ai/page/news/building-permits
   - - meta
     - property: og:image
-      content: https://plotparty.ai/page/blog/images/news/building-permits-banner-2026-w33.png
+      content: https://plotparty.ai/page/blog/images/news/building-permits-banner-2026-w33-v2.png
   - - meta
     - property: article:published_time
       content: 2026-08-17T00:00:00Z
@@ -30,7 +30,7 @@ head:
       content: summary_large_image
   - - meta
     - name: twitter:image
-      content: https://plotparty.ai/page/blog/images/news/building-permits-banner-2026-w33.png
+      content: https://plotparty.ai/page/blog/images/news/building-permits-banner-2026-w33-v2.png
   - - script
     - type: application/ld+json
     - |
@@ -42,7 +42,7 @@ head:
         "datePublished": "2026-08-17T00:00:00Z",
         "dateModified": "2026-08-17T00:00:00Z",
         "mainEntityOfPage": "https://plotparty.ai/page/news/building-permits",
-        "image": "https://plotparty.ai/page/blog/images/news/building-permits-banner-2026-w33.png",
+        "image": "https://plotparty.ai/page/blog/images/news/building-permits-banner-2026-w33-v2.png",
         "publisher": {
           "@type": "Organization",
           "name": "Plot Party",

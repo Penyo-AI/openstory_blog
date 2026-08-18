@@ -9,7 +9,7 @@ const issues = {
   '/news/building-permits': {
     date: 'Week of August 10 - August 16, 2026',
     title: 'Building Permits',
-    image: withBase('/images/news/building-permits-banner-2026-w33.png'),
+    image: withBase('/images/news/building-permits-banner-2026-w33-v2.png'),
     alt: 'Building Permits - Plot Party Weekly 2026 W33',
     deck: 'Vertical drama spent this week buying land: a trade market with its own Vegas floor, a fifty-author IP pipeline, a creator-owned studio, and a union contract with a movie star’s name on it. The format is taking on the fixed costs of a real industry.',
     quickReads: [
