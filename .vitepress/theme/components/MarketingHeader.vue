@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { withBase } from 'vitepress'
-import { appUrl } from '../data/site'
+import { appUrl, SUBSCRIBE_URL } from '../data/site'
 
 type NavLink = {
   label: string
@@ -80,6 +80,15 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
         </a>
 
         <a
+          class="marketing-header__cta marketing-header__cta--subscribe"
+          :href="SUBSCRIBE_URL"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Subscribe
+        </a>
+
+        <a
           class="marketing-header__cta"
           :href="appUrl('/home')"
           target="_blank"
@@ -130,6 +139,16 @@ const logoSrc = withBase('/images/logo/logo-black-1.png')
           {{ link.label }}
         </a>
       </div>
+
+      <a
+        class="marketing-header__mobile-cta"
+        :href="SUBSCRIBE_URL"
+        target="_blank"
+        rel="noreferrer"
+        @click="closeMenu"
+      >
+        Subscribe
+      </a>
 
       <a
         class="marketing-header__mobile-cta"

@@ -194,6 +194,11 @@
   text-decoration: none;
 }
 
+.marketing-header__cta--subscribe {
+  border-color: #d1d5db;
+  color: #374151;
+}
+
 .blog-list-cta a:hover,
 .blog-post-cta a:hover {
   background: #111111;
@@ -934,6 +939,25 @@
 .blog-list-cta a,
 .blog-post-cta a {
   padding: 12px 32px;
+}
+
+.blog-post-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.blog-post-cta a.blog-post-cta__subscribe {
+  border-color: #d1d5db;
+  background: transparent;
+  color: #111111;
+}
+
+.blog-post-cta a.blog-post-cta__subscribe:hover {
+  border-color: #111111;
+  background: #111111;
+  color: #ffffff;
 }
 
 /* ------------------------------------------------------------------ */
