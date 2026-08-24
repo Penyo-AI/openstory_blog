@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Ownership Turn',
+    href: '/page/news/the-ownership-turn',
+    date: 'Week of August 17 - August 23, 2026',
+    dek: 'Webtoon stocks its own shelf as vertical builds its own genres, fans, awards, and growth story.',
+    image: withBase('/images/news/ownership-turn-banner-2026-w34.png'),
+    alt: 'The Ownership Turn - Plot Party Weekly 2026 W34',
+    signals: [
+      'Webtoon adapted six owned webcomics into its first live-action Short Dramas.',
+      'Reuters framed microdrama as Hollywood’s rare growth engine.',
+      'US revenue is projected near $2 billion in 2027, according to Omdia.',
+      'VertiCon and the Verties built a dedicated fan-and-awards weekend.',
+      'FlareFlow and Shorts pushed vertical into fantasy, action, and supernatural stories.'
+    ]
+  },
+  {
     title: 'Building Permits',
     href: '/page/news/building-permits',
     date: 'Week of August 10 - August 16, 2026',

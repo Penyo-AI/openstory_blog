@@ -6,6 +6,59 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-ownership-turn': {
+    date: 'Week of August 17 - August 23, 2026',
+    title: 'The Ownership Turn',
+    image: withBase('/images/news/ownership-turn-banner-2026-w34.png'),
+    alt: 'The Ownership Turn - Plot Party Weekly 2026 W34',
+    deck: 'Vertical drama started stocking its own shelf this week: Webtoon turned owned webcomics into live-action, the format minted its own awards in Culver City, and Reuters scored microdrama as the growth line in a shrinking Hollywood. The category is beginning to own the IP, genres, and fan rituals that feed it.',
+    quickReads: [
+      'Webtoon adapted six WEBTOON Originals into its first live-action Short Dramas, using proven stories and built-in readership to launch the slate.',
+      'Reuters put US microdrama revenue at roughly $1.5 billion in 2026 and nearly $2 billion in 2027, citing Omdia.',
+      'VertiCon and the fan-voted Verties Awards gave vertical filmmakers and audiences a convention-and-awards weekend of their own in Los Angeles.',
+      'FlareFlow and Shorts launched a four-title co-production slate spanning fantasy, action, supernatural, and revenge stories.',
+      'The common thread: vertical is sourcing more of its own IP, fans, genres, and recognition infrastructure.'
+    ],
+    stories: [
+      {
+        date: 'AUG 17, 2026 · US / FRANCE',
+        title: 'Webtoon turns its own webcomics into live-action verticals',
+        body: 'Webtoon Entertainment launched a limited slate of six WEBTOON Originals as live-action Short Dramas, the company’s first move into live-action content. Each series runs 40 to 50 episodes of roughly one to two minutes. The opening titles include Love Bites, drawn from the webcomic adaptation of the Wattpad novel Bite Me, and Maybe Meant to Be, based on a webcomic with more than 650 million views. Several episodes stream free before a Coin-based pay-per-episode wall begins. At launch, the Short Dramas are available on Webtoon’s English- and French-language platforms.',
+        why: 'Webtoon is adapting stories and a readership it already controls, turning a catalogue it already monetizes into a second format it can own end to end.',
+        source: 'Variety',
+        sourceTitle: 'Webtoon Entertainment Dives Into Vertical Shorts, Setting “Love Bites” and “Maybe Meant to Be” as Microdramas',
+        href: 'https://variety.com/2026/tv/news/webtoon-entertainment-microdramas-love-bites-short-dramas-1236836293/'
+      },
+      {
+        date: 'AUG 18, 2026 · US',
+        title: 'Reuters scores microdrama as Hollywood’s growth engine',
+        body: 'A widely syndicated Reuters feature framed microdrama as potentially the only expanding corner of a contracting Hollywood. Citing Omdia, the report put US revenue at roughly $1.5 billion in 2026 and nearly $2 billion in 2027, while the US monthly audience more than doubled from 26 million in 2024 to 66 million in 2025. It traced how legacy players are moving into the format as they chase audiences trained on TikTok-native storytelling.',
+        why: 'When the mainstream business wire runs vertical’s numbers as Hollywood’s rare growth story, microdrama has moved from trade curiosity to a line item general-assignment editors track.',
+        source: 'Reuters via Daily Maverick',
+        sourceTitle: 'Microdramas Boom in a Shrinking Hollywood as Studios Chase a TikTok Audience',
+        href: 'https://www.dailymaverick.co.za/article/2026-08-18-microdramas-boom-in-a-shrinking-hollywood-as-studios-chase-a-tiktok-audience/'
+      },
+      {
+        date: 'AUG 21–23, 2026 · CULVER CITY',
+        title: 'VertiCon and the Verties give the format its own awards weekend',
+        body: 'VertiCon 2026 ran August 21–23 at the Hilton Los Angeles Culver City with actor panels, fan Q&As, autographs, photo opportunities, and meet-and-greets. Its centerpiece, the Verties Awards on Saturday, August 22, used an industry-nominated and fan-decided structure to recognize vertical films and the people making them. The second annual convention puts creators, performers, and audiences inside a calendar event built specifically around the format rather than attaching vertical programming to a broader entertainment conference.',
+        why: 'A fan convention and homegrown awards show give vertical its own recognition circuit and fan rituals, on a timeline the industry sets itself.',
+        source: 'VertiCon / Beemer Wolf Productions',
+        sourceTitle: 'VertiCon 2026 — Convention & The Verties Awards',
+        href: 'https://www.verticonbwp.com/'
+      },
+      {
+        date: 'AUG 21, 2026 · INTERNATIONAL',
+        title: 'FlareFlow and Shorts widen the genre map past billionaire romance',
+        body: 'Singapore-based FlareFlow, owned by COL Group, and Europe’s Shorts began rolling out a four-title co-production slate weekly from August 21. The projects span fantasy, action, supernatural, and revenge storytelling while retaining the hook-led pacing associated with vertical drama. The partners positioned the deal as a test of whether the format can support larger worlds and a broader genre mix. It is Shorts’ first multi-project co-production of this kind.',
+        why: 'The competitive lever is shifting from title volume toward genre range, as platforms test whether audiences trained on billionaire romance will follow vertical into heightened worlds.',
+        source: 'Deadline',
+        sourceTitle: 'FlareFlow & Europe’s Shorts Strike Four-Title Microdrama Pact',
+        href: 'https://deadline.com/2026/08/flareflow-shorts-microdrama-deal-1237044053/'
+      }
+    ],
+    sources: 'Variety, Webtoon Entertainment, Reuters via Daily Maverick, Omdia, VertiCon / Beemer Wolf Productions, The Verties, and Deadline.'
+  },
   '/news/building-permits': {
     date: 'Week of August 10 - August 16, 2026',
     title: 'Building Permits',
@@ -397,7 +450,7 @@ function normalizePath(path: string) {
     .replace(/\/$/, '')
 }
 
-const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/building-permits'])
+const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/the-ownership-turn'])
 </script>
 
 <template>

@@ -42,36 +42,42 @@ head:
             {
               "@type": "ListItem",
               "position": 1,
+              "url": "https://plotparty.ai/page/news/the-ownership-turn",
+              "name": "The Ownership Turn"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
               "url": "https://plotparty.ai/page/news/building-permits",
               "name": "Building Permits"
             },
             {
               "@type": "ListItem",
-              "position": 2,
+              "position": 3,
               "url": "https://plotparty.ai/page/news/the-second-season-economy",
               "name": "The Second-Season Economy"
             },
             {
               "@type": "ListItem",
-              "position": 3,
+              "position": 4,
               "url": "https://plotparty.ai/page/news/the-retrofit-economy",
               "name": "The Retrofit Economy"
             },
             {
               "@type": "ListItem",
-              "position": 4,
+              "position": 5,
               "url": "https://plotparty.ai/page/news/casting-the-supplier-economy",
               "name": "Casting the Supplier Economy"
             },
             {
               "@type": "ListItem",
-              "position": 5,
+              "position": 6,
               "url": "https://plotparty.ai/page/news/borrowed-audience",
               "name": "The Borrowed Audience"
             },
             {
               "@type": "ListItem",
-              "position": 6,
+              "position": 7,
               "url": "https://plotparty.ai/page/news/vertical-learns-to-talk-back",
               "name": "Vertical Learns to Talk Back"
             }
