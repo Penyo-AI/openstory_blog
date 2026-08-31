@@ -6,6 +6,69 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-cost-of-an-audience': {
+    date: 'Week of August 24 - August 30, 2026',
+    title: 'The Cost of an Audience',
+    image: withBase('/images/news/cost-of-an-audience-banner-2026-w35.png'),
+    alt: 'The Cost of an Audience - Plot Party Weekly 2026 W35',
+    deck: 'A single report finally priced vertical drama’s real problem: the apps that define the category are barely 3% of a $150 billion market, and the category leader spends 73 cents of every revenue dollar buying an audience it struggles to keep. Every other move this week was a company shopping for a cheaper way in.',
+    quickReads: [
+      'Owl & Co’s first Vertical Economy Report sizes vertical media outside China at $150 billion for 2026 — and puts dedicated microdrama apps at under 3% of it.',
+      'The same report shows ReelShort spending roughly 73% of revenue on user acquisition, the clearest public number yet on what attention actually costs.',
+      'ReelShort sidesteps that cost in Indonesia, loading 200-plus titles onto Vidio’s existing subscriber base from September 1.',
+      'Character.AI reports 40% of adult viewers who finish its “Last Summer” microdrama open a character chat, and over 10% pay past the free episodes.',
+      'COL Group, VIRTUE Asia and V47 give the format its first dedicated ad upfront, set for Singapore in October.',
+      'James Franco, Jesse Tyler Ferguson and Taye Diggs bring built-in fanbases to Shortical, aTwist and Microhouse — audiences the apps would otherwise pay to find.'
+    ],
+    stories: [
+      {
+        date: 'AUG 24, 2026',
+        title: 'Owl & Co prices the whole category: $150 billion, and microdrama apps are 3% of it',
+        body: 'Owl & Company’s first Vertical Economy Report, covered by Variety and Forbes this week, values vertical video revenue outside China at $150 billion for 2026, a 42% increase year over year. Advertising accounts for $131 billion of that total; consumer payments contribute $10 billion and shopping take rates $9 billion. Meta, ByteDance and YouTube together capture 94% of the market. Dedicated microdrama apps make up roughly $4 billion, under 3% of the total, split across nearly 2,000 apps competing worldwide. The report also puts a number on the cost of staying in that race: ReelShort, the leading app by revenue, spends about 73% of revenue on user acquisition.',
+        why: 'The report reframes the microdrama business as a customer-acquisition problem more than a content one, and it explains why nearly every deal this week routed around the cost of buying an audience.',
+        source: 'Forbes',
+        sourceTitle: 'Three Companies Take 94% Of A $150 Billion Vertical Market',
+        href: 'https://www.forbes.com/sites/maureenkerr/2026/08/25/three-companies-take-94-of-a-150-billion-vertical-market/'
+      },
+      {
+        date: 'AUG 26, 2026',
+        title: 'ReelShort rents Indonesia’s audience through Vidio',
+        body: 'ReelShort struck its first Indonesian platform deal, placing more than 200 catalogue titles on local streamer Vidio beginning September 1, with co-productions alongside Indonesian production houses to follow. The titles span romance, billionaire romance, fantasy and family drama, offered with Indonesian dubbing and subtitles. ReelShort holds an estimated 29% of global short-form drama revenue, per Media Partners Asia. Instead of acquiring Indonesian users one install at a time, ReelShort is placing its library in front of Vidio’s paying subscriber base and sharing an audience Vidio already built.',
+        why: 'For a platform whose economics are defined by acquisition cost, distributing through an established local subscriber base is a way to grow without paying retail for every new viewer.',
+        source: 'Deadline',
+        sourceTitle: 'ReelShort Strikes Microdrama Deal With Indonesian Streamer Vidio For 200 Catalogue Titles & Co-Production Of New Shows',
+        href: 'https://deadline.com/2026/08/reelshort-microdrama-vidio-indonesia-1237050682/'
+      },
+      {
+        date: 'AUG 27, 2026',
+        title: 'Character.AI reports fans paying to stay inside the story',
+        body: 'Character.AI published one-month results for (c.ai) series, its studio-made microdrama slate. Its standout title, the romance anime “Last Summer,” makes the first six episodes free; of viewers who reached episode seven, more than 10% paid to continue. The interactive thesis shows up in what happens after the finale: more than 40% of over-18 users who finished the series opened a character chat or browsed cast profiles, and 25% of those who started chatting came back for multiple sessions. Character.AI said its next series will lean further into anime and add interactive episodes where viewers make choices along the way.',
+        why: 'The funnel here runs from episode to character relationship to repeat chat, a retention-and-payment path that operates on different mechanics than the pay-per-episode model most microdrama apps rely on.',
+        source: 'Character.AI',
+        sourceTitle: 'One Month of (c.ai) series: The Microdrama Ends, The Story Doesn’t',
+        href: 'https://blog.character.ai/cai-series-one-month-in/'
+      },
+      {
+        date: 'AUG 27, 2026',
+        title: 'The format gets its first ad upfront',
+        body: 'COL Group, VIRTUE Asia and V47 Entertainment launched “Inside Microdramas,” billed as the first upfront event dedicated to microdramas and vertical entertainment, scheduled for Singapore on October 27. The program gathers brand, platform and technology executives around panels, project previews and one-on-one partnership meetings, extending a partnership the three announced in June to expand branded microdrama across Southeast Asia. An upfront is the ritual by which television converts audiences into committed ad budgets ahead of a season. Building one for microdrama signals its backers want brands buying the format the way they buy TV.',
+        why: 'A dedicated upfront moves microdrama toward the advertising infrastructure of mainstream television — the same $131 billion ad pool Owl & Co says dominates vertical media revenue.',
+        source: 'Variety',
+        sourceTitle: 'COL Group, Virtue Asia and V47 Entertainment Launch Inside Microdramas, Vertical Entertainment Upfront',
+        href: 'https://variety.com/2026/tv/news/col-group-virtue-asia-v47-inside-microdramas-upfront-1236842771/'
+      },
+      {
+        date: 'AUG 29, 2026',
+        title: 'Hollywood lends the format its audiences',
+        body: 'A TechCrunch survey of talent entering microdramas captured how established names are arriving with audiences attached. James Franco stars in “Love, Lies & Frank” on Shortical, among the first microseries produced under SAG-AFTRA’s new verticals agreement for low-budget vertical work. Jesse Tyler Ferguson is developing the musical comedy “Theater Kids Vs. Zombies” for aTwist; Taye Diggs stars in a CandyJar series and has launched his own platform, Microhouse Films; and Kim Kardashian has invested in GammaTime alongside Kris Jenner. US microdrama revenue is projected at roughly $1.5 billion for 2026, per Omdia.',
+        why: 'Star power functions as an acquisition channel here, importing a ready audience into a business where finding viewers is the largest cost.',
+        source: 'TechCrunch',
+        sourceTitle: 'Hollywood celebs are getting into microdrama apps',
+        href: 'https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/'
+      }
+    ],
+    sources: 'Forbes · Variety · MediaPost · Deadline · TechCrunch · Character.AI · Realscreen'
+  },
   '/news/the-ownership-turn': {
     date: 'Week of August 17 - August 23, 2026',
     title: 'The Ownership Turn',

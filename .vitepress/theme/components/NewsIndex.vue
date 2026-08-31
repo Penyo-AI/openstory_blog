@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Cost of an Audience',
+    href: '/page/news/the-cost-of-an-audience',
+    date: 'Week of August 24 - August 30, 2026',
+    dek: 'Vertical drama’s defining expense is attention. This week, companies found cheaper audiences through platforms, interaction, advertisers, and stars.',
+    image: withBase('/images/news/cost-of-an-audience-banner-2026-w35.png'),
+    alt: 'The Cost of an Audience - Plot Party Weekly 2026 W35',
+    signals: [
+      'Owl & Co valued vertical media outside China at $150 billion for 2026.',
+      'Dedicated microdrama apps account for under 3% of the vertical economy.',
+      'ReelShort spends roughly 73% of revenue on user acquisition.',
+      'Vidio gives ReelShort an established Indonesian subscriber base.',
+      'Character.AI, a dedicated upfront, and Hollywood stars offer new audience paths.'
+    ]
+  },
+  {
     title: 'The Ownership Turn',
     href: '/page/news/the-ownership-turn',
     date: 'Week of August 17 - August 23, 2026',
