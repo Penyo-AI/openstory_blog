@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Closer to Home',
+    href: '/page/news/closer-to-home',
+    date: 'Week of August 31 - September 6, 2026',
+    dek: 'A ballclub, two talent-led studios, a French app, and an AI pipeline each took ownership of a layer the incumbents used to supply.',
+    image: withBase('/images/news/closer-to-home-banner-2026-w36.png'),
+    alt: 'Closer to Home - Plot Party Weekly 2026 W36',
+    signals: [
+      'The Chicago Cubs produced a 17-episode Wrigley Field rom-com for their own TikTok.',
+      'Kevin Hart’s Hartbeat committed more than 20 original microseries to aTwist.',
+      'Mansa Studios premiered original microdramas directly on TikTok Minis.',
+      'France’s Sweetz launched with more than €1 million in seed funding.',
+      'Morphic says episode-tuned AI workflows can cut repetitive production work by up to 70%.'
+    ]
+  },
+  {
     title: 'The Cost of an Audience',
     href: '/page/news/the-cost-of-an-audience',
     date: 'Week of August 24 - August 30, 2026',

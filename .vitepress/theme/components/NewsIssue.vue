@@ -6,6 +6,68 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/closer-to-home': {
+    date: 'Week of August 31 - September 6, 2026',
+    title: 'Closer to Home',
+    image: withBase('/images/news/closer-to-home-banner-2026-w36.png'),
+    alt: 'Closer to Home - Plot Party Weekly 2026 W36',
+    deck: 'This week the vertical-drama build-out came home: a ballclub, a comedian’s studio, a film-star studio, a French app, and an AI pipeline each took ownership of a layer the incumbents used to supply. The competitive question is shifting from who can make a hit to who owns the machinery that makes the next hundred.',
+    quickReads: [
+      'The Chicago Cubs became the first MLB team to build original scripted IP, dropping a 17-episode Wrigley Field rom-com on their own TikTok.',
+      'Kevin Hart’s Hartbeat committed 20-plus original microseries to aTwist, the US vertical platform that went live September 3.',
+      'David Oyelowo and Nate Parker’s Mansa Studios premiered originals directly on TikTok Minis.',
+      'France’s Sweetz launched on iOS with an over-€1 million seed round, joining a European field that now includes Shorts, Dramyx, and Tattle TV.',
+      'San Francisco’s Morphic says episode-tuned AI workflows cut repetitive microdrama production work by up to 70%.'
+    ],
+    stories: [
+      {
+        date: 'AUG 31, 2026 · PREMIERES SEP 4',
+        title: 'The Chicago Cubs put a scripted rom-com on their own TikTok',
+        body: 'The Cubs announced “Nine Innings to Love,” a 17-episode rom-com set across a single game in the Wrigley Field bleachers, making them the first MLB team to produce original scripted IP. Ava, a romance writer in a slump, and David, a love-shy seatmate, meet in the stands and have until the final out to find him a summer fling. The series was made in-house by Cubs Productions, directed by Adam Sobel with support from Coyote Sun Productions, and distributed on the team’s official TikTok account rather than through a microdrama app.',
+        why: 'A franchise that already owns a stadium, a fanbase, and a TikTok following can stand up a scripted series at close to zero distribution cost, which puts vertical within reach of any brand sitting on an audience it has not monetized this way.',
+        source: 'Variety',
+        sourceTitle: 'Chicago Cubs: Rom-Com Series “Nine Innings to Love” Set',
+        href: 'https://variety.com/2026/digital/news/chicago-cubs-rom-com-series-nine-innings-to-love-1236847079/'
+      },
+      {
+        date: 'SEP 2-3, 2026',
+        title: 'Kevin Hart’s Hartbeat commits 20-plus microseries as aTwist launches',
+        body: 'aTwist, a new US vertical-video service from TV veterans Jana Winograde, Susan Rovner, and Lloyd Braun, went live September 3 with a first slate spanning comedy, drama, unscripted, horror, and romance. Kevin Hart’s Hartbeat became the exclusive home of its vertical originals, lining up more than 20 microseries, including comedy under its LOL banner and adaptations of Blake Karrington’s bestselling books produced with Upscale Productions.',
+        why: 'A 20-title commitment from a marquee comedy brand gives a brand-new platform the one thing capital cannot buy quickly — a reason for audiences to show up — and signals that premium talent will now anchor US-built platforms directly.',
+        source: 'Deadline',
+        sourceTitle: 'Kevin Hart’s Hartbeat To House Vertical Originals On aTwist',
+        href: 'https://deadline.com/2026/09/kevin-hart-hartbeat-atwist-vertical-originals-microdrama-1237049649/'
+      },
+      {
+        date: 'SEP 3-4, 2026',
+        title: 'Mansa Studios brings its originals to TikTok Minis',
+        body: 'David Oyelowo and Nate Parker’s Mansa Studios, the Black-led, mobile-first studio launched during Black History Month with a 10-series slate, premiered original microdramas on TikTok Minis under a co-distribution partnership, including “I Married the King of the Streets” and “My Twin Sister Stole My Life.” The casting pairs recognizable names, Serayah McNeill and former NFL running back Thomas Q. Jones, with emerging leads Nadia Adelay and Lawrence H. Robinson.',
+        why: 'Distributing on TikTok Minis lets a studio build discovery on borrowed reach while keeping ownership of the IP, a model that rewards studios with a distinct creative point of view.',
+        source: 'Deadline',
+        sourceTitle: 'David Oyelowo & Nate Parker’s Mansa Studios Debuts TikTok Microdramas',
+        href: 'https://deadline.com/2026/09/david-oyelowo-nate-parker-tiktok-microdramas-mansa-studios-1237065179/'
+      },
+      {
+        date: 'SEP 4, 2026',
+        title: 'France’s Sweetz launches with a European backer roster',
+        body: 'French AI studio Nation and mobile app publisher Kovalee launched Sweetz, a microdrama app, moving from a summer beta into full iOS release and closing a seed round of over €1 million, about US$1.1 million. The backers are all European media and audiovisual players: M6 Group, Briskpace Unlimited, The Originals Group, Duo Productions, and AT Prod. Sweetz runs on a hybrid model that pairs a consumer app with an AI-and-hybrid production pipeline, drawing on Nation’s AI production work and Kovalee’s app-publishing experience, and joins a widening European field alongside France’s Shorts, Spain’s Dramyx, and the UK’s Tattle TV.',
+        why: 'European capital, European IP, local-language production, and a European app operator now sit inside one company, which is the shape a regional industry takes once local players own every layer instead of licensing the format in.',
+        source: 'C21Media',
+        sourceTitle: 'Nation, Kovalee launch French microdrama app Sweetz with $1.1m funding',
+        href: 'https://www.c21media.net/news/nation-kovalee-launch-french-microdrama-app-sweetz-with-1-1m-funding/'
+      },
+      {
+        date: 'AUG 31, 2026',
+        title: 'Morphic says episodic AI workflows cut production busywork by up to 70%',
+        body: 'San Francisco AI-video platform Morphic published production benchmarks for microdrama, saying that building project-specific AI pipelines for a series can reduce repetitive manual work by up to 70% while holding character and visual consistency across a season. The company frames the problem around scale: a season can run 60 to 100 episodes, and even as generation speeds up, downstream steps stay manual, including keeping a character’s face consistent, realigning visual style, re-entering generation settings, regenerating shots, and preparing outputs. Morphic’s approach turns those settings into reusable workflows rather than starting each shot fresh; it adds that internal customer data shows roughly 20% less wasted credit usage on average.',
+        why: 'As the hard problem moves from generating one good shot to holding a character steady across 100 episodes, the AI platforms that win will be the ones that make episodic production repeatable.',
+        source: 'PR Newswire',
+        sourceTitle: 'Morphic Cuts Microdrama Production Busywork by Up to 70% While Ensuring Series Consistency',
+        href: 'https://www.prnewswire.com/news-releases/morphic-cuts-microdrama-production-busywork-by-up-to-70-while-ensuring-series-consistency-302864955.html'
+      }
+    ],
+    sourceLine: 'Sources: Variety, Deadline, C21Media, and PR Newswire; supporting reporting from Tubefilter, Realscreen, and Rolling Out.'
+  },
   '/news/the-cost-of-an-audience': {
     date: 'Week of August 24 - August 30, 2026',
     title: 'The Cost of an Audience',
