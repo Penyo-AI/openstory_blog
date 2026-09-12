@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["AI video generation tools 2026", "best AI video maker", "AI video comparison", "Runway vs Pika vs Plot Party", "AI filmmaking tools", "AI content creation tools", "video generation AI"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-ai-video-tools-2026-roundup.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-ai-video-tools-2026-roundup-v2.png"
 outline: deep
 ---
 
@@ -83,6 +83,8 @@ Pika offers a streamlined experience for generating short video clips from text 
 - Less control over scene composition
 
 See the full [Plot Party vs Pika comparison](./plot-party-vs-pika-ai-video-comparison.md).
+
+<PlotPartyCta />
 
 ## Choosing the Right Tool for Your Project
 

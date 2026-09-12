@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 9
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Seedance 2.0", "Seedance AI video model", "multimodal AI video generation", "AI video reference model", "Jimeng AI video", "best AI video model 2026", "Plot Party Seedance", "AI filmmaking multimodal"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-v2.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-v3.png"
 outline: deep
 ---
 
@@ -140,6 +140,8 @@ Seedance 2.0 is available in **Pro mode** on [Plot Party](https://plotparty.ai/h
 4. Generate, iterate, and compile your final video
 
 For a complete walkthrough of the story creation process, see our [step-by-step tutorial on creating a drama episode](./creating-drama-episode-plot-party-tutorial.md).
+
+<PlotPartyCta />
 
 ## The Bigger Picture
 

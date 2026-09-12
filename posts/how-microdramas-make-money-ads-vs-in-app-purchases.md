@@ -284,6 +284,8 @@ Then choose the story engine:
 
 [Plot Party](https://plotparty.ai/home?auth=register) is built for this planning stage. You can develop characters, test story structures, generate scenes, and prototype episodes before committing to a full production path.
 
+<PlotPartyCta />
+
 ## FAQ
 
 ### How do microdramas make money?

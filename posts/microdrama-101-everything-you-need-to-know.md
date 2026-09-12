@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 12
 tags: ["AI Drama", "Landscape", "Creators"]
 keywords: ["microdrama industry", "microdrama market size", "what is microdrama", "short drama apps", "ReelShort DramaBox", "microdrama revenue 2026", "vertical drama series", "AI microdrama production"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-101.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-101-v2.png"
 outline: deep
 ---
 
@@ -155,6 +155,8 @@ This is where it gets interesting for creators. AI is compressing the microdrama
 The implication is massive: **a $150,000 production could become a $15,000 production** with AI handling character generation, scene composition, video generation, and post-production. This democratizes the format for independent creators.
 
 [Plot Party](https://plotparty.ai/home?auth=register) is built specifically for this intersection — AI-powered tools for creating microdramas with consistent characters, storyboard-driven workflows, and video generation. See our [step-by-step tutorial](./creating-drama-episode-plot-party-tutorial.md) to create your first episode.
+
+<PlotPartyCta />
 
 ## The Opportunity for Creators
 

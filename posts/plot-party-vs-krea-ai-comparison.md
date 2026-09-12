@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 8
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Plot Party vs Krea AI", "Krea AI alternative", "Krea AI video generation", "real-time AI canvas", "AI microdrama tool", "story-first AI video platform", "Krea 2 model"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-krea.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-krea-v2.png"
 outline: deep
 ---
 
@@ -61,6 +61,8 @@ Plot Party trades model breadth for narrative depth. Its workflow moves through 
 - You need broad access to dozens of underlying models for general visual experimentation
 - Your work is mostly still-image or 3D asset generation outside of a narrative context
 - You want a general-purpose canvas rather than a story-specific pipeline
+
+<PlotPartyCta />
 
 ## Which Tool Should You Use?
 

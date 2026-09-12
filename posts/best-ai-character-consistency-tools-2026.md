@@ -73,6 +73,8 @@ That makes Plot Party especially strong when the question is not "can I make thi
 
 If your only goal is a single hero image, a dedicated image tool may be faster. Plot Party becomes most useful when you care about continuity across a full story.
 
+<PlotPartyCta />
+
 ## 2. Runway Gen-4
 
 **Best for:** Cinematic AI video with strong reference-image consistency

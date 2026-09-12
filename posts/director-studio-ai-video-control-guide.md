@@ -126,6 +126,8 @@ Here is a simple way to use Director Studio inside a Plot Party production workf
 
 This makes the process feel closer to previsualization in traditional filmmaking: plan first, generate second, refine third.
 
+<PlotPartyCta />
+
 ## Who Benefits Most?
 
 Director Studio is especially useful for creators who need consistency and direction across multiple shots:

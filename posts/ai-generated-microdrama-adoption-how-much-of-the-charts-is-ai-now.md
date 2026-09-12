@@ -238,6 +238,8 @@ A creator can test:
 
 That is why [Plot Party](https://plotparty.ai/home?auth=register) focuses on story, characters, scenes, and production flow together. AI microdrama is not just a video-generation problem. It is a serial-story workflow problem.
 
+<PlotPartyCta />
+
 ## The Better Forecast: AI-Native, Not AI-Only
 
 The future of microdrama is probably not a clean split between human-made and AI-made.

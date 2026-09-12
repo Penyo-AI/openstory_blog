@@ -1153,6 +1153,105 @@
 }
 
 /* ------------------------------------------------------------------ */
+/* Inline Plot Party CTA banner (used inside post markdown)            */
+/* ------------------------------------------------------------------ */
+
+.pp-cta {
+  margin: 40px 0;
+}
+
+.content-container:has(.blog-post-shell) .vp-doc a.pp-cta__card,
+.pp-cta__card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  padding: 32px 36px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #111111;
+  background-image:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 60%),
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+  box-shadow: 0 12px 32px rgba(17, 24, 39, 0.16);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.content-container:has(.blog-post-shell) .vp-doc a.pp-cta__card:hover,
+.pp-cta__card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.22);
+}
+
+.pp-cta__title {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.pp-cta__button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  background: #ffffff;
+  padding: 14px 22px;
+  color: #111111;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.pp-cta__card:hover .pp-cta__button {
+  background: #f3f4f6;
+}
+
+.pp-cta__arrow {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s ease;
+}
+
+.pp-cta__card:hover .pp-cta__arrow {
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 640px) {
+  .pp-cta__card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .pp-cta__title {
+    font-size: 1.15rem;
+  }
+
+  .pp-cta__button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ------------------------------------------------------------------ */
 /* Blog Post Footer (Continue Reading, Explore More, Related, CTA)     */
 /* ------------------------------------------------------------------ */
 

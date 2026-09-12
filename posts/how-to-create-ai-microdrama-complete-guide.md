@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 8
 tags: ["AI Video", "AI Drama", "Creators"]
 keywords: ["AI microdrama", "how to create AI video", "AI storytelling tutorial", "microdrama creation", "AI video generation guide", "short-form AI content", "Plot Party tutorial"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-how-to-create.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-how-to-create-v2.png"
 outline: deep
 ---
 
@@ -71,6 +71,8 @@ Once your microdrama is complete, you can:
 - Share directly from Plot Party to social media
 - Download for upload to YouTube, TikTok, or Instagram
 - Publish within the [Plot Party community](https://app.plotparty.ai/community) for feedback
+
+<PlotPartyCta />
 
 ## Tips for Making Your Microdrama Stand Out
 

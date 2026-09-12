@@ -108,6 +108,8 @@ Stop greenlighting plots. Start greenlighting feelings. Decide which of the four
 
 **Sources:** [Filmustage](https://filmustage.com/blog/short-drama-apps-compared-reelshort-vs-dramabox-in-2026/) · [C21 Media](https://www.c21media.net/department/c21investigates/microdrama-under-the-microscope/) · [The Ankler](https://theankler.com/microdramas-art-hook-audiences-dramabox-disney-accelerator/) · [Variety](https://variety.com/2026/tv/news/microdramas-brands-cannes-lions-preview-1236770634/) · [Jiemian](https://www.jiemian.com/article/12064720.html)
 
+<PlotPartyCta />
+
 ## FAQ
 
 ### What are the four emotional payoffs in microdrama?

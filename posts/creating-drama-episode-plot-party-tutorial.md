@@ -130,6 +130,8 @@ Your story gets its own shareable page on Plot Party that anyone can view.
 | Includes | 10-20 regenerations | 10-20 regenerations |
 | Best for | Prototyping, narration | Final drama, best quality |
 
+<PlotPartyCta />
+
 ## What's Next?
 
 Ready to direct your first episode? [Create your story now →](https://plotparty.ai/home?auth=register)

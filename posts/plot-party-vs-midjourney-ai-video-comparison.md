@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 7
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Plot Party vs Midjourney", "Midjourney alternative", "Midjourney AI video", "Midjourney for video", "AI microdrama tool", "story-first AI video platform", "AI image to video"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-midjourney.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-midjourney-v2.png"
 outline: deep
 ---
 
@@ -61,6 +61,8 @@ Plot Party is built for creators whose deliverable is a video episode, not a sti
 - Your goal is generating standalone illustrations, concept art, or still images
 - You need the widest possible range of purely visual/artistic styles for image work
 - Video is not part of your deliverable at all
+
+<PlotPartyCta />
 
 ## Which Tool Should You Use?
 

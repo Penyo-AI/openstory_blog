@@ -64,6 +64,8 @@ Plot Party focuses on that production layer. It gives creators a place to move f
 - You want a developer framework for rendering videos from code
 - Your main goal is training image models or browsing community model checkpoints
 
+<PlotPartyCta />
+
 ## Higgsfield: Best for Cinematic AI Video Experiments and Multi-Model Access
 
 Higgsfield positions itself as an AI video and image generation workspace. Its official AI video page emphasizes access to multiple leading models in one platform, including models such as Kling, Veo, Sora, Seedance, Wan, and others, with camera, motion, and style controls for AI video creation.

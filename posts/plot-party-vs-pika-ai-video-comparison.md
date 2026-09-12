@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 7
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Plot Party vs Pika", "Pika alternative", "Pika AI video", "Pikaffects", "AI microdrama tool", "story-first AI video platform", "fast AI video generator"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-pika.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-pika-v2.png"
 outline: deep
 ---
 
@@ -61,6 +61,8 @@ Plot Party trades some of that speed for structure. It gives creators a producti
 - You just need one fast, stylized clip for a single social post
 - You are experimenting with effects or trends rather than building a narrative
 - You do not need character or scene continuity beyond a single shot
+
+<PlotPartyCta />
 
 ## Which Tool Should You Use?
 

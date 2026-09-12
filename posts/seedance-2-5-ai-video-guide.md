@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Seedance 2.5", "Seedance 2.5 guide", "how to use Seedance 2.5", "ByteDance Seedance 2.5", "Seedance 2.5 vs 2.0", "Seedance 2.5 release date", "Seedance 2.5 features", "Plot Party Seedance"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-5-v2.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-5-v3.png"
 outline: deep
 ---
 
@@ -86,6 +86,8 @@ Seedance 2.0's global rollout was voluntarily paused by ByteDance after cease-an
 ## Is Seedance 2.5 Available on Plot Party?
 
 Not yet — [Plot Party](https://plotparty.ai/home?auth=register) currently offers Seedance 2.0 in Pro mode alongside Kling V3 and Veo 3.1. We're tracking Seedance 2.5's public rollout and preparing the story-first workflow (script, scenes, references, edit) to support it. See our [Seedance 2.5 page](https://plotparty.ai/page/seedance-2-5) for the latest status, or [sign up for early access](https://plotparty.ai/home?auth=register) to get notified.
+
+<PlotPartyCta />
 
 ## FAQ
 

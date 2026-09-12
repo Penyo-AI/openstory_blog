@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import MarketingHeader from './components/MarketingHeader.vue'
 import BlogPostHeader from './components/BlogPostHeader.vue'
 import BlogPostFooter from './components/BlogPostFooter.vue'
+import PlotPartyCta from './components/PlotPartyCta.vue'
 import './custom.css'
 
 const theme: Theme = {
@@ -14,6 +15,10 @@ const theme: Theme = {
       'doc-before': () => h(BlogPostHeader),
       'doc-after': () => h(BlogPostFooter)
     })
+  },
+  enhanceApp({ app }) {
+    // Available inside any markdown post as <PlotPartyCta />
+    app.component('PlotPartyCta', PlotPartyCta)
   }
 }
 

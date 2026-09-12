@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 8
 tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Plot Party vs Runway", "Runway alternative", "Runway AI video", "Runway Gen-4.5", "AI microdrama tool", "story-first AI video platform", "Runway for creators"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-runway.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-runway-v2.png"
 outline: deep
 ---
 
@@ -78,6 +78,8 @@ That means the platform is organized around production steps a showrunner would 
 - You need frame-level VFX control over existing footage
 - Your workflow is fundamentally about editing, not generating new story-driven scenes
 - You need a developer API to build a custom media pipeline
+
+<PlotPartyCta />
 
 ## Which Tool Should You Use?
 

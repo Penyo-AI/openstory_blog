@@ -79,6 +79,8 @@ Monitor what fans create, celebrate the best work, and refine your approach:
 - Gather data on which characters and stories resonate most
 - Use insights to inform your broader content strategy
 
+<PlotPartyCta label="Explore the IP Holder Program" href="https://app.plotparty.ai/ip" />
+
 ## Case Study: How IP Holders Are Already Winning
 
 Early adopters of AI content platforms are seeing results:

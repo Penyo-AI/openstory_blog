@@ -6,7 +6,7 @@ author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Drama", "Microdrama", "Landscape"]
 keywords: ["microdrama industry report 2026", "microdrama market size", "vertical drama market size 2026", "ReelShort DramaBox revenue", "microdrama statistics", "short drama industry trends 2026", "vertical short drama market", "microdrama app rankings"]
-coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report.png"
+coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report-v2.png"
 outline: deep
 head:
   - - link
@@ -20,7 +20,7 @@ head:
       content: "The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout."
   - - meta
     - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report.png
+      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report-v2.png
   - - meta
     - property: og:url
       content: https://plotparty.ai/page/blog/posts/microdrama-industry-report-2026-market-size-trends
@@ -29,7 +29,7 @@ head:
       content: summary_large_image
   - - meta
     - name: twitter:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report.png
+      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report-v2.png
 ---
 
 Microdrama stopped being a niche mobile format years ago. In 2026, it is a multibillion-dollar global category with its own platform leaders, its own shakeout, and its own production revolution happening in real time.
@@ -110,6 +110,8 @@ The other force reshaping the industry in 2026 is production itself. AI is compr
 In China, the scale is striking: more than **50,000 AI-native titles** reportedly went live on Douyin in a single month in early 2026, and studios are now allocating around **30% of production budgets** to AI-driven workflows. The leading AI video models behind this shift — Seedance 2.0, Kling 3.0, and Vidu — have moved from experimental tools to core production infrastructure for entire studios.
 
 We cover exactly how much of the chart this AI shift represents, and what "AI-generated" actually means in practice, in a dedicated deep dive: [AI-Generated Microdrama Adoption: How Much of the Charts Is AI Now?](./ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now.md)
+
+<PlotPartyCta />
 
 ## What This Means for Creators and IP Holders
 
