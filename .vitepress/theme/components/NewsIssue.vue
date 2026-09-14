@@ -6,6 +6,87 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/setting-up-shop': {
+    date: 'Week of September 7 - September 13, 2026',
+    title: 'Setting Up Shop',
+    image: withBase('/images/news/setting-up-shop-banner-2026-w37.png'),
+    alt: 'Setting Up Shop - Plot Party Weekly 2026 W37',
+    deck: 'This week the vertical business went looking for permanence: three new studios and apps opened their doors, the format landed on an industry chart for the first time, fresh capital arrived — and AI kept rewriting who does the work inside all of it.',
+    quickReads: [
+      'Upscale Media Films opens as a full-service microdrama studio, betting on owned book IP and a standing crew.',
+      'LoveHit launches an app built entirely on public-domain classics — each story shot once as a vertical, once as a feature for MIPCOM.',
+      'David Oyelowo and Nate Parker’s Mansa Studios plants three dark-romance series directly on TikTok.',
+      'The Hollywood Reporter starts charting microdramas next to box office and streaming ratings.',
+      'The same THR issue tallies the AI verticals thinning out L.A.’s post-strike microdrama crews.',
+      'Capital and brands keep arriving: Colombia’s Idilio raises $5M with Katzenberg’s firm; Jamie Oliver turns a midlife crisis into a Life360 microseries.'
+    ],
+    stories: [
+      {
+        date: 'SEP 9, 2026',
+        title: 'Upscale Media Films opens as a full-service microdrama studio',
+        body: 'Upscale Media Films formally launched as a full-service production company for the microdrama market, led by CEO and founder Malik Davis. The model centers on controlling a portfolio of published book properties and pairing them with a standing crew that develops, casts, shoots, edits, and delivers in-house. Its first slate adapts Blake Karrington novels with Kevin Hart’s Hartbeat for the platform aTwist, and the company is in production on “Exotic Foods,” a ten-episode horror anthology built on a hybrid AI-assisted workflow.',
+        why: 'Owning the IP and the crew at once turns a hit-driven business into a repeatable production line, which is what a studio looks like when it plans to stay.',
+        source: 'Deadline',
+        sourceTitle: 'Upscale Officially Launches As One-Stop Shop For Microdramas',
+        href: 'https://deadline.com/2026/09/upscale-launches-microdrama-producer-1237072180/'
+      },
+      {
+        date: 'SEP 10, 2026',
+        title: 'LoveHit builds an app entirely from public-domain classics',
+        body: 'L.A.-based LoveHit launched with five adaptations of out-of-copyright novels — “Wuthering Heights,” “Pride and Prejudice,” “Jane Eyre,” “The Great Gatsby,” and “Beauty and the Beast” — with “Dangerous Liaisons,” “The Scarlet Letter,” and “Les Misérables” in post. Each title is produced twice over: once as a vertical microseries and once as a horizontal feature, with the features going to buyers at MIPCOM in October. Academy Award nominee Eric Roberts appears in “Jane Eyre.”',
+        why: 'Public-domain source material removes licensing cost and legal risk, and shooting each story as both a vertical and a feature lets one production chase two revenue markets.',
+        source: 'Deadline',
+        sourceTitle: 'Vertical Video Studio LoveHit Launches With Literary Classics',
+        href: 'https://deadline.com/2026/09/lovehit-microdrama-literary-classic-originals-1237069378/'
+      },
+      {
+        date: 'SEP 9, 2026',
+        title: 'Mansa Studios plants three series directly on TikTok',
+        body: 'David Oyelowo and Nate Parker’s Mansa Studios debuted a slate of three original dark-romance microdramas — “My Twin Sister Stole My Man,” “I Married the King of the Streets,” and “The Love Contract” — released directly through TikTok. It is the first time the studio, which is dedicated to Black stories, has launched shows on the platform, following months of collaboration.',
+        why: 'Launching on TikTok trades app-install spend for an audience that is already assembled, betting distribution scale can stand in for owning the storefront.',
+        source: 'Deadline',
+        sourceTitle: 'David Oyelowo & Nate Parker’s Mansa Studios Debuts TikTok Microdramas',
+        href: 'https://deadline.com/2026/09/david-oyelowo-nate-parker-tiktok-microdramas-mansa-studios-1237065179/'
+      },
+      {
+        date: 'SEP 10, 2026',
+        title: 'Microdramas land on The Hollywood Reporter charts',
+        body: 'The Hollywood Reporter added microdramas to its industry charts, placing the format alongside box office grosses, streaming rankings, and TV ratings. The rankings draw on Owl & Co.’s verticals index; ReelShort’s AI-made “The Great and Powerful Genie” led most-watched titles worldwide for the tracked week.',
+        why: 'A trade scorecard gives buyers, agents, and advertisers a shared number to point at, the kind of plumbing a category acquires once it expects to be around.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'THR Charts',
+        href: 'https://www.hollywoodreporter.com/h/charts/'
+      },
+      {
+        date: 'SEP 9, 2026',
+        title: 'The same week’s THR issue counts the AI cost in L.A.',
+        body: 'In its September 9 issue, The Hollywood Reporter reported that AI-generated verticals are thinning out work for the Los Angeles cast and crew who turned to microdramas after the 2023 strikes. Apps including My Muse and Inkitt Ironblood release only AI content, while DramaBox, DramaWave, and FlareFlow increasingly lean on synthetic actors and settings.',
+        why: 'The human labor that made U.S. live-action verticals distinctive is the first cost AI removes, and that pressure sits directly underneath every studio opening this week.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'AI Is Deflating Hollywood’s Microdramas Scene',
+        href: 'https://www.hollywoodreporter.com/business/business-news/ai-hollywood-microdramas-1236694483/'
+      },
+      {
+        date: 'SEP 10, 2026',
+        title: 'Colombia’s Idilio raises $5M, with Katzenberg’s firm in the round',
+        body: 'Idilio, a Spanish-language microdrama platform led by TV host and Miss Colombia 2018 Gabriela Tafur, closed a $5 million seed round. Jeffrey Katzenberg’s investment firm participated — the same Katzenberg whose Quibi is the standard reference point for betting early on short-form vertical.',
+        why: 'A targeted Spanish-language app drawing a marquee U.S. investor shows capital moving toward specific language markets rather than another all-purpose global app.',
+        source: 'C21Media',
+        sourceTitle: 'Colombia’s Idilio Raises US$5M To Scale Microdrama Platform',
+        href: 'https://www.c21media.net/news/colombias-idilio-raises-us5m-to-scale-microdrama-platform/'
+      },
+      {
+        date: 'SEP 10, 2026',
+        title: 'Jamie Oliver turns a midlife crisis into a Life360 microdrama',
+        body: 'Celebrity chef Jamie Oliver partnered with family-tracking app Life360 on “Finding Jamie,” a comedy microseries directed by Tom Kingsley and built around Oliver and his family. The Jamie Oliver Group framed it as a chance to position Oliver as a comedic performer; Life360 gets placement across his social accounts and their tens of millions of followers.',
+        why: 'When a brand commissions a comedy first and a plug second, the microdrama becomes owned programming that earns attention rather than buying it.',
+        source: 'The Drum',
+        sourceTitle: 'How Jamie Oliver’s Midlife Crisis Became A Life360 Microdrama',
+        href: 'https://www.thedrum.com/news/how-jamie-oliver-s-midlife-crisis-became-a-life360-microdrama'
+      }
+    ],
+    sources: 'Deadline · The Hollywood Reporter · C21Media · The Drum — with reporting corroborated by The Vertical Bloom and Further&Better'
+  },
   '/news/closer-to-home': {
     date: 'Week of August 31 - September 6, 2026',
     title: 'Closer to Home',

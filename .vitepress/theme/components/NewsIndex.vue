@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Setting Up Shop',
+    href: '/page/news/setting-up-shop',
+    date: 'Week of September 7 - September 13, 2026',
+    dek: 'Three new studios and apps opened their doors, the format landed on an industry chart, fresh capital arrived, and AI kept rewriting the work inside it all.',
+    image: withBase('/images/news/setting-up-shop-banner-2026-w37.png'),
+    alt: 'Setting Up Shop - Plot Party Weekly 2026 W37',
+    signals: [
+      'Upscale Media Films opened as a full-service microdrama studio built around owned book IP and a standing crew.',
+      'LoveHit launched an app of public-domain classics shot as both vertical series and horizontal features.',
+      'Mansa Studios released three original dark-romance microdramas directly through TikTok.',
+      'The Hollywood Reporter began charting microdramas alongside box office, streaming, and TV ratings.',
+      'Idilio raised $5 million as branded programming and AI production continued expanding the market.'
+    ]
+  },
+  {
     title: 'Closer to Home',
     href: '/page/news/closer-to-home',
     date: 'Week of August 31 - September 6, 2026',
