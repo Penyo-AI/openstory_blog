@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'plot-party-studio-agent-native-drama-workbench',
+    title: 'Plot Party Studio: An Agent That Makes Your Whole Drama, File by File',
+    description: "Plot Party Studio is an agent-native workbench for long-form AI drama. Brief the agent, and it writes scripts, casts characters, generates every clip, scores the cut, and files each result into a tree you can open, edit, and reuse. Here is how the three-column workbench, the six tools, skills, memory, and credits work.",
+    publishedAt: '2026-09-19',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-studio-agent.png',
+    tags: ['AI Video', 'Creators', 'AI Drama'],
+    readingTime: 12,
+    featured: true,
+    relatedLinks: [
+      { label: 'Request Studio Early Access', href: 'mailto:hi@plotparty.ai?subject=Studio%20early%20access%20request' },
+      { label: 'Try Plot Party', href: appUrl('/home') },
+      { label: 'Create a Drama Episode on Plot Party', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+    ]
+  },
+  {
     slug: 'plot-party-mcp-direct-ai-microdrama-from-claude-chatgpt',
     title: 'Plot Party MCP: Direct a Full AI Microdrama From Claude, ChatGPT, or Cursor',
     description: "Plot Party MCP turns your AI agent into a director. Connect one URL to Claude, ChatGPT, Cursor, or Codex and generate character sheets, nine-grid variations, Seedance 2.5 and Kling 3.0 clips, dialogue, and music without leaving the chat. Setup, tools, a step-by-step episode workflow, and FAQ.",
