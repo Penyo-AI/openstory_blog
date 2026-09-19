@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://plotparty.ai/page/blog/</loc>
-    <lastmod>2026-09-19T05:00:40.620Z</lastmod>
+    <lastmod>2026-09-19T06:05:24.761Z</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://plotparty.ai/page/blog/posts/plot-party-studio-agent-native-drama-workbench</loc>
-    <lastmod>2026-09-19T05:00:33.013Z</lastmod>
+    <lastmod>2026-09-19T05:50:57.107Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -122,7 +122,7 @@
   </url>
   <url>
     <loc>https://plotparty.ai/page/news</loc>
-    <lastmod>2026-09-12T06:29:44.963Z</lastmod>
+    <lastmod>2026-09-19T06:04:30.553Z</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -143,6 +143,11 @@
   <url>
     <loc>https://plotparty.ai/page/news/closer-to-home</loc>
     <lastmod>2026-09-12T06:29:44.963Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/news/setting-up-shop</loc>
+    <lastmod>2026-09-19T06:04:30.553Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
