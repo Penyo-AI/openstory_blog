@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Rails Were Already There',
+    href: '/page/news/the-rails-were-already-there',
+    date: 'Week of September 14 - September 20, 2026',
+    dek: 'The advantage in microdrama is moving toward companies that already own the production, payment, creator, or distribution machinery around the story.',
+    image: withBase('/images/news/the-rails-were-already-there-banner-2026-w38.jpg'),
+    alt: 'The Rails Were Already There - Plot Party Weekly 2026 W38',
+    signals: [
+      'Lime Pictures framed soap production as native training for vertical drama.',
+      'HeyRuby.tv launched with creators keeping 70–80% of episode ticket revenue.',
+      'IQSTEL modeled up to $21.6 million in annual consumer billings through carrier subscriptions.',
+      'Shorts and Full Moon Artists opened a branded US production strand.',
+      'Black Forest Studios unveiled Snäxx as a premium European microdrama app.'
+    ]
+  },
+  {
     title: 'Setting Up Shop',
     href: '/page/news/setting-up-shop',
     date: 'Week of September 7 - September 13, 2026',

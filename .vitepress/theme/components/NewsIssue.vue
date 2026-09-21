@@ -6,6 +6,68 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-rails-were-already-there': {
+    date: 'Week of September 14 - September 20, 2026',
+    title: 'The Rails Were Already There',
+    image: withBase('/images/news/the-rails-were-already-there-banner-2026-w38.jpg'),
+    alt: 'The Rails Were Already There - Plot Party Weekly 2026 W38',
+    deck: 'This week’s vertical entrants arrived with something the format’s startups had to build from zero: a soap studio’s production line, a telco’s billing relationship, a game studio’s creator tools. The advantage in microdrama is moving toward whoever already owns the machinery around the story.',
+    quickReads: [
+      'Banijay’s Lime Pictures, the studio behind Hollyoaks, shipped its first vertical drama and framed soap production as native training for the format.',
+      'HeyRuby.tv launched out of a video-game studio, paying creators 70–80% of ticket revenue and publishing the contract.',
+      'IQSTEL put numbers to carrier-billed microdrama: an illustrative $14.4M–$21.6M in annual consumer billings at 300,000 paid subscriptions.',
+      'Vertical streamer Shorts opened a branded US production strand with Charles Band’s Full Moon Artists, shooting on location in the Hamptons.',
+      'Germany’s Black Forest Studios unveiled Snäxx, a “premium” European app staking a position between the US and Chinese platforms.'
+    ],
+    stories: [
+      {
+        date: 'SEP 16, 2026',
+        title: 'Lime Pictures makes its first vertical drama — and calls soap the perfect training',
+        body: 'Lime Pictures, the Banijay-owned producer behind “Hollyoaks” and “The Only Way Is Essex,” revealed the cast and trailer for “Revenge Is a Dish,” a 57-episode revenge romance co-produced with RoseBerry Media and now live globally on RoseBerry’s vertical app epis. The cast is led by Luke Delaney, Kharla Corley, Tamara Wall, and Jessica Paul. Lime has a second epis original, “Make Me a Match,” in production; epis carries more than 100 titles and has 25-plus originals planned for 2026. Lime frames soap and microdrama as adjacent crafts: high shooting frequency, strong hooks, heightened emotion, serialized storytelling, limited rehearsal, and large volumes of dramatic material shot fast.',
+        why: 'The traditional producers best positioned for vertical may be daytime and continuing-drama shops rather than film studios, because their existing production lines already run at microdrama’s tempo and cost.',
+        source: 'Banijay',
+        sourceTitle: 'Lime Pictures and RoseBerry Media Launch First-of-its-Kind Vertical Co-Production With Original Vertical Drama Revenge Is a Dish',
+        href: 'https://www.banijay.com/blog/2026/09/16/lime-pictures-and-roseberry-media-launch-first-of-its-kind-vertical-co-production-with-original-vertical-drama-revenge-is-a-dish/'
+      },
+      {
+        date: 'SEP 15, 2026',
+        title: 'HeyRuby.tv launches from a game studio, handing creators up to 80% of revenue',
+        body: 'Real Games, an Orange County studio led by game-industry veteran David Perry, launched HeyRuby.tv on iPhone and iPad — a microdrama app built around a creator-first split. Creators keep 70% of episode ticket revenue, 80% if the content is exclusive, and 100% of fan tips. The company published its creator contract publicly. The positioning points at the YouTube, Patreon, and Substack model rather than the commissioning studios that dominate microdrama today: audiences follow creators, creators own the fan relationship, and each series monetizes directly.',
+        why: 'A durable creator-owned platform would open a second structural model alongside the ReelShort playbook, one where creators hold the IP and audience while the platform takes a transaction fee.',
+        source: 'HeyRuby.tv via EIN Presswire',
+        sourceTitle: 'HeyRuby.tv Launches on iPhone and iPad With a Creator-First Model for Microdrama',
+        href: 'https://www.einpresswire.com/article/942231897/heyruby-tv-launches-on-iphone-and-ipad-with-a-creator-first-model-for-microdrama'
+      },
+      {
+        date: 'SEP 17, 2026',
+        title: 'IQSTEL models the unit economics of selling microdrama through phone carriers',
+        body: 'IQSTEL, working with Spanish-language platform IDILIO TV, published an illustrative model for distributing microdrama subscriptions through mobile operators. At a consumer price of roughly $4–$6 per month split among the carrier, content partner, and IQSTEL, the company models that 300,000 active paid monthly subscriptions would represent about $1.2M–$1.8M in monthly consumer billings, or $14.4M–$21.6M annualized, with an estimated $0.50–$1.00 monthly profit contribution per subscriber. These are company scenarios, not realized revenue. The mechanism is the point: carrier billing moves the transaction onto a mobile plan and a one-tap subscription with no credit card required.',
+        why: 'If carrier billing works, distribution shifts toward partners who already own the payment relationship with the user, which changes where microdrama’s acquisition cost sits.',
+        source: 'PR Newswire',
+        sourceTitle: 'IQSTEL Digital Models an Illustrative $14.4 Million to $21.6 Million in Annualized Consumer Billings',
+        href: 'https://www.prnewswire.com/news-releases/iqst--iqstel-digital-models-an-illustrative-14-4-million-to-21-6-million-in-annualized-consumer-billings-at-300-000-active-paid-monthly-microdrama-subscriptions-302882480.html'
+      },
+      {
+        date: 'SEP 14, 2026',
+        title: 'Shorts opens a US production strand with Charles Band’s Full Moon Artists',
+        body: 'Vertical streamer Shorts teamed with Full Moon Artists, the microdrama label from cult genre producer Charles Band, on “Love in the Hamptons,” launching an FMAxShorts-branded production strand. The romance, from FMA’s Sarah Moliski and Rebecca Stoughton, begins principal photography at the end of September on location in East Hampton, New York. The move takes Shorts further into owned, branded originals produced with a named genre partner and shot in the US, beyond its licensed catalog.',
+        why: 'Platforms are building repeatable, branded production lanes with established labels, which turns a one-off title into a supply pipeline the platform controls.',
+        source: 'Deadline',
+        sourceTitle: 'Sarah Moliski Behind Shorts Microdrama “Love In The Hamptons”',
+        href: 'https://deadline.com/2026/09/sarah-moliski-love-in-hamptons-shorts-microdrama-1237099946/'
+      },
+      {
+        date: 'SEP 15, 2026',
+        title: 'Snäxx launches as a “premium” European microdrama app',
+        body: 'Germany’s Black Forest Studios unveiled Snäxx, billed as Europe’s first premium microdrama platform, launching November 1 on iOS and Android. Backed by a board of media, tech, and investment executives — with actor Boris Kodjoe among its advisors — Snäxx is pitching higher-end “European creativity” and AI-supported production, and is inviting European and international producers to pitch content.',
+        why: 'European entrants are trying to carve a premium, locally rooted position between the US-based English-language originals and the Chinese-built app giants, betting the market will pay for a distinct content identity.',
+        source: 'Deadline',
+        sourceTitle: 'Snäxx Launches As Europe’s Latest Microdrama App Player',
+        href: 'https://deadline.com/2026/09/snaxx-launches-europe-microdrama-app-1237103706/'
+      }
+    ],
+    sources: 'Banijay · Deadline · PR Newswire · HeyRuby.tv via EIN Presswire'
+  },
   '/news/setting-up-shop': {
     date: 'Week of September 7 - September 13, 2026',
     title: 'Setting Up Shop',
