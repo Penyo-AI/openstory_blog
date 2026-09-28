@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'A Stage of Its Own',
+    href: '/page/news/a-stage-of-its-own',
+    date: 'Week of September 21 - September 27, 2026',
+    dek: 'Vertical drama found a festival stage, a living-room distribution lane, brand-backed story formats, and a Hollywood studio willing to co-own the IP.',
+    image: withBase('/images/news/a-stage-of-its-own-banner-2026-w39.png'),
+    alt: 'A Stage of Its Own - Plot Party Weekly 2026 W39',
+    signals: [
+      'Alza Festival unveiled the slate for America’s first dedicated microdrama festival.',
+      'YouTube reported 6.5 billion microdrama views and introduced Shorts Series.',
+      'MACRO and MANSA agreed to co-own a premium vertical series.',
+      'Venmo made its Groups feature the plot of an interactive social microdrama.',
+      'Brands are now confronting microdrama’s attribution and ROI problem.'
+    ]
+  },
+  {
     title: 'The Rails Were Already There',
     href: '/page/news/the-rails-were-already-there',
     date: 'Week of September 14 - September 20, 2026',

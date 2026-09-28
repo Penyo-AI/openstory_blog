@@ -6,6 +6,70 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/a-stage-of-its-own': {
+    date: 'Week of September 21 - September 27, 2026',
+    title: 'A Stage of Its Own',
+    image: withBase('/images/news/a-stage-of-its-own-banner-2026-w39.png'),
+    alt: 'A Stage of Its Own - Plot Party Weekly 2026 W39',
+    deck: 'This week vertical drama kept furnishing itself a home on American turf — a festival stage, a standing slot on the living-room TV, brands writing their own episodes, and a Hollywood studio signing onto the IP as a co-owner.',
+    quickReads: [
+      'Alza Festival, America’s first microdrama festival, unveiled vertical takes on “Pride and Prejudice,” “Wuthering Heights,” and Sherlock, plus an Eric Roberts rom-com.',
+      'YouTube reported 6.5 billion microdrama views in the first half of 2026, up 50%, with views on TV screens rising more than 90%.',
+      'YouTube introduced Shorts Series, packaging individual Shorts into bingeable seasons with sequential playback.',
+      'MACRO Television Studios and MANSA Studios will jointly develop a premium vertical series and share ownership of the underlying IP.',
+      'Venmo made its Groups feature the premise of a social microdrama and invited viewers to vote the plot forward.',
+      'Digiday mapped the remaining brand challenge: proving that microdrama attention converts into measurable return.',
+      'The week’s fights happened one layer up from production — in distribution, ownership, and legitimacy.'
+    ],
+    stories: [
+      {
+        date: 'SEP 23, 2026',
+        title: 'Vertical drama gets a red carpet: Alza Festival reveals its first slate',
+        body: 'Alza Festival — billed as America’s first festival dedicated to microdrama and running in New York October 16–18 — unveiled its inaugural programming. Opening night pairs a vertical “Pride and Prejudice” with “Moriarty Rising: A Sherlock Holmes Tale,” while the weekend slate includes a present-day American-ranch “Wuthering Heights,” the Eric Roberts rom-com “Billionaires’ Broken Vow” from Former Prodigy Media, Denmark’s first original vertical-fiction series “Glaze,” Tokyo-set anime “Lola” from Morphic Studios, and genre entries “The Count,” “Mobking,” “50 Worst Dates,” and “Zero Point.” The festival is run by veterans of Tribeca and TikTok, and its programming leans heavily on public-domain literary IP — the same well LA studios have been drawing from all quarter.',
+        why: 'A dedicated festival is how a format acquires critical vocabulary, a talent-scouting circuit, and a press cycle that treats it as cinema — the connective tissue that turns a business into an industry.',
+        source: 'Deadline',
+        sourceTitle: 'Eric Roberts Rom-Com & Reimaginings Of Pride & Prejudice, Wuthering Heights, Sherlock To Premiere At America’s First Microdrama Festival',
+        href: 'https://deadline.com/2026/09/alza-microdrama-festival-eric-roberts-pride-prejudice-1237111139/'
+      },
+      {
+        date: 'SEP 24, 2026',
+        title: 'YouTube pulls microdrama into the living room — and gives it a season structure',
+        body: 'At its Made on YouTube 2026 event in New York, YouTube reported that microdrama content drew 6.5 billion views in the first half of the year, a 50% jump over 2025. Microdrama views on TVs rose more than 90% year over year, bringing the format onto the surface where YouTube’s advertising leverage is greatest. The company also introduced Shorts Series, which lets creators organize individual Shorts into TV-style seasons with custom thumbnails and sequential playback across TV, web, and mobile. The feature applies a streaming-service season panel to clips that run one to three minutes, engineering the autoplay flow that microdrama apps already monetize.',
+        why: 'ReelShort and DramaBox built the microdrama habit inside paywalled apps; YouTube is now offering the same serialized hook on the biggest screen in the house, funded by advertising.',
+        source: 'Tubefilter',
+        sourceTitle: 'YouTube wants you to pump its TV watch time with microdramas',
+        href: 'https://www.tubefilter.com/2026/09/24/made-on-youtube-shorts-series-microdramas/'
+      },
+      {
+        date: 'SEP 23, 2026',
+        title: 'Hollywood buys in as an owner: MACRO and MANSA to co-own a premium vertical series',
+        body: 'Charles D. King’s MACRO Television Studios and MANSA Studios — the production and distribution label co-founded by David Oyelowo and Nate Parker — will jointly develop, finance, and produce an original premium vertical series. The companies will share ownership of the underlying intellectual property while splitting creative and strategic direction across development, marketing, and promotion. MANSA leads production, drawing on its growing vertical slate and TikTok distribution; MACRO brings premium scripted development, talent relationships, and a track record of commercially viable programming. The structure moves past the licensing arrangements that have defined most studio experiments with vertical drama.',
+        why: 'Sharing the underlying IP puts vertical drama on a studio’s balance sheet as a franchise-grade asset it intends to own and build — a strong signal of Hollywood’s long-term commitment to the format.',
+        source: 'The Quintessential Gentleman',
+        sourceTitle: 'Charles D. King’s MACRO Partners With MANSA Studios on New Vertical Series',
+        href: 'https://www.theqgentleman.com/post/2026-09-charles-d-kings-macro-partners-with-mansa-studios-on-new-vertical-series/'
+      },
+      {
+        date: 'SEP 22, 2026',
+        title: 'The product becomes the plot: Venmo writes its own feature into a microdrama',
+        body: 'Venmo launched “The Group,” a mockumentary microdrama running on TikTok, Instagram, and YouTube Shorts and directed by Skyler Fulton. Four college students share a house, and the first episode centers on an argument about what to name their Venmo Group. It closes by asking viewers to submit a name in the comments, with the winning entry set to appear in episode two. The move goes beyond product placement: the feature is the premise, and the comment prompt turns the audience into participants Venmo can reach again.',
+        why: 'When a brand makes its own product the premise and asks viewers to co-write the next episode, the microdrama becomes the campaign itself — a participation device that teaches the feature while it entertains.',
+        source: 'The Branded Entertainment Brief',
+        sourceTitle: 'Venmo Wrote Its App Feature Into a Microdrama',
+        href: 'https://www.brandedentertainmentbrief.com/p/venmo-wrote-its-app-feature-into-a-microdrama'
+      },
+      {
+        date: 'SEP 22, 2026',
+        title: 'The bill comes due: Digiday maps microdrama’s ROI question for brands',
+        body: 'Digiday’s assessment of the brand rush into microdrama is that marketers have secured the audience and are still working out whether that audience pays. Attention came easily; attribution is the unsolved half. Dentsu’s Geneva Wasserman argued that traditional view metrics can mislead and that earned media and cultural credibility may be more useful measures. The reference case is Bob’s Discount Furniture’s “Till Decor Do Us Part,” whose first season claimed 152 million views and roughly $9 million in attributable sales before returning for a second run. The caution is that formats can win attention and still fail to convert it into durable business.',
+        why: 'Brand money is what lets a format scale beyond its core spenders, and that money follows proof — so the industry’s next competitive edge is measurement.',
+        source: 'Digiday',
+        sourceTitle: 'Marketers have bought into microdramas — but a lack of ROI might make them irrelevant',
+        href: 'https://digiday.com/marketing/r-i-p-quibi-you-would-have-loved-microdramas/'
+      }
+    ],
+    sources: 'Deadline, Tubefilter, The Quintessential Gentleman, The Branded Entertainment Brief, and Digiday. Corroborating reporting: Variety and Dork.'
+  },
   '/news/the-rails-were-already-there': {
     date: 'Week of September 14 - September 20, 2026',
     title: 'The Rails Were Already There',
