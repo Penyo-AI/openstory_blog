@@ -6,6 +6,59 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/pulled-from-the-shelf': {
+    date: 'Week of September 28 - October 4, 2026',
+    title: 'Pulled From the Shelf',
+    image: withBase('/images/news/pulled-from-the-shelf-banner-2026-w40.png'),
+    alt: 'Pulled From the Shelf - Plot Party Weekly 2026 W40',
+    deck: 'Vertical drama spent the week furnishing itself from stock it already had on hand — a soap star’s old episodes, a public-domain zombie, Hollywood’s underused talent, and the living-room television. The growth is real; most of this week’s supply simply came from somewhere that already existed.',
+    quickReads: [
+      'RoseBerry is recutting Margot Robbie’s old “Neighbours” run into a vertical microdrama with AI — and a cast member is calling it invasive.',
+      'Room418 wants to be the horror app for vertical, and it’s launching on a 1968 public-domain classic.',
+      'At TheGrill, the people building the biggest vertical platforms said Hollywood is now knocking on their doors.',
+      'Shortical says AI doubled its business and will carry it to roughly $100M in revenue this year.',
+      'Microdrama viewing on actual TV screens jumped more than 90% in the first half of the year — the format is climbing onto the living-room set.'
+    ],
+    stories: [
+      {
+        date: 'SEP 29, 2026',
+        title: 'RoseBerry turns Margot Robbie’s “Neighbours” run into vertical — with AI doing the cutting',
+        body: 'RoseBerry Media is reformatting two of Margot Robbie’s “Neighbours” storylines — her 2008–2011 run as Donna Freedman on the Australian soap — into vertical micro-episodes for its Epis platform, amounting to roughly 150 minutes of content. The work runs through RedSnapper, RoseBerry’s proprietary pipeline that uses AI to convert existing TV and film libraries into 9:16 series. No new footage is shot and Robbie is not involved; the system reshapes what already aired. “Neighbours” actor Stefan Dennis publicly called the AI-assisted revival “unbelievably invasive.” A decades-old soap library becomes vertical inventory without a single new day of production, but the friction is on the talent side: performers whose old work is being mined did not sign up for a second life in a format that did not exist when they shot it.',
+        why: 'The economics of library-to-vertical reformatting are hard to argue with; the unresolved question is consent, and this week a recognizable name attached a complaint to it.',
+        source: 'Variety',
+        sourceTitle: 'Margot Robbie’s ‘Neighbours’ Episodes to Be Recut Into a Microdrama by RoseBerry for Its Epis Platform (EXCLUSIVE)',
+        href: 'https://variety.com/2026/tv/news/margot-robbie-neighbours-microdrama-episodes-roseberry-1236876975/'
+      },
+      {
+        date: 'OCT 2, 2026',
+        title: 'Room418 bets that horror deserves its own vertical home — starting with a 1968 classic',
+        body: 'Room418, a new horror-focused microdrama studio and platform, is readying an adaptation of “Night of the Living Dead” ahead of launch. It positions itself as a dedicated destination for horror fans, carrying vertical-first originals alongside horizontal and mixed-format programming. Former Blink49 Studios, CBC and Shaftesbury executive Dylen Postnikoff is leading the company as co-founder and CEO. An invite-only beta arrives this fall with a slate of licensed titles, with original productions to follow. Launching on “Night of the Living Dead” is a tell: the film’s public-domain status makes it free source material, and horror travels well in a format built on cliffhangers. The bet is that genre loyalty can anchor a standalone app while the big platforms chase the broad romance audience.',
+        why: 'As generalist platforms crowd the center, a genre-specific destination is a way to own a defined audience while the big players keep fighting over the broad one.',
+        source: 'Deadline',
+        sourceTitle: '‘Night Of The Living Dead’ Vertical Microdrama Readied For Horror-Focused App Room418',
+        href: 'https://deadline.com/2026/10/room418-microdrama-app-night-of-the-living-dead-1237145205/'
+      },
+      {
+        date: 'OCT 2, 2026',
+        title: 'At TheGrill, vertical’s operators describe Hollywood coming to them',
+        body: 'On a TheGrill 2026 panel at the DGA Theater, Mansa co-founders David Oyelowo and Nate Parker, Shortical CEO Guy Shimoni and aTwist CEO Jana Winograde described a reversal in who is courting whom. Shimoni said that 18 months ago the format was taboo and now traditional players are knocking, drawn by the revenue. Shortical says its business has doubled since it began rolling out AI content and expects roughly $100 million in revenue by year-end, with an AI feature, “Inevitable,” due later in October. Mansa runs its verticals at $100,000 to $250,000 per production. aTwist, launched in early September, is applying a classic-TV playbook, with a Mario Lopez family series and a Jesse Tyler Ferguson musical microseries, while mostly casting vertical and unknown talent. As film and television budgets contract, the talent, the executives and the production know-how are available, and vertical is where that capacity is being redeployed.',
+        why: 'The format is absorbing the people and habits of a contracting traditional industry, which gives it craft and credibility it could not manufacture on its own.',
+        source: 'TheWrap',
+        sourceTitle: 'Microdrama Platform Founders Say Hollywood Has Come Knocking as Traditional Pipelines Shrink',
+        href: 'https://www.thewrap.com/media-platforms/tv/microdramas-ai-david-oyelowo-nate-parker-interview-mansa-atwist/'
+      },
+      {
+        date: 'SEP 29, 2026',
+        title: 'The format probably won’t become network TV, but it’s already on the TV',
+        body: 'A MediaPost analysis makes the case that microdramas’ real effect on television is already showing up on the TV screen itself, even if they never find a place on linear network schedules. Microdrama viewing on TV screens rose more than 90% year-over-year in the first half of 2026. The piece cites Owl & Co.’s projection that the microdrama app market outside China reaches about $3 billion, led by ReelShort and DramaBox, and frames the living-room screen as the next surface the phone-native format is climbing onto. A format designed for a vertical phone is being pulled onto the largest, most horizontal screen in the house, complicating the tidy story that microdrama lives and dies on mobile.',
+        why: 'If the TV screen becomes a real consumption surface for vertical, the format starts competing for the same living-room attention as the incumbents it was supposed to sit beside.',
+        source: 'MediaPost',
+        sourceTitle: 'Microdramas On Network TV? Not Likely, But Other Effects Loom',
+        href: 'https://www.mediapost.com/publications/article/418339/microdramas-on-network-tv-not-likely-but-other-e.html'
+      }
+    ],
+    sources: 'Variety, Deadline, TheWrap, MediaPost.'
+  },
   '/news/a-stage-of-its-own': {
     date: 'Week of September 21 - September 27, 2026',
     title: 'A Stage of Its Own',

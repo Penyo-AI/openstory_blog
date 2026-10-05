@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Pulled From the Shelf',
+    href: '/page/news/pulled-from-the-shelf',
+    date: 'Week of September 28 - October 4, 2026',
+    dek: 'Vertical drama drew on familiar stock: an old soap library, a public-domain horror classic, Hollywood talent, and the living-room television.',
+    image: withBase('/images/news/pulled-from-the-shelf-banner-2026-w40.png'),
+    alt: 'Pulled From the Shelf - Plot Party Weekly 2026 W40',
+    signals: [
+      'RoseBerry is recutting Margot Robbie’s Neighbours storylines for vertical with AI, drawing criticism from a cast member.',
+      'Room418 is building a horror-focused microdrama platform around Night of the Living Dead.',
+      'At TheGrill, vertical-platform founders said Hollywood is now approaching them.',
+      'Shortical says AI doubled its business and projects roughly $100 million in revenue this year.',
+      'Microdrama viewing on TV screens rose more than 90% year over year in the first half of 2026.'
+    ]
+  },
+  {
     title: 'A Stage of Its Own',
     href: '/page/news/a-stage-of-its-own',
     date: 'Week of September 21 - September 27, 2026',
