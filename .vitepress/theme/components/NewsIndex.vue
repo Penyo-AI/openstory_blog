@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Mining the Vault',
+    href: '/page/news/mining-the-vault',
+    date: 'Week of October 5 - October 11, 2026',
+    dek: 'A+E and Snips mine existing TV libraries for vertical inventory, GASP maps the cost of finishing a short drama, and LumoTV commissions new work.',
+    image: withBase('/images/news/mining-the-vault-banner-2026-w41.png'),
+    alt: 'Mining the Vault - Plot Party Weekly 2026 W41',
+    signals: [
+      'A+E adapted roughly 200 catalog titles for third-party vertical licensing and launched MyLifetime.com.',
+      'Snips is re-cutting long-form series starring Sarah Snook, Maisie Williams and Kit Harington.',
+      'GASP estimates $28.14 to finish a typical ReelShort drama, with 17% free before the paywall.',
+      'DramaBox overtook ReelShort in US search interest; 89% of searched drama titles surfaced an unofficial copy.',
+      'LumoTV invited pitches for original vertical drama, including a deaf-led UK project.'
+    ]
+  },
+  {
     title: 'Pulled From the Shelf',
     href: '/page/news/pulled-from-the-shelf',
     date: 'Week of September 28 - October 4, 2026',
@@ -223,7 +238,7 @@ const issues = [
         </div>
 
         <article v-for="issue in issues" :key="issue.href" class="news-issue-card">
-          <a class="news-issue-card__image-link" :href="issue.href" :aria-label="issue.title">
+          <a v-if="issue.image" class="news-issue-card__image-link" :href="issue.href" :aria-label="issue.title">
             <img :src="issue.image" :alt="issue.alt">
           </a>
 

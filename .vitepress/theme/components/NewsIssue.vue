@@ -6,6 +6,59 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/mining-the-vault': {
+    date: 'Week of October 5 - October 11, 2026',
+    title: 'Mining the Vault',
+    image: withBase('/images/news/mining-the-vault-banner-2026-w41.png'),
+    alt: 'Mining the Vault - Plot Party Weekly 2026 W41',
+    deck: "The week's new vertical supply came almost entirely from old libraries — A+E's catalog, Lifetime's shelf, the back catalogs of Sarah Snook and Kit Harington — and GASP's numbers showed why the re-cut pays: the stories are already made, and only the attention still has to be bought.",
+    quickReads: [
+      'A+E Global Media put about 200 library titles into vertical and opened them for third-party licensing, and launched MyLifetime.com for the consumer side.',
+      'Snips skipped originals entirely and re-cut prestige long-form — Sarah Snook, Kit Harington, Maisie Williams — into 45-second to two-minute episodes.',
+      "GASP's public dataset priced the genre: $28.14 to finish a typical ReelShort drama, with 17% free before the paywall.",
+      'The same dataset showed DramaBox has passed ReelShort in US search interest, and that 89% of title searches surface a pirated copy.',
+      "LumoTV went the other way, opening a UK brief to commission original vertical — including the UK's first deaf vertical drama."
+    ],
+    stories: [
+      {
+        date: 'OCT 8, 2026',
+        title: 'A+E and Lifetime turn the library into vertical inventory',
+        body: 'A+E Global Media opened its catalog to the vertical market, adapting roughly 200 titles into microdramas for third-party licensing and launching a consumer platform of its own. The new MyLifetime.com will carry three original Lifetime vertical films produced by Microhouse Films alongside seven titles adapted from the A+E library. The licensing play is the larger of the two: with MIPCOM opening the following week, A+E arrived with a shelf of pre-adapted vertical titles that other platforms can buy rather than build. The company is positioning its back catalog as supply for an ecosystem that is short on finished, rights-cleared content.',
+        why: "When a legacy library holder starts wholesaling vertical adaptations to other platforms, the format's content shortage becomes a licensing market, and A+E is early to price it.",
+        source: 'Variety',
+        sourceTitle: 'A+E Global Media and Lifetime Expand Microdrama Slate, Announcing Mobile Launch Originals and Nearly 200 Titles Adapted for Third-Party Distribution',
+        href: 'https://variety.com/2026/tv/news/ae-global-media-lifetime-microdrama-slate-mobile-titles-1236905122/'
+      },
+      {
+        date: 'OCT 8, 2026',
+        title: 'Snips re-cuts prestige TV instead of shooting new',
+        body: "Snips is adapting finished long-form shows starring Sarah Snook, Maisie Williams, Liam Cunningham, Iain Glen and Kit Harington into 45-second-to-two-minute vertical episodes. The source titles are established drama: Snook's The Beautiful Lie, Williams' Two Weeks to Live, Cunningham's Domina, Glen's Prisoners' Wives and Harington's Gunpowder. Snips' model leans on existing content rather than commissioning originals, acquiring finished shows and re-editing them to vertical length. The announcement, timed to MIPCOM, frames recognizable talent and completed productions as a faster route to a catalog than a writers' room.",
+        why: 'Recognizable, already-shot prestige drama gives a vertical platform marketable talent and finished footage at once, which is the cheapest path to scale a catalog that exists.',
+        source: 'Deadline',
+        sourceTitle: "Sarah Snook & 'Game Of Thrones' Stars' Shows Adapted As Microdramas For Snips",
+        href: 'https://deadline.com/2026/10/snips-microdramas-succession-game-of-thrones-stars-adapted-1237150762/'
+      },
+      {
+        date: 'OCT 5, 2026',
+        title: 'GASP puts a number on what a short drama actually costs',
+        body: "An independent dataset from GASP found that finishing a typical ReelShort drama costs $28.14 when paid episode-by-episode with coins, and that only 17% of a typical drama is free before payment begins. The dataset tracks 7,572 dramas across ReelShort, DramaBox, ShortMax and GoodShort, read daily from each app's public pages. It finds a one-week pass is the cheaper way to finish 712 of the 833 ReelShort titles it could price, and that the free portion runs 17% on ReelShort and 18% on DramaBox. On demand, US Google searches for DramaBox have overtaken ReelShort, 110,000 a month against 90,500 in August 2026, up from 27,100 each two years earlier; searches for “vertical drama” rose 26-fold over the same period. GASP also reports that of 1,313 drama titles people search, 89% surface a suggestion pointing to an unofficial copy.",
+        why: 'The paywall math and the piracy signal point the same direction — the per-title price is high enough that it shapes both what viewers finish and where they go looking.',
+        source: 'EIN Presswire (via National Law Review)',
+        sourceTitle: 'GASP Data: A Typical Short Drama Costs $28 to Finish and Only 17% of It Is Free',
+        href: 'https://natlawreview.com/press-releases/gasp-data-typical-short-drama-costs-28-finish-and-only-17-it-free'
+      },
+      {
+        date: 'OCT 7, 2026',
+        title: 'LumoTV commissions original vertical as a counter-signal',
+        body: "LumoTV opened its 2026 Drama Commissioning Brief to microdrama and vertical pitches, with the stated goal of making the UK's first deaf vertical drama. While the week's larger players mined existing libraries, LumoTV put money toward original, mission-led vertical work, inviting creators to pitch new short-form drama rather than adapt finished shows. The brief is modest in scale next to A+E's library play, but it marks a public-service commissioner treating vertical as a place to originate new work.",
+        why: 'A commissioning brief for original vertical shows the format is becoming a place to make new work, not only a cheaper shelf for old work.',
+        source: 'Drop Media',
+        sourceTitle: 'LumoTV seeks microdrama and vertical projects in new drama brief',
+        href: 'https://dropmedia.co.uk/lumotv-seeks-microdrama-and-vertical-projects-in-new-drama-brief'
+      }
+    ],
+    sources: "Variety; Deadline; EIN Presswire (via National Law Review), citing GASP's public dataset (gasptv.com/research); Drop Media."
+  },
   '/news/pulled-from-the-shelf': {
     date: 'Week of September 28 - October 4, 2026',
     title: 'Pulled From the Shelf',
@@ -845,7 +898,7 @@ const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/
         <p class="news-hero__eyebrow">Plot Party Dispatch</p>
         <p class="news-hero__date">{{ issue.date }}</p>
         <h1 class="news-hero__title">{{ issue.title }}</h1>
-        <figure class="news-hero__banner">
+        <figure v-if="issue.image" class="news-hero__banner">
           <img
             :src="issue.image"
             :alt="issue.alt"
