@@ -6,6 +6,68 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/names-on-the-marquee': {
+    date: 'Week of October 12 - October 18, 2026',
+    title: 'Names on the Marquee',
+    image: withBase('/images/news/names-on-the-marquee-banner-2026-w42.png'),
+    alt: 'Names on the Marquee - Plot Party Weekly 2026 W42',
+    deck: 'This was the week vertical drama started collecting the credentials of an established business — a festival with a city’s name on the award, a wrestler and a comedian taking top billing, and the first hard count of who is actually watching.',
+    quickReads: [
+      'The first festival built for vertical storytelling opened in New York, with a city award to match.',
+      'Fox and Kevin Hart’s Hartbeat turned 25 verticals into a first-look pipeline for film and TV.',
+      'TikTok signed its second microdrama deal, putting creators at the center of originals for PineDrama.',
+      'WWE walked into microdrama with Drew McIntyre headlining its first series.',
+      'Omdia counted the audience: men are half of US microdrama viewers, and the majority in the UK.'
+    ],
+    stories: [
+      {
+        date: 'OCTOBER 16–18, 2026',
+        title: 'Vertical storytelling gets its own festival — and a city’s stamp',
+        body: 'The inaugural ALZA Festival ran October 16–18 at AMC 19th Street in New York, the first festival built specifically around vertical storytelling and microdrama, with premieres, screenings, panels, masterclasses and brand activations. The New York City Mayor’s Office of Media and Entertainment partnered on a “Created in NY” showcase of five selected projects, and for the first time its “Made in NY Award” went to a content creator. The founding team carries festival and platform pedigree. Pete Torres was chief operating officer of the Tribeca Festival, and co-founder Rita Vinnik is a former TikTok executive. Platforms including DramaBox and vertTV were among the participants.',
+        why: 'A dedicated festival with municipal backing gives the format the kind of institutional calendar slot and credentialing that film and television have long used to confer legitimacy and draw talent.',
+        source: 'NetInfluencer',
+        sourceTitle: 'New ALZA Festival Brings Microdramas to New York With City Backing',
+        href: 'https://www.netinfluencer.com/new-alza-festival-brings-microdramas-to-new-york-with-city-backing/'
+      },
+      {
+        date: 'OCTOBER 13, 2026',
+        title: 'Fox and Hartbeat make verticals a feeder for film and TV',
+        body: 'Fox Entertainment and Kevin Hart’s Hartbeat announced a pipeline launching with 25 live-action vertical series on Holywater’s My Drama app, released under the Codeblack, Essence and Revolt brands and anchored by a dedicated Codeblack destination — the first branded channel on My Drama. Fox secured first-look rights to adapt successful titles into traditional film and television projects. The arrangement extends an existing relationship: Fox took an equity stake in Holywater in 2025, and already works with the company’s microdrama operation.',
+        why: 'Using vertical series as a low-cost testing ground for IP that can graduate to film and TV gives a legacy studio an early read on demand before it commits development dollars.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'Fox Entertainment and Hartbeat Ink Deal to Mine Microdramas for Film and TV Adaptation',
+        href: 'https://www.hollywoodreporter.com/business/business-news/fox-entertainment-hartbeat-microdramas-film-tv-adaptation-1236728410/'
+      },
+      {
+        date: 'OCTOBER 14, 2026',
+        title: 'TikTok’s second microdrama deal puts creators at the center',
+        body: 'At MIPCOM in Cannes, TikTok signed a multiyear partnership with Made By Us Studios — the production arm of creator-management firm Made By All — to co-produce creator-led vertical series for TikTok and its microdrama app PineDrama. The first two titles are “Player,” a romantic revenge thriller starring Hannah Stocking, and “The Knock,” a genre series with Adam Rose and Zaria Simone. The deal follows TikTok’s April partnership with Issa Rae’s Hoorae Media. Deadline described it as among the largest vertical deals at the market, and it marks TikTok’s move from distributing scripted content toward developing originals.',
+        why: 'Building originals around creators who arrive with their own audiences lowers the marketing spend that consumes most microdrama budgets, because the talent brings distribution attached.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'TikTok Inks Second Major Microdrama Deal, Partners With Made By Us Studios',
+        href: 'https://www.hollywoodreporter.com/business/business-news/tiktok-second-microdrama-agreement-made-by-us-studios-1236729095/'
+      },
+      {
+        date: 'ANNOUNCED OCTOBER 12–14, 2026 (PREMIERES OCTOBER 23)',
+        title: 'WWE brings Drew McIntyre into its first microdrama',
+        body: 'WWE announced its first microdrama, “Agent of Shadows,” co-produced with ReelShort and set to premiere October 23 on ReelShort and social platforms. The series stars WWE’s Drew McIntyre as a secret agent who learns he has a daughter he never knew and must protect her from a criminal organization. WWE framed the project as part of extending its reach beyond wrestling.',
+        why: 'A brand with a large, loyal fan base can carry that audience into microdrama at low risk, using a recognizable star to test whether its viewers follow it into a new format.',
+        source: 'Fox News (OutKick)',
+        sourceTitle: 'WWE star Drew McIntyre stars in micro-drama series ‘Agent of Shadows,’ touts company’s reach beyond wrestling',
+        href: 'https://www.foxnews.com/outkick-sports/wwe-star-drew-mcintyre-stars-micro-drama-series-agent-shadows-touts-companys-reach-beyond-wrestling'
+      },
+      {
+        date: 'OCTOBER 13, 2026',
+        title: 'Omdia’s audience count: men are half the US microdrama viewership',
+        body: 'New figures from Omdia, drawn from its April 2026 consumer research, put men at 54% of microdrama users in the United Kingdom and 50% in the United States, with a 47% average across surveyed markets (47% in Spain, 29% in Brazil). Omdia’s head of media and entertainment, María Rúa Aguete, said the data challenges the assumption that microdrama is romance programming made mainly for women. The figures are self-reported survey responses rather than measured viewing.',
+        why: 'A male audience at this scale widens the commercial case for genres beyond romance — action, thriller, sports-adjacent — and gives platforms data to justify slates built for men.',
+        source: 'Señal News',
+        sourceTitle: 'Men account for 54% of UK microdrama users, challenging industry assumptions',
+        href: 'https://senalnews.com/en/data/men-account-for-54-of-uk-microdrama-users-challenging-industry-assumptions'
+      }
+    ],
+    sources: 'The Hollywood Reporter, Fox News (OutKick), NetInfluencer, Señal News, Omdia, NYC Mayor’s Office of Media and Entertainment, Variety, Deadline.'
+  },
   '/news/mining-the-vault': {
     date: 'Week of October 5 - October 11, 2026',
     title: 'Mining the Vault',

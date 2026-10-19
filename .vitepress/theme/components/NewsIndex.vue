@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Names on the Marquee',
+    href: '/page/news/names-on-the-marquee',
+    date: 'Week of October 12 - October 18, 2026',
+    dek: 'A city-backed festival, high-profile talent deals, and a new audience count give vertical drama a more established stage.',
+    image: withBase('/images/news/names-on-the-marquee-banner-2026-w42.png'),
+    alt: 'Names on the Marquee - Plot Party Weekly 2026 W42',
+    signals: [
+      'The first festival built for vertical storytelling opened in New York, with a city award to match.',
+      'Fox and Kevin Hart’s Hartbeat turned 25 verticals into a first-look pipeline for film and TV.',
+      'TikTok signed its second microdrama deal, putting creators at the center of originals for PineDrama.',
+      'WWE walked into microdrama with Drew McIntyre headlining its first series.',
+      'Omdia counted the audience: men are half of US microdrama viewers, and the majority in the UK.'
+    ]
+  },
+  {
     title: 'Mining the Vault',
     href: '/page/news/mining-the-vault',
     date: 'Week of October 5 - October 11, 2026',
