@@ -4,6 +4,20 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Who Gets the Close-Up',
+    href: '/page/news/who-gets-the-close-up',
+    date: 'Week of October 19 - October 25, 2026',
+    dek: 'Synthetic actors win viewing minutes while union performers, social-native creators and reality stars compete for the same vertical frame.',
+    image: withBase('/images/news/who-gets-the-close-up-banner-2026-w43.png'),
+    alt: 'Who Gets the Close-Up - Plot Party Weekly 2026 W43',
+    signals: [
+      'AI generated roughly two-thirds of microdramas released outside China last quarter, but live-action held viewers better over 30 days.',
+      'SAG-AFTRA’s Verticals Agreement passed its first anniversary with dozens of signed productions.',
+      'Sony signed Moletown Drama creator Thea von Engelbrechten to a first-look deal.',
+      'Bravo cast Craig Conover in its first scripted vertical for Peacock.'
+    ]
+  },
+  {
     title: 'Names on the Marquee',
     href: '/page/news/names-on-the-marquee',
     date: 'Week of October 12 - October 18, 2026',

@@ -6,6 +6,59 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/who-gets-the-close-up': {
+    date: 'Week of October 19 - October 25, 2026',
+    title: 'Who Gets the Close-Up',
+    image: withBase('/images/news/who-gets-the-close-up-banner-2026-w43.png'),
+    alt: 'Who Gets the Close-Up - Plot Party Weekly 2026 W43',
+    deck: 'A union roster of Hollywood names, a creator Sony just signed, a reality star Bravo cast, and an AI genie out-watching them all: everyone is auditioning for the same vertical frame.',
+    quickReads: [
+      'AI generated roughly two-thirds of microdramas released outside China last quarter; synthetic-actor titles led minutes watched in Owl & Co.’s data.',
+      'Live-action stories held viewers better 30 days out, even as AI titles won the opening-week spike.',
+      'SAG-AFTRA’s Verticals Agreement turned one, with dozens of productions and a $300,000 budget cap.',
+      'Sony signed the creator behind Moletown Drama to a first-look deal and announced Hazelwood.',
+      'Bravo cast Southern Charm’s Craig Conover in its first scripted vertical, premiering November 9 on Peacock.'
+    ],
+    stories: [
+      {
+        date: 'OCTOBER 20, 2026',
+        title: 'The synthetic actors are winning the minutes — for now',
+        body: 'Owl & Co.’s third-quarter report found that roughly two-thirds of microdramas released outside China on the leading platforms it tracks were AI-generated. Those apps recorded 63 billion views and 2 billion viewing hours in the quarter. ReelShort’s AI-made The Great and Powerful Genie drew 632 million viewing minutes, the highest total on the paid apps Owl measures; only one live-action title reached the top five. But live-action titles were more likely to remain in the top 10% of views 30 days after release, and Owl noted a shift back toward live action in China.',
+        why: 'AI can buy an opening-week spike; 30-day retention may be the more useful test of which performers hold an audience.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'Two-Thirds of Microdramas Released in Latest Quarter Outside China Were AI Generated, Says Report',
+        href: 'https://www.hollywoodreporter.com/business/digital/ai-generated-microdramas-two-thirds-all-releases-1236735402/'
+      },
+      {
+        date: 'OCTOBER 19, 2026',
+        title: 'A year of the Verticals Agreement put Hollywood names on the call sheet',
+        body: 'SAG-AFTRA’s independent Verticals Agreement passed its first anniversary. The union says it has cleared dozens of productions under terms designed for the format: budgets up to $300,000, shoots of no more than 30 consecutive days, and lead minimums of $250 for an eight-hour day, plus pension and health contributions. James Franco, Taye Diggs and Mario Lopez are among the names now appearing in microseries; Kevin Hart’s aTwist deal brings another 20 titles. Producers including Knockout Shorts and Snow Story Productions use both union and nonunion casts.',
+        why: 'Union coverage makes recognizable talent a practical casting option in a format many agents would previously have passed over.',
+        source: 'TheWrap',
+        sourceTitle: 'How SAG-AFTRA Is Dragging Hollywood Into the Vertical Microdrama Boom',
+        href: 'https://www.thewrap.com/media-platforms/tv/microdramas-verticals-changes-with-sag-aftra-agreement/'
+      },
+      {
+        date: 'OCTOBER 22, 2026',
+        title: 'Sony signed a social-native creator and made her a studio bet',
+        body: 'Sony Pictures Television signed Thea von Engelbrechten, creator of the Moletown Drama accounts, to a multiyear first-look deal. She built roughly 2.5 million TikTok followers and 1 million Instagram followers through figurine-staged soap operas, originally branded Sylvanian Drama. Her first project under the deal, the darkly comic animated microseries Hazelwood, is scheduled to premiere November 13 on YouTube before moving to TikTok and Instagram.',
+        why: 'Sony is investing in a creator’s existing audience as much as her next show — a different bet from hiring an established screen star.',
+        source: 'Variety',
+        sourceTitle: 'Sony Pictures TV Signs Content Creator Thea Von Engelbrechten to First-Look Deal, Launches Animated Microdrama “Hazelwood”',
+        href: 'https://variety.com/2026/tv/news/sony-tv-thea-von-engelbrechten-deal-hazelwood-1236921621/'
+      },
+      {
+        date: 'OCTOBER 23, 2026',
+        title: 'Bravo turned a reality star into its first scripted vertical lead',
+        body: 'Bravo announced Charmed by a Southern Monster, its first scripted vertical microdrama, for a November 9 premiere on Peacock’s mobile app. Southern Charm’s Craig Conover stars as Hunter Caldwell opposite Nicole Mattox. It follows two unscripted Bravo microdramas on Peacock and brings a familiar reality-TV face into the scripted format without moving viewers outside NBCUniversal’s own app.',
+        why: 'Bravo is testing whether the audience it built around a reality star will follow him into scripted vertical storytelling.',
+        source: 'Deadline',
+        sourceTitle: 'Southern Charm’s Craig Conover To Star In Bravo Microdrama “Charmed By A Southern Monster” Set For Peacock Premiere',
+        href: 'https://deadline.com/2026/10/southern-charm-craig-conover-bravo-microdrama-peacock-1237171345/'
+      }
+    ],
+    sources: 'The Hollywood Reporter, TheWrap, Variety and Deadline; supporting figures from MediaPost and Bravo.'
+  },
   '/news/names-on-the-marquee': {
     date: 'Week of October 12 - October 18, 2026',
     title: 'Names on the Marquee',
