@@ -1,5 +1,5 @@
 ---
-title: "Higgsfield vs HyperFrames vs LiblibAI vs Plot Party: AI Video Workflow Comparison"
+title: "Higgsfield vs HyperFrames vs LiblibAI vs Plot Party (2026)"
 description: "Compare Higgsfield, HeyGen HyperFrames, LiblibAI, and Plot Party for AI video creation, product videos, open-source rendering, image-to-video workflows, and AI microdrama production."
 date: 2026-07-21
 author: "Sophia Xing"
@@ -8,6 +8,8 @@ tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Higgsfield vs HyperFrames", "Higgsfield comparison", "HyperFrames AI video", "LiblibAI video generator", "LiblibTV alternative", "Plot Party vs Higgsfield", "AI video workflow tools", "AI microdrama tools"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-ai-video-tools-4way.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
 
 ## The AI Video Tool Market Is Splitting Into Workflows
@@ -27,6 +29,8 @@ This comparison looks at four tools creators are likely to evaluate in 2026:
 - [HeyGen HyperFrames](https://hyperframes.heygen.com/) — an open-source framework for rendering videos from HTML, CSS, and JavaScript
 - [LiblibAI](https://www.liblib.art/) — a Chinese AI creation platform with image generation, video generation, model sharing, WebUI, ComfyUI, and LoRA training
 - [Plot Party](https://plotparty.ai/home?auth=register) — a story-first AI video workspace for microdramas, serialized stories, and creator workflows
+
+<InlineStudioCallout href="/nano-banana/2" title="Create with Nano Banana 2" />
 
 ## Quick Comparison
 
@@ -111,6 +115,8 @@ This is powerful for:
 - You expect it to generate cinematic drama scenes from a text prompt
 - You need character performance, emotional acting, or story continuity
 - You want a non-technical creator interface for microdrama production
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## LiblibAI: Best for Model Community, Image Workflows, and China AI Creation
 

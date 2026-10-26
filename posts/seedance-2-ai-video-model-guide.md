@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0: The Multimodal AI Video Model That Changes Everything"
+title: "Seedance 2.0 vs 2.5 Multimodal AI Video Prompt Guide | PlotParty"
 description: "Explore Seedance 2.0's multimodal video generation — combine images, video, audio, and text references for cinematic AI content. Best practices, prompting tips, and creative examples."
 date: 2026-03-22
 author: "Sophia Xing"
@@ -8,7 +8,18 @@ tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Seedance 2.0", "Seedance AI video model", "multimodal AI video generation", "AI video reference model", "Jimeng AI video", "best AI video model 2026", "Plot Party Seedance", "AI filmmaking multimodal"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-v3.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
+
+::: tip Seedance 2.5 is now live
+[Try Seedance 2.5 Online →](https://plotparty.ai/seedance/2.5)
+
+Choose your Seedance version: use the 2.0 guide for multimodal @ syntax and the 2.5 guide for longer takes and region editing.
+
+[Seedance 2.5 Guide: 30s Takes, 50 Refs & Region Edit](./seedance-2-5-ai-video-guide.md)
+:::
+
 
 ## What Is Seedance 2.0?
 
@@ -17,6 +28,8 @@ Seedance 2.0 is a multimodal AI video generation model that accepts **images, vi
 This is the model that turns AI video generation from "type a prompt and hope" into something that actually feels like directing.
 
 Seedance 2.0 is available on [Plot Party](https://plotparty.ai/home?auth=register) in Pro mode, alongside other top-tier models like Kling V3 and Veo 3.1.
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## Why Seedance 2.0 Matters for Creators
 
@@ -123,6 +136,8 @@ Here's a wuxia (martial arts fantasy) drama episode created using Seedance 2.0 o
 </video>
 
 Notice the consistent character design across shots, the dramatic camera movements, and how the model maintains the wuxia visual style throughout. This was created by combining reference images for characters and settings with text prompts for action and camera direction.
+
+<InlineStudioCallout href="/minimax/h3" title="Explore MiniMax H3" />
 
 ## Important Limitations
 

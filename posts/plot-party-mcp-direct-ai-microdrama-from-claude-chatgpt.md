@@ -1,5 +1,5 @@
 ---
-title: "Plot Party MCP: Direct a Full AI Microdrama From Claude, ChatGPT, or Cursor"
+title: "Plot Party MCP: Generate AI Video & Dramas in Claude & ChatGPT"
 description: "Plot Party MCP turns your AI agent into a director. Connect one URL to Claude, ChatGPT, Cursor, or Codex and generate character sheets, nine-grid variations, Seedance 2.5 and Kling 3.0 clips, dialogue, and music without leaving the chat. Setup, tools, a step-by-step episode workflow, and FAQ."
 date: 2026-09-12
 author: "Sophia Xing"
@@ -8,28 +8,8 @@ tags: ["AI Video", "Creators", "AI Drama"]
 keywords: ["Plot Party MCP", "MCP AI video generation", "generate AI video from ChatGPT", "generate AI video from Claude", "Claude AI video generator", "ChatGPT video generator MCP", "AI microdrama from chat", "Seedance 2.5 MCP", "Kling 3.0 MCP", "MCP server for creators", "agent-native video creation"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-mcp-director.png"
 outline: deep
-head:
-  - - link
-    - rel: canonical
-      href: https://plotparty.ai/page/blog/posts/plot-party-mcp-direct-ai-microdrama-from-claude-chatgpt
-  - - meta
-    - property: og:title
-      content: "Plot Party MCP: Direct a Full AI Microdrama From Claude, ChatGPT, or Cursor"
-  - - meta
-    - property: og:description
-      content: "Plot Party MCP turns your AI agent into a director. Connect one URL to Claude, ChatGPT, Cursor, or Codex and generate character sheets, nine-grid variations, Seedance 2.5 and Kling 3.0 clips, dialogue, and music without leaving the chat. Setup, tools, a step-by-step episode workflow, and FAQ."
-  - - meta
-    - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-mcp-director.png
-  - - meta
-    - property: og:url
-      content: https://plotparty.ai/page/blog/posts/plot-party-mcp-direct-ai-microdrama-from-claude-chatgpt
-  - - meta
-    - name: twitter:card
-      content: summary_large_image
-  - - meta
-    - name: twitter:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-mcp-director.png
+layout: blog-post
+titleTemplate: false
 ---
 
 Most creators now start a project in a chat window. You brainstorm the premise with Claude, outline episodes in ChatGPT, keep the character bible in Cursor next to your scripts. Then, to actually make the video, you leave. You open a generation tool, re-explain the characters, paste prompts one at a time, download clips, and come back.
@@ -45,6 +25,8 @@ MCP has existed since late 2024. Anthropic introduced it, OpenAI adopted it at D
 That gap closed this month. OpenAI's GPT-6 Astra began rolling out on September 3, 2026 with a 1M-token context window and a large jump on agentic-workflow benchmarks. Claude's current models have handled long tool chains for a while. Between them, the agent on the other end of an MCP connection can now hold a full script, a character bible, a style guide, and the history of every asset it has generated, then make the next call correctly.
 
 Higgsfield's Games 2.0 launch on Astra this week is one example of the pattern: a frontier agent plans, a creative platform generates. Plot Party MCP applies the same pattern to the thing we care about, which is stories with a cast that survives from shot one to shot forty.
+
+<InlineStudioCallout href="/guide/mcp" title="Connect Plot Party MCP" />
 
 ## What Is Plot Party MCP?
 
@@ -162,6 +144,8 @@ Several platforms now expose video models over MCP. The difference is what the t
 
 If you want one stunning clip, any video MCP will do. If you want episode three to star the same people as episode one, the tools have to know what a character is.
 
+<InlineStudioCallout href="/docs/api" title="Read the API documentation" />
+
 ## What Else Can You Do With It?
 
 - **Storyboard vertical shorts** in 9:16 from a script, using image tools only, and spend zero video credits until the board is right.
@@ -186,6 +170,11 @@ If you want one stunning clip, any video MCP will do. If you want episode three 
 4. Give it a premise and two characters. Approve the cast. Approve the board. Let it film.
 
 The full setup guide with screenshots is at [plotparty.ai/guide/mcp](https://www.plotparty.ai/guide/mcp). If you would rather learn the workflow in the app first, our [drama episode tutorial](./creating-drama-episode-plot-party-tutorial.md) walks through the same steps in the canvas, and our [guide to the best AI video models of 2026](./best-ai-video-models-2026-creator-guide.md) explains when to pick Seedance over Kling.
+
+## Setup and Developer References
+
+Use the [MCP connection guide](https://plotparty.ai/guide/mcp) to configure your client, the [getting-started help](https://plotparty.ai/help/getting-started-with-mcp) for onboarding, and the [API documentation](https://plotparty.ai/docs/api) for programmatic integration. Return to this article for the episode-production workflow.
+
 
 ## FAQ
 

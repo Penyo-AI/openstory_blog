@@ -1,5 +1,5 @@
 ---
-title: "Plot Party vs Midjourney: AI Story Video vs AI Image Generation"
+title: "Plot Party vs Midjourney (2026): Key Art to AI Video Workflow"
 description: "Compare Plot Party and Midjourney for AI creative work. See how a story-first AI microdrama platform differs from Midjourney's image-generation-first approach, and which one fits your project."
 date: 2026-07-29
 author: "Sophia Xing"
@@ -8,6 +8,8 @@ tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Plot Party vs Midjourney", "Midjourney alternative", "Midjourney AI video", "Midjourney for video", "AI microdrama tool", "story-first AI video platform", "AI image to video"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-vs-midjourney-v2.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
 
 ## An Image-First Tool Meets a Story-First Tool
@@ -17,6 +19,8 @@ Creators searching "Plot Party vs Midjourney" are often trying to figure out whe
 [Midjourney](https://www.midjourney.com/) built its reputation as one of the most widely used AI image generators, known for distinctive, highly stylized visual output produced through prompt-based generation. It has since expanded toward video generation as well, but its core identity — and the reason most creators come to it — is still image quality and aesthetic control.
 
 [Plot Party](https://plotparty.ai/home?auth=register) starts somewhere different: not a single image or clip, but a full story — characters, scenes, and an episode that needs to hold together from start to finish.
+
+<InlineStudioCallout href="/midjourney" title="Build key art with Midjourney" />
 
 ## Quick Comparison
 
@@ -63,6 +67,8 @@ Plot Party is built for creators whose deliverable is a video episode, not a sti
 - Video is not part of your deliverable at all
 
 <PlotPartyCta />
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## Which Tool Should You Use?
 

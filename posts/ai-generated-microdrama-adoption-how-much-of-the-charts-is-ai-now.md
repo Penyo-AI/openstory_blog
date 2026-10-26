@@ -1,5 +1,5 @@
 ---
-title: "AI-Generated Microdrama Adoption: How Much of the Charts Is AI Now?"
+title: "AI Microdrama Statistics 2026: 38% of Top Manju Charts Are AI"
 description: "A data-backed look at how much of the microdrama chart is already AI-generated, where the 38% number comes from, and what adoption means for creators, studios, and platforms."
 date: 2026-07-24
 author: "Sophia Xing"
@@ -8,28 +8,8 @@ tags: ["AI Drama", "Microdrama", "Landscape"]
 keywords: ["AI-generated microdrama adoption", "AI microdrama chart share", "AI short drama", "DataEye AI microdrama", "AI-generated micro dramas", "digital human dramas", "microdrama industry 2026", "AI vertical drama"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/ai-microdrama-adoption-cover-2026.png"
 outline: deep
-head:
-  - - link
-    - rel: canonical
-      href: https://plotparty.ai/page/blog/posts/ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now
-  - - meta
-    - property: og:title
-      content: "AI-Generated Microdrama Adoption: How Much of the Charts Is AI Now?"
-  - - meta
-    - property: og:description
-      content: "A data-backed look at how much of the microdrama chart is already AI-generated, where the 38% number comes from, and what adoption means for creators, studios, and platforms."
-  - - meta
-    - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/ai-microdrama-adoption-cover-2026.png
-  - - meta
-    - property: og:url
-      content: https://plotparty.ai/page/blog/posts/ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now
-  - - meta
-    - name: twitter:card
-      content: summary_large_image
-  - - meta
-    - name: twitter:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/ai-microdrama-adoption-cover-2026.png
+layout: blog-post
+titleTemplate: false
 ---
 
 The short answer: in the most-cited public chart, AI is already a meaningful minority of the winners.
@@ -59,6 +39,8 @@ Here is the current picture:
 For creators, the takeaway is not "AI has won." The better reading is:
 
 **AI is becoming a production layer. In some microdrama subcategories, it is already a chart layer.**
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## What Counts as "AI-Generated"?
 
@@ -173,6 +155,8 @@ AI can help with:
 - Generating synthetic shots that would be too expensive to shoot
 
 The most valuable AI use is not replacing every human decision. It is expanding the number of story decisions a small team can test.
+
+<InlineStudioCallout href="/nano-banana/2" title="Create with Nano Banana 2" />
 
 ## The Chart Share Will Not Move Evenly
 

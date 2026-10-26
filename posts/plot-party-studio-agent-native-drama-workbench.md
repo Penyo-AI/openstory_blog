@@ -1,5 +1,5 @@
 ---
-title: "Plot Party Studio: An Agent That Makes Your Whole Drama, File by File"
+title: "Plot Party Studio: Agent-Native AI Drama & Storyboard Workbench"
 description: "Plot Party Studio is an agent-native workbench for long-form AI drama. Brief the agent, and it writes scripts, casts characters, generates every clip, scores the cut, and files each result into a tree you can open, edit, and reuse. Here is how the three-column workbench, the six tools, skills, memory, and credits work."
 date: 2026-09-19
 author: "Sophia Xing"
@@ -8,28 +8,8 @@ tags: ["AI Video", "Creators", "AI Drama"]
 keywords: ["Plot Party Studio", "Studio Agent", "agentic AI video workbench", "AI drama production agent", "AI microdrama series generator", "agent-native video creation", "AI filmmaking workspace", "Series Autopilot", "AI video file tree", "long-form AI video"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-studio-agent.png"
 outline: deep
-head:
-  - - link
-    - rel: canonical
-      href: https://plotparty.ai/page/blog/posts/plot-party-studio-agent-native-drama-workbench
-  - - meta
-    - property: og:title
-      content: "Plot Party Studio: An Agent That Makes Your Whole Drama, File by File"
-  - - meta
-    - property: og:description
-      content: "Plot Party Studio is an agent-native workbench for long-form AI drama. Brief the agent, and it writes scripts, casts characters, generates every clip, scores the cut, and files each result into a tree you can open, edit, and reuse."
-  - - meta
-    - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-studio-agent.png
-  - - meta
-    - property: og:url
-      content: https://plotparty.ai/page/blog/posts/plot-party-studio-agent-native-drama-workbench
-  - - meta
-    - name: twitter:card
-      content: summary_large_image
-  - - meta
-    - name: twitter:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-studio-agent.png
+layout: blog-post
+titleTemplate: false
 ---
 
 <!-- 📸 COVER: 电影感海报风封面。建议画面：一个三栏工作台的抽象化呈现，左侧文件树、右侧对话流，中间是一帧滑板少年的剧照。替换上方 frontmatter 里三处 https://storage.googleapis.com/plotparty-storage-public/blogs/cover-plot-party-studio-agent.png。 -->
@@ -54,6 +34,8 @@ The rule that ties it together: **everything is a file**. Scripts, character she
 The first-run tour puts it this way:
 
 > "Say what you're making — a series, an episode, a single scene. The agent writes, casts, generates and files every result into the tree."
+
+<InlineStudioCallout href="/home" title="Open Plot Party Studio" />
 
 ## The Workbench, Column by Column
 
@@ -145,6 +127,8 @@ You answer one card, close the tab, and come back to a folder per episode with `
 With no skill bound, the agent works in one of two modes. A targeted request (one image, one clip, one edit, one question) gets exactly that. A production request (make me an episode, a trailer, a short drama) runs the default pipeline: story, then base images for cast and locations and props, then clips generated directly from those base images, then soundtrack, then merged film. One decision card per stage gate. There is no storyboard stage in between, because base images plus a blocking sketch per shot carry the composition.
 
 **You can write your own skill without leaving the tree.** Any markdown file named `SKILL.md` or `*.skill.md` is a skill definition. Its first heading is the name, its first paragraph is the description, and its body becomes the agent's workflow. Register it and it appears in your `/` menu as a private skill. Edit the file and it recompiles. No model in the loop, fully deterministic.
+
+<InlineStudioCallout href="/canvas" title="Open the story canvas" />
 
 ## Two Layers of Memory
 

@@ -1,5 +1,5 @@
 ---
-title: "Microdrama Industry Report 2026: Market Size, Top Platforms, and Trends"
+title: "Microdrama Industry Report 2026: Market Size, ReelShort & Trends"
 description: "The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout."
 date: 2026-07-25
 author: "Sophia Xing"
@@ -8,29 +8,16 @@ tags: ["AI Drama", "Microdrama", "Landscape"]
 keywords: ["microdrama industry report 2026", "microdrama market size", "vertical drama market size 2026", "ReelShort DramaBox revenue", "microdrama statistics", "short drama industry trends 2026", "vertical short drama market", "microdrama app rankings"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report-v2.png"
 outline: deep
-head:
-  - - link
-    - rel: canonical
-      href: https://plotparty.ai/page/blog/posts/microdrama-industry-report-2026-market-size-trends
-  - - meta
-    - property: og:title
-      content: "Microdrama Industry Report 2026: Market Size, Top Platforms, and Trends"
-  - - meta
-    - property: og:description
-      content: "The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout."
-  - - meta
-    - property: og:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report-v2.png
-  - - meta
-    - property: og:url
-      content: https://plotparty.ai/page/blog/posts/microdrama-industry-report-2026-market-size-trends
-  - - meta
-    - name: twitter:card
-      content: summary_large_image
-  - - meta
-    - name: twitter:image
-      content: https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-industry-report-v2.png
+layout: blog-post
+titleTemplate: false
 ---
+
+::: tip Find the right guide
+Start with the format overview, then use the industry report for market data or the monetization guide for creator economics.
+
+[Microdrama 101: Complete Guide to the $20B Vertical Drama Market](./microdrama-101-everything-you-need-to-know.md) · [How Microdramas Make Money (2026): Coin IAP, Ads & Creator ROI](./how-microdramas-make-money-ads-vs-in-app-purchases.md)
+:::
+
 
 Microdrama stopped being a niche mobile format years ago. In 2026, it is a multibillion-dollar global category with its own platform leaders, its own shakeout, and its own production revolution happening in real time.
 
@@ -49,6 +36,8 @@ Here is the state of the industry, grounded in the numbers analysts and platform
 | ReelShort gross consumer spend, 2025 | **~$1.2B**, 70M+ monthly active users |
 | DramaBox revenue / net profit, 2024 | **$323M / $10M** |
 | Share of top-100 China chart titles that are AI-driven, Jan 2026 vs a year earlier | **38% vs 7%** |
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## How Big Is the Market, Really?
 
@@ -94,6 +83,8 @@ Together, ReelShort and DramaBox have each passed **$450 million in cumulative i
 Coin-based, pay-per-episode in-app purchases remain the dominant monetization model across nearly every major platform, giving studios granular control over which episodes unlock revenue.
 
 But 2026 is the year ad-supported monetization went from "secondary option" to "strategic bet." DramaBox's programmatic ad partnership with The Trade Desk — the first of its kind for a vertical drama platform — opens a second, less friction-heavy revenue channel that does not depend on users pulling out a credit card. Expect more platforms to blend both models rather than pick one, especially in price-sensitive markets like Latin America and Southeast Asia. For a deeper breakdown of how these two models compare for creators, see our guide on [how microdramas make money](./how-microdramas-make-money-ads-vs-in-app-purchases.md).
+
+<InlineStudioCallout href="/minimax/h3" title="Explore MiniMax H3" />
 
 ## The Shakeout Has Already Started
 

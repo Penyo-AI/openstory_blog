@@ -1,5 +1,5 @@
 ---
-title: "How to Create an AI Microdrama: A Complete Guide for Beginners"
+title: "How to Create an AI Microdrama: Step-by-Step Producer Guide"
 description: "Learn how to create compelling AI-generated microdramas from scratch. Step-by-step guide covering story structure, AI video generation, character design, and publishing your first microdrama on Plot Party."
 date: 2026-03-20
 author: "Sophia Xing"
@@ -8,6 +8,8 @@ tags: ["AI Video", "AI Drama", "Creators"]
 keywords: ["AI microdrama", "how to create AI video", "AI storytelling tutorial", "microdrama creation", "AI video generation guide", "short-form AI content", "Plot Party tutorial"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-microdrama-how-to-create-v2.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
 
 ## What Is an AI Microdrama?
@@ -15,6 +17,8 @@ outline: deep
 AI microdramas are short, cinematic stories — typically 1 to 5 minutes — created using artificial intelligence tools for video generation, character design, and scene composition. They combine the emotional punch of short films with the accessibility of AI-powered creation tools.
 
 Unlike traditional filmmaking, you don't need a camera, actors, or a studio. With platforms like [Plot Party](https://app.plotparty.ai), you direct the story while AI handles the visual production.
+
+<InlineStudioCallout href="/tools/ai-microdrama-generator" title="Create an AI microdrama" />
 
 ## Why Microdramas Are Exploding in Popularity
 
@@ -74,6 +78,8 @@ Once your microdrama is complete, you can:
 
 <PlotPartyCta />
 
+<InlineStudioCallout href="/canvas" title="Open the story canvas" />
+
 ## Tips for Making Your Microdrama Stand Out
 
 1. **Hook in the first 3 seconds** — Start with action or mystery
@@ -93,6 +99,22 @@ If you're an IP holder looking to let fans create microdramas with your characte
 Ready to create your first AI microdrama? [Start creating on Plot Party](https://plotparty.ai/home?auth=register) — no filmmaking experience required. Join thousands of creators who are already directing their own AI-generated stories.
 
 Check out our [community page](https://app.plotparty.ai/community) to see what other creators are building, or explore our [pricing plans](https://app.plotparty.ai/pricing) to find the right fit for your creative goals.
+
+## A Copyable 60-Second Script Formula
+
+Use this beat sheet as a starting point, then adjust it to your characters and audience:
+
+```text
+0–3s — Hook: show a decision, threat or contradiction.
+3–15s — Setup: name the protagonist's immediate goal.
+15–30s — Escalation: a rival or discovery blocks the goal.
+30–45s — Reversal: reveal a secret that changes the situation.
+45–55s — Choice: force the protagonist to act.
+55–60s — Cliffhanger: show the consequence, then cut.
+```
+
+Give each beat a location, character reference and one camera instruction before generating shots. Start the draft in the [AI microdrama generator](https://plotparty.ai/tools/ai-microdrama-generator).
+
 
 ## FAQ
 

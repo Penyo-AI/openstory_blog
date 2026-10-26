@@ -945,7 +945,7 @@ const issues = {
 
 function normalizePath(path: string) {
   return path
-    .replace(/^\/page\/blog/, '')
+    .replace(/^\/(?:page\/blog|blog)/, '')
     .replace(/\.html$/, '')
     .replace(/\/$/, '')
 }

@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.5 Guide: ByteDance's 30-Second AI Video Model Explained"
+title: "Seedance 2.5 Guide: 30s Takes, 50 Refs & Region Edit | PlotParty"
 description: "Seedance 2.5 is ByteDance's newest AI video model, officially unveiled with native 30-second single-shot generation, 50 full-modal references, and region-level editing. Here's what's confirmed, what's still unclear, and how creators should prepare."
 date: 2026-07-27
 author: "Sophia Xing"
@@ -8,13 +8,24 @@ tags: ["AI Video", "Landscape", "Creators"]
 keywords: ["Seedance 2.5", "Seedance 2.5 guide", "how to use Seedance 2.5", "ByteDance Seedance 2.5", "Seedance 2.5 vs 2.0", "Seedance 2.5 release date", "Seedance 2.5 features", "Plot Party Seedance"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/cover-seedance-2-5-v3.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
+
+::: tip Find the right guide
+Choose your Seedance version: use the 2.0 guide for multimodal @ syntax and the 2.5 guide for longer takes and region editing.
+
+[Seedance 2.0 vs 2.5 Multimodal AI Video Prompt Guide](./seedance-2-ai-video-model-guide.md)
+:::
+
 
 ## What Is Seedance 2.5?
 
 Seedance 2.5 is ByteDance's next-generation AI video model, officially unveiled by Volcano Engine President Tan Dai at the Volcano Engine FORCE Conference on June 23, 2026. It's the successor to Seedance 2.0 — the multimodal model that introduced @-reference prompting for images, video, audio, and text — and it pushes further on the two things creators complain about most with AI video: shot length and reference control.
 
 The headline capability: **native 30-second single-shot video generation**, produced in one pass rather than stitched together from shorter clips.
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## Seedance 2.5 Release Timeline
 
@@ -74,6 +85,8 @@ Whether or not you've used Seedance 2.0 before, the workflow that gets the best 
 | **Audio** | Dialogue tone, sound effects, music rhythm references |
 
 Tag each reference with what it's *for*, not just what it *is* — "this camera movement" rather than "this video." That's the single biggest lever for controllability in any reference-driven video model, and it's the same principle Seedance 2.0's @mention system was built around. See our [Seedance 2.0 guide](./seedance-2-ai-video-model-guide.md) for worked examples of reference-tagged prompts.
+
+<InlineStudioCallout href="/minimax/h3" title="Explore MiniMax H3" />
 
 ## Where Can You Access Seedance 2.5 Right Now?
 

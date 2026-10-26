@@ -21,8 +21,72 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    "slug": "minimax-h3-vs-seedance-2-5-comparison",
+    "title": "MiniMax H3 (Hailuo 03) vs Seedance 2.5: Which AI Video Model Wins?",
+    "description": "Compare MiniMax H3 and Seedance 2.5 with a repeatable test for references, dialogue, camera control and cost per accepted shot.",
+    "publishedAt": "2026-10-26",
+    "author": "Plot Party Editorial",
+    "role": "Editorial team",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Creators",
+      "Model Guides"
+    ],
+    "readingTime": 5,
+    "featured": true
+  },
+  {
+    "slug": "nano-banana-2-vs-gpt-image-2-5-vs-midjourney",
+    "title": "Nano Banana 2 vs GPT Image 2.5 vs Midjourney: 4K AI Image Test",
+    "description": "A practical test plan for comparing Nano Banana 2, GPT Image 2.5 and Midjourney on character continuity, editing and final image quality.",
+    "publishedAt": "2026-10-26",
+    "author": "Plot Party Editorial",
+    "role": "Editorial team",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Creators",
+      "Model Guides"
+    ],
+    "readingTime": 5,
+    "featured": true
+  },
+  {
+    "slug": "how-to-upscale-ai-video-to-4k-seedvr-2-guide",
+    "title": "How to Upscale 480p AI Video to 4K with SeedVR 2 (No Local GPU)",
+    "description": "Learn a browser-based SeedVR 2 finishing workflow: prepare a source clip, choose an available output size and inspect faces, motion and detail.",
+    "publishedAt": "2026-10-26",
+    "author": "Plot Party Editorial",
+    "role": "Editorial team",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Creators",
+      "Model Guides"
+    ],
+    "readingTime": 5,
+    "featured": true
+  },
+  {
+    "slug": "gpt-image-2-5-flare-vs-sunburst-character-sheet-guide",
+    "title": "GPT Image 2.5 Flare vs Sunburst: 16-Ref Character Sheets & Alpha PNGs",
+    "description": "A character-sheet workflow for comparing available GPT Image 2.5 modes, organizing reference images and checking transparent PNG exports.",
+    "publishedAt": "2026-10-26",
+    "author": "Plot Party Editorial",
+    "role": "Editorial team",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Creators",
+      "Model Guides"
+    ],
+    "readingTime": 5,
+    "featured": true
+  },
+  {
     slug: 'plot-party-studio-agent-native-drama-workbench',
-    title: 'Plot Party Studio: An Agent That Makes Your Whole Drama, File by File',
+    title: "Plot Party Studio: Agent-Native AI Drama & Storyboard Workbench",
     description: "Plot Party Studio is an agent-native workbench for long-form AI drama. Brief the agent, and it writes scripts, casts characters, generates every clip, scores the cut, and files each result into a tree you can open, edit, and reuse. Here is how the three-column workbench, the six tools, skills, memory, and credits work.",
     publishedAt: '2026-09-19',
     author: 'Sophia Xing',
@@ -34,12 +98,12 @@ export const blogPosts: BlogPostItem[] = [
     relatedLinks: [
       { label: 'Request Studio Early Access', href: 'mailto:hi@plotparty.ai?subject=Studio%20early%20access%20request' },
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'Create a Drama Episode on Plot Party', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+      { label: 'Create a Drama Episode on Plot Party', href: '/blog/creating-drama-episode-plot-party-tutorial' }
     ]
   },
   {
     slug: 'plot-party-mcp-direct-ai-microdrama-from-claude-chatgpt',
-    title: 'Plot Party MCP: Direct a Full AI Microdrama From Claude, ChatGPT, or Cursor',
+    title: "Plot Party MCP: Generate AI Video & Dramas in Claude & ChatGPT",
     description: "Plot Party MCP turns your AI agent into a director. Connect one URL to Claude, ChatGPT, Cursor, or Codex and generate character sheets, nine-grid variations, Seedance 2.5 and Kling 3.0 clips, dialogue, and music without leaving the chat. Setup, tools, a step-by-step episode workflow, and FAQ.",
     publishedAt: '2026-09-12',
     author: 'Sophia Xing',
@@ -51,12 +115,12 @@ export const blogPosts: BlogPostItem[] = [
     relatedLinks: [
       { label: 'Plot Party MCP Guide', href: 'https://www.plotparty.ai/guide/mcp' },
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'Create a Drama Episode on Plot Party', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+      { label: 'Create a Drama Episode on Plot Party', href: '/blog/creating-drama-episode-plot-party-tutorial' }
     ]
   },
   {
     slug: 'best-sora-alternatives-2026',
-    title: 'Best Sora Alternatives in 2026: Where to Go Before the API Shuts Down on September 24',
+    title: "7 Best OpenAI Sora Alternatives in 2026 (30s & Multi-Shot AI)",
     description: "Sora's app closed in April and its API ends September 24, 2026. Here are the best Sora alternatives for every job it did: Veo 3.1, Kling 3.0, Seedance 2.5, MiniMax H3, Runway, Higgsfield, and a story-first option for creators who used Sora's storyboard and cameos.",
     publishedAt: '2026-09-12',
     author: 'Sophia Xing',
@@ -67,13 +131,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'Best AI Video Models 2026', href: '/page/blog/posts/best-ai-video-models-2026-creator-guide' },
-      { label: 'Create a Drama Episode on Plot Party', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+      { label: 'Best AI Video Models 2026', href: '/blog/best-ai-video-models-2026-creator-guide' },
+      { label: 'Create a Drama Episode on Plot Party', href: '/blog/creating-drama-episode-plot-party-tutorial' }
     ]
   },
   {
     slug: 'best-ai-video-models-2026-creator-guide',
-    title: 'The Best AI Video Models in 2026: Seedance 2.5, Kling 3.0, Veo 3.1, MiniMax H3 Compared for Storytellers',
+    title: "Best AI Video Models 2026: Seedance 2.5 vs Kling 3 vs Veo 3.1",
     description: "A creator's guide to the best AI video generators in 2026. Compare Seedance 2.5, Kling 3.0, Veo 3.1, MiniMax H3, and Wan 2.6 on clip length, references, audio, and cost, then learn why the platform you run them in matters more than any single model.",
     publishedAt: '2026-09-12',
     author: 'Sophia Xing',
@@ -84,13 +148,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'Seedance 2.5 Guide', href: '/page/blog/posts/seedance-2-5-ai-video-guide' },
-      { label: 'Best AI Character Consistency Tools', href: '/page/blog/posts/best-ai-character-consistency-tools-2026' }
+      { label: 'Seedance 2.5 Guide', href: '/blog/seedance-2-5-ai-video-guide' },
+      { label: 'Best AI Character Consistency Tools', href: '/blog/best-ai-character-consistency-tools-2026' }
     ]
   },
   {
     slug: 'plot-party-vs-krea-ai-comparison',
-    title: 'Plot Party vs Krea AI: Story-First AI Video vs Real-Time Creative Canvas',
+    title: "Plot Party vs Krea AI (2026): Story Studio vs Model Canvas",
     description: "Compare Plot Party and Krea AI for AI content creation. See how a story-first AI microdrama workspace differs from Krea's real-time, multi-model creative canvas, and which one fits your workflow.",
     publishedAt: '2026-07-29',
     author: 'Sophia Xing',
@@ -101,13 +165,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
-      { label: 'Best AI Character Consistency Tools', href: '/page/blog/posts/best-ai-character-consistency-tools-2026' }
+      { label: 'AI Video Tools Guide', href: '/blog/ai-video-generation-tools-2026-comparison' },
+      { label: 'Best AI Character Consistency Tools', href: '/blog/best-ai-character-consistency-tools-2026' }
     ]
   },
   {
     slug: 'plot-party-vs-midjourney-ai-video-comparison',
-    title: 'Plot Party vs Midjourney: AI Story Video vs AI Image Generation',
+    title: "Plot Party vs Midjourney (2026): Key Art to AI Video Workflow",
     description: "Compare Plot Party and Midjourney for AI creative work. See how a story-first AI microdrama platform differs from Midjourney's image-generation-first approach, and which one fits your project.",
     publishedAt: '2026-07-29',
     author: 'Sophia Xing',
@@ -118,13 +182,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'Best AI Character Consistency Tools', href: '/page/blog/posts/best-ai-character-consistency-tools-2026' },
-      { label: 'How to Create an AI Microdrama', href: '/page/blog/posts/how-to-create-ai-microdrama-complete-guide' }
+      { label: 'Best AI Character Consistency Tools', href: '/blog/best-ai-character-consistency-tools-2026' },
+      { label: 'How to Create an AI Microdrama', href: '/blog/how-to-create-ai-microdrama-complete-guide' }
     ]
   },
   {
     slug: 'plot-party-vs-pika-ai-video-comparison',
-    title: 'Plot Party vs Pika: Story-First AI Video vs Fast Social Video Generation',
+    title: "Plot Party vs Pika AI (2026): Episodic Drama vs Social Clips",
     description: "Compare Plot Party and Pika for AI video creation. See how a story-first microdrama workspace differs from Pika's fast, prompt-driven social video generator, and which one fits your workflow.",
     publishedAt: '2026-07-28',
     author: 'Sophia Xing',
@@ -135,13 +199,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
-      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' }
+      { label: 'AI Video Tools Guide', href: '/blog/ai-video-generation-tools-2026-comparison' },
+      { label: 'Microdrama 101', href: '/blog/microdrama-101-everything-you-need-to-know' }
     ]
   },
   {
     slug: 'plot-party-vs-runway-ai-video-comparison',
-    title: 'Plot Party vs Runway: AI Microdrama Production vs Professional AI Video Editing',
+    title: "Plot Party vs Runway Gen-4.5 (2026): AI Story & VFX Compared",
     description: "Compare Plot Party and Runway for AI video creation. See how a story-first microdrama workspace differs from Runway's professional video generation and editing platform, and which one fits your workflow.",
     publishedAt: '2026-07-28',
     author: 'Sophia Xing',
@@ -152,13 +216,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
-      { label: 'Best AI Character Consistency Tools', href: '/page/blog/posts/best-ai-character-consistency-tools-2026' }
+      { label: 'AI Video Tools Guide', href: '/blog/ai-video-generation-tools-2026-comparison' },
+      { label: 'Best AI Character Consistency Tools', href: '/blog/best-ai-character-consistency-tools-2026' }
     ]
   },
   {
     slug: 'seedance-2-5-ai-video-guide',
-    title: "Seedance 2.5 Guide: ByteDance's 30-Second AI Video Model Explained",
+    title: "Seedance 2.5 Guide: 30s Takes, 50 Refs & Region Edit | PlotParty",
     description: "Seedance 2.5 is ByteDance's newest AI video model, officially unveiled with native 30-second single-shot generation, 50 full-modal references, and region-level editing. Here's what's confirmed, what's still unclear, and how creators should prepare.",
     publishedAt: '2026-07-27',
     author: 'Sophia Xing',
@@ -169,13 +233,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Seedance 2.0 on Plot Party', href: appUrl('/home') },
-      { label: 'Seedance 2.0 Complete Guide', href: '/page/blog/posts/seedance-2-ai-video-model-guide' },
+      { label: 'Seedance 2.0 Complete Guide', href: '/blog/seedance-2-ai-video-model-guide' },
       { label: 'Seedance 2.5 Page', href: '/page/seedance-2-5' }
     ]
   },
   {
     slug: 'microdrama-industry-report-2026-market-size-trends',
-    title: 'Microdrama Industry Report 2026: Market Size, Top Platforms, and Trends',
+    title: "Microdrama Industry Report 2026: Market Size, ReelShort & Trends",
     description: 'The microdrama industry in 2026 by the numbers: market size and growth, regional breakdown, top platforms like ReelShort and DramaBox, monetization shifts, and where AI production fits into the shakeout.',
     publishedAt: '2026-07-25',
     author: 'Sophia Xing',
@@ -186,13 +250,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create Your Own Microdrama', href: appUrl('/home') },
-      { label: 'AI Microdrama Adoption Data', href: '/page/blog/posts/ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now' },
-      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' }
+      { label: 'AI Microdrama Adoption Data', href: '/blog/ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now' },
+      { label: 'Microdrama 101', href: '/blog/microdrama-101-everything-you-need-to-know' }
     ]
   },
   {
     slug: 'ai-generated-microdrama-adoption-how-much-of-the-charts-is-ai-now',
-    title: 'AI-Generated Microdrama Adoption: How Much of the Charts Is AI Now?',
+    title: "AI Microdrama Statistics 2026: 38% of Top Manju Charts Are AI",
     description: 'A data-backed look at how much of the microdrama chart is already AI-generated, where the 38% number comes from, and what adoption means for creators, studios, and platforms.',
     publishedAt: '2026-07-24',
     author: 'Sophia Xing',
@@ -203,13 +267,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create AI Microdramas', href: appUrl('/home') },
-      { label: 'How to Create an AI Microdrama', href: '/page/blog/posts/how-to-create-ai-microdrama-complete-guide' },
-      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' }
+      { label: 'How to Create an AI Microdrama', href: '/blog/how-to-create-ai-microdrama-complete-guide' },
+      { label: 'Microdrama 101', href: '/blog/microdrama-101-everything-you-need-to-know' }
     ]
   },
   {
     slug: 'best-ai-character-consistency-tools-2026',
-    title: 'Best AI Character Consistency Tools in 2026',
+    title: "Best AI Character Consistency Tools 2026 (Video & Image Guide)",
     description: 'Compare the best AI character consistency tools for creators in 2026, including Plot Party, Runway, Kling AI, Higgsfield, Midjourney, ComfyUI, Adobe Firefly, and Pika.',
     publishedAt: '2026-07-23',
     author: 'Sophia Xing',
@@ -220,13 +284,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create Consistent Characters', href: appUrl('/home') },
-      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
-      { label: 'Create a Drama Episode', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+      { label: 'AI Video Tools Guide', href: '/blog/ai-video-generation-tools-2026-comparison' },
+      { label: 'Create a Drama Episode', href: '/blog/creating-drama-episode-plot-party-tutorial' }
     ]
   },
   {
     slug: 'how-microdramas-make-money-ads-vs-in-app-purchases',
-    title: 'How Microdramas Make Money: Ads vs In-App Purchases',
+    title: "How Microdramas Make Money (2026): Coin IAP, Ads & Creator ROI",
     description: 'A practical guide to microdrama monetization models, comparing ad-supported viewing and coin-based in-app purchases so creators can match revenue strategy to story genre, audience, and market.',
     publishedAt: '2026-07-22',
     author: 'Sophia Xing',
@@ -237,13 +301,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create Your Own Microdrama', href: appUrl('/home') },
-      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' },
-      { label: 'How to Create an AI Microdrama', href: '/page/blog/posts/how-to-create-ai-microdrama-complete-guide' }
+      { label: 'Microdrama 101', href: '/blog/microdrama-101-everything-you-need-to-know' },
+      { label: 'How to Create an AI Microdrama', href: '/blog/how-to-create-ai-microdrama-complete-guide' }
     ]
   },
   {
     slug: 'higgsfield-hyperframes-liblibai-plot-party-ai-video-tools-comparison',
-    title: 'Higgsfield vs HyperFrames vs LiblibAI vs Plot Party: AI Video Workflow Comparison',
+    title: "Higgsfield vs HyperFrames vs LiblibAI vs Plot Party (2026)",
     description: 'Compare Higgsfield, HeyGen HyperFrames, LiblibAI, and Plot Party for AI video creation, product videos, open-source rendering, image-to-video workflows, and AI microdrama production.',
     publishedAt: '2026-07-21',
     author: 'Sophia Xing',
@@ -254,13 +318,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Try Plot Party', href: appUrl('/home') },
-      { label: 'AI Video Tools Guide', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' },
-      { label: 'Create a Drama Episode', href: '/page/blog/posts/creating-drama-episode-plot-party-tutorial' }
+      { label: 'AI Video Tools Guide', href: '/blog/ai-video-generation-tools-2026-comparison' },
+      { label: 'Create a Drama Episode', href: '/blog/creating-drama-episode-plot-party-tutorial' }
     ]
   },
   {
     slug: 'microdrama-feelings-business-four-quadrants',
-    title: 'Microdrama Is a Feelings Business — The Four Quadrants of Core Payoffs',
+    title: "How to Write Viral Microdrama Hooks: 4 Emotional Story Tropes",
     description: 'A Plot Party framework for understanding microdrama through four core emotional payoffs: warmth, the reveal, the reckoning, and being owed.',
     publishedAt: '2026-07-17',
     author: 'Sophia Xing',
@@ -271,13 +335,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create Your Own Microdrama', href: appUrl('/home') },
-      { label: 'Microdrama 101', href: '/page/blog/posts/microdrama-101-everything-you-need-to-know' },
-      { label: 'AI Video Tools', href: '/page/blog/posts/ai-video-generation-tools-2026-comparison' }
+      { label: 'Microdrama 101', href: '/blog/microdrama-101-everything-you-need-to-know' },
+      { label: 'AI Video Tools', href: '/blog/ai-video-generation-tools-2026-comparison' }
     ]
   },
   {
     slug: 'director-studio-ai-video-control-guide',
-    title: 'Director Studio: Control AI Video Like a Filmmaker',
+    title: "AI Video Camera Control Guide: Angles, Cuts & Multi-Shot Blocking",
     description: "Learn how Plot Party's Director Studio helps creators control character blocking, poses, props, scenes, and camera movement so AI video models generate closer to your creative intent.",
     publishedAt: '2026-07-09',
     author: 'Sophia Xing',
@@ -294,7 +358,7 @@ export const blogPosts: BlogPostItem[] = [
   },
   {
     slug: 'microdrama-101-everything-you-need-to-know',
-    title: 'Microdrama 101: Everything You Need to Know About This $20B Industry',
+    title: "Microdrama 101: Complete Guide to the $20B Vertical Drama Market",
     description: 'The complete guide to the microdrama industry — market size, top platforms, revenue models, production costs, audience demographics, and how AI is transforming short-form drama creation.',
     publishedAt: '2026-03-22',
     author: 'Sophia Xing',
@@ -305,13 +369,13 @@ export const blogPosts: BlogPostItem[] = [
     featured: true,
     relatedLinks: [
       { label: 'Create Your Own Microdrama', href: appUrl('/home') },
-      { label: 'How Microdramas Make Money', href: '/page/blog/posts/how-microdramas-make-money-ads-vs-in-app-purchases' },
+      { label: 'How Microdramas Make Money', href: '/blog/how-microdramas-make-money-ads-vs-in-app-purchases' },
       { label: 'Explore Community', href: appUrl('/community') }
     ]
   },
   {
     slug: 'seedance-2-ai-video-model-guide',
-    title: 'Seedance 2.0: The Multimodal AI Video Model That Changes Everything',
+    title: "Seedance 2.0 vs 2.5 Multimodal AI Video Prompt Guide | PlotParty",
     description: "Explore Seedance 2.0's multimodal video generation — combine images, video, audio, and text references for cinematic AI content. Best practices, prompting tips, and creative examples.",
     publishedAt: '2026-03-22',
     author: 'Sophia Xing',
@@ -328,7 +392,7 @@ export const blogPosts: BlogPostItem[] = [
   },
   {
     slug: 'creating-drama-episode-plot-party-tutorial',
-    title: 'Creating a Drama Episode with Plot Party: Step-by-Step Tutorial',
+    title: "Creating a Drama Episode in Plot Party: 10-Min Studio Tutorial",
     description: "Learn how to create a 1-2 minute AI drama episode on Plot Party. From writing your script to generating videos and publishing — a complete walkthrough of the agentic canvas.",
     publishedAt: '2026-03-21',
     author: 'Sophia Xing',
@@ -345,7 +409,7 @@ export const blogPosts: BlogPostItem[] = [
   },
   {
     slug: 'how-to-create-ai-microdrama-complete-guide',
-    title: 'How to Create an AI Microdrama: A Complete Guide for Beginners',
+    title: "How to Create an AI Microdrama: Step-by-Step Producer Guide",
     description: 'Learn how to create compelling AI-generated microdramas from scratch. Step-by-step guide covering story structure, AI video generation, character design, and publishing your first microdrama on Plot Party.',
     publishedAt: '2026-03-20',
     author: 'Sophia Xing',
@@ -362,7 +426,7 @@ export const blogPosts: BlogPostItem[] = [
   },
   {
     slug: 'ai-video-generation-tools-2026-comparison',
-    title: "Best AI Video Generation Tools in 2026: Creator's Comparison Guide",
+    title: "Best AI Video Generation Platforms 2026: Studio Comparison",
     description: "Compare the top AI video generation tools of 2026 including Plot Party, Runway, Pika, and more. Discover which tool is best for microdramas, short films, and creative storytelling projects.",
     publishedAt: '2026-03-15',
     author: 'Sophia Xing',
@@ -378,7 +442,7 @@ export const blogPosts: BlogPostItem[] = [
   },
   {
     slug: 'ip-holders-guide-ai-content-monetization',
-    title: 'IP Holders: How to Monetize Your Intellectual Property with AI-Generated Content',
+    title: "Webnovel & IP Holders Guide: Adapt Books into AI Microdramas",
     description: 'A comprehensive guide for IP holders on leveraging AI content creation tools to monetize characters, worlds, and stories. Learn about licensing, fan engagement, and revenue strategies with Plot Party.',
     publishedAt: '2026-03-10',
     author: 'Sophia Xing',

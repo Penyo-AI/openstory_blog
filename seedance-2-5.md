@@ -925,9 +925,9 @@ body {
       </p>
       <p>
         Want the full breakdown of features, the copyright caveats, and how to prepare a reference
-        pack? Read our <a href="https://plotparty.ai/page/blog/posts/seedance-2-5-ai-video-guide">complete Seedance 2.5 guide</a>.
+        pack? Read our <a href="https://plotparty.ai/blog/seedance-2-5-ai-video-guide">complete Seedance 2.5 guide</a>.
         Already building with Seedance 2.0? Our
-        <a href="https://plotparty.ai/page/blog/posts/seedance-2-ai-video-model-guide">Seedance 2.0 guide</a>
+        <a href="https://plotparty.ai/blog/seedance-2-ai-video-model-guide">Seedance 2.0 guide</a>
         covers the @ reference system, prompting best practices, and workflow tips that carry over
         to the next generation.
       </p>

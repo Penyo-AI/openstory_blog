@@ -6,9 +6,9 @@ import { blogPosts } from '../data/posts'
 const { frontmatter } = useData()
 const route = useRoute()
 
-const slug = computed(() => route.path.replace(/^.*\/posts\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
+const slug = computed(() => route.path.replace(/^.*\/blog\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
 const post = computed(() => blogPosts.find((item) => item.slug === slug.value))
-const isPostPage = computed(() => route.path.includes('/posts/'))
+const isPostPage = computed(() => Boolean(post.value))
 
 const formattedDate = computed(() => {
   if (!post.value) return ''
@@ -55,6 +55,6 @@ const blogHomeHref = withBase('/')
       </div>
     </header>
 
-    <img class="blog-post-cover-image" :src="post.coverImage" :alt="post.title">
+    <img v-if="post.coverImage" class="blog-post-cover-image" :src="post.coverImage" :alt="post.title">
   </div>
 </template>

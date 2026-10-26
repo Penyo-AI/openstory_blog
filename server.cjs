@@ -32,7 +32,7 @@ function resolveFile(urlPath) {
     return path.join(distDir, "seedance-2-5.html");
   }
 
-  if (cleanPath === "/page/blog" || cleanPath === "/page/blog/") {
+  if (cleanPath === "/blog" || cleanPath === "/blog/") {
     return path.join(distDir, "index.html");
   }
 
@@ -49,6 +49,12 @@ function resolveFile(urlPath) {
     }
 
     return path.join(distDir, "news", `${relativePath}.html`);
+  }
+
+  if (cleanPath.startsWith("/blog/")) {
+    const relativePath = cleanPath.slice("/blog/".length);
+    const directPath = path.join(distDir, relativePath);
+    return path.extname(directPath) ? directPath : `${directPath}.html`;
   }
 
   if (cleanPath.startsWith("/page/blog/")) {
@@ -77,11 +83,23 @@ function redirectTarget(urlPath) {
     return `/page/news/${cleanPath.slice("/page/blog/news/".length)}${query}`;
   }
 
+  if (/^\/page\/blog\/?$/.test(cleanPath) || cleanPath === "/blog/") {
+    return `/blog${query}`;
+  }
+
+  const legacyPost = cleanPath.match(/^\/page\/blog\/posts\/([^/]+?)\/?$/);
+  if (legacyPost) return `/blog/${legacyPost[1].replace(/\.html$/, "")}${query}`;
+  const blogPost = cleanPath.match(/^\/blog\/([^/]+?)(?:\.html|\/)$/);
+  if (blogPost) return `/blog/${blogPost[1]}${query}`;
+
   return null;
 }
 
 const server = http.createServer((request, response) => {
   const requestUrl = request.url || "/";
+  try { decodeURIComponent(requestUrl); } catch {
+    response.writeHead(400); response.end("Bad request"); return;
+  }
   const redirect = redirectTarget(requestUrl);
 
   if (redirect) {
@@ -101,7 +119,7 @@ const server = http.createServer((request, response) => {
 
   const ext = path.extname(filePath);
   response.writeHead(200, {
-    "Cache-Control": ext === ".html" ? "no-cache" : "public, max-age=31536000, immutable",
+    "Cache-Control": [".html", ".xml", ".txt"].includes(ext) ? "no-cache" : "public, max-age=31536000, immutable",
     "Content-Type": contentTypes.get(ext) || "application/octet-stream",
   });
   fs.createReadStream(filePath).pipe(response);

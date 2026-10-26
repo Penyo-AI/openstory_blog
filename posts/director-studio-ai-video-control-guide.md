@@ -1,5 +1,5 @@
 ---
-title: "Director Studio: Control AI Video Like a Filmmaker"
+title: "AI Video Camera Control Guide: Angles, Cuts & Multi-Shot Blocking"
 description: "Learn how Plot Party's Director Studio helps creators control character blocking, poses, props, scenes, and camera movement so AI video models generate closer to your creative intent."
 date: 2026-07-09
 author: "Sophia Xing"
@@ -8,6 +8,8 @@ tags: ["AI Video", "Creators", "AI Drama"]
 keywords: ["Director Studio", "AI video control", "AI filmmaking", "camera control AI video", "character pose control", "Plot Party Director Studio", "Seedance camera prompt", "AI video generation workflow"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/3d-director-sudio.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
 
 ## From Prompting to Directing
@@ -17,6 +19,8 @@ Most AI video workflows still feel like writing a wish and waiting to see what h
 That works for quick experiments. But for drama, commercials, music videos, and serialized stories, creators need more than luck. They need control over **who stands where**, **how characters move**, **what the camera sees**, and **how a video model should follow the scene**.
 
 That is the idea behind **Director Studio** in [Plot Party](https://plotparty.ai/home?auth=register): a visual directing layer that helps you stage a scene before sending it to AI video models like Seedance. Instead of relying only on text prompts, you can build a clearer visual guide for the model — closer to how a director plans a shot.
+
+<InlineStudioCallout href="/seedance/2.5" title="Try Seedance 2.5" />
 
 ## What Is Director Studio?
 
@@ -95,6 +99,8 @@ That is valuable for scenes like:
 - A product-style move where the camera frames an object from multiple angles
 
 For models with strong reference understanding, like Seedance, this kind of camera guidance can make generations feel more deliberate and less random.
+
+<InlineStudioCallout href="/minimax/h3" title="Explore MiniMax H3" />
 
 ## How Director Studio Makes AI Video More Controllable
 

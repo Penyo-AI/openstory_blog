@@ -6,9 +6,9 @@ import { appUrl, SUBSCRIBE_URL } from '../data/site'
 import BlogCard from './BlogCard.vue'
 
 const route = useRoute()
-const slug = computed(() => route.path.replace(/^.*\/posts\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
+const slug = computed(() => route.path.replace(/^.*\/blog\//, '').replace(/\.html$/, '').replace(/\/$/, ''))
 const post = computed(() => blogPosts.find((item) => item.slug === slug.value))
-const isPostPage = computed(() => route.path.includes('/posts/'))
+const isPostPage = computed(() => Boolean(post.value))
 
 const relatedPosts = computed(() => {
   if (!post.value) return []
@@ -24,7 +24,7 @@ const relatedPosts = computed(() => {
 })
 
 function postHref(slug: string) {
-  return withBase(`/posts/${slug}`)
+  return withBase(`/${slug}`)
 }
 </script>
 

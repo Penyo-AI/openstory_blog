@@ -1,5 +1,5 @@
 ---
-title: "Creating a Drama Episode with Plot Party: Step-by-Step Tutorial"
+title: "Creating a Drama Episode in Plot Party: 10-Min Studio Tutorial"
 description: "Learn how to create a 1-2 minute AI drama episode on Plot Party. From writing your script to generating videos and publishing — a complete walkthrough of the agentic canvas."
 date: 2026-03-21
 author: "Sophia Xing"
@@ -8,6 +8,8 @@ tags: ["AI Drama", "Creators", "AI Video"]
 keywords: ["create AI drama episode", "Plot Party tutorial", "AI video creation step by step", "AI microdrama tutorial", "how to use Plot Party", "AI storytelling canvas", "create short drama with AI"]
 coverImage: "https://storage.googleapis.com/plotparty-storage-public/blogs/canvas-agent-mode.png"
 outline: deep
+layout: blog-post
+titleTemplate: false
 ---
 
 ## What You'll Create
@@ -16,7 +18,9 @@ Each story on [Plot Party](https://app.plotparty.ai) is a **1-2 minute narrative
 
 Story mode is not a one-click tool. It's an **agentic canvas** — Plot Party gets you 80% of the way there, and you iterate on the remaining 20% to make it yours. The agent guides you through every step, but you're the director.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/dBwAg7o-riY" frameborder="0" allowfullscreen></iframe>
+[Watch the episode walkthrough on YouTube](https://www.youtube.com/watch?v=dBwAg7o-riY), or follow the complete written steps below. Open [Generate](https://plotparty.ai/generate) for individual shots or [Canvas](https://plotparty.ai/canvas) for the episode workflow.
+
+<InlineStudioCallout href="/generate" title="Generate your first shot" />
 
 ## Before You Start
 
@@ -89,6 +93,8 @@ Both approaches give you fine-grained control. Use the chatbox for quick directi
 <img src="https://storage.googleapis.com/plotparty-storage-public/blogs/canvas-toolkit-options.png" alt="Toolkit options including Tweak, Edit, Regenerate, Add, Continue, and Re-angle" width="60%" />
 
 <img src="https://storage.googleapis.com/plotparty-storage-public/blogs/canvas-edit-frame-direct.png" alt="Direct editing panel showing model selection, prompt, reference images, and generation history" width="60%" />
+
+<InlineStudioCallout href="/canvas" title="Open the story canvas" />
 
 ## Step 5: Add More Frames
 

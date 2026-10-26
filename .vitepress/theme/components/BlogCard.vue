@@ -22,7 +22,7 @@ function initials(name: string) {
 }
 
 function postHref(slug: string) {
-  return withBase(`/posts/${slug}`)
+  return withBase(`/${slug}`)
 }
 </script>
 

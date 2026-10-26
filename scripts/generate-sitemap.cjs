@@ -10,7 +10,7 @@ const path = require('path')
 // To add a new /page/* section: register a collection (a directory of markdown,
 // one file per URL) or a standalone page below. The main site never changes.
 const siteUrl = 'https://plotparty.ai'
-const basePath = '/page/blog'
+const basePath = '/blog'
 const cwd = process.cwd()
 const postsDir = path.join(cwd, 'posts')
 const newsDir = path.join(cwd, 'news')
@@ -60,7 +60,7 @@ function getPostEntries() {
       const stat = fs.statSync(file.filePath)
 
       return {
-        loc: `${siteUrl}${basePath}/posts/${slug}`,
+        loc: `${siteUrl}${basePath}/${slug}`,
         lastmod: stat.mtime.toISOString(),
         priority: '0.8'
       }
@@ -113,7 +113,7 @@ function buildUrlXml(entry) {
 function main() {
   const entries = [
     {
-      loc: `${siteUrl}${basePath}/`,
+      loc: `${siteUrl}${basePath}`,
       lastmod: new Date().toISOString(),
       priority: '1.0'
     },
