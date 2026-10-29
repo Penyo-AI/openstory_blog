@@ -6,6 +6,14 @@ const models = ['/seedance/2.5', '/minimax/h3', '/seedvr/2', '/midjourney', '/gp
 const origin = process.argv[2];
 const dist = path.resolve('.vitepress/dist');
 async function main() {
+  const hub = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
+  for (const slug of slugs) assert(hub.includes(`href="/blog/${slug}"`), `Hub includes ${slug}`);
+  for (const filename of ['index', ...slugs]) {
+    const html = fs.readFileSync(path.join(dist, `${filename}.html`), 'utf8');
+    const header = html.match(/<header[\s\S]*?<\/header>/)?.[0] || '';
+    for (const label of ['Product &amp; Tools', 'Models', 'Templates', 'Resources', 'Pricing', 'Contact Sales', 'Start Creating']) assert(header.includes(label), `${filename}: shared navigation ${label}`);
+    assert(header.includes('/ip?contact=sales'), `${filename}: existing sales dialog destination`);
+  }
   for (const slug of slugs) {
     const html = fs.readFileSync(path.join(dist, `${slug}.html`), 'utf8');
     assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, `${slug}: one H1`);

@@ -5,11 +5,14 @@ import { appUrl } from '../data/site'
 import BlogCard from './BlogCard.vue'
 import MarketingFooter from './MarketingFooter.vue'
 
+const POST_LIMIT = 50
 const activeTag = ref('All')
 const tags = computed(() => ['All', ...new Set(blogPosts.flatMap((post) => post.tags))])
 const filteredPosts = computed(() => {
-  if (activeTag.value === 'All') return blogPosts
-  return blogPosts.filter((post) => post.tags.includes(activeTag.value))
+  const posts = activeTag.value === 'All'
+    ? blogPosts
+    : blogPosts.filter((post) => post.tags.includes(activeTag.value))
+  return posts.slice(0, POST_LIMIT)
 })
 </script>
 
