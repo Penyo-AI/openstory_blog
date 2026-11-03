@@ -4,6 +4,22 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Merge Lane',
+    href: '/page/news/the-merge-lane',
+    date: 'Week of October 26 - November 1, 2026',
+    dek: 'Vertical drama connected legacy formats, theatrical releases and AI pilots to new distribution — while an indie app became a supplier.',
+    image: withBase('/images/news/the-merge-lane-banner-2026-w44.png'),
+    alt: 'The Merge Lane - Plot Party Weekly 2026 W44',
+    signals: [
+      'Fox is turning Fear Factor into a 30-episode scripted horror microdrama for My Drama.',
+      'Issa Rae’s HOORAE premiered its third microseries on TikTok and PineDrama.',
+      'Eric Roberts leads a horror-comedy planned for both vertical and theatrical release.',
+      'MANSA is testing a live-action concept through an AI-generated zombie microdrama.',
+      'VeYou is closing its app to supply TikTok and YouTube instead.',
+      'Former Neighbours cast members objected to an AI-assisted vertical recut of their work.'
+    ]
+  },
+  {
     title: 'Who Gets the Close-Up',
     href: '/page/news/who-gets-the-close-up',
     date: 'Week of October 19 - October 25, 2026',
