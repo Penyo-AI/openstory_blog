@@ -6,6 +6,78 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-merge-lane': {
+    date: 'Week of October 26 - November 1, 2026',
+    title: 'The Merge Lane',
+    image: withBase('/images/news/the-merge-lane-banner-2026-w44.png'),
+    alt: 'The Merge Lane - Plot Party Weekly 2026 W44',
+    deck: 'This week vertical drama worked as connective tissue for the rest of the business: Fox routed a legacy format in, an Oscar nominee aimed one project at phones and theaters at once, and an AI studio positioned a series as a live-action audition — while a shuttered indie steered its whole slate onto TikTok’s rails.',
+    quickReads: [
+      'Fox turns Fear Factor into a 30-episode scripted horror microdrama for Holywater’s My Drama.',
+      'Issa Rae’s HOORAE drops its third microseries, Parental Advisory, onto TikTok and PineDrama.',
+      'Eric Roberts headlines a horror-comedy shipping as a vertical series and a theatrical feature at once.',
+      'David Oyelowo and Nate Parker’s MANSA uses an AI zombie microdrama to audition a live-action greenlight.',
+      'Top Gun producer Tommy Harper shuts his VeYou app to supply TikTok’s PineDrama and YouTube instead.',
+      'Former Neighbours stars object as RoseBerry recuts their old episodes into AI vertical drama.'
+    ],
+    stories: [
+      {
+        date: 'OCTOBER 27, 2026',
+        title: 'Fox sends Fear Factor down the vertical lane',
+        body: 'FOX Entertainment Studios and Endemol Shine North America, a Banijay America company, are developing a scripted horror microdrama built on the Fear Factor format — a crew trapped with a haunted fortune-telling machine. The series runs 30 episodes of about three minutes each on Holywater’s My Drama app, with FOX Entertainment Global handling worldwide distribution. It carries a format Fox has run on linear television into a scripted, phone-native shape.',
+        why: 'A property Fox already owns becomes cheap, recognizable inventory for someone else’s app, turning a legacy format library into a supply line for vertical.',
+        source: 'Variety',
+        sourceTitle: 'Fox and Endemol Shine Team to Adapt “Fear Factor” as a Scripted Microdrama Series for My Drama App',
+        href: 'https://variety.com/2026/tv/news/fear-factor-microdrama-fox-my-drama-holywater-endemol-1236932245/'
+      },
+      {
+        date: 'OCTOBER 28, 2026',
+        title: 'Issa Rae’s HOORAE lands its third microseries',
+        body: 'HOORAE Media premiered Parental Advisory, its third microdrama in partnership with TikTok, on TikTok and its PineDrama app. The 50-episode series — roughly an hour of total runtime — follows a reluctant new PTA mom through the buried affairs and rivalries surrounding a school gala. HOORAE’s first microseries, Screen Time, has drawn about 580 million views to date, 75 million in its opening week; the second, The Compatibility Experiment, premiered October 14.',
+        why: 'Three series deep, Rae’s operation now reads as a standing supplier to TikTok, with a 580-million-view track record as the pitch. Established creators are beginning to park continuous slates in vertical.',
+        source: 'TheWrap',
+        sourceTitle: 'Issa Rae to Launch “Parental Advisory” Microdrama at TikTok',
+        href: 'https://www.thewrap.com/creative-content/tv-shows/issa-rae-parental-advisory-third-microdrama-tiktok-exclusive/'
+      },
+      {
+        date: 'OCTOBER 28, 2026',
+        title: 'Eric Roberts books a vertical series and a theatrical feature in one shoot',
+        body: 'New Short Media set It’s My Party and I’ll Die If I Want To, a horror-comedy led by Oscar nominee Eric Roberts alongside Merrick Hanna and Neela Jolene, to release as a vertical microdrama series and as a theatrical feature. The dual release treats the vertical cut and the big-screen cut as two windows on the same production rather than separate bets.',
+        why: 'Releasing one project to phones and theaters at once slots vertical into the wider distribution stack alongside theatrical, and lets name talent treat it as a standard window.',
+        source: 'Deadline',
+        sourceTitle: 'Eric Roberts Starring In Vertical Drama From New Short Media',
+        href: 'https://deadline.com/2026/10/eric-roberts-vertical-drama-its-my-party-new-short-media-1237206266/'
+      },
+      {
+        date: 'OCTOBER 30, 2026',
+        title: 'MANSA uses an AI microdrama to audition a live-action greenlight',
+        body: 'MANSA, the studio and streaming platform co-founded by David Oyelowo and Nate Parker, premiered They Left Us to Die, a 30-episode AI-generated zombie survival thriller made with digitally created characters and environments and no live actors, on the MANSA app and TikTok Minis. Parker described it as an IP-development strategy: use AI and predictive rendering to build the story world cheaply, then test audience demand before financing a live-action version.',
+        why: 'Pricing an AI microdrama as market research changes the math on a greenlight — the series earns while it proves demand for the expensive version. Vertical becomes the cheapest room in which to show financiers an audience exists.',
+        source: 'Blex Media',
+        sourceTitle: '“They Left Us to Die” — MANSA Debuts AI-Generated Zombie Thriller Microdrama',
+        href: 'https://blexmedia.com/they-left-us-to-die-mansa-debuts-ai-generated-zombie-thriller-microdrama/'
+      },
+      {
+        date: 'OCTOBER 27, 2026',
+        title: 'Tommy Harper shuts VeYou to become a supplier',
+        body: 'Top Gun producer Tommy Harper is closing his standalone microdrama app VeYou, seed-funded by S32, on November 6. Harper will keep producing series but distribute them through TikTok’s PineDrama, YouTube and other partners instead of running his own storefront. His reasoning: once major platforms commit to a format, distribution is decided, and an independent’s opening is to feed those platforms.',
+        why: 'Harper’s exit states the week’s logic outright — the independent’s leverage is in supplying the platforms, not in owning the storefront. The app layer is consolidating toward a few rails.',
+        source: 'NetInfluencer',
+        sourceTitle: '“Top Gun” Producer Tommy Harper Shuts Down Microdrama App VeYou',
+        href: 'https://www.netinfluencer.com/top-gun-producer-tommy-harper-shuts-down-microdrama-app-veyou/'
+      },
+      {
+        date: 'OCTOBER 27, 2026',
+        title: 'RoseBerry recuts Neighbours, and its cast pushes back',
+        body: 'RoseBerry Media used an AI-assisted tool to repurpose original Neighbours episodes into vertical micro-episodes, centering on Margot Robbie’s old character Donna Freedman — two of her storylines reworked into roughly 150 minutes of content. Former cast members objected on consent grounds: Stefan Dennis called it “unbelievably invasive, morally and legally wrong,” and Matthew Werkmeister said he learned of the project only when approached for comment, with the MEAA and the Australian Writers’ Guild raised as likely venues.',
+        why: 'Converting a back catalog with AI turns dormant library value into vertical inventory, and the pushback shows the bill arrives with the talent whose likeness rides along. Rights cleared for television do not automatically clear for a phone-shaped remake.',
+        source: 'The Guardian (via Yahoo / Cover Media)',
+        sourceTitle: 'Neighbours stars slam AI microdrama starring Margot Robbie',
+        href: 'https://www.yahoo.com/entertainment/tv/articles/neighbours-recut-microdrama-starring-margot-001352751.html'
+      }
+    ],
+    sources: 'Variety, Deadline, TheWrap, Blex Media, The Guardian (via Yahoo / Cover Media), NetInfluencer (citing Business Insider), with corroboration from The Futon Critic and BroadwayWorld.'
+  },
   '/news/who-gets-the-close-up': {
     date: 'Week of October 19 - October 25, 2026',
     title: 'Who Gets the Close-Up',
