@@ -23,65 +23,65 @@ export const blogPosts: BlogPostItem[] = [
   {
     "slug": "minimax-h3-vs-seedance-2-5-comparison",
     "title": "MiniMax H3 (Hailuo 03) vs Seedance 2.5: Which AI Video Model Wins?",
-    "description": "Compare MiniMax H3 and Seedance 2.5 with a repeatable test for references, dialogue, camera control and cost per accepted shot.",
+    "description": "Compare MiniMax H3 (Hailuo 03) and Seedance 2.5 side by side on clip length (15s vs 30s), reference limits (12 vs 50), 11-language lip-sync, millisecond shot cuts, and 1080p motion.",
     "publishedAt": "2026-10-26",
-    "author": "Plot Party Editorial",
-    "role": "Editorial team",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
     "coverImage": "",
     "tags": [
       "AI Video",
       "Creators",
       "Model Guides"
     ],
-    "readingTime": 5,
+    "readingTime": 9,
     "featured": true
   },
   {
     "slug": "nano-banana-2-vs-gpt-image-2-5-vs-midjourney",
     "title": "Nano Banana 2 vs GPT Image 2.5 vs Midjourney: 4K AI Image Test",
-    "description": "A practical test plan for comparing Nano Banana 2, GPT Image 2.5 and Midjourney on character continuity, editing and final image quality.",
+    "description": "Compare Google Nano Banana 2 (Gemini 3.1 Flash Image), OpenAI GPT Image 2.5 (Flare & Sunburst), and Midjourney on character consistency, 16-ref editing, alpha PNGs, and 4K key art.",
     "publishedAt": "2026-10-26",
-    "author": "Plot Party Editorial",
-    "role": "Editorial team",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
     "coverImage": "",
     "tags": [
       "AI Video",
       "Creators",
       "Model Guides"
     ],
-    "readingTime": 5,
+    "readingTime": 10,
     "featured": true
   },
   {
     "slug": "how-to-upscale-ai-video-to-4k-seedvr-2-guide",
     "title": "How to Upscale 480p AI Video to 4K with SeedVR 2 (No Local GPU)",
-    "description": "Learn a browser-based SeedVR 2 finishing workflow: prepare a source clip, choose an available output size and inspect faces, motion and detail.",
+    "description": "Upscale 480p and 720p AI videos to crisp 4K Ultra HD online in your browser using ByteDance SeedVR 2 on Plot Party. One-step diffusion restoration with temporal face de-flickering.",
     "publishedAt": "2026-10-26",
-    "author": "Plot Party Editorial",
-    "role": "Editorial team",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
     "coverImage": "",
     "tags": [
       "AI Video",
       "Creators",
       "Model Guides"
     ],
-    "readingTime": 5,
+    "readingTime": 8,
     "featured": true
   },
   {
     "slug": "gpt-image-2-5-flare-vs-sunburst-character-sheet-guide",
     "title": "GPT Image 2.5 Flare vs Sunburst: 16-Ref Character Sheets & Alpha PNGs",
-    "description": "A character-sheet workflow for comparing available GPT Image 2.5 modes, organizing reference images and checking transparent PNG exports.",
+    "description": "Master OpenAI GPT Image 2.5 Flare and Sunburst modes on Plot Party. Combine up to 16 reference images, build 4-angle 4K character turnaround sheets, and export native transparent PNG props.",
     "publishedAt": "2026-10-26",
-    "author": "Plot Party Editorial",
-    "role": "Editorial team",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
     "coverImage": "",
     "tags": [
       "AI Video",
       "Creators",
       "Model Guides"
     ],
-    "readingTime": 5,
+    "readingTime": 8,
     "featured": true
   },
   {

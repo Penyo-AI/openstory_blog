@@ -51,6 +51,13 @@ export default defineConfig({
     fm.head.push(['meta', { name: 'twitter:description', content: description }])
     if (image) fm.head.push(['meta', { name: 'twitter:image', content: image }])
     if (isPost) {
+      const faq = fm.faq as Array<{ question: string; answer: string }> | undefined
+      if (faq && (!Array.isArray(faq) || faq.some(item =>
+        !item || typeof item.question !== 'string' || !item.question.trim() ||
+        typeof item.answer !== 'string' || !item.answer.trim()
+      ))) {
+        throw new Error(`Invalid FAQ content in ${pageData.relativePath}`)
+      }
       const schema = {
         '@context': 'https://schema.org',
         '@graph': [
@@ -64,7 +71,16 @@ export default defineConfig({
           { '@type': 'BreadcrumbList', itemListElement: [
             { '@type': 'ListItem', position: 1, name: 'Blog', item: `${siteUrl}/blog` },
             { '@type': 'ListItem', position: 2, name: title, item: url }
-          ] }
+          ] },
+          ...(faq?.length ? [{
+            '@type': 'FAQPage',
+            '@id': `${url}#faq`,
+            mainEntity: faq.map(item => ({
+              '@type': 'Question',
+              name: item.question,
+              acceptedAnswer: { '@type': 'Answer', text: item.answer }
+            }))
+          }] : [])
         ]
       }
       fm.head.push(['script', { type: 'application/ld+json' }, JSON.stringify(schema).replace(/</g, '\\u003c')])

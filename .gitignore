@@ -8,6 +8,5 @@ node_modules
 *.log
 .idea
 vertex-sa.json
-.vitepress
 
 share_images

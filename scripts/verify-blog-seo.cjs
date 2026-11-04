@@ -1,10 +1,18 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
+const { decodeHTML } = require('entities');
 const slugs = fs.readdirSync('posts').filter(f => f.endsWith('.md')).map(f => f.slice(0, -3));
 const models = ['/seedance/2.5', '/minimax/h3', '/seedvr/2', '/midjourney', '/gpt-image/2.5', '/nano-banana/2'];
 const origin = process.argv[2];
 const dist = path.resolve('.vitepress/dist');
+const rewrittenSlugs = [
+  'minimax-h3-vs-seedance-2-5-comparison',
+  'nano-banana-2-vs-gpt-image-2-5-vs-midjourney',
+  'gpt-image-2-5-flare-vs-sunburst-character-sheet-guide',
+  'how-to-upscale-ai-video-to-4k-seedvr-2-guide'
+];
+const plainText = html => decodeHTML(html.replace(/<!--[\s\S]*?-->/g, '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 async function main() {
   const hub = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
   for (const slug of slugs) assert(hub.includes(`href="/blog/${slug}"`), `Hub includes ${slug}`);
@@ -27,6 +35,32 @@ async function main() {
     for (const model of models) assert(html.includes(`href="https://plotparty.ai${model}"`), `${slug}: model ${model}`);
     const schemas = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
     assert(schemas.some(s => s['@graph']?.some(n => n['@type'] === 'BlogPosting')), `${slug}: article structured data`);
+    if (rewrittenSlugs.includes(slug)) {
+      const graph = schemas.flatMap(schema => schema['@graph'] || [schema]);
+      const article = graph.find(node => node['@type'] === 'BlogPosting');
+      const faqs = graph.filter(node => node['@type'] === 'FAQPage');
+      assert.equal(faqs.length, 1, `${slug}: one FAQPage schema`);
+      assert.equal(faqs[0].mainEntity.length, 5, `${slug}: five structured questions`);
+      const renderedFaq = [...html.matchAll(/<section aria-labelledby="faq-question-\d+"><h3 id="faq-question-\d+">([\s\S]*?)<\/h3><p>([\s\S]*?)<\/p><\/section>/g)];
+      assert.equal(renderedFaq.length, 5, `${slug}: five questions rendered without client JavaScript`);
+      assert.deepEqual(renderedFaq.map(([, question, answer]) => ({ question: plainText(question), answer: plainText(answer) })),
+        faqs[0].mainEntity.map(item => ({ question: item.name, answer: item.acceptedAnswer.text })), `${slug}: visible FAQ matches structured data`);
+      assert.equal(article.author.name, 'Sophia Xing', `${slug}: schema author`);
+      assert.equal(article.dateModified, '2026-11-04T00:00:00.000Z', `${slug}: revision date`);
+      assert(html.includes('class="blog-avatar">SX</div>'), `${slug}: author initials`);
+      assert(html.includes('class="blog-post-author-name">Sophia Xing</p>'), `${slug}: visible author`);
+      const body = html.match(/<article\b[\s\S]*?<\/article>/)?.[0] || '';
+      assert(plainText(body).split(/\s+/).length >= 1200, `${slug}: substantial production guide`);
+      assert(body.includes('<table'), `${slug}: specification or workflow comparison`);
+      assert(body.includes('href="https://plotparty.ai/tools/'), `${slug}: contextual tool link`);
+      assert(body.includes('href="https://plotparty.ai/templates/'), `${slug}: contextual template link`);
+      const metadata = fs.readFileSync('.vitepress/theme/data/posts.ts', 'utf8');
+      const listing = JSON.parse(metadata.match(new RegExp(`  \\{\\n    "slug": "${slug}"[\\s\\S]*?\\n  \\}`))[0]);
+      assert.equal(listing.title, article.headline, `${slug}: listing title matches article`);
+      assert.equal(listing.description, article.description, `${slug}: listing description matches article`);
+      assert.equal(listing.author, article.author.name, `${slug}: listing author matches article`);
+      assert(html.includes(`· ${listing.readingTime} min read`), `${slug}: reading time matches listing`);
+    }
     // Validate every rendered local /blog link and asset against the build output.
     for (const [, url] of html.matchAll(/(?:href|src)="(\/blog\/[^"?#]*)/g)) {
       const relative = decodeURIComponent(url.slice('/blog/'.length));

@@ -3,6 +3,7 @@ import { h } from 'vue'
 import { useData } from 'vitepress'
 import BlogPostLayout from './components/BlogPostLayout.vue'
 import InlineStudioCallout from './components/InlineStudioCallout.vue'
+import BlogFaq from './components/BlogFaq.vue'
 import type { Theme } from 'vitepress'
 import MarketingHeader from './components/MarketingHeader.vue'
 import BlogPostHeader from './components/BlogPostHeader.vue'
@@ -24,6 +25,7 @@ const theme: Theme = {
     // Available inside any markdown post as <PlotPartyCta />
     app.component('PlotPartyCta', PlotPartyCta)
     app.component('InlineStudioCallout', InlineStudioCallout)
+    app.component('BlogFaq', BlogFaq)
   }
 }
 
