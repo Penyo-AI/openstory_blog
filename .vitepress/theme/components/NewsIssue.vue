@@ -6,6 +6,84 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/moving-day': {
+    date: 'Week of November 2 - November 8, 2026',
+    title: 'Moving Day',
+    image: withBase('/images/news/moving-day-banner-2026-w45.png'),
+    alt: 'Moving Day — Plot Party Weekly, November 2–8, 2026. A person carries a wooden crate through a warehouse.',
+    deck: 'Vertical had its moving day this week. NBCUniversal’s balance sheet, a US romance catalog, two Beverly Hills, 90210 stars, and a grocery brand’s holiday budget all got hauled into the format — carried in pre-made rather than built on site.',
+    quickReads: [
+      'The week’s throughline: incumbents spent the week furnishing the format with assets they already owned.',
+      'NBCUniversal co-led an $80M round into Story TV’s parent, reportedly at a $500M valuation — a US conglomerate committing strategic money at the lead-investor level.',
+      'Germany’s RTL+ licensed a ready-made US vertical-romance catalog for its homepage.',
+      'vertTV cast two Beverly Hills, 90210 alumni, importing network-era recognition into a three-minute format.',
+      'A grocery brand and Meta’s new Series tool turned a holiday microdrama into funded, platform-native distribution.'
+    ],
+    stories: [
+      {
+        date: 'NOVEMBER 4, 2026',
+        title: 'NBCUniversal co-leads an $80M round into the parent of microdrama platform Story TV',
+        body: 'NBCUniversal and Hornbill Capital co-led an $80 million Series C in EloElo Group, the Bengaluru company behind vertical-drama platform Story TV, with MIT Investment Co. joining alongside existing backers. Reports put the post-money valuation at roughly $500 million, about five times the company’s prior mark. EloElo has signaled the capital will fund a global push for Story TV and its AI-assisted production pipeline.',
+        context: 'The number that matters is less the $80 million than the lead investor. A US media conglomerate co-leading the round, at the same level as a dedicated growth fund, places microdrama on the same corporate-development desk that evaluates networks and streamers.',
+        why: 'When an incumbent of NBCUniversal’s size co-leads the round, microdrama graduates from a format major media watches to one it buys a seat at.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'NBCUniversal Invests in India Microdrama Producer in $80 Million Fundraising Round',
+        href: 'https://www.hollywoodreporter.com/business/business-news/nbcuniversal-indian-microdrama-producer-1236747724/',
+        additionalSources: [
+          {
+            source: 'Variety',
+            sourceTitle: 'NBCUniversal, Hornbill Capital Back EloElo, Parent of Indian Microdrama Platform Story TV, in $80 Million Funding Round',
+            href: 'https://variety.com/2026/tv/news/nbcuniversal-microdrama-story-tv-eloelo-80-million-1236938992'
+          }
+        ]
+      },
+      {
+        date: 'NOVEMBER 6, 2026',
+        title: 'RTL+ licenses a ready-made US vertical-romance catalog for Germany',
+        body: 'Germany’s RTL+ struck a deal with Inkitt’s CandyJar — the vertical-microdrama app the Berlin-and-San Francisco company grew out of its GALATEA reading platform — to bring vertical romance titles to German audiences. The arrangement gives RTL+ a ready-made slate of short-form verticals; financial terms were not disclosed.',
+        context: 'For a major European broadcaster, licensing an existing US catalog is the faster path onto the format than standing up a domestic production line from scratch. Inkitt, for its part, gets a broadcaster’s homepage as a distribution surface it did not have to acquire.',
+        why: 'The supply side of vertical is consolidating into catalogs that broadcasters rent, which turns a content race into a licensing one.',
+        source: 'Broadband TV News',
+        sourceTitle: 'RTL+ partners with Inkitt CandyJar to bring vertical drama to German audiences',
+        href: 'https://www.broadbandtvnews.com/2026/11/06/rtl-partners-with-inkitt-candyjar-to-bring-vertical-drama-to-german-audiences/'
+      },
+      {
+        date: 'NOVEMBER 4, 2026',
+        title: 'vertTV casts two Beverly Hills, 90210 alumni in a thriller microseries',
+        body: 'Tori Spelling and Brian Austin Green, co-stars on Beverly Hills, 90210, were tapped to headline a thriller microseries for vertTV, which recently wrapped production in Los Angeles. The casting carries an off-screen hook of its own — a long-publicized rift between the two — that the trades folded into the coverage.',
+        context: 'Recognizable network-era faces give a vertical platform something its catalog alone cannot buy quickly: instant audience familiarity and a press cycle. The talent flow that once ran from TV to film is finding a third lane into three-minute verticals.',
+        why: 'When legacy stars treat vertical as a credible place to work, the format gains the one asset money takes longest to manufacture — recognizable faces.',
+        source: 'Deadline',
+        sourceTitle: '‘90210’ Alums Tori Spelling & Brian Austin Green To Star In Vertical Microdrama For VertTV',
+        href: 'https://deadline.com/2026/11/90210-tori-spelling-brian-austin-green-vertical-microdrama-verttv-1237213333/',
+        additionalSources: [
+          {
+            source: 'The Wrap',
+            sourceTitle: 'Tori Spelling and Brian Austin Green Reunite for Thriller Microseries at vertTV',
+            href: 'https://www.thewrap.com/creative-content/tv-shows/tori-spelling-brian-austin-green-thriller-microseries-verttv/'
+          }
+        ]
+      },
+      {
+        date: 'NOVEMBER 6, 2026',
+        title: 'A grocery brand and Meta’s Series tool fund a holiday microdrama',
+        body: 'Pixie USA, led by Jonas Barnes, announced Christmas at Maple Hollow Inn, a romantic holiday microdrama co-developed with grocery brand Bob Evans and built for Meta’s new Series feature. It is among the first titles to use the tool, which Meta rolled out earlier this year to host episodic vertical content; the series stars Analisa Southworth Wall and Thomas King and is set to debut November 14.',
+        context: 'The structure folds three things into one release: a brand footing the bill, a platform supplying distribution, and a producer supplying the story. None of the three had to build the other’s piece. Brand-funded microdrama turns a marketing budget into a content budget, and Meta’s Series surface gives it somewhere to live natively.',
+        why: 'Branded content and a platform’s owned distribution let a microdrama reach an audience without an app install or a media buy, which lowers the cost of entry for anyone with an ad budget.',
+        source: 'Deadline',
+        sourceTitle: '‘Christmas At Maple Hollow Inn’ Mixes Festive Movies With Microdrama',
+        href: 'https://deadline.com/2026/11/christmas-at-maple-hollow-microdrama-1237213047/',
+        additionalSources: [
+          {
+            source: 'Yahoo Entertainment',
+            sourceTitle: '‘Christmas At Maple Hollow Inn’ Microdrama Hopes To Channel The Spirit Of Festive TV Movies Through Meta’s Series Feature',
+            href: 'https://www.yahoo.com/entertainment/tv/articles/christmas-maple-hollow-inn-microdrama-160000374.html'
+          }
+        ]
+      }
+    ],
+    sources: 'The Hollywood Reporter, Variety, Broadband TV News, Deadline, The Wrap, Yahoo Entertainment.'
+  },
   '/news/the-merge-lane': {
     date: 'Week of October 26 - November 1, 2026',
     title: 'The Merge Lane',
@@ -1118,10 +1196,16 @@ const issue = computed(() => issues[normalizePath(route.path)] || issues['/news/
             <p class="news-story__date">{{ story.date }}</p>
             <h2>{{ story.title }}</h2>
             <p>{{ story.body }}</p>
+            <p v-if="'context' in story">{{ story.context }}</p>
             <p><strong>Why it matters:</strong> {{ story.why }}</p>
             <a :href="story.href" target="_blank" rel="noreferrer">
               Source · {{ story.source }} · {{ story.sourceTitle }}
             </a>
+            <template v-if="'additionalSources' in story">
+              <a v-for="source in story.additionalSources" :key="source.href" :href="source.href" target="_blank" rel="noreferrer">
+                Source · {{ source.source }} · {{ source.sourceTitle }}
+              </a>
+            </template>
           </div>
         </article>
       </section>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://plotparty.ai/blog</loc>
-    <lastmod>2026-11-04T03:28:04.491Z</lastmod>
+    <lastmod>2026-11-09T17:16:43.254Z</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -12,22 +12,22 @@
   </url>
   <url>
     <loc>https://plotparty.ai/blog/gpt-image-2-5-flare-vs-sunburst-character-sheet-guide</loc>
-    <lastmod>2026-11-04T03:26:46.444Z</lastmod>
+    <lastmod>2026-11-04T15:45:11.358Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plotparty.ai/blog/how-to-upscale-ai-video-to-4k-seedvr-2-guide</loc>
-    <lastmod>2026-11-04T03:27:29.760Z</lastmod>
+    <lastmod>2026-11-04T15:45:11.358Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plotparty.ai/blog/minimax-h3-vs-seedance-2-5-comparison</loc>
-    <lastmod>2026-11-04T03:26:03.899Z</lastmod>
+    <lastmod>2026-11-04T15:45:11.358Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plotparty.ai/blog/nano-banana-2-vs-gpt-image-2-5-vs-midjourney</loc>
-    <lastmod>2026-11-04T03:26:03.916Z</lastmod>
+    <lastmod>2026-11-04T15:45:11.358Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -142,7 +142,7 @@
   </url>
   <url>
     <loc>https://plotparty.ai/page/news</loc>
-    <lastmod>2026-11-03T00:04:42.447Z</lastmod>
+    <lastmod>2026-11-09T17:14:15.685Z</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -173,6 +173,11 @@
   <url>
     <loc>https://plotparty.ai/page/news/mining-the-vault</loc>
     <lastmod>2026-10-12T18:14:37.814Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plotparty.ai/page/news/moving-day</loc>
+    <lastmod>2026-11-09T17:14:15.631Z</lastmod>
     <priority>0.8</priority>
   </url>
   <url>

@@ -4,6 +4,20 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'Moving Day',
+    href: '/page/news/moving-day',
+    date: 'Week of November 2 - November 8, 2026',
+    dek: 'Incumbents furnish vertical drama with assets they already own: strategic capital, romance catalogs, familiar faces, and a holiday marketing budget.',
+    image: withBase('/images/news/moving-day-banner-2026-w45.png'),
+    alt: 'Moving Day - Plot Party Weekly 2026 W45',
+    signals: [
+      'NBCUniversal co-led an $80M round into Story TV’s parent, reportedly at a $500M valuation.',
+      'Germany’s RTL+ licensed a ready-made US vertical-romance catalog from Inkitt’s CandyJar.',
+      'vertTV cast Beverly Hills, 90210 alumni Tori Spelling and Brian Austin Green in a thriller microseries.',
+      'Grocery brand Bob Evans and Meta’s Series tool support a holiday microdrama debuting November 14.'
+    ]
+  },
+  {
     title: 'The Merge Lane',
     href: '/page/news/the-merge-lane',
     date: 'Week of October 26 - November 1, 2026',
