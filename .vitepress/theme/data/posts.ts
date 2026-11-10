@@ -21,6 +21,57 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'plot-party-vs-openart-ai-microdrama-comparison',
+    title: 'Plot Party vs OpenArt (2026): Which AI Microdrama & Character Studio Wins?',
+    description: 'Compare Plot Party vs OpenArt for AI microdrama production, character turnaround sheets, multi-shot 9:16 video consistency, and 4K episodic delivery.',
+    publishedAt: '2026-11-10',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Comparison', 'AI Drama', 'Creators'],
+    readingTime: 7,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create an AI Microdrama', href: appUrl('/tools/ai-microdrama-generator') },
+      { label: 'Consistent Character Video', href: appUrl('/tools/consistent-character-video') },
+      { label: 'Microdrama Monetization Playbook', href: '/blog/ai-microdrama-monetization-playbook-reelshort-dramabox-tiktok-series' }
+    ]
+  },
+  {
+    slug: 'plot-party-vs-invideo-vs-picsart-ai-microdrama-generator',
+    title: 'Best AI Microdrama Generators 2026: Plot Party vs InVideo vs Picsart',
+    description: 'Compare Plot Party, InVideo and Picsart for a three-episode 9:16 AI microdrama: recurring characters, storyboards, dialogue, revision control and production cost.',
+    publishedAt: '2026-11-10',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Comparison', 'AI Drama', 'Creators'],
+    readingTime: 8,
+    featured: true,
+    relatedLinks: [
+      { label: 'Create an AI Microdrama', href: appUrl('/tools/ai-microdrama-generator') },
+      { label: 'Plot Party vs OpenArt', href: '/blog/plot-party-vs-openart-ai-microdrama-comparison' },
+      { label: 'Microdrama Monetization Playbook', href: '/blog/ai-microdrama-monetization-playbook-reelshort-dramabox-tiktok-series' }
+    ]
+  },
+  {
+    slug: 'ai-microdrama-monetization-playbook-reelshort-dramabox-tiktok-series',
+    title: 'AI Microdrama Monetization Playbook 2026: ReelShort, DramaBox & TikTok ROI',
+    description: 'Plan AI microdrama monetization with 60-episode budget scenarios, coin-unlock economics, branded short dramas, localization costs and transparent break-even calculations.',
+    publishedAt: '2026-11-10',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Industry', 'Monetization', 'Microdrama'],
+    readingTime: 9,
+    featured: true,
+    relatedLinks: [
+      { label: 'IP & Studio Solutions', href: appUrl('/ip?contact=sales') },
+      { label: 'Novel to Video AI', href: appUrl('/tools/novel-to-video-ai') },
+      { label: 'How Microdramas Make Money', href: '/blog/how-microdramas-make-money-ads-vs-in-app-purchases' }
+    ]
+  },
+  {
     "slug": "minimax-h3-vs-seedance-2-5-comparison",
     "title": "MiniMax H3 (Hailuo 03) vs Seedance 2.5: Which AI Video Model Wins?",
     "description": "Compare MiniMax H3 (Hailuo 03) and Seedance 2.5 side by side on clip length (15s vs 30s), reference limits (12 vs 50), 11-language lip-sync, millisecond shot cuts, and 1080p motion.",

@@ -21,6 +21,14 @@ async function main() {
     const header = html.match(/<header[\s\S]*?<\/header>/)?.[0] || '';
     for (const label of ['Product &amp; Tools', 'Models', 'Templates', 'Resources', 'Pricing', 'Contact Sales', 'Start Creating']) assert(header.includes(label), `${filename}: shared navigation ${label}`);
     assert(header.includes('/ip?contact=sales'), `${filename}: existing sales dialog destination`);
+    assert.equal((html.match(/src="\/blog\/blog-analytics\.js"/g) || []).length, 1, `${filename}: one MPA analytics runtime`);
+    assert.equal((html.match(/id="blog-tracking-consent"/g) || []).length, 1, `${filename}: shared cookie preference controls`);
+    assert(!/<script[^>]+src="https:\/\/www\.googletagmanager\.com\//.test(html), `${filename}: no Google script before consent`);
+  }
+  assert.equal(fs.readFileSync(path.join(dist, 'blog-analytics.js'), 'utf8'), fs.readFileSync('public/blog-analytics.js', 'utf8'), 'built analytics runtime is current');
+  for (const filename of ['news', 'seedance-2-5']) {
+    const html = fs.readFileSync(path.join(dist, `${filename}.html`), 'utf8');
+    assert(!html.includes('src="/blog/blog-analytics.js"'), `${filename}: blog tracking stays scoped to /blog`);
   }
   for (const slug of slugs) {
     const html = fs.readFileSync(path.join(dist, `${slug}.html`), 'utf8');

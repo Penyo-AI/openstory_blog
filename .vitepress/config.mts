@@ -34,6 +34,11 @@ export default defineConfig({
     const description = String(fm.description || pageData.description || '')
     const image = fm.coverImage ? new URL(fm.coverImage, siteUrl).href : undefined
     fm.head ??= []
+    // MPA pages do not hydrate the Vue theme. Load the consent-aware browser
+    // runtime explicitly on the blog hub and articles, including direct visits.
+    if (isPost || pageData.relativePath === 'index.md') {
+      fm.head.push(['script', { src: '/blog/blog-analytics.js', defer: '' }])
+    }
     fm.head = fm.head.filter(([tag, attrs]: [string, Record<string, string>]) =>
       !(tag === 'link' && attrs.rel === 'canonical') &&
       !(tag === 'meta' && /^(og:|twitter:)/.test(attrs.property || attrs.name || ''))
