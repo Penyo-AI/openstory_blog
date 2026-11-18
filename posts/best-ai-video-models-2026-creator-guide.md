@@ -200,6 +200,8 @@ What separates creators who ship from creators who collect clips is not which en
 
 Ready to test them side by side? [Start on Plot Party](https://plotparty.ai/home?auth=register), run Seedance 2.5, Kling 3.0, and MiniMax H3 against the same storyboard, and keep the take that serves the scene. New to the format? Our [complete guide to creating an AI microdrama](./how-to-create-ai-microdrama-complete-guide.md) walks through the whole process.
 
+For the newest 30-second models, see [Kling 4.0 vs Seedance 2.5 vs Veo 3.1](./kling-4-0-vs-seedance-2-5-vs-veo-3-1-comparison.md) and [Gemini Omni Flash vs Veo 3.1 vs Happy Horse](./gemini-omni-flash-vs-veo-3-1-vs-happy-horse-ai-video.md).
+
 ## FAQ
 
 ### What is the best AI video model in 2026?

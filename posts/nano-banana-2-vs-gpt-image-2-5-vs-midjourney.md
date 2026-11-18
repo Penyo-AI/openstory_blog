@@ -133,6 +133,8 @@ Then use [Consistent Character Video](https://plotparty.ai/tools/consistent-char
 
 Save the prompt, source references, settings and approved image together. That small production record makes the next episode much easier: you can repeat a decision instead of trying to reverse-engineer an image you liked.
 
+For the November 2026 updates, see [GPT Image 2.6 vs Nano Banana Pro](./gpt-image-2-6-vs-nano-banana-pro-gemini-3-pro-image.md) and the storyboard test in [Grok Imagine vs Midjourney vs Nano Banana 2](./grok-imagine-vs-midjourney-vs-nano-banana-2-storyboards.md).
+
 ## FAQ
 
 <BlogFaq />

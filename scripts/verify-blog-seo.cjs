@@ -10,7 +10,13 @@ const rewrittenSlugs = [
   'minimax-h3-vs-seedance-2-5-comparison',
   'nano-banana-2-vs-gpt-image-2-5-vs-midjourney',
   'gpt-image-2-5-flare-vs-sunburst-character-sheet-guide',
-  'how-to-upscale-ai-video-to-4k-seedvr-2-guide'
+  'how-to-upscale-ai-video-to-4k-seedvr-2-guide',
+  'kling-4-0-vs-seedance-2-5-vs-veo-3-1-comparison',
+  'gpt-image-2-6-vs-nano-banana-pro-gemini-3-pro-image',
+  'gemini-omni-flash-vs-veo-3-1-vs-happy-horse-ai-video',
+  'how-to-move-manga-panels-animate-webtoons-with-ai',
+  'image-to-video-vs-text-to-video-ai-filmmaking-workflow',
+  'grok-imagine-vs-midjourney-vs-nano-banana-2-storyboards'
 ];
 const plainText = html => decodeHTML(html.replace(/<!--[\s\S]*?-->/g, '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 async function main() {
@@ -56,7 +62,9 @@ async function main() {
       assert.deepEqual(renderedFaq.map(([, question, answer]) => ({ question: plainText(question), answer: plainText(answer) })),
         faqs[0].mainEntity.map(item => ({ question: item.name, answer: item.acceptedAnswer.text })), `${slug}: visible FAQ matches structured data`);
       assert.equal(article.author.name, 'Sophia Xing', `${slug}: schema author`);
-      assert.equal(article.dateModified, '2026-11-04T00:00:00.000Z', `${slug}: revision date`);
+      const lastUpdated = fs.readFileSync(path.join('posts', `${slug}.md`), 'utf8').match(/^lastUpdated:\s*(\S+)/m)?.[1];
+      assert(lastUpdated, `${slug}: lastUpdated in frontmatter`);
+      assert.equal(article.dateModified, new Date(lastUpdated).toISOString(), `${slug}: revision date`);
       assert(html.includes('class="blog-avatar">SX</div>'), `${slug}: author initials`);
       assert(html.includes('class="blog-post-author-name">Sophia Xing</p>'), `${slug}: visible author`);
       const body = html.match(/<article\b[\s\S]*?<\/article>/)?.[0] || '';

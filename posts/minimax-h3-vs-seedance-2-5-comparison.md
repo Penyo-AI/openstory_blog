@@ -134,6 +134,8 @@ Record why an attempt failed. If the dialogue is rushed, revise the script lengt
 
 For additional model-selection criteria, see the [creator's guide to AI video models](./best-ai-video-models-2026-creator-guide.md).
 
+To compare Seedance 2.5 with Kling 4.0 and Veo 3.1, read [Kling 4.0 vs Seedance 2.5 vs Veo 3.1](./kling-4-0-vs-seedance-2-5-vs-veo-3-1-comparison.md).
+
 ## FAQ
 
 <BlogFaq />

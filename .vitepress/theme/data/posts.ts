@@ -21,6 +21,186 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    "slug": "kling-4-0-vs-seedance-2-5-vs-veo-3-1-comparison",
+    "title": "Kling 4.0 vs Seedance 2.5 vs Veo 3.1: 30s AI Video Test",
+    "description": "Compare Kling 4.0, Seedance 2.5 and Google Veo 3.1 on clip length, keyframes, reference limits, audio and 4K output, with copyable prompts for each shot type.",
+    "publishedAt": "2026-11-18",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Comparison",
+      "Model Guides"
+    ],
+    "readingTime": 10,
+    "featured": true,
+    "relatedLinks": [
+      {
+        "label": "Seedance 2.5",
+        "href": "https://plotparty.ai/seedance/2.5"
+      },
+      {
+        "label": "MiniMax H3",
+        "href": "https://plotparty.ai/minimax/h3"
+      },
+      {
+        "label": "MiniMax H3 vs Seedance 2.5",
+        "href": "/blog/minimax-h3-vs-seedance-2-5-comparison"
+      }
+    ]
+  },
+  {
+    "slug": "gpt-image-2-6-vs-nano-banana-pro-gemini-3-pro-image",
+    "title": "GPT Image 2.6 vs Nano Banana Pro (Gemini 3 Pro): 4K AI Test",
+    "description": "Compare OpenAI GPT Image 2.6 and 2.5 markup edits, SVG and GIF output with Google Nano Banana Pro (Gemini 3 Pro Image) and Nano Banana 2 for pre-production.",
+    "publishedAt": "2026-11-18",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
+    "coverImage": "",
+    "tags": [
+      "AI Image",
+      "Comparison",
+      "Model Guides"
+    ],
+    "readingTime": 10,
+    "featured": true,
+    "relatedLinks": [
+      {
+        "label": "GPT Image 2.5",
+        "href": "https://plotparty.ai/gpt-image/2.5"
+      },
+      {
+        "label": "Nano Banana 2",
+        "href": "https://plotparty.ai/nano-banana/2"
+      },
+      {
+        "label": "Nano Banana 2 vs GPT Image 2.5 vs Midjourney",
+        "href": "/blog/nano-banana-2-vs-gpt-image-2-5-vs-midjourney"
+      }
+    ]
+  },
+  {
+    "slug": "gemini-omni-flash-vs-veo-3-1-vs-happy-horse-ai-video",
+    "title": "Gemini Omni Flash vs Veo 3.1 vs Happy Horse: AI Video Guide",
+    "description": "Compare Google Gemini Omni 1.2 Flash, Veo 3.1 and Alibaba's Happy Horse on clip length, references, editing and audio, and see where Seedance 2.5 fits.",
+    "publishedAt": "2026-11-18",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Comparison",
+      "Model Guides"
+    ],
+    "readingTime": 9,
+    "featured": true,
+    "relatedLinks": [
+      {
+        "label": "Seedance 2.5",
+        "href": "https://plotparty.ai/seedance/2.5"
+      },
+      {
+        "label": "SeedVR 2",
+        "href": "https://plotparty.ai/seedvr/2"
+      },
+      {
+        "label": "Kling 4.0 vs Seedance 2.5 vs Veo 3.1",
+        "href": "/blog/kling-4-0-vs-seedance-2-5-vs-veo-3-1-comparison"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-move-manga-panels-animate-webtoons-with-ai",
+    "title": "How to Move Manga Panels & Animate Webtoons with AI (2026)",
+    "description": "Learn how to move manga panels and turn black-and-white manga or color webtoons into voiced 9:16 AI anime episodes with consistent characters on Plot Party.",
+    "publishedAt": "2026-11-18",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
+    "coverImage": "",
+    "tags": [
+      "AI Anime",
+      "Tutorial",
+      "Creators"
+    ],
+    "readingTime": 9,
+    "featured": true,
+    "relatedLinks": [
+      {
+        "label": "AI Anime Microdrama Generator",
+        "href": "https://plotparty.ai/tools/ai-anime-microdrama-generator"
+      },
+      {
+        "label": "AI Subtitles & Dubbing",
+        "href": "https://plotparty.ai/tools/ai-subtitles-and-dubbing"
+      },
+      {
+        "label": "IP Holders' Guide",
+        "href": "/blog/ip-holders-guide-ai-content-monetization"
+      }
+    ]
+  },
+  {
+    "slug": "image-to-video-vs-text-to-video-ai-filmmaking-workflow",
+    "title": "Image-to-Video vs Text-to-Video AI: Pro Filmmaking Workflow",
+    "description": "Why AI filmmakers lock character sheets and keyframes before animating. Compare text-to-video, image-to-video and reference video in Seedance 2.5 and H3.",
+    "publishedAt": "2026-11-18",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
+    "coverImage": "",
+    "tags": [
+      "AI Video",
+      "Workflow",
+      "Creators"
+    ],
+    "readingTime": 9,
+    "featured": true,
+    "relatedLinks": [
+      {
+        "label": "Plot Party Generate",
+        "href": "https://plotparty.ai/generate?tab=video"
+      },
+      {
+        "label": "AI Storyboard Generator",
+        "href": "https://plotparty.ai/tools/ai-storyboard-generator"
+      },
+      {
+        "label": "Consistent Character Video",
+        "href": "https://plotparty.ai/tools/consistent-character-video"
+      }
+    ]
+  },
+  {
+    "slug": "grok-imagine-vs-midjourney-vs-nano-banana-2-storyboards",
+    "title": "Grok Imagine vs Midjourney vs Nano Banana 2: Storyboard Test",
+    "description": "Compare xAI Grok Imagine, Midjourney and Google Nano Banana 2 for mood boards, 9-grid storyboards and key art, and see which fits each pre-production stage.",
+    "publishedAt": "2026-11-18",
+    "author": "Sophia Xing",
+    "role": "Founder, Plot Party",
+    "coverImage": "",
+    "tags": [
+      "AI Image",
+      "Comparison",
+      "Model Guides"
+    ],
+    "readingTime": 8,
+    "featured": true,
+    "relatedLinks": [
+      {
+        "label": "Midjourney",
+        "href": "https://plotparty.ai/midjourney"
+      },
+      {
+        "label": "Nano Banana 2",
+        "href": "https://plotparty.ai/nano-banana/2"
+      },
+      {
+        "label": "AI Storyboard Generator",
+        "href": "https://plotparty.ai/tools/ai-storyboard-generator"
+      }
+    ]
+  },
+  {
     slug: 'plot-party-vs-openart-ai-microdrama-comparison',
     title: 'Plot Party vs OpenArt (2026): Which AI Microdrama & Character Studio Wins?',
     description: 'Compare Plot Party vs OpenArt for AI microdrama production, character turnaround sheets, multi-shot 9:16 video consistency, and 4K episodic delivery.',
