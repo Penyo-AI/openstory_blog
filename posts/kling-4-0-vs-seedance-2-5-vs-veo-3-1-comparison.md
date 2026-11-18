@@ -13,20 +13,20 @@ faq:
   - question: "Is Kling 4.0 better than Seedance 2.5?"
     answer: "Neither wins every shot. Kling 4.0 is the stronger choice when you need to pin up to 10 keyframes along a 30-second timeline or deliver 10-bit HDR. Seedance 2.5 is the stronger choice when a scene depends on a large reference set, because it accepts up to 50 references across images, video and audio, and it adds Region Edit and Video Extend for revisions."
   - question: "What is the difference between Kling 4.0 and Kling 4.0 Flash?"
-    answer: "Kling 4.0 Flash is the faster tier of the Kling 4.0 lineup and opened to a limited group of users on September 28, 2026. Kling has not published a full Flash specification, so treat it as a drafting tier and check its duration and resolution limits in your own account before planning around them. The full Kling 4.0 model generates 3-to-30-second clips at up to 4K with up to 10 keyframes."
+    answer: "Kling 4.0 Flash is the faster, lower-cost tier of the Kling 4.0 lineup. On Plot Party it generates 3-to-20-second drafts at 720p for blocking and pacing, while Kling 4.0 renders 3-to-30-second masters at 1080p with first, middle and last keyframes. Kling has not published a full Flash specification of its own, so treat Flash as a drafting tier."
   - question: "Which model accepts uploaded audio as a reference?"
     answer: "Seedance 2.5 accepts up to 10 audio references. Kling 4.0 accepts voice references inside its 15-asset reference budget. Veo 3.1 generates native audio from the prompt but does not take reference audio. For multi-speaker dialogue with lip-sync, MiniMax H3 on Plot Party accepts up to three audio clips."
   - question: "When should I choose Veo 3.1 over Kling 4.0 or Seedance 2.5?"
     answer: "Choose Veo 3.1 for short 4-to-8-second shots where optical realism matters most, such as water, glass, smoke and lens behavior, or for a clean first-frame-to-last-frame transition. Its 1080p and 4K outputs are tied to 8-second clips, and it accepts up to three reference images."
   - question: "Can I mix Kling 4.0, Seedance 2.5 and Veo 3.1 clips in one episode?"
-    answer: "Yes, as long as every model works from the same approved character sheets and location frames. Generate Seedance 2.5 shots inside Plot Party, bring Kling or Veo clips in as uploads, then match frame rate, aspect ratio and resolution with SeedVR 2 before the final cut."
+    answer: "Yes, as long as every model works from the same approved character sheets and location frames. Kling 4.0 and Seedance 2.5 both run in Plot Party Generate under one Plot Points balance; bring Veo clips in as uploads, then match frame rate, aspect ratio and resolution with SeedVR 2 before the final cut."
 ---
 
 ## Route Each Shot by Its Hardest Requirement
 
 **Use Kling 4.0 when a shot needs timeline control, Seedance 2.5 when it needs a big reference set, and Veo 3.1 when it needs optical realism in a short take.** All three generate video with sound, and two of them now reach 30 seconds in one pass. They still behave differently once you give them a real production brief.
 
-[Kling 4.0](https://kling.ai/blog/kling-4-vs-3) became generally available on October 15, 2026. Its headline changes over Kling 3.0 are native 3-to-30-second generation, up to 10 keyframes, 10-bit HDR at 1080p and 4K, stereo audio and a 15-asset reference budget. [Seedance 2.5](https://plotparty.ai/seedance/2.5) generates 4-to-30-second takes at up to native 1080p from as many as 50 references. Google's [Veo 3.1](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-1-generate-preview) stays at 4, 6 or 8 seconds but remains a reference point for physical light and surface detail.
+[Kling 4.0](https://plotparty.ai/kling/4.0) became generally available on October 15, 2026, and now runs on Plot Party alongside Kling 4.0 Flash. According to [Kling's release notes](https://kling.ai/blog/kling-4-vs-3), its headline changes over Kling 3.0 are native 3-to-30-second generation, up to 10 keyframes, 10-bit HDR at 1080p and 4K, stereo audio and a 15-asset reference budget. [Seedance 2.5](https://plotparty.ai/seedance/2.5) generates 4-to-30-second takes at up to native 1080p from as many as 50 references. Google's [Veo 3.1](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-1-generate-preview) stays at 4, 6 or 8 seconds but remains a reference point for physical light and surface detail.
 
 The practical question is not which model is best overall. It is which constraint dominates the shot in front of you: a precise sequence of poses, a crowded cast, or a lens effect that must look real.
 
@@ -34,11 +34,11 @@ The practical question is not which model is best overall. It is which constrain
 - **Seedance 2.5 is the continuity engine.** Give each character, costume, prop, motion clip and audio track its own reference slot, then revise with Region Edit or Video Extend.
 - **Veo 3.1 is the optics specialist.** Use it for B-roll and transitions where reflections, refraction and smoke carry the shot.
 
-<InlineStudioCallout href="/seedance/2.5" title="Build a 30-second take with Seedance 2.5" />
+<InlineStudioCallout href="/kling/4.0" title="Pin keyframes in Kling 4.0 on Plot Party" />
 
 ## Kling 4.0 vs Seedance 2.5 vs Veo 3.1: Specifications
 
-The table uses each vendor's published limits as of November 18, 2026. Partner platforms can expose a subset of these controls, so confirm the options in the interface you generate from.
+The table uses each vendor's published limits as of November 18, 2026. Plot Party exposes a production subset of Kling 4.0: 720p or 1080p output, first, middle and last keyframes, and up to 10 image and video references. Confirm the options in the interface you generate from. To compare every engine Plot Party runs, see [all Plot Party models](https://plotparty.ai/models).
 
 | Specification | Kling 4.0 | Seedance 2.5 | Google Veo 3.1 |
 |---|---|---|---|
@@ -52,15 +52,15 @@ The table uses each vendor's published limits as of November 18, 2026. Partner p
 | Total reference budget | 15 assets | 50 assets | 3 images |
 | Audio output | Two-channel stereo with multilingual lip-sync | Picture and sound in one pass | Native dialogue, effects and ambience |
 | Revision tools | Video editing on up to 5 input clips | Region Edit and Video Extend | Scene extension |
-| Where to run it | Kling app and API | Plot Party Studio and Generate | Gemini API and Vertex AI |
+| Where to run it | Plot Party Generate, Kling app and API | Plot Party Studio and Generate | Gemini API and Vertex AI |
 
 Two details change real planning. First, Veo 3.1's reference mode only produces 8-second clips, and Google does not let you use reference images and a first frame in the same request. Second, Kling 4.0's 15-asset budget is shared across images, subjects, video and voice, so a dense ensemble scene fills it faster than the headline number suggests.
 
-Kling 4.0 Flash, the faster tier, opened to a limited group of users on September 28. Kling has not published a full specification for it. Use Flash for blocking and camera tests, then confirm its limits in your account before you plan a schedule around it.
+Kling 4.0 Flash is the faster tier. On Plot Party it drafts 3-to-20-second clips at 720p, which is enough to check blocking, pacing and the camera path before you pay for a 1080p master in Kling 4.0.
 
 ## Test 1: A Three-Keyframe Rooftop Orbit on Kling 4.0
 
-This test measures whether a model will hit exact poses at exact times while the camera completes a defined move. Prepare three stills of the same character from your approved turnaround sheet: a crouch, a mid-air kick and a landing stance.
+Run this test in [Kling 4.0 on Plot Party](https://plotparty.ai/kling/4.0), drafting the move first in Kling 4.0 Flash. It measures whether a model will hit exact poses at exact times while the camera completes a defined move. Prepare three stills of the same character from your approved turnaround sheet: a crouch, a mid-air kick and a landing stance.
 
 ```text
 16:9, 1080p, 15 seconds, one continuous take.
@@ -129,7 +129,7 @@ The [Resident Evil Pet template](https://plotparty.ai/templates/resident-evil-pe
 
 Mixing engines is normal, but the cut only holds if the deliverables match. Pick one frame rate, one aspect ratio and one delivery resolution before you generate. Veo 3.1 renders at 24 fps; set your other exports to the same rate or conform them in the edit.
 
-Resolution is the most visible mismatch. A native 1080p Seedance take, a 4K Kling HDR shot and a 720p draft from a faster tier will not cut together cleanly. Upscale approved shots through [SeedVR 2](https://plotparty.ai/seedvr/2) to one target, and grade HDR material down to the same color space as the rest of the episode. The [SeedVR 2 finishing guide](./how-to-upscale-ai-video-to-4k-seedvr-2-guide.md) covers the inspection checklist.
+Resolution is the most visible mismatch. A native 1080p Seedance take, a 4K Veo shot and a 720p Kling 4.0 Flash draft will not cut together cleanly. Upscale approved shots through [SeedVR 2](https://plotparty.ai/seedvr/2) to one target, and keep every shot in the same color space. The [SeedVR 2 finishing guide](./how-to-upscale-ai-video-to-4k-seedvr-2-guide.md) covers the inspection checklist.
 
 Track cost per approved shot, not cost per generation. Record why each attempt failed, whether a pose missed its mark, a costume drifted or a reflection looked painted, and change the input that caused it. For more model-selection criteria, see the [MiniMax H3 vs Seedance 2.5 comparison](./minimax-h3-vs-seedance-2-5-comparison.md) and the [creator's guide to AI video models](./best-ai-video-models-2026-creator-guide.md).
 

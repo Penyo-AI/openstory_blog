@@ -3,7 +3,7 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const { decodeHTML } = require('entities');
 const slugs = fs.readdirSync('posts').filter(f => f.endsWith('.md')).map(f => f.slice(0, -3));
-const models = ['/seedance/2.5', '/minimax/h3', '/seedvr/2', '/midjourney', '/gpt-image/2.5', '/nano-banana/2'];
+const models = ['/seedance/2.5', '/minimax/h3', '/seedvr/2', '/midjourney', '/gpt-image/2.5', '/nano-banana/2', '/kling/4.0', '/gemini-omni/flash', '/grok-imagine', '/models'];
 const origin = process.argv[2];
 const dist = path.resolve('.vitepress/dist');
 const rewrittenSlugs = [

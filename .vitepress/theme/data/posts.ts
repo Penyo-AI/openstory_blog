@@ -41,8 +41,8 @@ export const blogPosts: BlogPostItem[] = [
         "href": "https://plotparty.ai/seedance/2.5"
       },
       {
-        "label": "MiniMax H3",
-        "href": "https://plotparty.ai/minimax/h3"
+        "label": "Kling 4.0",
+        "href": "https://plotparty.ai/kling/4.0"
       },
       {
         "label": "MiniMax H3 vs Seedance 2.5",
@@ -101,8 +101,8 @@ export const blogPosts: BlogPostItem[] = [
         "href": "https://plotparty.ai/seedance/2.5"
       },
       {
-        "label": "SeedVR 2",
-        "href": "https://plotparty.ai/seedvr/2"
+        "label": "Gemini Omni Flash",
+        "href": "https://plotparty.ai/gemini-omni/flash"
       },
       {
         "label": "Kling 4.0 vs Seedance 2.5 vs Veo 3.1",
@@ -187,12 +187,12 @@ export const blogPosts: BlogPostItem[] = [
     "featured": true,
     "relatedLinks": [
       {
-        "label": "Midjourney",
-        "href": "https://plotparty.ai/midjourney"
+        "label": "Grok Imagine",
+        "href": "https://plotparty.ai/grok-imagine"
       },
       {
-        "label": "Nano Banana 2",
-        "href": "https://plotparty.ai/nano-banana/2"
+        "label": "Midjourney",
+        "href": "https://plotparty.ai/midjourney"
       },
       {
         "label": "AI Storyboard Generator",

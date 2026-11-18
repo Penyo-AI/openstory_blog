@@ -15,9 +15,9 @@ faq:
   - question: "Which model is best for 9-grid storyboards?"
     answer: "Nano Banana 2. It keeps up to 5 characters and 14 objects consistent in Plot Party Studio, outputs 512px drafts through 4K and supports 14 aspect ratios, which makes it the most practical model for storyboards that must match a cast."
   - question: "What aspect ratios does Grok Imagine support?"
-    answer: "Grok Imagine Image 2.0 is reported to support 13 ratios, including 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 2:1, 1:2, 20:9, 9:20, 19.5:9 and 9:19.5, at up to 2K. Its Smart Resize feature recomposes an image into a new ratio instead of cropping."
-  - question: "Do I need Discord to use Midjourney on Plot Party?"
-    answer: "No. Midjourney runs in the Plot Party browser workspace and API, alongside Nano Banana 2 and GPT Image 2.5, so approved frames can go straight to a video model."
+    answer: "On Plot Party, Grok Imagine covers the common production ratios, 16:9, 9:16 and 1:1, and the exact options are listed in Generate. xAI's own Grok Imagine Image 2.0 API is reported to support about 13 ratios at up to 2K, including 20:9 and 9:20."
+  - question: "Do I need an X account or Discord to use Grok Imagine and Midjourney?"
+    answer: "No. Grok Imagine and Midjourney both run in the Plot Party browser workspace and API, alongside Nano Banana 2 and GPT Image 2.5, and use the same Plot Points balance. Approved frames go straight to a video model."
   - question: "How do I move storyboard frames into video?"
     answer: "Approve each storyboard frame at full resolution, then use it as the start frame or a reference in Seedance 2.5 or MiniMax H3 on Plot Party Generate. Keep the character sheet attached so the face stays consistent through the motion."
 ---
@@ -30,25 +30,25 @@ xAI released [Grok Imagine Image 2.0](https://morphic.com/resources/models/grok-
 
 [Midjourney](https://plotparty.ai/midjourney) remains the reference for cinematic grain, period costume and architectural worlds. [Nano Banana 2](https://plotparty.ai/nano-banana/2), Google's Gemini 3.1 Flash Image, is the practical choice when every frame must match an approved cast.
 
-- **Grok Imagine:** high-contrast look development, alternative styling and quick typography tests.
+- **[Grok Imagine on Plot Party](https://plotparty.ai/grok-imagine):** high-contrast look development, alternative character moods and stylized worlds.
 - **Midjourney on Plot Party:** 35mm-style film texture, costume detail, environments and key art, with no Discord.
 - **Nano Banana 2 on Plot Party:** 9-grid storyboards that hold up to 5 characters and 14 objects across 14 aspect ratios.
 
-<InlineStudioCallout href="/nano-banana/2" title="Storyboard a scene with Nano Banana 2" />
+<InlineStudioCallout href="/grok-imagine" title="Explore bold concepts with Grok Imagine" />
 
 ## Head-to-Head Comparison
 
-| Criterion | Grok Imagine Image 2.0 | Midjourney on Plot Party | Nano Banana 2 on Plot Party |
+| Criterion | Grok Imagine on Plot Party | Midjourney on Plot Party | Nano Banana 2 on Plot Party |
 |---|---|---|---|
 | Primary pre-production role | Bold look development and alternative concepts | Cinematic key art, lighting and period texture | Cast-consistent storyboards and restaging |
 | Reference handling | Multi-image editing | Character and style reference workflow | Up to 5 characters and 14 objects locked together |
-| Maximum resolution | Up to 2K | Studio output, upscale to 4K with SeedVR 2 | 512px drafts, 1K, 2K default and 4K |
-| Aspect ratios | About 13, including 20:9 and 9:20 | 16:9, 9:16, 3:4, 4:5, 1:1, 2:3, 3:2 and 21:9 | 14, including 8:1 and 1:8 panoramas |
+| Maximum resolution | Up to 2K in xAI's API | Studio output, upscale to 4K with SeedVR 2 | 512px drafts, 1K, 2K default and 4K |
+| Aspect ratios | 16:9, 9:16 and 1:1 on Plot Party; about 13 in xAI's API | 16:9, 9:16, 3:4, 4:5, 1:1, 2:3, 3:2 and 21:9 | 14, including 8:1 and 1:8 panoramas |
 | Typography | Strong poster and title text | Stylized artistic lettering | Readable signage and packaging labels |
-| Where to run it | Grok apps and xAI API | Plot Party browser workspace and API | Plot Party browser workspace and API |
-| Handoff to video | Download and upload as a reference | Send to Seedance 2.5 or MiniMax H3 | Send to Seedance 2.5 or MiniMax H3 |
+| Where to run it | Plot Party browser workspace and API | Plot Party browser workspace and API | Plot Party browser workspace and API |
+| Handoff to video | Animate in Seedance 2.5 or Kling 4.0 | Animate in Seedance 2.5 or Kling 4.0 | Animate in Seedance 2.5 or Kling 4.0 |
 
-The key practical difference is the handoff. Midjourney and Nano Banana 2 frames stay in the same Plot Party project as your cast and video shots. Grok Imagine frames are made outside it and need to be uploaded before they can guide video.
+All three now sit in the same Plot Party project as your cast and video shots, so the handoff is the same: pick a frame and send it to Image to Video in [Seedance 2.5](https://plotparty.ai/seedance/2.5) or [Kling 4.0](https://plotparty.ai/kling/4.0). The real difference is what each model is good at, not where it runs. For every engine side by side, see the [Plot Party models page](https://plotparty.ai/models).
 
 ## Test: One Scene, Three Models
 

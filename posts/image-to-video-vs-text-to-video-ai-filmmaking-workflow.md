@@ -28,7 +28,7 @@ faq:
 
 An image generation costs a fraction of a video generation and returns in seconds. Use that cheap step to settle everything that does not move: who the characters are, what they wear, what the set looks like and how each shot is framed. When the video model receives those approved frames, it only has to solve motion.
 
-This is the image-first, video-second pipeline. Build a four-angle character sheet and a 9-grid storyboard in [GPT Image 2.5](https://plotparty.ai/gpt-image/2.5) or [Nano Banana 2](https://plotparty.ai/nano-banana/2), then pass the approved frames into [Seedance 2.5](https://plotparty.ai/seedance/2.5) or [MiniMax H3](https://plotparty.ai/minimax/h3) on [Plot Party Generate](https://plotparty.ai/generate?tab=video).
+This is the image-first, video-second pipeline. Build a four-angle character sheet and a 9-grid storyboard in [GPT Image 2.5](https://plotparty.ai/gpt-image/2.5) or [Nano Banana 2](https://plotparty.ai/nano-banana/2), then pass the approved frames into [Seedance 2.5](https://plotparty.ai/seedance/2.5), [Kling 4.0](https://plotparty.ai/kling/4.0) or [MiniMax H3](https://plotparty.ai/minimax/h3) on [Plot Party Generate](https://plotparty.ai/generate?tab=video).
 
 <InlineStudioCallout href="/generate?tab=image" title="Lock your first keyframe in Plot Party Generate" />
 
@@ -36,7 +36,7 @@ This is the image-first, video-second pipeline. Build a four-angle character she
 
 **Text-to-video** generates from a written description only. It is fast and good for exploration, but every run reinterprets the description.
 
-**Image-to-video** animates one approved still, usually as the first frame. The composition, face and lighting of that still carry into the clip. Some models also accept a last frame, which fixes where the shot ends.
+**Image-to-video** animates one approved still, usually as the first frame. The composition, face and lighting of that still carry into the clip. Some models also accept a last frame, which fixes where the shot ends, and Kling 4.0 on Plot Party adds a middle keyframe so you can pin a pose partway through.
 
 **Reference-to-video** gives the model several separate assets with defined roles: a character sheet, a costume, a prop, a location plate, a motion clip and a voice. It is the most controllable option for recurring casts.
 
@@ -109,6 +109,18 @@ traffic light turning red. Soft rain and distant horns.
 ```
 
 <InlineStudioCallout href="/seedance/2.5" title="Animate approved frames with Seedance 2.5" />
+
+**Image-to-video with three keyframes (Kling 4.0)**
+
+```text
+16:9, 1080p, 12 seconds. @Frame1 at 00:00: she stands at the
+café door. @Frame2 at 00:06: she reaches the counter and sets
+down her umbrella. @Frame3 at 00:11: she turns to face the
+camera, smiling. Smooth tracking shot, no cuts. Rain and
+café murmur.
+```
+
+Draft keyframe shots in Kling 4.0 Flash at 720p first, then render the approved version in Kling 4.0. To compare every engine available, see the [Plot Party models page](https://plotparty.ai/models).
 
 ## Step 5: Review and Revise Without Starting Over
 
