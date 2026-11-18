@@ -87,7 +87,7 @@ if (header) {
 
 <template>
   <header ref="header" class="site-header" @keydown="escape">
-    <a class="brand" :href="appUrl('/')" aria-label="Plot Party home"><img :src="withBase('/images/logo/logo-black-1.png')" alt="Plot Party" width="128" height="32"></a>
+    <a class="brand" :href="appUrl('/')" aria-label="Plot Party home"><img :src="withBase('/images/logo/logo-black-1.png')" alt="Plot Party" width="128" height="32"><span class="visually-hidden">Plot Party home</span></a>
     <nav id="blog-navigation" :class="['navigation', { 'is-open': mobileOpen }]" aria-label="Main navigation">
       <details v-for="group in groups" :key="group.label" class="nav-group" @toggle="toggleGroup">
         <summary>{{ group.label }}<span aria-hidden="true">⌄</span></summary>

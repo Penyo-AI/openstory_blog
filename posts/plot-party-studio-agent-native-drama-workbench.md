@@ -1,5 +1,6 @@
 ---
 title: "Plot Party Studio: Agent-Native AI Drama & Storyboard Workbench"
+seoTitle: "Plot Party Studio: Agent-Native AI Drama Workbench | Plot Party"
 description: "Plot Party Studio is an agent-native workbench for long-form AI drama. Brief the agent, and it writes scripts, casts characters, generates every clip, scores the cut, and files each result into a tree you can open, edit, and reuse. Here is how the three-column workbench, the six tools, skills, memory, and credits work."
 date: 2026-09-19
 author: "Sophia Xing"

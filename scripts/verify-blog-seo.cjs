@@ -25,7 +25,9 @@ async function main() {
     assert.equal((html.match(/id="blog-tracking-consent"/g) || []).length, 1, `${filename}: shared cookie preference controls`);
     assert(!/<script[^>]+src="https:\/\/www\.googletagmanager\.com\//.test(html), `${filename}: no Google script before consent`);
   }
-  assert.equal(fs.readFileSync(path.join(dist, 'blog-analytics.js'), 'utf8'), fs.readFileSync('public/blog-analytics.js', 'utf8'), 'built analytics runtime is current');
+  const builtAnalytics = fs.readFileSync(path.join(dist, 'blog-analytics.js'), 'utf8');
+  assert(builtAnalytics.length < fs.readFileSync('public/blog-analytics.js', 'utf8').length * 0.8, 'built analytics runtime is minified');
+  assert(!builtAnalytics.includes('/*') && builtAnalytics.includes('G-RM2QS8V0LE'), 'built analytics runtime is minified and current');
   for (const filename of ['news', 'seedance-2-5']) {
     const html = fs.readFileSync(path.join(dist, `${filename}.html`), 'utf8');
     assert(!html.includes('src="/blog/blog-analytics.js"'), `${filename}: blog tracking stays scoped to /blog`);

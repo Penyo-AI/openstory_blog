@@ -30,6 +30,7 @@ function postHref(slug: string) {
   <article class="blog-card">
     <a v-if="post.coverImage" class="blog-card__image-link" :href="postHref(post.slug)">
       <img :src="post.coverImage" :alt="post.title">
+      <span class="visually-hidden">{{ post.title }}</span>
     </a>
 
     <div class="blog-card__body">
