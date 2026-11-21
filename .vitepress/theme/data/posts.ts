@@ -21,6 +21,23 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'snowglobe-3d-world-engine-ai-filmmaking-previs',
+    title: "Snowglobe: Turn One Line or One Image into a 3D Film Set",
+    description: 'Snowglobe turns one sentence or one image into a full 3D set you can step inside. Change the time of day, weather, terrain and layout, block actors, place cameras, and send every shot straight into AI video generation.',
+    publishedAt: '2026-11-21',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: 'https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-cover.jpg',
+    tags: ['AI Video', 'Creators', 'Filmmaking'],
+    readingTime: 8,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Snowglobe', href: appUrl('/3d-world/') },
+      { label: 'Director Studio: AI Camera Control', href: '/blog/director-studio-ai-video-control-guide' },
+      { label: 'Plot Party Studio', href: '/blog/plot-party-studio-agent-native-drama-workbench' }
+    ]
+  },
+  {
     "slug": "kling-4-0-vs-seedance-2-5-vs-veo-3-1-comparison",
     "title": "Kling 4.0 vs Seedance 2.5 vs Veo 3.1: 30s AI Video Test",
     "description": "Compare Kling 4.0, Seedance 2.5 and Google Veo 3.1 on clip length, keyframes, reference limits, audio and 4K output, with copyable prompts for each shot type.",
