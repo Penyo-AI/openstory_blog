@@ -41,7 +41,7 @@ Every scene, every take, every angle lives in the same world, so the street your
 
 Snowglobe opens on a single prompt box: *Shake a sentence into a snowglobe.* Describe a place, or drop in a photo, and in a few minutes it lives in a glass globe, ready to walk into and film.
 
-![The Snowglobe landing page: a prompt box with Rebuild from image, Try an idea, and Build this world, next to a glass snowglobe holding New York](/blogs/snowglobe-07-landing.jpg)
+![The Snowglobe landing page: a prompt box with Rebuild from image, Try an idea, and Build this world, next to a glass snowglobe holding New York](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-07-landing.jpg)
 
 A good prompt reads like a location note, not a keyword list. The placeholder gives you the idea: *a Nordic fishing village below snowy mountains, with a lighthouse and wooden piers on the fjord, light snow at dusk, surrounded by pines.* Stuck for a place? **Try an idea** gives you one.
 
@@ -54,7 +54,7 @@ Choose **Rebuild from image** and drop in a reference: a skyline from above, a w
 3. **Rebuilding terrain, layout and framing.** The ground, the roads, and the camera angle of your source are reconstructed in 3D.
 4. **Building the 3D Snowglobe.** The finished world opens, ready to explore.
 
-![The New world dialog in Snowglobe: drop an image to build a world](/blogs/snowglobe-01-new-world.jpg)
+![The New world dialog in Snowglobe: drop an image to build a world](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-01-new-world.jpg)
 
 When Snowglobe builds a world, it looks in your own asset library first, then in the built-in library of nearly 500 assets (buildings, objects, vehicles, plants, characters, animals), and only models something new when neither has it. A palace or a Japanese machiya shophouse you used last week is ready for the next world.
 
@@ -62,7 +62,7 @@ When Snowglobe builds a world, it looks in your own asset library first, then in
 
 You do not have to build anything to try it. The Worlds gallery holds ready-made sets from the Plot Party team: **New York**, **Sunshine Coast City**, **Mistmere Academy** (a castle school by a snowy mountain lake), **Wizards' Row**, **Frontier Junction**, **Ancient Rome**, **Cowboy Town**, **Amsterdam**, a **Japanese Seaside Town**, a gold-rush **Western Town**, and a Nordic **Harbor Town**. Each one has its own terrain, water, and story: Times Square glowing all night, a train easing into a frontier depot, barges on the Tiber.
 
-![The Snowglobe Worlds gallery with New York, Sunshine Coast City, Mistmere Academy, and Wizards' Row](/blogs/snowglobe-08-worlds-gallery.jpg)
+![The Snowglobe Worlds gallery with New York, Sunshine Coast City, Mistmere Academy, and Wizards' Row](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-08-worlds-gallery.jpg)
 
 You can explore any of them and play around without signing in. Your changes stay in that browser. Sign in to build your own worlds, edit scenes with AI, and save your work.
 
@@ -72,7 +72,7 @@ What you get is not a backdrop. It is a place with depth, scale, and real dimens
 
 In the New York world, you can fly down an avenue lined with brownstones and a park, see cars moving in the lanes and pedestrians on the sidewalk, and mark out a **Scene**: a region of the world you are shooting in. Each scene has a name, a subtitle for what happens there ("father and son fall out"), an indoor or outdoor setting, and its own **Takes** and **Screenshots**. Redraw the area any time the scene moves.
 
-![A full 3D set in Snowglobe with a scene area drawn over a New York avenue](/blogs/snowglobe-02-full-3d-set.jpg)
+![A full 3D set in Snowglobe with a scene area drawn over a New York avenue](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-02-full-3d-set.jpg)
 
 The layout stays the same in every world. The left rail holds **Build** (terrain and weather, buildings, characters) and **Scene**. The top bar holds the world clock and a scene switcher. The bottom bar holds playback, the current view, a **+** to add a camera, and **Record**.
 
@@ -84,19 +84,19 @@ The world is editable down to the building.
 
 **Weather.** Clear, Cloudy, Foggy, Rain, Snow, or Dust storm, one click each.
 
-![The same Mistmere Academy set in the morning, at night, and in snow](/blogs/snowglobe-11-morning-night-snow.jpg)
+![The same Mistmere Academy set in the morning, at night, and in snow](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-11-morning-night-snow.jpg)
 
 Above is one set, Mistmere Academy, three ways: morning, night, and snow. Nothing else changed. The castle, the cloister, and the scene boundary stayed exactly where they were.
 
-![The Terrain and Weather panel in Snowglobe with weather presets from Clear to Dust storm](/blogs/snowglobe-09-weather-panel.jpg)
+![The Terrain and Weather panel in Snowglobe with weather presets from Clear to Dust storm](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-09-weather-panel.jpg)
 
 **Terrain.** The Terrain tab is a brush. Paint the ground with grass, soil, sand, paving, dirt road, or snow. Cut a river. Raise, lower, flatten, or smooth the land. Plant trees. Set the brush size and strength, and erase what you do not want.
 
-![The Terrain brush in Snowglobe with paint, river, raise, lower, flatten, smooth, plant, and eraser tools](/blogs/snowglobe-10-terrain-panel.jpg)
+![The Terrain brush in Snowglobe with paint, river, raise, lower, flatten, smooth, plant, and eraser tools](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-10-terrain-panel.jpg)
 
 **Buildings and props.** Click a building and you get its footprint, height, story count, interior size, and room count. Move it, rotate it, delete it. If it is marked **Can go inside**, press **Go inside** and Snowglobe opens the interior, so a scene can cut from the street to the hallway without changing worlds.
 
-![Selecting and moving a building in Snowglobe, with its footprint, height, and interior details](/blogs/snowglobe-03-change-it.jpg)
+![Selecting and moving a building in Snowglobe, with its footprint, height, and interior details](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-03-change-it.jpg)
 
 You do not have to click for all of it. **Hold Space to talk, or press / to type**, and tell Snowglobe what you want: "make it dusk," or "add a taxi at the curb."
 
@@ -106,11 +106,11 @@ A set is only half of previs. The other half is who moves where, and where the c
 
 **Cast.** Click anyone in the scene and their profile opens: name, role, gender, age, traits, a short bio, walking speed, and a marker color so you can tell your leads apart from the extras at a glance. Upload a portrait to give the character a face of their own, or add a new character from the Characters panel.
 
-![A character profile in Snowglobe with name, role, traits, bio, speed, and portrait upload](/blogs/snowglobe-04-character.jpg)
+![A character profile in Snowglobe with name, role, traits, bio, speed, and portrait upload](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-04-character.jpg)
 
 **Blocking.** Select a person, vehicle, horse, or camera and press **Path**. Click to lay down legs of movement on the ground. Undo a point, finish, and press play. The actor walks the sidewalk at their speed, the taxi pulls in on its own path, and you watch the timing land before anyone has rendered a frame. Press stop and everything returns to where it was, with time back at the start.
 
-![Drawing a movement path for an actor along the sidewalk in Snowglobe](/blogs/snowglobe-05-path-blocking.jpg)
+![Drawing a movement path for an actor along the sidewalk in Snowglobe](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-05-path-blocking.jpg)
 
 **Cameras.** Press **+** on the view strip and Snowglobe places a new camera mid-screen. It becomes a new view of the scene. Use **Enter view** to look through any camera, or through any character's eyes, and **Free view** to fly back out. Each camera is a shot you can come back to. Every scene, every take, every angle.
 
@@ -118,7 +118,7 @@ A set is only half of previs. The other half is who moves where, and where the c
 
 When the blocking reads right, pick a person or a camera, enter its view, and press **Record**, or take a **Screenshot** of a frame you love. Snowglobe sends the take to the Plot Party Canvas, where it becomes a finished, lit, photoreal shot with the composition, the camera, and the actor's position you chose, not the ones a model guessed at.
 
-![From a 3D set of Frontier Junction to the final generated shot of its main street](/blogs/snowglobe-06-set-to-final-shot.jpg)
+![From a 3D set of Frontier Junction to the final generated shot of its main street](https://storage.googleapis.com/plotparty-storage-public/blogs/snowglobe-06-set-to-final-shot.jpg)
 
 Above, on the left, is *Frontier Junction*, a railroad town built in Snowglobe, seen from Free view. On the right is the final shot from Main Street at golden hour. Same town, same street, same light direction. Shoot the next angle and it will still be the same town.
 
