@@ -115,7 +115,7 @@ Want to understand the tools your fans will be using? Read our [comparison of th
 
 [Learn about Plot Party's IP Holder program →](https://app.plotparty.ai/ip)
 
-Or [get in touch directly](mailto:sophia@plotparty.ai) to discuss how AI content creation can work for your specific IP portfolio. We also offer [flexible pricing plans](https://app.plotparty.ai/pricing) for IP holders of any size.
+Or [get in touch directly](https://plotparty.ai/ip?contact=sales) to discuss how AI content creation can work for your specific IP portfolio. We also offer [flexible pricing plans](https://app.plotparty.ai/pricing) for IP holders of any size.
 
 ## FAQ
 

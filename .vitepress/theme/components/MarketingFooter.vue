@@ -14,16 +14,18 @@
         <span class="visually-hidden">Join our Discord server</span>
       </a>
 
+      <!-- No raw email address here: Cloudflare Email Obfuscation rewrites it into a
+           /cdn-cgi/l/email-protection link that crawlers report as a 404. -->
       <a
-        href="mailto:sophia@plotparty.ai"
+        href="https://plotparty.ai/ip?contact=sales"
         class="marketing-footer__link"
-        aria-label="Send email to sophia@plotparty.ai"
+        aria-label="Contact sales"
       >
         <svg class="marketing-footer__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6.75h16a1 1 0 0 1 1 1v8.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-8.5a1 1 0 0 1 1-1Z" />
           <path stroke-linecap="round" stroke-linejoin="round" d="m4 8 8 5 8-5" />
         </svg>
-        <span class="visually-hidden">Send email to sophia@plotparty.ai</span>
+        <span class="visually-hidden">Contact sales</span>
       </a>
 
       <a

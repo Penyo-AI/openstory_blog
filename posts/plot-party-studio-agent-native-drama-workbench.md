@@ -189,9 +189,9 @@ Studio is not the fastest way to make one clip. The canvas and the quick Generat
 
 ## Early Access
 
-Studio is in early access. It appears as a Beta tab on the home creation panel and under Works for accounts that have it enabled. If you are making a drama of thirty minutes or more and want in, email [hi@plotparty.ai](mailto:hi@plotparty.ai?subject=Studio%20early%20access%20request) with a line about what you are producing.
+Studio is in early access. It appears as a Beta tab on the home creation panel and under Works for accounts that have it enabled. If you are making a drama of thirty minutes or more and want in, [contact the Plot Party team](https://plotparty.ai/ip?contact=sales) with a line about what you are producing.
 
-<PlotPartyCta label="Request Studio Early Access" href="mailto:hi@plotparty.ai?subject=Studio%20early%20access%20request" />
+<PlotPartyCta label="Request Studio Early Access" href="https://plotparty.ai/ip?contact=sales" />
 
 If you would rather learn the pieces first, our [drama episode tutorial](./creating-drama-episode-plot-party-tutorial.md) walks through cast, board, and shoot in the canvas, [Director Studio](./director-studio-ai-video-control-guide.md) covers blocking and camera control for a single shot, and the [Plot Party MCP guide](./plot-party-mcp-direct-ai-microdrama-from-claude-chatgpt.md) shows the same production tools driven from Claude or ChatGPT.
 
@@ -227,4 +227,4 @@ Yes. Save a markdown file named `SKILL.md` or `*.skill.md` anywhere in the tree,
 
 ### How do I get access?
 
-Studio is in early access. Email [hi@plotparty.ai](mailto:hi@plotparty.ai?subject=Studio%20early%20access%20request) with what you plan to make.
+Studio is in early access. [Contact the Plot Party team](https://plotparty.ai/ip?contact=sales) with what you plan to make.

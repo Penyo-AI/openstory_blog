@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "pricing": "https://plotparty.ai/pricing",
+  "nav": [
+    {
+      "label": "Product & Tools",
+      "columns": [
+        {
+          "label": "Workspaces",
+          "links": [
+            {
+              "label": "Drama Studio",
+              "description": "Build your series in an agent workspace.",
+              "href": "https://plotparty.ai/home?tab=studio",
+              "badge": "new"
+            },
+            {
+              "label": "Agentic Canvas",
+              "description": "Explore ideas on an infinite storyboard.",
+              "href": "https://plotparty.ai/canvas"
+            },
+            {
+              "label": "3D Snowglobe",
+              "description": "Explore 3D sets and frame any camera angle.",
+              "href": "https://plotparty.ai/3d-world/?lang=en#portfolio",
+              "badge": "new"
+            },
+            {
+              "label": "Character Casting",
+              "description": "Draw multi-view casting cards and check IP.",
+              "href": "https://plotparty.ai/casting",
+              "badge": "new"
+            },
+            {
+              "label": "Subtitles & Dubbing",
+              "description": "One-click 40-language captions and voices.",
+              "href": "https://plotparty.ai/subtitles",
+              "badge": "new"
+            },
+            {
+              "label": "Plot Party MCP",
+              "description": "Create from Claude, ChatGPT and Cursor.",
+              "href": "https://plotparty.ai/guide/mcp"
+            }
+          ]
+        },
+        {
+          "label": "Storytelling tools",
+          "links": [
+            {
+              "label": "AI Microdrama Generator",
+              "description": "Take your story from logline to screen.",
+              "href": "https://plotparty.ai/tools/ai-microdrama-generator"
+            },
+            {
+              "label": "Novel to Video AI",
+              "description": "Turn webnovel chapters into 9:16 episodes.",
+              "href": "https://plotparty.ai/tools/novel-to-video-ai",
+              "badge": "new"
+            },
+            {
+              "label": "Script to Short Film",
+              "description": "Parse screenplays into multi-shot scenes.",
+              "href": "https://plotparty.ai/tools/script-to-shortfilm-agent"
+            },
+            {
+              "label": "AI Storyboard Generator",
+              "description": "Generate consistent 9-grid storyboards.",
+              "href": "https://plotparty.ai/tools/ai-storyboard-generator",
+              "badge": "new"
+            },
+            {
+              "label": "Consistent Character Video",
+              "description": "Keep the same actor face across every shot.",
+              "href": "https://plotparty.ai/tools/consistent-character-video"
+            },
+            {
+              "label": "AI Anime Microdrama",
+              "description": "Create 2D/3D AI Manju and comic dramas.",
+              "href": "https://plotparty.ai/tools/ai-anime-microdrama-generator",
+              "badge": "new"
+            },
+            {
+              "label": "Remake Any Video",
+              "description": "Swap people, scenes and motion from a clip.",
+              "href": "https://plotparty.ai/remake-any-video"
+            },
+            {
+              "label": "AI Image Upscaler",
+              "description": "Restore and upscale images & video to 4K.",
+              "href": "https://plotparty.ai/tools/ai-image-upscaler"
+            },
+            {
+              "label": "AI Face Swap",
+              "description": "Swap faces in photos and 15s video clips.",
+              "href": "https://plotparty.ai/tools/ai-face-swap"
+            },
+            {
+              "label": "Explore All AI Tools",
+              "description": "View the complete Plot Party tool directory.",
+              "href": "https://plotparty.ai/tools"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Models",
+      "columns": [
+        {
+          "label": "AI video",
+          "links": [
+            {
+              "label": "Seedance 2.5",
+              "description": "Up to 30s 1080p takes with 50 references.",
+              "href": "https://plotparty.ai/seedance/2.5",
+              "badge": "new"
+            },
+            {
+              "label": "Seedance 2.5 4K",
+              "description": "Draft at 480p, master 30s takes in 4K UHD.",
+              "href": "https://plotparty.ai/seedance/2.5-4k",
+              "badge": "new"
+            },
+            {
+              "label": "MiniMax H3 (Hailuo 03)",
+              "description": "Multi-shot dialogue & 11-language lip-sync.",
+              "href": "https://plotparty.ai/minimax/h3"
+            },
+            {
+              "label": "Kling 4.0 & 4.0 Flash",
+              "description": "First, middle & last keyframes, 3–30s 1080p.",
+              "href": "https://plotparty.ai/kling/4.0",
+              "badge": "new"
+            },
+            {
+              "label": "Gemini Omni Flash",
+              "description": "Combine 6 character, prop & set references.",
+              "href": "https://plotparty.ai/gemini-omni/flash",
+              "badge": "new"
+            },
+            {
+              "label": "SeedVR 2",
+              "description": "One-step 4K video restoration & upscaling.",
+              "href": "https://plotparty.ai/seedvr/2"
+            }
+          ]
+        },
+        {
+          "label": "AI image",
+          "links": [
+            {
+              "label": "Nano Banana 2",
+              "description": "Fast 4K storyboards & reference consistency.",
+              "href": "https://plotparty.ai/nano-banana/2",
+              "badge": "new"
+            },
+            {
+              "label": "GPT Image 2.5",
+              "description": "16-ref character sheets & surgical edits.",
+              "href": "https://plotparty.ai/gpt-image/2.5",
+              "badge": "new"
+            },
+            {
+              "label": "Midjourney",
+              "description": "Cinematic world building & editorial key art.",
+              "href": "https://plotparty.ai/midjourney"
+            },
+            {
+              "label": "Grok Imagine",
+              "description": "Bold concept art, then animate it.",
+              "href": "https://plotparty.ai/grok-imagine"
+            },
+            {
+              "label": "All 13 models",
+              "description": "Compare specs and launch any model.",
+              "href": "https://plotparty.ai/models"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Templates",
+      "columns": [
+        {
+          "label": "AI video",
+          "links": [
+            {
+              "label": "Resident Evil Pet",
+              "description": "Turn your pet into an action survival courier.",
+              "href": "https://plotparty.ai/templates/resident-evil-pet-raccoon-city",
+              "badge": "hot"
+            },
+            {
+              "label": "Perfume Chain Flat Lay",
+              "description": "Luxury product flat-lay animation.",
+              "href": "https://plotparty.ai/templates/perfume-chain-flat-lay"
+            },
+            {
+              "label": "Janitor Stool Trick",
+              "description": "Comedy physical illusion clip.",
+              "href": "https://plotparty.ai/templates/janitor-stool-trick"
+            },
+            {
+              "label": "Copy the Sketch Face",
+              "description": "Animate drawing to life.",
+              "href": "https://plotparty.ai/templates/copy-the-sketch-face"
+            },
+            {
+              "label": "Cat Room Swoop",
+              "description": "Dynamic camera pet swoop shot.",
+              "href": "https://plotparty.ai/templates/cat-room-swoop"
+            },
+            {
+              "label": "Boot Toss Outfit Change",
+              "description": "Fashion transition effect.",
+              "href": "https://plotparty.ai/templates/boot-toss-outfit-change"
+            }
+          ]
+        },
+        {
+          "label": "Find your next story",
+          "links": [
+            {
+              "label": "Story showcase",
+              "description": "See full AI series example.",
+              "href": "https://plotparty.ai/we-switched-bodies"
+            },
+            {
+              "label": "Remake Any Video",
+              "description": "Swap people, scenes and motion from a clip.",
+              "href": "https://plotparty.ai/remake-any-video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Resources",
+      "columns": [
+        {
+          "label": "Learn",
+          "links": [
+            {
+              "label": "HTTP API Reference",
+              "description": "REST API endpoints and SDK documentation.",
+              "href": "https://plotparty.ai/docs/api"
+            },
+            {
+              "label": "Help Center",
+              "description": "Guides, tutorials, and support.",
+              "href": "https://plotparty.ai/help"
+            }
+          ]
+        },
+        {
+          "label": "Programs",
+          "links": [
+            {
+              "label": "Affiliates",
+              "description": "Earn rewards for referring creators.",
+              "href": "https://plotparty.ai/affiliate-program"
+            },
+            {
+              "label": "Plot Party Channels",
+              "description": "Add a monetized drama tab to your app.",
+              "href": "https://plotparty.ai/channels"
+            }
+          ]
+        },
+        {
+          "label": "Enterprise & Studios",
+          "links": [
+            {
+              "label": "For IP Holders & Studios",
+              "description": "Enterprise IP licensing & custom workflows.",
+              "href": "https://plotparty.ai/ip"
+            },
+            {
+              "label": "Hybrid AI Virtual Production",
+              "description": "Combine live action with AI pipelines.",
+              "href": "https://plotparty.ai/enterprise/hybrid-ai-production"
+            },
+            {
+              "label": "Branded Microdrama Studio",
+              "description": "Serialized brand dramas & 4K product ads.",
+              "href": "https://plotparty.ai/enterprise/brand-microdrama-studio"
+            },
+            {
+              "label": "Enterprise API & MCP Pipeline",
+              "description": "Multi-model video pipeline for platforms.",
+              "href": "https://plotparty.ai/enterprise/api-mcp-pipeline"
+            },
+            {
+              "label": "Novel to Microdrama Adaptation",
+              "description": "Adapt webnovels into microdramas.",
+              "href": "https://plotparty.ai/enterprise/novel-to-microdrama"
+            },
+            {
+              "label": "Interactive Game Cutscenes",
+              "description": "Generate high-fidelity game cinematics.",
+              "href": "https://plotparty.ai/enterprise/interactive-game-cutscenes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

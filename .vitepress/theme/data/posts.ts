@@ -21,6 +21,40 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'plot-party-vs-higgsfield-microdrama-studio',
+    title: 'Plot Party vs Higgsfield MicroDrama Studio (2026): Which AI Microdrama Studio Fits Serialized Production?',
+    description: 'Compare Plot Party Drama Studio vs Higgsfield MicroDrama Studio for AI short dramas: 3D set locking, cast consistency, 40-language dubbing, and credit ROI.',
+    publishedAt: '2026-11-23',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Comparison', 'AI Drama', 'Creators'],
+    readingTime: 9,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Plot Party AI Microdrama Generator', href: appUrl('/tools/ai-microdrama-generator') },
+      { label: 'Explore Enterprise Microdrama Studio', href: appUrl('/enterprise/ai-microdrama-studio') },
+      { label: 'Plot Party vs Dreamina vs LTX', href: '/blog/plot-party-vs-dreamina-capcut-ltx-ai-microdrama' }
+    ]
+  },
+  {
+    slug: 'plot-party-vs-dreamina-capcut-ltx-ai-microdrama',
+    title: 'Plot Party vs Dreamina (CapCut) vs LTX-2.5 (2026): Three Architectures for AI Microdrama Production',
+    description: 'Compare Plot Party, Dreamina by CapCut, and LTX-2.5 for AI microdramas: turnkey studio vs fast clip generator vs open-weight LoRA engine. Full 2026 guide.',
+    publishedAt: '2026-11-23',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Comparison', 'AI Drama', 'Creators'],
+    readingTime: 9,
+    featured: true,
+    relatedLinks: [
+      { label: 'Explore Enterprise Microdrama Studio', href: appUrl('/enterprise/ai-microdrama-studio') },
+      { label: 'Compare All Available Models', href: appUrl('/models') },
+      { label: 'Plot Party vs Higgsfield MicroDrama Studio', href: '/blog/plot-party-vs-higgsfield-microdrama-studio' }
+    ]
+  },
+  {
     slug: 'snowglobe-3d-world-engine-ai-filmmaking-previs',
     title: "Snowglobe: Turn One Line or One Image into a 3D Film Set",
     description: 'Snowglobe turns one sentence or one image into a full 3D set you can step inside. Change the time of day, weather, terrain and layout, block actors, place cameras, and send every shot straight into AI video generation.',
@@ -344,7 +378,7 @@ export const blogPosts: BlogPostItem[] = [
     readingTime: 12,
     featured: true,
     relatedLinks: [
-      { label: 'Request Studio Early Access', href: 'mailto:hi@plotparty.ai?subject=Studio%20early%20access%20request' },
+      { label: 'Contact the Plot Party team', href: appUrl('/ip?contact=sales') },
       { label: 'Try Plot Party', href: appUrl('/home') },
       { label: 'Create a Drama Episode on Plot Party', href: '/blog/creating-drama-episode-plot-party-tutorial' }
     ]
@@ -702,7 +736,7 @@ export const blogPosts: BlogPostItem[] = [
     relatedLinks: [
       { label: 'IP Holders Program', href: appUrl('/ip') },
       { label: 'Pricing for IP Holders', href: appUrl('/pricing') },
-      { label: 'Contact Us', href: 'mailto:sophia@plotparty.ai' }
+      { label: 'Contact Us', href: appUrl('/ip?contact=sales') }
     ]
   }
 ]

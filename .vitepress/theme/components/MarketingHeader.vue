@@ -2,24 +2,15 @@
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { withBase } from 'vitepress'
 import { appUrl } from '../data/site'
+import sharedNav from '../data/nav.json'
 
 const header = ref<HTMLElement | null>(null)
 const mobileOpen = ref(false)
-const groups = [
-  { label: 'Product & Tools', columns: [
-    { label: 'Workspaces', links: [['Full Series Studio', '/home?tab=studio'], ['Agentic Canvas', '/home?tab=canvas'], ['Quick Story', '/home?tab=story'], ['Plot Party MCP', '/guide/mcp']] },
-    { label: 'Storytelling tools', links: [['Remake Any Video', '/remake-any-video'], ['AI Microdrama Generator', '/tools/ai-microdrama-generator'], ['Script to Short Film', '/tools/script-to-shortfilm-agent'], ['Consistent Character Video', '/tools/consistent-character-video'], ['All AI Tools', '/tools'], ['AI Story Generator', '/ai-story-generator'], ['For IP Holders & Studios', '/ip']] }
-  ] },
-  { label: 'Models', columns: [
-    { label: 'AI video', links: [['Seedance 2.5', '/seedance/2.5'], ['MiniMax H3 (Hailuo 03)', '/minimax/h3'], ['SeedVR 2', '/seedvr/2']] },
-    { label: 'AI image', links: [['Nano Banana 2', '/nano-banana/2'], ['GPT Image 2.5', '/gpt-image/2.5'], ['Midjourney', '/midjourney']] }
-  ] },
-  { label: 'Templates', columns: [{ label: 'Find your next story', links: [['Community Creations', '/community'], ['Story showcase', '/we-switched-bodies']] }] },
-  { label: 'Resources', columns: [
-    { label: 'Learn', links: [['Producer Blog & Guides', '/blog'], ['News', '/page/news'], ['HTTP API Reference', '/docs/api'], ['Help Center', '/help']] },
-    { label: 'Programs', links: [['Creator Partner Program', '/cpp'], ['Affiliates', '/affiliate-program'], ['Jobs / Careers', '/jobs']] }
-  ] }
-]
+// Mirrors the main site's Mega-Menu (single source of truth: openstory_frontend_v2
+// mega-navigation.ts → https://plotparty.ai/shared-nav.json). scripts/sync-nav.cjs refreshes
+// nav.json before every build; do not edit the links here.
+const groups = sharedNav.nav
+const pricingUrl = sharedNav.pricing
 function closeMenus() {
   mobileOpen.value = false
   header.value?.querySelectorAll('details[open]').forEach(item => item.removeAttribute('open'))
@@ -93,11 +84,11 @@ if (header) {
         <summary>{{ group.label }}<span aria-hidden="true">⌄</span></summary>
         <div class="mega-panel">
           <section v-for="column in group.columns" :key="column.label"><h2>{{ column.label }}</h2>
-            <a v-for="[label, href] in column.links" :key="href" :href="appUrl(href)" @click="closeMenus">{{ label }}</a>
+            <a v-for="link in column.links" :key="link.href" :href="link.href" @click="closeMenus">{{ link.label }}<span v-if="link.badge" class="badge">{{ link.badge === 'hot' ? 'Hot' : 'New' }}</span></a>
           </section>
         </div>
       </details>
-      <a class="pricing" :href="appUrl('/pricing')" @click="closeMenus">Pricing</a>
+      <a class="pricing" :href="pricingUrl" @click="closeMenus">Pricing</a>
     </nav>
     <div class="actions"><a class="sales" :href="appUrl('/ip?contact=sales')">Contact Sales</a><a class="create" :href="appUrl('/home')">Start Creating</a>
       <button type="button" class="menu-toggle" aria-controls="blog-navigation" :aria-expanded="mobileOpen" @click="mobileOpen ? closeMenus() : (mobileOpen = true)">{{ mobileOpen ? 'Close' : 'Menu' }}</button>
@@ -118,6 +109,7 @@ if (header) {
 .mega-panel a { display: block; padding: 9px 0; font-size: 14px; line-height: 1.5; }
 .mega-panel a:hover, .pricing:hover { color: #bd4511; }
 .pricing { font-size: 14px; font-weight: 500; }
+.badge { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 999px; background: #fff1ea; color: #bd4511; font-size: 10px; font-weight: 600; line-height: 16px; vertical-align: middle; }
 .actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; font-size: 13px; font-weight: 600; }
 .sales, .create, .menu-toggle { padding: 10px 16px; border: 1px solid #d4d4d8; border-radius: 24px; white-space: nowrap; }
 .create { color: #fff; background: #bd4511; border-color: #bd4511; }
