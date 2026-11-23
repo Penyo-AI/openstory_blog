@@ -134,6 +134,11 @@
               "badge": "new"
             },
             {
+              "label": "Google Veo 3.1",
+              "description": "Photoreal physics & start-to-end frames.",
+              "href": "https://plotparty.ai/veo/3.1"
+            },
+            {
               "label": "Gemini Omni Flash",
               "description": "Combine 6 character, prop & set references.",
               "href": "https://plotparty.ai/gemini-omni/flash",
