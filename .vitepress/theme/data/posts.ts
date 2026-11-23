@@ -21,6 +21,40 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'how-to-pitch-ai-microdrama-reelshort-dramabox-shortmax',
+    title: 'How to Pitch an AI Microdrama to ReelShort, DramaBox, and ShortMax in 2026',
+    description: 'Learn how US producers pitch and sell AI microdramas to ReelShort, DramaBox, and ShortMax in 2026: format specs, paywall hooks, pitch decks, and pilot tips.',
+    publishedAt: '2026-11-23',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Distribution', 'Producers', 'AI Drama'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Plot Party AI Microdrama Generator', href: appUrl('/tools/ai-microdrama-generator') },
+      { label: 'Plot Party AI Character Casting', href: appUrl('/tools/ai-character-casting') },
+      { label: 'Microdrama Production Cost in 2026', href: '/blog/microdrama-production-cost-traditional-vs-ai-2026' }
+    ]
+  },
+  {
+    slug: 'microdrama-production-cost-traditional-vs-ai-2026',
+    title: 'Microdrama Production Cost in 2026: Traditional LA Shoots vs. AI-Native Studios (Full Line-Item Breakdown)',
+    description: '2026 US microdrama production cost breakdown: compare $150K–$300K LA live-action shoots with AI agencies and lean Plot Party workflows, line by line.',
+    publishedAt: '2026-11-23',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Economics', 'Producers', 'AI Drama'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Plot Party Microdrama Budget Calculator', href: appUrl('/tools/microdrama-budget-calculator') },
+      { label: 'Explore Enterprise Microdrama Studio', href: appUrl('/enterprise/ai-microdrama-studio') },
+      { label: 'How to Pitch an AI Microdrama', href: '/blog/how-to-pitch-ai-microdrama-reelshort-dramabox-shortmax' }
+    ]
+  },
+  {
     slug: 'plot-party-vs-higgsfield-microdrama-studio',
     title: 'Plot Party vs Higgsfield MicroDrama Studio (2026): Which AI Microdrama Studio Fits Serialized Production?',
     description: 'Compare Plot Party Drama Studio vs Higgsfield MicroDrama Studio for AI short dramas: 3D set locking, cast consistency, 40-language dubbing, and credit ROI.',
