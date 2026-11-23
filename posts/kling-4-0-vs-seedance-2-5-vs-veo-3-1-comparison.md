@@ -2,7 +2,7 @@
 title: "Kling 4.0 vs Seedance 2.5 vs Veo 3.1: 30s AI Video Test"
 description: "Compare Kling 4.0, Seedance 2.5 and Google Veo 3.1 on clip length, keyframes, reference limits, audio and 4K output, with copyable prompts for each shot type."
 date: 2026-11-18
-lastUpdated: 2026-11-18
+lastUpdated: 2026-11-23
 author: "Sophia Xing"
 readingTime: 10
 tags: ["AI Video", "Comparison", "Model Guides"]
@@ -11,9 +11,9 @@ titleTemplate: ":title | Plot Party"
 outline: deep
 faq:
   - question: "Is Kling 4.0 better than Seedance 2.5?"
-    answer: "Neither wins every shot. Kling 4.0 is the stronger choice when you need to pin up to 10 keyframes along a 30-second timeline or deliver 10-bit HDR. Seedance 2.5 is the stronger choice when a scene depends on a large reference set, because it accepts up to 50 references across images, video and audio, and it adds Region Edit and Video Extend for revisions."
+    answer: "Neither wins every shot. Kling 4.0 is the stronger choice when a long take has to open and close on exact poses: on Plot Party you lock its first and last frame across a clip of up to 30 seconds. Seedance 2.5 is the stronger choice when a scene depends on a large reference set, because it accepts up to 50 references across images, video and audio, and it adds Region Edit and Video Extend for revisions."
   - question: "What is the difference between Kling 4.0 and Kling 4.0 Flash?"
-    answer: "Kling 4.0 Flash is the faster, lower-cost tier of the Kling 4.0 lineup. On Plot Party it generates 3-to-20-second drafts at 720p for blocking and pacing, while Kling 4.0 renders 3-to-30-second masters at 1080p with first, middle and last keyframes. Kling has not published a full Flash specification of its own, so treat Flash as a drafting tier."
+    answer: "Kling 4.0 Flash is the faster, lower-cost tier of the Kling 4.0 lineup. On Plot Party it generates 3-to-20-second drafts at 720p for blocking and pacing, while Kling 4.0 renders 3-to-30-second masters at 1080p with first and last frame control. Kling has not published a full Flash specification of its own, so treat Flash as a drafting tier."
   - question: "Which model accepts uploaded audio as a reference?"
     answer: "Seedance 2.5 accepts up to 10 audio references. Kling 4.0 accepts voice references inside its 15-asset reference budget. Veo 3.1 generates native audio from the prompt but does not take reference audio. For multi-speaker dialogue with lip-sync, MiniMax H3 on Plot Party accepts up to three audio clips."
   - question: "When should I choose Veo 3.1 over Kling 4.0 or Seedance 2.5?"
@@ -34,11 +34,11 @@ The practical question is not which model is best overall. It is which constrain
 - **Seedance 2.5 is the continuity engine.** Give each character, costume, prop, motion clip and audio track its own reference slot, then revise with Region Edit or Video Extend.
 - **Veo 3.1 is the optics specialist.** Use it for B-roll and transitions where reflections, refraction and smoke carry the shot.
 
-<InlineStudioCallout href="/kling/4.0" title="Pin keyframes in Kling 4.0 on Plot Party" />
+<InlineStudioCallout href="/kling/4.0" title="Set first and last frames in Kling 4.0 on Plot Party" />
 
 ## Kling 4.0 vs Seedance 2.5 vs Veo 3.1: Specifications
 
-The table uses each vendor's published limits as of November 18, 2026. Plot Party exposes a production subset of Kling 4.0: 720p or 1080p output, first, middle and last keyframes, and up to 10 image and video references. Confirm the options in the interface you generate from. To compare every engine Plot Party runs, see [all Plot Party models](https://plotparty.ai/models).
+The table uses each vendor's published limits as of November 18, 2026. Plot Party exposes a production subset of Kling 4.0: 720p or 1080p output, first and last frame control (not Kling's multi-keyframe timeline), and up to 10 image and video references. Confirm the options in the interface you generate from. To compare every engine Plot Party runs, see [all Plot Party models](https://plotparty.ai/models).
 
 | Specification | Kling 4.0 | Seedance 2.5 | Google Veo 3.1 |
 |---|---|---|---|
@@ -58,22 +58,22 @@ Two details change real planning. First, Veo 3.1's reference mode only produces 
 
 Kling 4.0 Flash is the faster tier. On Plot Party it drafts 3-to-20-second clips at 720p, which is enough to check blocking, pacing and the camera path before you pay for a 1080p master in Kling 4.0.
 
-## Test 1: A Three-Keyframe Rooftop Orbit on Kling 4.0
+## Test 1: A First-to-Last-Frame Rooftop Orbit on Kling 4.0
 
-Run this test in [Kling 4.0 on Plot Party](https://plotparty.ai/kling/4.0), drafting the move first in Kling 4.0 Flash. It measures whether a model will hit exact poses at exact times while the camera completes a defined move. Prepare three stills of the same character from your approved turnaround sheet: a crouch, a mid-air kick and a landing stance.
+Run this test in [Kling 4.0 on Plot Party](https://plotparty.ai/kling/4.0), drafting the move first in Kling 4.0 Flash. It measures whether a model will start and end on exact poses while the camera completes a defined move. Prepare two stills of the same character from your approved turnaround sheet: a crouch for the first frame and a landing stance for the last frame. The mid-air kick in between is driven by the prompt.
 
 ```text
 16:9, 1080p, 15 seconds, one continuous take.
-Keyframe 1 at 00:00 — low-angle crouch on wet clay roof tiles.
-Keyframe 2 at 00:07 — mid-air spinning kick across the gap
-  between two neon billboards.
-Keyframe 3 at 00:14 — wide profile stance as the camera
+First frame — low-angle crouch on wet clay roof tiles.
+Around 00:07 she launches a mid-air spinning kick across
+  the gap between two neon billboards.
+Last frame — wide profile stance as the camera
   completes a 180-degree arc around the character.
 Keep the same face, black jacket and red scarf in every frame.
 Rain splashes on each landing. Distant thunder at 00:10.
 ```
 
-Score the result on three checks. Does each pose land within half a second of its timestamp? Does the camera finish its 180-degree arc rather than cutting? Does the scarf keep the same color and length after the kick? A model that passes the first two but fails the third needs a cleaner costume reference, not a longer prompt.
+Score the result on three checks. Does the clip open and close on the two approved poses, with the kick landing near 00:07? Does the camera finish its 180-degree arc rather than cutting? Does the scarf keep the same color and length after the kick? A model that passes the first two but fails the third needs a cleaner costume reference, not a longer prompt.
 
 ## Test 2: A Five-Character Gala Reveal on Seedance 2.5
 
@@ -117,7 +117,7 @@ Start every scene from the same approved assets. Generate a four-angle character
 
 | Episode beat | Suggested engine | Reason |
 |---|---|---|
-| Choreographed fight with three fixed poses | Kling 4.0 | Keyframes pin each pose to a timestamp |
+| Choreographed move between two fixed poses | Kling 4.0 | First and last frames pin the opening and closing pose |
 | Ensemble arrival with music cue | Seedance 2.5 | Large reference set plus audio reference |
 | Two-character argument with reaction cuts | MiniMax H3 | Scripted multi-shot dialogue and lip-sync |
 | Rain-on-glass establishing shot | Veo 3.1 | Optical detail in a short take |
