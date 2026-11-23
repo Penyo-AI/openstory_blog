@@ -129,7 +129,7 @@
             },
             {
               "label": "Kling 4.0 & 4.0 Flash",
-              "description": "First & last frame control, 3–30s 1080p.",
+              "description": "First, middle & last keyframes, 3–30s 1080p.",
               "href": "https://plotparty.ai/kling/4.0",
               "badge": "new"
             },
