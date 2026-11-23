@@ -7,6 +7,7 @@ author: "Sophia Xing"
 readingTime: 9
 tags: ["Comparison", "AI Drama", "Creators"]
 keywords: ["plot party vs higgsfield", "higgsfield microdrama studio", "higgsfield short drama studio", "ai microdrama studio", "ai short drama workflow", "micro drama ads vs episodic drama"]
+coverImage: "https://plotparty.ai/blog/images/blog/cover-vs-higgsfield.jpg"
 layout: blog-post
 titleTemplate: false
 outline: deep

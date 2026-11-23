@@ -7,6 +7,7 @@ author: "Sophia Xing"
 readingTime: 9
 tags: ["Comparison", "AI Drama", "Creators"]
 keywords: ["plot party vs dreamina", "dreamina microdrama vs ltx", "ai microdrama generator comparison", "dreamina capcut microdrama", "ltx 2.5 microdrama", "best ai microdrama platform 2026"]
+coverImage: "https://plotparty.ai/blog/images/blog/cover-vs-dreamina-ltx.jpg"
 layout: blog-post
 titleTemplate: false
 outline: deep
