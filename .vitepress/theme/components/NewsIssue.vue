@@ -6,6 +6,71 @@ import MarketingFooter from './MarketingFooter.vue'
 const route = useRoute()
 
 const issues = {
+  '/news/the-long-table': {
+    date: 'Week of November 16 - November 22, 2026',
+    title: 'The Long Table',
+    image: withBase('/images/news/the-long-table-banner-2026-w47.png'),
+    alt: 'The Long Table — Plot Party Weekly, November 16–22, 2026. A person pulls up a chair at a long wooden table beneath pendant lights.',
+    deck: 'Vertical drama spent two years proving it was a real place to build. This week the serious parties pulled up chairs — a legacy producer, a broadcast alliance, a global platform, a writers’ union, and a car brand all took a seat inside seven days.',
+    quickReads: [
+      'WGA West unionizes DramaWave — microdrama writing gets a contract table, and AI-in-the-script gets a bargaining line.',
+      'Will Packer opens June with NBCUniversal and HarbourView behind him — studio money enters vertical around a specific audience.',
+      'TikTok co-produces an 81-episode musical with Grammy and Broadway names, union crew and all.',
+      'The FOX–Dhar Mann–Holywater alliance moves from January announcement to a five-title release calendar.',
+      'Toyota commissions a DramaBox original and writes its cars into the story — a brand funding vertical as its own channel.'
+    ],
+    stories: [
+      {
+        date: 'NOVEMBER 16, 2026',
+        title: 'Microdrama writing reaches its first union bargaining table',
+        body: 'On Monday, the Writers Guild of America West said writers at DramaWave — the fast-growing app owned by Skywork AI — had organized after a successful card check, and the company recognized the union. First-contract bargaining dates are not yet set. The writers’ stated priorities are pay and benefits, job security, a fair crediting system, and guardrails on how AI is used in the writing process.',
+        context: 'SAG-AFTRA’s 2025 Verticals Agreement already set terms for performers in the format. This is the first time the people writing the scripts have a seat at the table.',
+        why: 'The AI-guardrails demand puts the industry’s cheapest input — the script — at the center of its first labor fight, and every AI-forward production shop will be watching where that line lands.',
+        source: 'TheWrap',
+        sourceTitle: 'Writers Guild Unionizes First Microdrama Studio',
+        href: 'https://www.thewrap.com/culture-lifestyle/culture/writers-guild-unionizes-first-microdrama-studio/'
+      },
+      {
+        date: 'NOVEMBER 16, 2026',
+        title: 'Will Packer opens a vertical studio with NBCUniversal money behind it',
+        body: 'Producer Will Packer and his son Dom Packer launched June, a studio to develop, finance, produce, and acquire vertical scripted series, backed by NBCUniversal and HarbourView Equity Partners. Terms were not disclosed. The studio targets Black audiences, with its first slate built around Black women, and HarbourView is expected to lean on brand partnerships.',
+        context: 'The thesis rests on a measurable gap: Pew’s 2026 data puts TikTok use among Black US adults at 51%, against 37% of all US adults.',
+        why: 'A producer of Packer’s standing routing NBCUniversal money into vertical marks the format as something established studios now finance on purpose, built around a defined audience.',
+        source: 'The Hollywood Reporter',
+        sourceTitle: 'Will Packer Launches Microdrama Studio June With NBCUniversal, HarbourView Backing',
+        href: 'https://www.hollywoodreporter.com/business/business-news/will-packer-microdrama-studio-june-1236756577/'
+      },
+      {
+        date: 'NOVEMBER 19, 2026',
+        title: 'TikTok produces an 81-episode musical, union crew and all',
+        body: 'TikTok and Ampersand are co-producing To Die For Love, an 81-episode original musical microseries with a score by Grammy-winning duo Barlow & Bear and a soundtrack from Atlantic Records. It stars Abigail Barlow and Derek Klena; executive producers include Agnes Chu and Dear Evan Hansen songwriters Benj Pasek and Justin Paul. Filmed in Los Angeles as a SAG-AFTRA and DGA production, the team built all 81 episodes in under five months.',
+        context: 'Everything drops at once on December 21, exclusively on TikTok and PineDrama.',
+        why: 'TikTok financing a union-crewed musical with Broadway and Grammy names moves the platform from distributing vertical to commissioning prestige-flavored originals, and raises the production ceiling for everyone selling into it.',
+        source: 'Net Influencer',
+        sourceTitle: 'TikTok & Ampersand Co-Produce Musical Micro-Series From Grammy-Winning Duo Barlow & Bear',
+        href: 'https://www.netinfluencer.com/tiktok-ampersand-co-produce-musical-micro-series-from-grammy-winning-duo-barlow-bear/'
+      },
+      {
+        date: 'NOVEMBER 18, 2026',
+        title: 'The FOX–Dhar Mann–Holywater alliance starts shipping',
+        body: 'The partnership first announced in January — a roughly 40-project alliance among FOX Entertainment, Dhar Mann Studios, and Holywater Tech — revealed its first five titles, all premiering on Holywater’s My Drama platform. They roll out from November 25 through December 22, spanning romance, action, suspense, and music: The Brothers Who Love Me, Rescue Mission, Married to the Wind, Rhythm of the Heart, and The Rockstar Who Wants Me.',
+        why: 'Ten months from handshake to slate is the interval worth noting — the alliance is now a supply line with a release calendar, which is a harder thing for competitors to answer than a press release.',
+        source: 'VideoAge International',
+        sourceTitle: 'Dhar Mann, FOX, Holywater Unveil Vertical Series Slate',
+        href: 'https://www.videoageinternational.net/2026/11/17/news/dhar-mann-fox-holywater-unveil-vertical-series-slate/'
+      },
+      {
+        date: 'NOVEMBER 20, 2026 (PREMIERED NOVEMBER 19)',
+        title: 'Toyota commissions a DramaBox original for Asian Indian audiences',
+        body: 'Toyota, working with multicultural agency Intertrend Communications, commissioned 3 Days Till I Do, an original DramaBox vertical romance set around an Asian Indian wedding and built to reach Asian Indian audiences — a first for both companies. Toyota models (Crown, Grand Highlander, C-HR, Sienna, Land Cruiser) appear inside the story. Financial terms were not disclosed; DramaBox says it has passed 470 million downloads since 2023 across more than 175 countries and 16 languages.',
+        why: 'A brand Toyota’s size commissioning an original treats vertical as a production channel for culturally specific marketing, and hands platforms a revenue line that sits beside subscriptions and in-app purchases.',
+        source: 'GlobeNewswire (Toyota)',
+        sourceTitle: 'Toyota Partners with DramaBox to Launch 3 Days Till I Do, an Original Microdrama Celebrating Asian Indian Culture',
+        href: 'https://www.globenewswire.com/news-release/2026/11/20/3407712/0/en/toyota-partners-with-dramabox-to-launch-3-days-till-i-do-an-original-microdrama-celebrating-asian-indian-culture.html'
+      }
+    ],
+    sources: 'TheWrap · The Hollywood Reporter · Net Influencer · VideoAge International · GlobeNewswire (Toyota).'
+  },
   '/news/moving-day': {
     date: 'Week of November 2 - November 8, 2026',
     title: 'Moving Day',

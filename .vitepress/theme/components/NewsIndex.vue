@@ -4,6 +4,21 @@ import MarketingFooter from './MarketingFooter.vue'
 
 const issues = [
   {
+    title: 'The Long Table',
+    href: '/page/news/the-long-table',
+    date: 'Week of November 16 - November 22, 2026',
+    dek: 'A legacy producer, a broadcast alliance, TikTok, a writers’ union, and Toyota take their seats at vertical drama’s table.',
+    image: withBase('/images/news/the-long-table-banner-2026-w47.png'),
+    alt: 'The Long Table — Plot Party Weekly, November 16–22, 2026. A person pulls up a chair at a long wooden table beneath pendant lights.',
+    signals: [
+      'WGA West unionizes DramaWave, bringing pay, credit, and AI guardrails to the bargaining table.',
+      'Will Packer launches June with NBCUniversal and HarbourView backing, targeting Black audiences.',
+      'TikTok co-produces an 81-episode musical with Grammy and Broadway talent and union crews.',
+      'The FOX–Dhar Mann–Holywater alliance unveils its first five-title release calendar.',
+      'Toyota commissions a DramaBox original for Asian Indian audiences.'
+    ]
+  },
+  {
     title: 'Moving Day',
     href: '/page/news/moving-day',
     date: 'Week of November 2 - November 8, 2026',
