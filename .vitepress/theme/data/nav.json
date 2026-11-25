@@ -256,6 +256,11 @@
               "label": "Help Center",
               "description": "Guides, tutorials, and support.",
               "href": "https://plotparty.ai/help"
+            },
+            {
+              "label": "Alternatives",
+              "description": "Compare Plot Party with other AI drama studios.",
+              "href": "https://plotparty.ai/alternatives"
             }
           ]
         },

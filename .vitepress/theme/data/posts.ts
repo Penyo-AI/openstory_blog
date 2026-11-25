@@ -21,6 +21,40 @@ export type BlogPostItem = {
 
 export const blogPosts: BlogPostItem[] = [
   {
+    slug: 'plot-party-vs-character-app-mootion-agent-media-vertical-drama',
+    title: 'Plot Party vs. Character App vs. Mootion vs. agent-media (2026): Which AI Vertical Drama Maker Fits 60-Episode Production?',
+    description: 'Compare Plot Party, Character App, Mootion, and agent-media for 9:16 AI vertical dramas: per-clip credit pricing, 3D sets, 4K mastering, and MCP workflows.',
+    publishedAt: '2026-11-25',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Comparison', 'AI Drama', 'Creators'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Try Plot Party AI Microdrama Generator', href: appUrl('/tools/ai-microdrama-generator') },
+      { label: 'Plot Party Microdrama Budget Calculator', href: appUrl('/tools/microdrama-budget-calculator') },
+      { label: 'AI Character IP & Likeness Compliance', href: '/blog/ai-character-ip-compliance-likeness-guide-microdrama-studios-2026' }
+    ]
+  },
+  {
+    slug: 'ai-character-ip-compliance-likeness-guide-microdrama-studios-2026',
+    title: 'AI Character IP & Likeness Compliance for Microdrama Studios (2026): How to Screen Synthetic Casts Before Distribution',
+    description: 'Learn how microdrama studios prevent accidental celebrity likeness drift, navigate 2026 SAG-AFTRA and AI labeling rules, and screen casts in Plot Party.',
+    publishedAt: '2026-11-25',
+    author: 'Sophia Xing',
+    role: 'Founder, Plot Party',
+    coverImage: '',
+    tags: ['Industry', 'Workflow', 'AI Drama'],
+    readingTime: 10,
+    featured: true,
+    relatedLinks: [
+      { label: 'Plot Party AI Character Casting', href: appUrl('/tools/ai-character-casting') },
+      { label: 'Plot Party for IP Holders & Studios', href: appUrl('/ip') },
+      { label: 'Plot Party vs Character App vs Mootion vs agent-media', href: '/blog/plot-party-vs-character-app-mootion-agent-media-vertical-drama' }
+    ]
+  },
+  {
     slug: 'how-to-pitch-ai-microdrama-reelshort-dramabox-shortmax',
     title: 'How to Pitch an AI Microdrama to ReelShort, DramaBox, and ShortMax in 2026',
     description: 'Learn how US producers pitch and sell AI microdramas to ReelShort, DramaBox, and ShortMax in 2026: format specs, paywall hooks, pitch decks, and pilot tips.',
